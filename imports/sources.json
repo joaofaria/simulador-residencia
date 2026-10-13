@@ -1,0 +1,104 @@
+[
+  {
+    "file": "public/provas/psu-mg-2024.pdf",
+    "sha256": "e74b7f9038e6f34483639b7a90482bc92c1d331acde12563ce4b1b20d354876e",
+    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
+    "keyStatus": "accepted-user-source-of-truth",
+    "validation": {
+      "basis": "user-authorization",
+      "date": "2026-10-13",
+      "questions": 75,
+      "keyEntries": 75,
+      "annulled": [
+        18,
+        19,
+        34,
+        42
+      ]
+    }
+  },
+  {
+    "file": "public/provas/psu-mg-2025.pdf",
+    "sha256": "d2efd67361d25bd4e61be15aeeda7416e8d20038619a86d22b071f7a74e10ec0",
+    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
+    "keyStatus": "accepted-user-source-of-truth",
+    "validation": {
+      "basis": "user-authorization",
+      "date": "2026-10-13",
+      "questions": 75,
+      "keyEntries": 75,
+      "annulled": [
+        12,
+        67
+      ]
+    }
+  },
+  {
+    "file": "public/provas/psu-mg-2026.pdf",
+    "sha256": "dfffe8cf8eb085520e93fa0d9a6ec0814593c4f8a3097d85616058ce27ba749d",
+    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
+    "keyStatus": "accepted-user-source-of-truth",
+    "validation": {
+      "basis": "user-authorization",
+      "date": "2026-10-13",
+      "questions": 75,
+      "keyEntries": 75,
+      "annulled": [
+        49,
+        57,
+        65,
+        74
+      ]
+    }
+  },
+  {
+    "file": "public/provas/santa-casa-bh-2024.pdf",
+    "sha256": "6ba8cdaef169391004740aadf8d4a7b2b7468c0aaabc94c0f97297f61595ef43",
+    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
+    "keyStatus": "accepted-user-source-of-truth",
+    "validation": {
+      "basis": "user-authorization",
+      "date": "2026-10-13",
+      "questions": 75,
+      "keyEntries": 75,
+      "annulled": [
+        16,
+        45,
+        70
+      ]
+    }
+  },
+  {
+    "file": "public/provas/santa-casa-bh-2025.pdf",
+    "sha256": "b94f0d889dd34ab2d097906446c80f6940405e24f5eee958a9bb9360f9bd34ac",
+    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
+    "keyStatus": "accepted-user-source-of-truth",
+    "validation": {
+      "basis": "user-authorization",
+      "date": "2026-10-13",
+      "questions": 75,
+      "keyEntries": 75,
+      "annulled": [
+        3,
+        63,
+        73
+      ]
+    }
+  },
+  {
+    "file": "public/provas/santa-casa-bh-2026.pdf",
+    "sha256": "066167db09d0acaca49b56c71beb085f280f3b9908db05a4f133ae32956c6eab",
+    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
+    "keyStatus": "accepted-user-source-of-truth",
+    "validation": {
+      "basis": "user-authorization",
+      "date": "2026-10-13",
+      "questions": 75,
+      "keyEntries": 75,
+      "annulled": [
+        31,
+        32
+      ]
+    }
+  }
+]

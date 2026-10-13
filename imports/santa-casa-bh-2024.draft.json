@@ -1,0 +1,2804 @@
+[
+  {
+    "id": "santa-casa-bh-2024-q001",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 1,
+    "statement": "Uma senhora de 45 anos apresenta uma massa palpável de 4cm. A patologia e a biópsia com\nagulha de centro sob orientação ultrassonográfica revelam um carcinoma ductal invasivo. A\npaciente deseja a terapia de conservação da mama. Nesse caso, o tratamento MAIS indicado\npara ela é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Dizer-lhe que ela não é candidata à terapia de conservação da mama e requer uma\nmastectomia radical modificada."
+      },
+      {
+        "letter": "B",
+        "text": "Quimioterapia neoadjuvante seguida de terapia de conservação da mama."
+      },
+      {
+        "letter": "C",
+        "text": "Dizer-lhe que ela não é candidata à terapia de conservação da mama e requer uma\nmastectomia simples com biópsia de linfonodo sentinela."
+      },
+      {
+        "letter": "D",
+        "text": "Quimioterapia neoadjuvante seguida de conservação da mama e biópsia de LNS caso o\ntumor tenha uma resposta apropriada à quimioterapia."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q002",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 2,
+    "statement": "Um homem de 64 anos apresenta vômitos prolongados. Ele é submetido a uma\nesofagogastroduodenoscopia e é diagnosticado como apresentando uma obstrução do\nescape gástrico. É CORRETO afirmar que a anormalidade metabólica vista nesse tipo de\npaciente é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Alcalose metabólica hipoclorêmica hipocalêmica."
+      },
+      {
+        "letter": "B",
+        "text": "Acidose metabólica hiperclorêmica hipercalêmica."
+      },
+      {
+        "letter": "C",
+        "text": "Acidose metabólica hiponatrêmica hipoclorêmica."
+      },
+      {
+        "letter": "D",
+        "text": "Alcalose metabólica hipernatrêmica hipoclorêmica."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q003",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 3,
+    "statement": "Uma mulher de 34 anos foi submetida a uma esofagogastroduodenoscopia que mostra uma\núlcera pré-pilórica. Nesse caso, é CORRETO afirmar que essa úlcera é do tipo:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I."
+      },
+      {
+        "letter": "B",
+        "text": "II."
+      },
+      {
+        "letter": "C",
+        "text": "III."
+      },
+      {
+        "letter": "D",
+        "text": "IV."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        3
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q004",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 4,
+    "statement": "Com relação ao tratamento cirúrgico nos tumores neuroendócrinos de intestino, assinale a\nalternativa CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A cirurgia nunca é indicada para os tumores carcinoides do intestino delgado."
+      },
+      {
+        "letter": "B",
+        "text": "A maioria dos pacientes sintomáticos é candidata para o tratamento curativo cirúrgico."
+      },
+      {
+        "letter": "C",
+        "text": "No caso de tumores apendiculares menores do que 1cm e sem metástases,\napendicectomia simples é suficiente para o tratamento."
+      },
+      {
+        "letter": "D",
+        "text": "Nos tumores apendiculares menores do que 1cm e sem metástase, a hemicolectomia\ndireita é a operação de escolha."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q005",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 5,
+    "statement": "Sobre as características ultrassonográficas da síndrome de Mirizzi, assinale V para as\nafirmativas verdadeiras e F para as falsas. ( ) Cálculo impactado no infundíbulo da vesícula\nbiliar. ( ) Espessamento da parede da vesícula biliar maior do que 0,5cm. ( ) Dilatação das vias\nbiliares intra-hepáticas. ( ) Dilatação do ducto hepático comum. Assinale a alterativa que\napresenta a sequência CORRETA:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "V - F - V - V."
+      },
+      {
+        "letter": "B",
+        "text": "F - V - V - F."
+      },
+      {
+        "letter": "C",
+        "text": "V - F - F - V."
+      },
+      {
+        "letter": "D",
+        "text": "F - V - F - V."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q006",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 6,
+    "statement": "Em relação à descrição das técnicas de Scopinaro, Duodenal Switch e Gastrectomia Vertical,\ncorrelacione a COLUNA I com a COLUNA II. COLUNA I; (1) Scopinaro; (2) Duodenal Switch; (3)\nGastrectomia vertical; COLUNA II; ( ) Tem gastrectomia vertical, anastomosando o íleo ao\nduodeno proximal. ( ) Remove parte do corpo e do fundo gástricos, preservando o\nmecanismo pilórico. ( ) Associa uma gastrectomia parcial horizontal a um grande desvio\nintestinal. Assinale a alternativa que apresenta a sequência CORRETA:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2 - 1 - 3."
+      },
+      {
+        "letter": "B",
+        "text": "3 - 2 - 1."
+      },
+      {
+        "letter": "C",
+        "text": "2 - 3 - 1."
+      },
+      {
+        "letter": "D",
+        "text": "1 - 3 - 2."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        4
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q007",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 7,
+    "statement": "Um homem de 70 anos é submetido a uma cirurgia para obstrução intestinal. A cirurgia foi\nprolongada por causa de aderências, mas nenhum intestino teve que ser ressecado. No 3° dia\nde pós-operatório, queixa-se de dor e edema no lado direito da face. Ele não consegue abrir a\nboca e tem febre alta. O exame físico revela eritema e inchaço logo abaixo do lado direito da\nmandíbula. Uma massagem suave do lado do rosto resulta em saliva purulenta. Essa\npatologia, na MAIORIA dos casos, é causada pelo organismo:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Estreptococos."
+      },
+      {
+        "letter": "B",
+        "text": "Staphylococcus aureus."
+      },
+      {
+        "letter": "C",
+        "text": "Pseudomonas."
+      },
+      {
+        "letter": "D",
+        "text": "Bacteroides."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q008",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 8,
+    "statement": "Um rapaz de 18 anos, politraumatizado, vítima de acidente automobilístico frontal, dá entrada\nno pronto-socorro entubado, apresentando os seguintes dados vitais: FC = 128bpm, PA =\n90x60mmHg, escala de Glasgow = 5 e temperatura = 34°C. Apresenta diminuição do\nmurmúrio vesicular à direita e líquido livre na ultrassonografia abdominal. É submetido a\ndrenagem fechada de tórax à direita com saída de ar e de cerca de 300mL de sangue. Com\nrelação a possíveis condutas para este paciente, assinale a alternativa CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "É necessária a realização de uma tomografia de crânio neste momento para descartar\nlesões expansivas intracranianas."
+      },
+      {
+        "letter": "B",
+        "text": "Uma tomografia de abdome pode diagnosticar a lesão intra-abdominal e permitir o\ntratamento não operatório desse paciente."
+      },
+      {
+        "letter": "C",
+        "text": "Por apresentar hipotermia e choque hemorrágico, esse paciente pode não responder à\nreposição volêmica e pode desenvolver ou piorar a coagulopatia."
+      },
+      {
+        "letter": "D",
+        "text": "A prioridade nesse paciente é a reanimação de controle de danos, que envolve a infusão\ncontinuada de solução cristaloide até a normalização dos dados vitais."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        5
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q009",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 9,
+    "statement": "A escala de MELD (model of end stage liver disease) é um conjunto de dados que permite\nidentificar quais pacientes têm uma maior probabilidade de morrer de doença hepática.\nPortanto, é um sistema de pontuação para avaliar a gravidade da doença hepática crônica. É\nCORRETO afirmar que essa análise é baseada nos seguintes exames laboratoriais:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "INR - Creatinina - Bilirrubina."
+      },
+      {
+        "letter": "B",
+        "text": "INR - Creatinina - Albumina."
+      },
+      {
+        "letter": "C",
+        "text": "INR - Bilirrubina - Gamagt."
+      },
+      {
+        "letter": "D",
+        "text": "TAP - Ureia - Bilirrubina."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q010",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 10,
+    "statement": "Assinale a alternativa que apresenta CORRETAMENTE um antibiótico da classe dos\ncarbapenêmicos que deve ser evitado no tratamento de infecções causadas pela bactéria\nPseudomonas aeruginosa.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Ampicilina-sulbactam."
+      },
+      {
+        "letter": "B",
+        "text": "Ertapenem."
+      },
+      {
+        "letter": "C",
+        "text": "Imipenem."
+      },
+      {
+        "letter": "D",
+        "text": "Meropenem."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q011",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 11,
+    "statement": "Uma paciente de 33 anos, internada na Hematologia há 2 meses por transplante de medula\nóssea, queixa-se de dor na fossa ilíaca direita há 2 dias, de intensidade crescente, associada a\nnáuseas e febre. Está em regular estado geral. Pulso = 110bpm, rítmico; PA = 100x60mmHg. O\nabdome está um pouco distendido e está muito doloroso na fossa ilíaca direita, onde a\ndescompressão brusca é positiva. Hemograma: hemoglobina = 7g/dL, leucócitos = 600/mm³,\nplaquetas = 48.000/mm³. A tomografia mostra espessamento concêntrico de todo o cólon\ndireito, incluindo o apêndice; não tem líquido livre, nem pneumoperitônio. A conduta\nCORRETA diante do provável diagnóstico é realizar:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Colectomia direita com ileostomia terminal."
+      },
+      {
+        "letter": "B",
+        "text": "Colectomia direita com anastomose primária."
+      },
+      {
+        "letter": "C",
+        "text": "Antibioticoterapia intravenosa de amplo espectro."
+      },
+      {
+        "letter": "D",
+        "text": "Pulsoterapia com corticoide."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        6
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q012",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 12,
+    "statement": "Em associação com o TAP (Tempo de Ativação da Protrombina) e PTT (Tempo de\nTromboplastina Parcial), considerando valores duas vezes maiores que o normal, assinale a\nalternativa que apresenta CORRETAMENTE um exemplo das condições associadas ao\ndesenvolvimento de coagulopatia, que aumenta a taxa de mortalidade em\npolitraumatizados:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Temperatura corporal menor que 34°C."
+      },
+      {
+        "letter": "B",
+        "text": "PH sanguíneo maior que 7,1."
+      },
+      {
+        "letter": "C",
+        "text": "Trauma com gravidade no escore ISS entre 20 e 25."
+      },
+      {
+        "letter": "D",
+        "text": "Pressão arterial sistólica maior que 70mmHg."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q013",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 13,
+    "statement": "Um recém-nascido de parto normal domiciliar, sem intercorrências, pesando 3.500g, está\nsendo levado pelo Serviço de Atendimento Móvel de Urgência (SAMU) para um Hospital de\nreferência após algumas horas de vida. Durante o transporte, a equipe de socorro nota\ncianose de extremidades, dispneia e salivação excessiva. É CORRETO afirmar que a conduta\ninicial, assim que o paciente tiver chegado ao Hospital de destino, é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Solicitar exame endoscópico para confirmar o diagnóstico."
+      },
+      {
+        "letter": "B",
+        "text": "Elevar o decúbito e instalar aspiração esofágica continua à baixa pressão."
+      },
+      {
+        "letter": "C",
+        "text": "Solicitar ecocardiograma para avaliar malformações cardíacas associadas, bem como a\nposição da aorta."
+      },
+      {
+        "letter": "D",
+        "text": "Realizar cirurgia imediata em caráter de emergência."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        7
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q014",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 14,
+    "statement": "Com relação ao diagnóstico de hérnia de Spieghel, é CORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Os exames de imagem têm pouca importância para diagnóstico e estadiamento."
+      },
+      {
+        "letter": "B",
+        "text": "Os exames de imagem são importantes para demonstrar o defeito herniário e seu\nconteúdo, já que é difícil a avaliação do anel herniário pelo exame clínico."
+      },
+      {
+        "letter": "C",
+        "text": "Como a hérnia de Spieghel é um defeito de todos os músculos da parede, seu diagnóstico\nclínico é muito fácil."
+      },
+      {
+        "letter": "D",
+        "text": "Os lipomas e os hematomas da parede não se confundem com essa afecção."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        7
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q015",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 15,
+    "statement": "Uma mulher de 29 anos deu entrada no Pronto-socorro com quadro clínico de dor\nabdominal, diarreia a perda ponderal importante com cerca de 3 meses de evolução. Com\nbase no quadro clínico apresentado, a MELHOR hipótese diagnóstica é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Doença de Crohn."
+      },
+      {
+        "letter": "B",
+        "text": "Angina mesentérica."
+      },
+      {
+        "letter": "C",
+        "text": "Síndrome carcinoide."
+      },
+      {
+        "letter": "D",
+        "text": "Síndrome do cólon irritável."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q016",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 16,
+    "statement": "Paciente do sexo feminino, com 43 anos procura atendimento com queixas de mal- estar,\nfadiga, hiporexia e uma sensação de desmaio iminente nos últimos 2 meses. Está com hábito\nde \"beber o líquido da conserva de azeitonas\". O exame físico encontrou hipotensão\nortostática e um escurecimento da pele em regiões foto expostas como nas superfícies\nextensoras e dobras das mãos, além de gengiva e lábios. Diante do quadro apresentado, é\nCORRETO afirmar que o médico deve suspeitar de insuficiência suprarrenal",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "secundária e pesquisar uso prolongado de corticoide."
+      },
+      {
+        "letter": "B",
+        "text": "primária e investigar infecções como tuberculose ou micoses sistêmicas."
+      },
+      {
+        "letter": "C",
+        "text": "primária."
+      },
+      {
+        "letter": "D",
+        "text": "secundária."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        8
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q017",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 17,
+    "statement": "Paciente do sexo feminino de 51 anos foi admitida no serviço de urgência com infarto agudo\ndo miocárdio. Tinha antecedentes de diabetes mellitus tipo 2 há quatro anos, associado à\nhipertensão arterial sistêmica e dislipidemia, com tratamento irregular. Em sua consulta de\ndesospitalização, cerca de 1 semana após a alta hospitalar, levou um exame de hemoglobina\nglicada de 8,5%, realizado durante internação. Assinale a alternativa que apresenta\nCORRETAMENTE hipoglicemiantes indicados com o objetivo de diminuir o alto risco\ncardiovascular desse paciente.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Dapaglifozina e/ou sitagliptina."
+      },
+      {
+        "letter": "B",
+        "text": "Dapaglifozina e/ou liraglutida."
+      },
+      {
+        "letter": "C",
+        "text": "Pioglitazona e sitagliptina."
+      },
+      {
+        "letter": "D",
+        "text": "Insulina e sitagliptina."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        8
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q018",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 18,
+    "statement": "Paciente do sexo masculino de 64 anos procura seu consultório com queixa de tosse\nprodutiva há 4 semanas. Foi feita investigação diagnóstica com realização de uma radiografia\nde tórax e 2 baciloscopias, confirmando o diagnóstico de tuberculose pulmonar e iniciado o\ntratamento com rifampicina, isoniazida, pirazinamida e etambutol: 4 comprimidos em dose\núnica, uma hora após o café da manhã, sob supervisão de uma enfermeira. Retorna após 10\n\ndias, queixando-se de náuseas e vômitos nos últimos 3 dias. Além de sintomáticos, a conduta\nMAIS adequada para o caso seria orientar o paciente a",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "suspender o tratamento até melhora dos sintomas."
+      },
+      {
+        "letter": "B",
+        "text": "reduzir a dose para 2 comprimidos ao dia até melhora dos sintomas."
+      },
+      {
+        "letter": "C",
+        "text": "tomar as medicações junto com uma das refeições."
+      },
+      {
+        "letter": "D",
+        "text": "ingerir as medicações em jejum pela manhã."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q019",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 19,
+    "statement": "Sobre os objetivos do tratamento da doença pulmonar obstrutiva crônica (DPOC) é\nCORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O transplante de pulmão pode reverter ou curar a DPOC."
+      },
+      {
+        "letter": "B",
+        "text": "O abandono do tabagismo pouco influencia a taxa de declínio no VEF1."
+      },
+      {
+        "letter": "C",
+        "text": "A reabilitação pulmonar melhora a função pulmonar."
+      },
+      {
+        "letter": "D",
+        "text": "A corticoterapia inalatória reduz as exacerbações e a taxa de declínio na qualidade de vida."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        9
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q020",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 20,
+    "statement": "É CORRETO afirmar que o uso de corticosteroides no tratamento da pericardite aguda está\nindicado para",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "pacientes que não responderam aos anti-inflamatórios não hormonais e à colchicina."
+      },
+      {
+        "letter": "B",
+        "text": "todos os pacientes, independente de comorbidades anteriores."
+      },
+      {
+        "letter": "C",
+        "text": "casos de etiologia viral."
+      },
+      {
+        "letter": "D",
+        "text": "pacientes com alergia ao ácido acetilsalicílico."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        9
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q021",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 21,
+    "statement": "Em qual das condições a seguir a indicação de cardiodesfibrilador implantável (CDI) na\nprevenção primária de morte súbita encontra a MELHOR evidência (I.A)?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Cardiopatia chagásica crônica com episódios de taquicardia ventricular sustentada estável\ncom fração de ejeção de ventrículo esquerdo < 35% em tratamento clínico otimizado."
+      },
+      {
+        "letter": "B",
+        "text": "Cardiopatia isquêmica com história de infarto agudo do miocárdio > 40 dias, sob\ntratamento farmacológico otimizado, sem isquemia passível de revascularização (cirúrgica) e\nexpectativa de vida de, pelo menos, 1 ano."
+      },
+      {
+        "letter": "C",
+        "text": "Cardiopatia não isquêmica na presença de alterações genéticas de alto risco associado a\ndois ou mais fatores: fração de ejeção do ventrículo esquerdo ≤ 45%, taquicardia ventricular\n\nnão sustentada, mutação de alto risco e sexo feminino."
+      },
+      {
+        "letter": "D",
+        "text": "Cardiomiopatia hipertrófica com hipotensão anormal no esforço, na presença de fatores\nde risco adicionais, desde que expectativa de vida > 1 ano."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q022",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 22,
+    "statement": "Paciente do sexo masculino, 47 anos, procura atendimento médico especializado, após\ninúmeras tentativas de tratamento de uma sinusite crônica, sem sucesso. Ao evoluir com\ndestruição de septo nasal e tosse com hemoptoicos, sem histórico de tabagismo, o médico\nassistente pensou em uma síndrome vasculite e incluiu, em sua propedêutica, anticorpos\nanticitoplasma de neutrófilos, com resultado positivo. Assinale a alternativa que apresenta o\ndiagnóstico MAIS provável.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Poliangeíte microscópica."
+      },
+      {
+        "letter": "B",
+        "text": "Síndrome de Churg-Strauss."
+      },
+      {
+        "letter": "C",
+        "text": "Granulomatose com poliangeíte."
+      },
+      {
+        "letter": "D",
+        "text": "Púrpura de Henoch-Schoenlein."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        10
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q023",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 23,
+    "statement": "Paciente do sexo feminino, de 48 anos, nasceu na Itália, mas vive em Belo Horizonte há 25\nanos. Comparece a uma consulta com queixas de cansaço nos últimos meses que atribuía, a\nprincípio, ao seu \"estresse diário\" e a dores articulares. Assustou-se ao se perceber\n\"bronzeada\" mesmo tendo aversão a sol e calor. Não tinha antecedentes pessoais\nsignificativos; sua mãe morreu de cirrose hepática. Sua última menstruação ocorreu aos 41\nanos. Ao exame físico, observava-se uma pele cor de bronze sem outras alterações dignas de\nnota. Traz consigo vários exames de consultas médicas, todos normais, mas com ferritina de\n7.000 mcg/L. O ferro sérico e a eletroforese de proteínas foram normais, as mutações\ngenéticas do HFE para hemocromatose foram negativas e a dosagem de hepcidina não era\nrealizada por nenhum dos laboratórios consultados pela paciente. A saturação da transferrina\nera alta (70%), e a ressonância magnética mostrou acúmulo expressivo de ferro no fígado,\nbaço e pâncreas. A paciente recusou-se a fazer biópsia de fígado, pois considerou o exame\nmuito agressivo. Assinale a alternativa que apresenta o diagnóstico MAIS provável.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Hemocromatose."
+      },
+      {
+        "letter": "B",
+        "text": "Mielodisplasia."
+      },
+      {
+        "letter": "C",
+        "text": "Porfiria cutânea tardia."
+      },
+      {
+        "letter": "D",
+        "text": "Talassemia major."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        10
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q024",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 24,
+    "statement": "Em uma unidade de emergência foram atendidos quatro pacientes com quadro de diarreia\naguda com as seguintes apresentações: I- Homem de 89 anos com dor abdominal e\ndesidratação severas. II- Mulher de 48 anos com diarreia sanguinolenta, sem febre. III\nHomem de 42 anos, em uso de prótese valvar com diarreia há mais de 10 dias. IV- Mulher de\n33 anos imunossuprimida por quimioterapia recente. É CORRETO afirmar que está indicada a\nprescrição empírica de antimicrobianos apenas nos pacientes",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I, II e III."
+      },
+      {
+        "letter": "B",
+        "text": "I, II e IV."
+      },
+      {
+        "letter": "C",
+        "text": "I, III e IV."
+      },
+      {
+        "letter": "D",
+        "text": "II, III e IV."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q025",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 25,
+    "statement": "Paciente do sexo masculino, 57 anos, evolui com edema de membros inferiores até parede\nabdominal, sem conseguir especificar o inicio. Nega febre, perda de apetite ou de peso.\nDurante exame físico foram descritos PA=160/90 mmHg, edema de membros inferiores de\ncerca de ++++/4+, ausculta cardiorrespiratória sem alterações. Exames laboratoriais: Creatinina\n= 1,0 mg/dL Albumina sérica = 2,6 g/L. Exame de urina rotina (elementos anormais e\nsedimentoscopia): proteínas: +++; Hb = ausente; leucócitos = 2 por campo; hemácias = 3 por\ncampo; relação proteína/creatinina urinária = 4,8. Assinale a alternativa que apresenta o\ndiagnóstico MAIS provável.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Vasculite relacionada ao ANCA."
+      },
+      {
+        "letter": "B",
+        "text": "Nefropatia por IgA."
+      },
+      {
+        "letter": "C",
+        "text": "Glomerulonefrite pós-infecciosa."
+      },
+      {
+        "letter": "D",
+        "text": "Glomerulopatia membranosa."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        11
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q026",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 26,
+    "statement": "Paciente do sexo feminino 38 anos, queixa nos últimos 2 meses fadiga, acompanhada de\npalpitação, como \"se estivesse ansiosa\" piorando ao longo do dia e ao se movimentar. Sente\ntambém uma tontura do tipo desequilíbrio ao se levantar, sem perda de consciência. Os\nsintomas têm prejudicado seu trabalho como professora em uma escola de ensino básico e\nmelhoram quando ela está sentada ou se deita. Nega comorbidades e uso de medicamentos\ncontínuos. O exame físico mostra os seguintes achados: Assinale a alternativa que apresenta\no diagnóstico MAIS provável.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Síndrome de taquicardia postural."
+      },
+      {
+        "letter": "B",
+        "text": "Hipersensibilidade do seio carotídeo."
+      },
+      {
+        "letter": "C",
+        "text": "Neuropatia autônoma autoimune."
+      },
+      {
+        "letter": "D",
+        "text": "Atrofia de múltiplos sistemas."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q027",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 27,
+    "statement": "Paciente do sexo masculino de 50 anos encontra-se internado para tratamento de uma\ncelulite associada à dor em coxa esquerda. Observa-se dor intensa e desproporcional à\nextensão da celulite. Apesar do tratamento com oxacilina parenteral, evolui com sepse\nassociada à hipotensão e insuficiência renal aguda. É diabético controlado com metformina e\ngliclazida, sem conhecimento de lesões em órgãos-alvo. Uma tomografia computadorizada\nda coxa direita revelou acúmulo de líquido com gás em fáscia profunda. Foram propostos a\nintervenção cirúrgica imediata para desbridamento do tecido acometido e o manejo correto\nda antibioticoterapia, que consistia em",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "manter oxacilina e acrescentar clindamicina."
+      },
+      {
+        "letter": "B",
+        "text": "manter oxacilina e acrescentar clindamicina e gentamicina."
+      },
+      {
+        "letter": "C",
+        "text": "suspender oxacilina e iniciar clindamicina e piperacilina + tazobactam."
+      },
+      {
+        "letter": "D",
+        "text": "suspender oxacilina e iniciar clindamicina, vancomicina e gentamicina."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        12
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q028",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 28,
+    "statement": "A equipe de resposta rápida (ERR) é acionada para atender a uma intercorrência na\nEnfermaria de Clínica Médica de um hospital. Um paciente de 47 anos do sexo masculino\nrecuperava-se de um cateterismo cardíaco com implante de stent. Ao chegar ao quarto, o\npaciente não respira e está sem pulso. É solicitado o carro de parada com desfibrilador e,\n\nimediatamente, se dá início às compressões torácicas. Três minutos depois da chegada da\nequipe, chega o desfibrilador (bifásico), que é conectado ao paciente. O monitor mostra o\ntraçado a seguir: É CORRETO afirmar que a ERR deve, neste momento",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "interromper compressões torácicas, desfibrilar usando 360 J e intubar o paciente."
+      },
+      {
+        "letter": "B",
+        "text": "manter as compressões torácicas, administrar epinefrina e desfibrilar usando 200 J."
+      },
+      {
+        "letter": "C",
+        "text": "interromper as compressões torácicas e desfibrilar usando 200 J."
+      },
+      {
+        "letter": "D",
+        "text": "manter as compressões torácicas, intubar, administrar epinefrina e desfibrilar com 360 J."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q029",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 29,
+    "statement": "Na tabela a seguir estão listados drogas antidepressivas e seus efeitos colaterais mais\ncomuns: Antidepressivos; I - amitriptilina; II - citalopram; III - sertralina; IV - bupropiona; V -\ntranilcipramina; Possíveis efeitos colaterais; ( ) a- interação droga-alimento grave; ( ) b\nhipotensão ortostática; ( ) c- prolongamento de segmento QT; ( ) d- sangramento\ngastrintestinal; ( ) e- crises convulsivas; ( ) f- sedação; Assinale a alternativa com a associação\nCORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I-f II-c III-d IV-e V-d"
+      },
+      {
+        "letter": "B",
+        "text": "I-b II-b III-e IV-c V-a"
+      },
+      {
+        "letter": "C",
+        "text": "I-f II-c III-d IV-e V-a"
+      },
+      {
+        "letter": "D",
+        "text": "I-b II-b III-e IV-c V-d"
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        13
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q030",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 30,
+    "statement": "O diagnóstico de morte encefálica (ME) exige importante rigor técnico e legal da equipe\nmédica assistente, podendo representar grande impacto ético e emocional aos envolvidos.\nNesse contexto, é CORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A conclusão do protocolo de morte encefálica no adulto deve ocorrer com, no mínimo,\nintervalo de 24 horas entre os dois exames clínicos."
+      },
+      {
+        "letter": "B",
+        "text": "Em pacientes com craniotomias, é preferível a realização do diagnóstico por análise de\nfluxo encefálico."
+      },
+      {
+        "letter": "C",
+        "text": "A conclusão do protocolo de morte encefálica no adulto deve ocorrer com intervalo de,\npelo menos, uma hora entre os dois exames clínicos."
+      },
+      {
+        "letter": "D",
+        "text": "Em pacientes menores de dois anos, é proibida a realização do protocolo de morte\nencefálica."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q031",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 31,
+    "statement": "A manutenção da temperatura corporal é um passo fundamental para a estabilização do\nrecém-nascido ao nascer. A temperatura corporal à admissão na unidade neonatal é um forte\npreditor de morbidade e mortalidade em todas as idades gestacionais, sendo considerada\num indicador da qualidade do atendimento. Sendo assim, assinale a alternativa CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Deve-se ligar a fonte de calor radiante na sala de parto somente após o nascimento do\nrecém-nascido para prevenir a hipertermia."
+      },
+      {
+        "letter": "B",
+        "text": "É preconizado que a temperatura axilar do recém-nascido seja mantida entre 36,0- 37,0°C\ne a temperatura da sala de parto de 24-26°C durante toda a assistência na sala de parto."
+      },
+      {
+        "letter": "C",
+        "text": "Recomenda-se que a temperatura axilar do recém-nascido seja mantida entre 36,5- 37,5°C,\no que inclui o período desde o nascimento até a admissão no alojamento conjunto ou na\nunidade neonatal."
+      },
+      {
+        "letter": "D",
+        "text": "É importante pré-aquecer a sala de parto com temperatura ambiente de 25-27°C."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        14
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q032",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 32,
+    "statement": "A infecção pelo vírus da dengue causa uma doença de amplo espectro clínico, incluindo\ndesde formas assintomáticas até formas graves da doença, podendo evoluir para óbito. O\nestadiamento de gravidade melhora a qualidade na condução clínica e é de vital importância\npara a tomada de decisões e implantação de medidas de maneira oportuna. Visto isso,\nassinale a alternativa INCORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Na dengue são sinais de choque a hepatomegalia dolorosa, hipotensão postural e/ou\nlipotimia e desconforto respiratório."
+      },
+      {
+        "letter": "B",
+        "text": "Sinais de alarme para a possibilidade de evolução para as formas graves incluem a\npresença de dor abdominal intensa e contínua, hipotermia, vômitos persistentes e\nsangramento de mucosas."
+      },
+      {
+        "letter": "C",
+        "text": "São classificados como grupo B pacientes com sangramento de pele espontâneo ou\ninduzido (prova do laço positiva), ou condição clínica especial ou risco social ou\ncomorbidades e sem sinal de alarme."
+      },
+      {
+        "letter": "D",
+        "text": "É obrigatório solicitar hemograma completo para pacientes classificados como grupo B."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        14
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q033",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 33,
+    "statement": "Mãe leva criança de 3 anos e 6 meses, assintomática, ao consultório pediátrico devido ao fato\nde o avô paterno ter sido diagnosticado com tuberculose pulmonar, mãe relata que criança\ntem contato próximo com o avô e que vivem na mesma residência. Ao verificar a caderneta\nde vacinação, o pediatra observa que a criança recebeu 1 dose da vacina BCG no dia do\nnascimento. Sobre o caso, assinale a alternativa CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Devem ser solicitados inicialmente radiografia de tórax e teste tuberculínico."
+      },
+      {
+        "letter": "B",
+        "text": "Deve-se tranquilizar a mãe e orientar a procurar atendimento médico somente se surgir\nalgum sintoma sugestivo de tuberculose, pois a criança está assintomática e foi vacinada."
+      },
+      {
+        "letter": "C",
+        "text": "Devido ao avô paterno morar na mesma residência, deve-se de imediato indicar o\ntratamento para infecção latente por tuberculose com isoniazida."
+      },
+      {
+        "letter": "D",
+        "text": "É recomendado a criança vacinar com segunda dose da vacina BCG, e iniciar o tratamento\ncom rifampicina e isoniazida."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        14,
+        15
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q034",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 34,
+    "statement": "A vacina BCG protege contra a tuberculose - doença contagiosa, provocada pela bactéria\nMycobacterium tuberculosis. Sobre essa vacina, é CORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Crianças vacinadas ao nascimento e que não apresentam cicatriz vacinal até os 6 meses de\nvida necessitam ser revacinadas."
+      },
+      {
+        "letter": "B",
+        "text": "A vacina BCG oferece eficácia de 100% na prevenção da tuberculose pulmonar, mas sua\naplicação não permite a prevenção de formas graves da doença, como a meningite\ntuberculosa e a tuberculose miliar (forma disseminada)."
+      },
+      {
+        "letter": "C",
+        "text": "Devido ao risco de infecção hospitalar é recomendável que a vacina BCG seja administrada\nna primeira visita ao serviço de saúde."
+      },
+      {
+        "letter": "D",
+        "text": "Em crianças nascidas com peso inferior a 2Kg, deve-se adiar a vacinação até que a criança\natinja este peso."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        15
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q035",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 35,
+    "statement": "R.C.R, sexo masculino, 3 meses e 20 dias de vida, comparece à unidade para dar continuidade\nà imunização. Ao conferir a caderneta, é verificado que recebeu somente as vacinas contra\nhepatite B e BCG ao nascimento. É CORRETO afirmar que o lactente deve receber as vacinas:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "DTP; HIB; Hep B; VIP; Pneumocócica conjugada 10 V e rotavírus."
+      },
+      {
+        "letter": "B",
+        "text": "DTP; HIB; Hep B; VIP; Pneumocócica conjugada 10 V e Meningocócica C."
+      },
+      {
+        "letter": "C",
+        "text": "DTP; HIB; Hep B; VIP; Pneumocócica conjugada 10 V."
+      },
+      {
+        "letter": "D",
+        "text": "DTP; HIB; VIP; Pneumocócica conjugada 10 V e Meningocócica C."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        15
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q036",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 36,
+    "statement": "Na sala de parto a asfixia perinatal pode desencadear vasoconstrição periférica, hipoxemia\ntecidual, diminuição da contratilidade miocárdica, bradicardia e, eventualmente, assistolia. A\nventilação adequada reverte esse quadro, na maioria dos pacientes. Mas, quando não há\nreversão é provável que a hipoxemia esteja levando à insuficiência de fluxo sanguíneo para as\nartérias coronárias, o que reduz a função miocárdica e compromete o fluxo sanguíneo\npulmonar. Para reverter essa condição, a massagem cardíaca acompanhada da Ventilação\ncom pressão positiva (VPP), restaura o fluxo de sangue oxigenado para o músculo cardíaco.\nSobre a massagem cardíaca nessa situação, assinale a alternativa CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A massagem cardíaca é indicada se, após 30 segundos de VPP com técnica adequada, a\nFC estiver menor que 100bpm."
+      },
+      {
+        "letter": "B",
+        "text": "Como a massagem cardíaca diminui a eficácia da VPP e a ventilação é a ação mais efetiva\nda reanimação neonatal, as compressões só devem ser iniciadas, quando a expansão e a\nventilação pulmonares estiverem bem estabelecidas, com a via aérea assegurada."
+      },
+      {
+        "letter": "C",
+        "text": "A compressão cardíaca é realizada no terço médio do esterno e a profundidade da\ncompressão deve englobar 1/3 da dimensão anteroposterior do tórax."
+      },
+      {
+        "letter": "D",
+        "text": "A ventilação e a massagem cardíaca são realizadas de forma sincrônica, mantendo-se uma\nrelação de 5:1, ou seja, 5 movimentos de massagem cardíaca para 1 movimento de ventilação."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        16
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q037",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 37,
+    "statement": "Na maternidade, idealmente, o primeiro banho do RN deve ser adiado até que a estabilidade\ntérmica seja alcançada. Sobre o primeiro banho do recém-nascido, é CORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A Organização Mundial de Saúde (OMS) recomenda que o primeiro banho seja realizado\napós 24 horas do nascimento ou, se isso não for possível por razões culturais, que seja adiado\npor pelo menos 4 horas."
+      },
+      {
+        "letter": "B",
+        "text": "Segundo a Sociedade Brasileira de Pediatria, o banho deve ser desencorajado na primeira\nsemana de vida, pois interrompe desnecessariamente a amamentação e o contato pele a\npele da mãe com o RN, além de aumentar o risco de hipotermia e desconforto respiratório."
+      },
+      {
+        "letter": "C",
+        "text": "Para crianças nascidas de mães com diagnóstico de herpes, o primeiro banho deve ser\nrealizado o mais precocemente possível, na tentativa de reduzir o risco de transmissão da\ndoença."
+      },
+      {
+        "letter": "D",
+        "text": "O banho de imersão é o mais indicado, pois promove menor perda de calor e maior\nconforto ao bebê. Deve durar de 5 a 10 minutos, com a temperatura da água entre 37°C e\n37,5°C."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        16
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q038",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 38,
+    "statement": "O aleitamento materno é padrão ouro da alimentação dos lactentes, inclusive fortemente\ndefendido pela OMS e Ministério da Saúde, e recentemente vivemos o agosto dourado, mês\nde estímulo e proteção ao aleitamento materno. Porém sabemos que, por várias vezes, essa\nprática não é possível, contraindicada ou necessário complementação do aleitamento e para\nisso temos as Fórmulas Infantis. Em relação aos leites artificiais, assinale a alternativa\nINCORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Segundo a OMS, caso a amamentação materna não seja possível, as fórmulas infantis são a\núnica alternativa reconhecidamente segura para a nutrição do lactente."
+      },
+      {
+        "letter": "B",
+        "text": "A composição das fórmulas infantis no Brasil segue as necessidades nutricionais\nespecíficas de cada faixa etária, se dividindo em: fórmula infantil de partida, fórmula infantil\nde seguimento e fórmula infantil da primeira infância."
+      },
+      {
+        "letter": "C",
+        "text": "A Sociedade Brasileira de Pediatria recomenda que as fórmulas infantis tenham um nível\nde DHA (ácido docosahexaenoico) não inferior a 0,3% dos ácidos graxos totais."
+      },
+      {
+        "letter": "D",
+        "text": "Cada 100ml de fórmula infantil de seguimento para lactente pronta para o consumo deve\nfornecer no mínimo 50kcal e no máximo 80kcal."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        16,
+        17
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q039",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 39,
+    "statement": "As Doenças Exantemáticas são de grande prevalência e importância na faixa etária\npediátrica. Dentre elas, encontramos a Doença de Kawasaki, uma vasculite primária, aguda e\nautolimitada, das mais comuns em crianças e que representa a principal causa de\ncardiopatia adquirida nessa faixa etária, sendo assim, seu diagnóstico e propedêutica\nadequada são de extrema importância para a não complicação das crianças afetadas. É\nCORRETO afirmar que os critérios clínicos diagnósticos da doença de Kawasaki, além da\nfebre persistente por pelo menos 5 dias, devem conter pelo menos 4 dos seguintes:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Alteração de lábios e cavidade oral, hiperemia conjuntival, alteração de extremidades,\nexantema polimorfo e linfadenopatia cervical ≥ 1,5cm."
+      },
+      {
+        "letter": "B",
+        "text": "Alteração de lábios e cavidade oral com presença obrigatória de enantema em mucosa\nfaríngea, hiperemia conjuntival, alteração de extremidades, exantema polimorfo e\nlinfadenopatia cervical ≥ 1,5cm."
+      },
+      {
+        "letter": "C",
+        "text": "Alteração de lábios e cavidade oral, hiperemia conjuntival com ou sem exsudato, alteração\nde extremidades, exantema polimorfo e linfadenopatia cervical ≥ 1,5 cm."
+      },
+      {
+        "letter": "D",
+        "text": "Alteração de lábios e cavidade oral, hiperemia conjuntival, alteração de extremidades,\nexantema polimorfo e linfadenopatia cervical ≥ 2cm."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        17
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q040",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 40,
+    "statement": "As Doenças Exantemáticas são de grande prevalência e importância na faixa etária\npediátrica. Dentre elas, encontramos a Doença de Kawasaki, uma vasculite primária, aguda e\nautolimitada, das mais comuns em crianças e que representa a principal causa de\n\ncardiopatia adquirida nessa faixa etária, sendo assim, seu diagnóstico e propedêutica\nadequada são de extrema importância para a não complicação das crianças afetadas. Em\nrelação ao tratamento da doença de Kawasaki, assinale a alternativa CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A imunoglobulina humana intravenosa deve ser administrada apenas nos primeiros 10\ndias de doença, independente da presença de febre ou elevação de VHS e PCR."
+      },
+      {
+        "letter": "B",
+        "text": "O tratamento com AAS deve ser mantido em doses moderadas a altas até o quinto dia\nafebril."
+      },
+      {
+        "letter": "C",
+        "text": "Não há evidência científica de associação de corticoterapia, independente da gravidade ou\ndo risco de aneurisma coronariano."
+      },
+      {
+        "letter": "D",
+        "text": "O tratamento é feito com imunoglobulina humana intravenosa em dose única de 2g/Kg,\naté o 10º dia de febre."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        17,
+        18
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q041",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 41,
+    "statement": "As Doenças Exantemáticas são de grande prevalência e importância na faixa etária\npediátrica. Dentre elas, encontramos a Doença de Kawasaki, uma vasculite primária, aguda e\nautolimitada, das mais comuns em crianças e que representa a principal causa de\ncardiopatia adquirida nessa faixa etária, sendo assim, seu diagnóstico e propedêutica\nadequada são de extrema importância para a não complicação das crianças afetadas. Em\ntorno de aproximadamente 70 a 80% dos pacientes com doença de Kawasaki preenchem os\ncritérios clínicos diagnósticos estabelecidos pela American Heart Association e pela European\nLeague Against Rheumatism/Pediatric Rheumatology European Society. Entretanto, o\nrestante dos 20 a 30% dos casos pode não apresentar o quadro típico, sendo denominados\n\"formas incompletas ou atípicas\". Nesse caso, assinale a alternativa que CORRETAMENTE\nindica alguns dos exames laboratoriais que também auxiliam no diagnóstico.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "VHS>40mm/ 1ª hora e PCR > 3mg/dL; plaquetas < 150.000/mm3 (após 7 dias de doença);\nleucocitose > 15.000/mm3; hiponatremia e dimensões coronarianas por meio do Z-escore >\n2,5 ao ecocardiograma."
+      },
+      {
+        "letter": "B",
+        "text": "VHS>40mm/ 1ª hora e PCR > 3mg/dL; plaquetas > 450.000/mm3 (após 7 dias de doença);\nTGP > 50U/L; albumina < 3g/dL e hiponatremia."
+      },
+      {
+        "letter": "C",
+        "text": "VHS >80mm/ 1ª hora e PCR > 30mg/dL; plaquetas > 450.000/mm3 (após 7 dias de doença)\ne hiponatremia."
+      },
+      {
+        "letter": "D",
+        "text": "VHS>40mm/ 1ª hora e PCR > 3mg/dL; plaquetas > 450.000/mm3 (após 7 dias de doença);\nalbumina < 3g/dL; piúria estéril; hipernatremia; e dimensões coronarianas por meio do Z-\nescore > 2,5 ao Ecocardiograma."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        18
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q042",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 42,
+    "statement": "Assinale a alternativa que cita acidentes MAIS comuns especificamente na faixa etária entre 1\na 4 anos de idade.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Intoxicações e sufocamentos."
+      },
+      {
+        "letter": "B",
+        "text": "Quedas e choques elétricos."
+      },
+      {
+        "letter": "C",
+        "text": "Quedas e intoxicações."
+      },
+      {
+        "letter": "D",
+        "text": "Atropelamentos e sufocamentos."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        18,
+        19
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q043",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 43,
+    "statement": "A deficiência de ferro pode levar ao desenvolvimento da anemia ferropriva que é a carência\nnutricional mais prevalente no mundo. No Brasil estima-se que entre 30% a 50% dos\nlactentes têm anemia ferropriva, podendo causar prejuízos e atrasos no desenvolvimento\nmotor e cognitivo, irreversíveis, mesmo após a correção do quadro da anemia, por isso é de\nsuma importância a prevenção da deficiência de ferro através da sua suplementação de\nmaneira adequada. É CORRETO afirmar que segundo o Programa Nacional de\nSuplementação de Ferro do Ministério de Saúde de 2022, a suplementação profilática de\nferro para crianças 6 a 24 meses de vida, em aleitamento materno exclusivo e sem fatores de\nrisco, deve ser realizada da seguinte maneira:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2 ciclos intermitentes de suplementação no período: 3 meses de suplementação diária\nseguidos de 3 meses de intervalo e reinício de novo ciclo."
+      },
+      {
+        "letter": "B",
+        "text": "3 ciclos intermitentes de suplementação no período: 2 meses de suplementação diária\nseguidos de 2 meses de intervalo e reinício de novo ciclo."
+      },
+      {
+        "letter": "C",
+        "text": "3 ciclos intermitentes de suplementação no período: 3 meses de suplementação diária\nseguidos de 3 meses de intervalo e reinício de novo ciclo."
+      },
+      {
+        "letter": "D",
+        "text": "2 ciclos intermitentes de suplementação no período: 2 meses de suplementação diária\nseguidos de 2 meses de intervalo e reinício de novo ciclo."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        19
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q044",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 44,
+    "statement": "A deficiência de ferro pode levar ao desenvolvimento da anemia ferropriva que é a carência\nnutricional mais prevalente no mundo. No Brasil estima-se que entre 30% a 50% dos\nlactentes têm anemia ferropriva, podendo causar prejuízos e atrasos no desenvolvimento\nmotor e cognitivo, irreversíveis, mesmo após a correção do quadro da anemia, por isso é de\nsuma importância a prevenção da deficiência de ferro através da sua suplementação de\nmaneira adequada. Ainda a respeito das atuais recomendações para a suplementação\nprofilática de ferro para lactentes, é INCORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Nos lactentes com baixo peso ao nascer ou nascidos prematuros, a suplementação deve\niniciar com 30 dias de vida independente do tipo de alimentação."
+      },
+      {
+        "letter": "B",
+        "text": "Em recém-nascidos a termo com peso inferior a 2.500 g é que a suplementação seja\nrealizada com 2 mg de ferro elementar/kg/dia."
+      },
+      {
+        "letter": "C",
+        "text": "Em recém-nascidos prematuros com peso entre 1500g e 2500g a recomendação é que a\nsuplementação seja realizada com 3 mg de ferro elementar/kg/dia, iniciando com 30 dias de\n\nvida."
+      },
+      {
+        "letter": "D",
+        "text": "Recém-nascidos a termo, peso adequado para a idade gestacional, em aleitamento\nmaterno exclusivo até o 6° mês que tiveram clampeamento do cordão umbilical com 30\nsegundos de vida devem realizar a suplementação com 1 mg de ferro elementar/kg/dia,\niniciando aos 90 dias de vida."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        19,
+        20
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q045",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 45,
+    "statement": "A asma é uma doença heterogênea altamente prevalente, definida pela história de sintomas\nrespiratórios, os quais variam com o tempo e em sua intensidade, sendo esses associados à\nlimitação variável do fluxo aéreo. Estudos internacionais estimam que 20% dos adolescentes\nbrasileiros apresentam sintomas de asma, doença responsável por alta morbidade e grande\nnúmero de internações anuais. Nesse contexto, assinale V para as afirmativas verdadeiras e F\npara as falsas. ( ) A classificação da asma se dá de acordo com o controle e gravidade e não\npossuem relação entre si. ( ) Apesar de ser uma doença amplamente conhecida, o\ndiagnóstico normalmente se dá tardiamente e interfere diretamente no seu controle. ( )\nAspirina e anti-inflamatórios não esteroidais podem causar exacerbação grave, mas os b-\nbloqueadores auxiliam na prevenção de crises. ( ) Em crianças na faixa etária de 6 - 11 anos, a\netapa I do tratamento consiste na utilização de SABA de resgate, não associado ao corticoide\ninalatório (CI) durante as crises. ( ) CI na infância causa uma redução transitória da velocidade\nde crescimento e parece resultar em uma pequena redução na estatura final, sendo assim, os\nseus benefícios no controle da asma superam os potenciais efeitos adversos no crescimento,\nsendo a dose preconizada como baixa até 100mcg/dia e dose alta maiores que 200mcg/dia.\nAssinale a alternativa que apresenta a sequência CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "F-V-F-F-V."
+      },
+      {
+        "letter": "B",
+        "text": "F-V-V-F-V."
+      },
+      {
+        "letter": "C",
+        "text": "V-V-F-F-F."
+      },
+      {
+        "letter": "D",
+        "text": "V-F-V-V-F."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        20
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q046",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 46,
+    "statement": "A incontinência urinária é comum em mulheres, causando vários sintomas que diminuem a\nqualidade de vida das pacientes acometidas. O conhecimento da fisiologia da micção é\nimprescindível para a compreensão da doença e as propostas terapêuticas. Sobre esta\nfisiopatologia é CORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O fechamento normal da uretra se dá pela contração do musculo esfincteriano da uretra,\nenvolvendo apenas musculatura lisa da parede uretral."
+      },
+      {
+        "letter": "B",
+        "text": "A hipermobilidade da uretra é a causa da incontinência urinária de esforço mais grave."
+      },
+      {
+        "letter": "C",
+        "text": "O sistema nervoso parassimpático é responsável pela fase de armazenamento da bexiga."
+      },
+      {
+        "letter": "D",
+        "text": "Os distúrbios das vias urinárias incluem problemas no armazenamento, de esvaziamento e\n\nda sensibilidade."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        20,
+        21
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q047",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 47,
+    "statement": "Os distúrbios do desenvolvimento sexual são quadros congênitos nos quais o\ndesenvolvimento sexual cromossomal ou anatômico é atípico. Sobre eles é INCORRETO\nafirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A hiperplasia suprarrenal congênita fetal é a principal causa de virilização de feto 46XX,\ncaracterizando o pseudo-hermafroditismo feminino."
+      },
+      {
+        "letter": "B",
+        "text": "O pseudo-hermafroditismo masculino engloba fetos 46XY com defeitos nas sínteses de\ntestosterona testicular, defeitos enzimáticos periféricos ou anormalidades no receptor\nandrogênico."
+      },
+      {
+        "letter": "C",
+        "text": "Nos pacientes com síndrome de insensibilidade total aos androgênios, há o\ndesenvolvimento de vulva e vaginas normais, contudo sem desenvolvimento de mamas,\nausência de útero e presença normal feminina de distribuição de pelos."
+      },
+      {
+        "letter": "D",
+        "text": "Entre as disgenesias gonadas se destaca a síndrome de Tuner, comcariótipo 45X e\napresentam os estigmas clássicos dessa síndrome, como baixa estatura, micrognatia,\npescoço alado entre outras."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        21
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q048",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 48,
+    "statement": "As massas pélvicas são achados comuns e entre as uterinas, o leiomioma é o mais frequente,\napesar de benigno pode causar muitas repercussões à saúde das mulheres, inclusive com\nrepercussões reprodutivas. Sobre estes tumores, é CORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "São tumores benignos causando mais repercussões clínicas em pacientes após a\nmenopausa."
+      },
+      {
+        "letter": "B",
+        "text": "A maioria é sintomática, causando dor pélvica ou sangramento uterino anormal com\nrepercussões que indicam tratamentos invasivos."
+      },
+      {
+        "letter": "C",
+        "text": "Cada leiomioma se origina de um único miócio, embora a mutação primária de origem\nainda seja desconhecida."
+      },
+      {
+        "letter": "D",
+        "text": "São causas de infertilidade, com associações causais conhecidas, mesmo nos tumores\nintramurais e subserosos."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        21
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q049",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 49,
+    "statement": "O climatério é o período da vida da mulher que coincide com a transição menopáusica e a\nmenopausa. Um período em que algumas mulheres têm uma alteração importante na sua\n\nqualidade de vida devido aos sintomas e os ginecologistas podem interferir favoravelmente.\nNesse contexto, analise as afirmativas a seguir: I- A fase inicial da transição apresenta redução\nda inibina e aumento da FSH (hormônio folículo- estimulante) que recruta mais folículos e\nleva a um aumento do estrogênio. II-Durante a transição há uma queda do hormônio\nantimilleriano que pode representar a reserva ovariana. III- Há um aumento compensatório\nda pregnenolona, androstenediona e sulfato de desidroepiandrosterona, alterando a\nproporção dos estrogênios circulantes. IV- Na transição o endométrio evolui de proliferativo\nmeio desordenados até a atrofia no pós menopausa. A respeito das afirmativas, assinale a\nalternativa CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Somente a I e IV estão corretas."
+      },
+      {
+        "letter": "B",
+        "text": "Somente a II e IV estão corretas."
+      },
+      {
+        "letter": "C",
+        "text": "I, II e IV estão corretas."
+      },
+      {
+        "letter": "D",
+        "text": "Estão todas corretas."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        21,
+        22
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q050",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 50,
+    "statement": "As IST, infecções sexualmente transmissíveis são muito importantes para homens, mulheres\ne até recém-nascidos. Configura-se num problema de saúde pública, demandando políticas\nespecíficas. Também podem afetar a saúde reprodutiva, principalmente das mulheres. Sobre\nestas ISTs, é CORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A infecção primária da sífilis clássica se caracteriza por lesões ulceradas multiplas, com\nbordas elevadas, muito dolorosas, podendo acometer colo uterino, pênis, vulva, região\nperianal e cicatrizam espontaneamente em até 10 dias."
+      },
+      {
+        "letter": "B",
+        "text": "Nas gestantes a ocorrência da sífilis tardia latente se caracteriza por teste treponêmico\npositivo ou VDRL acima de 1:4 na ausência de história de sintomas há menos de 1 ano ou\ntratamento de sífilis anterior. Deve ser tratada com penicilina benzatina, mesmo em\npacientes com alergia, realizando a descenssibilização."
+      },
+      {
+        "letter": "C",
+        "text": "O linfogranuloma venéreo é causado pela clamídia L1,L2 e L3, com infecção e caracterizada\npor pápulas pouco dolorosas e linfadenopatia satélite. Seu tratamento pode ser realizado\ncom Azitromicina 1 grama dose única."
+      },
+      {
+        "letter": "D",
+        "text": "A Neisséria gonorrheae é um cocobacilo gram-positivo, causam corrimento fétido pela\ninfecção das células vaginais, seu diagnóstico e acompanhamento de cura são dados pela\ncultura da secreção."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        22
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q051",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 51,
+    "statement": "O prolapso dos órgãos pélvicos (POP) além de muito frequente em mulheres após os 40\nanos, leva a uma redução da qualidade de vida. Ele teve uma nova classificação, mais objetiva\ne consistente em 1996 (POP-Q) para aprimorar as estratégias de correção e a comparação dos\nresultados científicos. Sobre as medidas obtidas do POP-Q durante uma avaliação clínica,\n\ncorrelacione a COLUNA II de acordo com a COLUNA I. COLUNA I; 1. Grau 1; 2. Grau 2; 3. Grau 3;\n4.Grau 4. COLUNA II; ( ) O ponto Ba foi medido com o valo de +4cm. ( ) O ponto C foi medido\ncom o valor de +8cm e o comprimento vaginal foi de 10cm. ( ) O ponto Bp foi medido com\nvalor de +1 com. Assinale a alternativa que apresenta a sequência CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "3, 4, 2."
+      },
+      {
+        "letter": "B",
+        "text": "3, 3, 2."
+      },
+      {
+        "letter": "C",
+        "text": "3, 4, 1."
+      },
+      {
+        "letter": "D",
+        "text": "3, 3, 3."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        22,
+        23
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q052",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 52,
+    "statement": "O câncer de mama é responsável por 1/3 docas do câncer de mulheres, acometendo\nmulheres jovens, há uma associação conhecida com história familiar e, apesar do avanço nos\ntratamentos, ainda é uma importante causa de morte. Sobre este câncer, é CORRETO afirma\nque:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A punção aspirativa por agulha fina tem maior sensibilidade e especificidade que a core\nbiopsy (punção biópsia) e ainda com a vantagem de proporcionar realização da pesquisa de\nreceptores hormonais."
+      },
+      {
+        "letter": "B",
+        "text": "A ooferectomia bilateral não tem influência no risco de câncer de mama."
+      },
+      {
+        "letter": "C",
+        "text": "O câncer de mama costuma surgir no quadrante superior externo da mama, onde a\nproporção de tecido mamário é maior."
+      },
+      {
+        "letter": "D",
+        "text": "O carcinoma ductal infiltrante representa em torno de 10% dos tumores invasivos,\nraramente metastiza para linfonodos axilares e seu prognóstico tende a ser melhor que o\ncarcinoma tubular."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        23
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q053",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 53,
+    "statement": "O câncer de ovário tem associação com uso de anticoncepcional, gravidez e até\nsusceptibilidade hereditária. É um tumor complexo, sendo mais incidentes os epiteliais e\ncom grande repercussão na saúde da paciente acometida. Sobre este tumor, é INCORRETO\nafirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Os tumores epiteliais acometem mais as pacientes após 50 anos, sendo a porcentagem de\nmalignidade maior após a menopausa."
+      },
+      {
+        "letter": "B",
+        "text": "Os tumores epiteliais serosos são os mais comuns e se assemelham às células secretoras\ntubárias."
+      },
+      {
+        "letter": "C",
+        "text": "Os tumores mucinosos são os epiteliais de maior potencial maligno e com frequência\ninvadem a mucosa das alças intestinais."
+      },
+      {
+        "letter": "D",
+        "text": "A maioria dos canceres hereditários está associada a mutação no gen BRCA1 e uma\n\npequena parcela mais associada a mutações germinativas ao BRCA2."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        23,
+        24
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q054",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 54,
+    "statement": "O avanço na capacidade de documentar e diagnosticar uma gravidez inicial mostrou que o\naborto espontâneo é complicação mais comum da gravidez. Sobre os abortamentos, é\nCORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "As anormalidades cromossômicas dos pais e complicações trombóticas da síndrome do\nanticorpo antifosfolípide (SAF) são causas de abortamento recorrentes, representando 10ª 15%\ndos casos."
+      },
+      {
+        "letter": "B",
+        "text": "As trobofilias hereditárias podem ser causa de abortamentos de repetição, contudo sem\nalterações no desenvolvimento e nas funções placentárias."
+      },
+      {
+        "letter": "C",
+        "text": "As anormalidades anatômicas Millerianas não estão ligadas ao aborto espontâneo ou aos\nabortamentos de repetição."
+      },
+      {
+        "letter": "D",
+        "text": "Alterações endócrinas das tireoideopatias ou da síndrome do ovário policísticos podem\ncausar dificuldades para engravidar, mas não foram associadas aos abortamentos\nespontâneos."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        24
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q055",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 55,
+    "statement": "A gravidez ectópica é caracterizada pela implantação do blastocisto fora do endométrio da\ncavidade uterina. É uma urgência obstétrica, devendo ser prontamente diagnosticada e\ntratada para evitar evoluções que podem ser muito graves para a mulher, incluindo o risco de\nmorte por hemorragia (primeira causa de óbito em gravidez inicial). Sobre essa ocorrência, é\nCORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O uso de DIU (dispositivo intra uterino) é o principal fator de risco isolado para gravidez\nectópica."
+      },
+      {
+        "letter": "B",
+        "text": "O diagnóstico clínico tem alta especificidade, pelos sintomas característicos de gravidez\nectópica."
+      },
+      {
+        "letter": "C",
+        "text": "O uso de metotrexato para tratamento medicamentoso pode ser indicado em massas até\n4 cm de diâmetro, mesmo com batimentos cardíacos fetais positivos ao ultrassom."
+      },
+      {
+        "letter": "D",
+        "text": "Níveis de β BHCG seriados, com elevação atípica, mas acima do valor crítico, aliado à\nultrassonografia sem sinais de gravidez intrauterina e massa anexial é a melhor chance de\nfazer diagnóstico antes da rotura da tuba."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        24
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q056",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 56,
+    "statement": "A hipertensão arterial crônica é uma das complicações médicas mais comuns durante a\ngravidez, o seu tratamento, mesmo antes da gravidez está associado à redução de riscos de\ndoenças renais, infartos e até mortalidade. Na gravidez seu manejo satisfatório também\nreduz complicações maternas e fetais. Sobre esta patologia, é INCORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A pre-eclâmpsia sobreposta, a obesidade e diabetes prévio são marcadores de risco para a\npermanência da hipertensão após o puerpério."
+      },
+      {
+        "letter": "B",
+        "text": "O desfecho fetal é afetado pelas doenças hipertensivas, principalmente pelo aumento da\nincidência de baixo peso ao nascer devido à prematuridade, restrição de crescimento\nintrauterino ou ambos."
+      },
+      {
+        "letter": "C",
+        "text": "As classes de medicações mais utilizadas para tratamento das doenças hipertensivas na\ngravidez são: agentes bloqueadores adrenérgicos, bloqueadores do canal de cálcio e\ninibidores da enzima conversora de angiotensina."
+      },
+      {
+        "letter": "D",
+        "text": "O diagnóstico da pre-eclâmpsia sobreposta fica dificultado especialmente nas pacientes\nhipertensas crônicas com grau de insuficiência renal e proteinúria secundária."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        24,
+        25
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q057",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 57,
+    "statement": "O diabetes é uma doença com incidência em ascensão, principalmente associada ao\nenvelhecimento da população e ao aumento da obesidade. Há muito interesse em eventos\nque precedem o diabetes, incluindo o ambiente intrauterino, como o efeito da\nhiperinsulinemia fetal dos filhos de mães com diabetes que está associada ao aumento da\nincidência de obesidade e diabetes na infância. Sobre o diabetes e a gravidez, é CORRETO\nafirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "As complicações dos fetos de mãe sabidamente diabéticas está relacionada aos níveis de\nglicemias maternos, tendo pouca influência das doenças cardiovascular e renal subjacentes."
+      },
+      {
+        "letter": "B",
+        "text": "As malformações fetais mais incidentes são as de trato gastrointestinal, associadas a\ndiabética tipo 2, sem aumento da incidência relacionada à glicohemoglobina elevada."
+      },
+      {
+        "letter": "C",
+        "text": "Nas gestantes diabéticas prévias não há aumento de incidência dos natimortos associados\na causas \"explicáveis\" como insuficiência placentária, restrição de crescimento intrauterino e\ndescolamento de placenta."
+      },
+      {
+        "letter": "D",
+        "text": "O parto distócito, macrossomia fetal e hipoglicemia neonatal são complicações mais\nprevalentes nas gestantes com Diabetes Gestacional, onde não há aumento da incidência de\nmal formação fetal."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        25
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q058",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 58,
+    "statement": "O partograma é um instrumento proposto pela OMS que auxilia a evolução do trabalho de\nparto, com dados evolutivos da apresentação fetal, altura da apresentação, dilatação do colo\nuterino, bcf, dinâmica uterina, se a bolsa rompeu, entre outros, cuja interpretação correta se\nfaz necessária para segurança do bibômio mãe-filho durante o trabalho de parto. Analise o\n\npartograma a seguir: De acordo com o partograma, assinale a alternativa que apresenta\nCORRETAMENTE o diagnóstico.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Contrações ineficazes."
+      },
+      {
+        "letter": "B",
+        "text": "Erro na construção do partograma."
+      },
+      {
+        "letter": "C",
+        "text": "Parada secundária de dilatação."
+      },
+      {
+        "letter": "D",
+        "text": "Fase ativa prolongada."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        25,
+        26
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q059",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 59,
+    "statement": "O puerpério é o período que se inicia após o nascimento e vai até 4 a 6 semanas após, sendo\no período em que as alterações fisiológicas da gravidez retornam ao seu estado normal. Pode\nser um período de ansiedade para algumas mulheres e também apresentar complicações\nclínicas potencialmente graves. Sobre este período, analise as afirmativas a seguir,\nassinalando V para as afirmativas verdadeiras e F para as falsas. ( ) A febre nas primeiras 24\nhoras após o parto cesáreo é um sinal de maior chance dessa paciente evoluir para infecção\npélvica do que após o parto vaginal. ( ) A profilaxia antimicrobiana perioperatório dose única\nno parto cesáreo tem uma grande redução na incidência e na gravidade das infecções\npélvicas puerperais. ( ) A tromboflebite pélvica séptica se tornou mais frequente com o uso de\nantibiótico venoso intra-hospitalar, diagnosticada nos 3 dias de febre persistente, seu\ntratamento inclui o uso de anticoagulante associado ao antibiótico. ( ) A mastite puerperal\ngeralmente ocorre após 10 dias do parto, precedida por ingurgitamento mamário e fissura no\nmamilo por dificuldade na amamentação. Assinale a alternativa que apresenta a sequência\nCORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "V V F V."
+      },
+      {
+        "letter": "B",
+        "text": "V F F V."
+      },
+      {
+        "letter": "C",
+        "text": "F V V V."
+      },
+      {
+        "letter": "D",
+        "text": "F V V F."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        26,
+        27
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q060",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 60,
+    "statement": "O acompanhamento do bem-estar fetal é imprescindível durante o pré-natal e intraparto. As\ntécnicas disponíveis enfatizam as características biofísicas do feto como batimentos\ncardíacos, movimento, respiração e produção de líquidos. Sobre esta avaliação, é CORRETO\nafirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Os movimentos respiratórios fetais medidos durante ultrassonografia é um marcador\nimportante da saúde fetal, com alta especificidade."
+      },
+      {
+        "letter": "B",
+        "text": "Desacelerações cardíacas fetais tardias em relação à contração uterina, mesmo repetitivas\ne uniformes (chamadas de DIP2) têm baixo valor preditivo para sofrimento fetal e podem\nestar associadas à compressão do cordão umbilical."
+      },
+      {
+        "letter": "C",
+        "text": "A cardiotocografia basal avalia a condição fetal, através das acelerações dos batimentos\nassociados à movimentação fetal, fazendo parte da avaliação do perfil biofísico fetal."
+      },
+      {
+        "letter": "D",
+        "text": "A CTG com traçado de padrão liso, considerado quando as oscilações são menores que\n10bpm não demonstram correlação com inexistência de aceleração e tem baixa\nprevisibilidade de risco fetal grave."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        27
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q061",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 61,
+    "statement": "Assinale a alternativa que apresenta CORRETAMENTE o objetivo principal das atividades\nrelacionadas à saúde do trabalhador, conforme descrito na Lei Orgânica da Saúde.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Promoção e proteção da saúde dos trabalhadores, recuperação e reabilitação da saúde dos\ntrabalhadores expostos a riscos no ambiente de trabalho, além de participação em estudos e\ncontrole de riscos à saúde."
+      },
+      {
+        "letter": "B",
+        "text": "Fiscalização e controle das condições de produção, armazenamento, transporte e\nmanuseio de substâncias e equipamentos perigosos no ambiente de trabalho."
+      },
+      {
+        "letter": "C",
+        "text": "Participação na normatização, fiscalização e controle dos serviços de saúde do trabalhador\nnas instituições e empresas públicas e privadas, incluindo a revisão periódica da lista de\ndoenças originadas no processo de trabalho."
+      },
+      {
+        "letter": "D",
+        "text": "Fornecimento de assistência médica imediata a trabalhadores vítimas de acidentes de\ntrabalho, além de informar trabalhadores, entidades sindicais e empresas sobre os riscos no\nambiente de trabalho."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        27
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q062",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 62,
+    "statement": "De acordo com o art. 198 da Constituição Federal, as ações e serviços públicos de saúde\nintegram uma rede regionalizada e hierarquizada e constituem um sistema único,\norganizado de acordo com as algumas diretrizes, assinale com V as afirmativas verdadeiras e\ncom F as falsas. ( ) Descentralização, com direção única em cada esfera de governo. ( )\nAtendimento integral, com prioridade para as atividades preventivas, sem prejuízo dos\nserviços assistenciais. ( ) Coordenação do cuidado. ( ) Atendimento universal e equânime.\nAssinale a alternativa que apresenta a sequência CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "V V F F."
+      },
+      {
+        "letter": "B",
+        "text": "F V F V."
+      },
+      {
+        "letter": "C",
+        "text": "V F F V."
+      },
+      {
+        "letter": "D",
+        "text": "F V V F."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        28
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q063",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 63,
+    "statement": "Homem, 28 anos, motoboy, se envolveu em um acidente enquanto trabalhava, sofreu fraturas\nmúltiplas, foi internado e submetido à cirurgia. Evoluía adequadamente, mas adquire\ninfecção hospitalar, vindo a falecer, 12 dias depois, por choque séptico no CTI. Considerando\nos dados disponíveis, em relação ao Correto preenchimento do atestado de óbito, a causa\nbásica da morte e quem deve fornecer a Declaração de óbito são respectivamente:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Acidente de trânsito e IML."
+      },
+      {
+        "letter": "B",
+        "text": "Choque séptico e Intensivista."
+      },
+      {
+        "letter": "C",
+        "text": "Acidente de trânsito e Intensivista."
+      },
+      {
+        "letter": "D",
+        "text": "Choque séptico e IML."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        28
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q064",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 64,
+    "statement": "Na territorialização, é CORRETO afirmar que a escala de Coelho e Savassi é um importante\ninstrumento para:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Diagnóstico comunitário."
+      },
+      {
+        "letter": "B",
+        "text": "Classificação de risco comunitário."
+      },
+      {
+        "letter": "C",
+        "text": "Divisão de áreas por risco."
+      },
+      {
+        "letter": "D",
+        "text": "Cartografia."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        28
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q065",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 65,
+    "statement": "A respeito da Vigilância de síndrome respiratória aguda grave (SRAG), assinale a alternativa\nCORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Foi implantada no Brasil em 2020 em decorrência da pandemia de Coronavírus (Covid\n2019)."
+      },
+      {
+        "letter": "B",
+        "text": "Prevê a coleta e a notificação de todos os casos de SRAG hospitalizados e/ou óbitos por\nSRAG, causados por qualquer bactéria, fungo ou vírus respiratórios."
+      },
+      {
+        "letter": "C",
+        "text": "A vigilância de SRAG em Minas Gerais é realizada em apenas um hospital referência\nestadual da rede pública."
+      },
+      {
+        "letter": "D",
+        "text": "Todos os óbitos por SRAG, mesmo os não hospitalizados, devem ser notificados no Sistema\nde Vigilância Epidemiológica da Gripe (Sivep-Gripe), no módulo de SRAG Hospitalizado."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        28,
+        29
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q066",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 66,
+    "statement": "Entre os processos de organização do SUS e da ESF estão o reconhecimento e as pactuações\nrelativas ao território e a sua população. A respeito destes processos, correlacione a COLUNA\nII de acordo com a COLUNA I. COLUNA I; 1) Rede de Atenção à Saúde; 2) Territorização; 3)\nPopulação adscrita; COLUNA II; ( ) Envolve captar informações - identificação/\nsociodemográficas e condições de saúde autoreferidas - sobre os usuários que se encontram\nno território da equipe e a estratificação de risco das pessoas sociossanitários. ( ) Conjunto de\nações e serviços de saúde articulados em níveis de complexidade crescente, com a finalidade\nde garantir a integralidade da assistência à saúde. ( ) Processo de análise territorial visando a\numa base organizativa dos sistemas de saúde e do planejamento da vigilância em saúde.\nAssinale a alternativa que apresenta a sequência CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1 2 3."
+      },
+      {
+        "letter": "B",
+        "text": "2 3 1."
+      },
+      {
+        "letter": "C",
+        "text": "1 3 2."
+      },
+      {
+        "letter": "D",
+        "text": "3 1 2."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        29
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q067",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 67,
+    "statement": "A respeito de alguns dos elementos de gestão do cuidado no processo de trabalho das\nequipes de saúde, correlacione a COLUNA II de acordo com a COLUNA I. COLUNA I; 1) Projeto\nTerapêutico Singular; 2) Apoio matricial; 3) Equipe de referência; COLUNA II; ( ) Um conjunto\nde condutas/ações/medidas, de caráter clínico ou não, propostas para dialogar com as\nnecessidades de saúde de um sujeito individual ou coletivo, geralmente em situações mais\ncomplexas, construídas a partir da discussão de uma equipe multidisciplinar. ( ) Visa garantir\na retaguarda especializada às equipes que realizam atenção à saúde, tratando-se de\nmetodologia de trabalho que complementa os mecanismos de referência e\n\ncontrarreferência, os protocolos e as centrais de regulação. Propõe-se a ofertar, além de\nretaguarda assistencial, suporte técnico pedagógico às equipes de Saúde. ( ) Têm\ncomposição multiprofissional de caráter transdisciplinar e são responsáveis pela assistência à\nsaúde de um número de pacientes inscritos, segundo sua capacidade de atendimento e\ngravidade dos casos. Assinale a alternativa que apresenta a sequência CORRETA.",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1 2 3."
+      },
+      {
+        "letter": "B",
+        "text": "2 3 1."
+      },
+      {
+        "letter": "C",
+        "text": "1 3 2."
+      },
+      {
+        "letter": "D",
+        "text": "3 1 2."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        29,
+        30
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q068",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 68,
+    "statement": "O Método Clínico Centrado na Pessoa é composto por quatro componentes, sendo que o\nprimeiro componente \"Explorando a saúde, a doença e a experiência da doença\" aborda as\ndimensões do acrônimo SIFE. É CORRETO afirmar que em uma consulta que a pessoa relata\nestar tendo muita dificuldade de dormir pelas preocupações com o marido que está\nbebendo muito e que por isto está com dificuldade para realizar as atividades do dia a dia,\ndeve ser anotado nas letras:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "S e I"
+      },
+      {
+        "letter": "B",
+        "text": "F e E"
+      },
+      {
+        "letter": "C",
+        "text": "E e S"
+      },
+      {
+        "letter": "D",
+        "text": "I e F"
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        30
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q069",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 69,
+    "statement": "A Lei Orgânica da Saúde estabelece duas formas de participação da comunidade na gestão\ndo SUS: as Conferências e os Conselhos de Saúde. A esse respeito, analise as afirmativas a\nseguir: I- Os conselhos são órgãos de funcionamento presencial e permanente. II- As\nconferências de saúde ocorrem nos 3 níveis de gestão e a definição de prioridades se dá para\nos próximos 4 anos. III- As Conferências e os Conselhos de Saúde possuem as mesmas\nfunções no controle social. IV- Conferências são fóruns amplos, em que se reúnem\nrepresentantes da sociedade, profissionais de saúde, dirigentes, prestadores de serviços de\nsaúde para propor as diretrizes para a política de saúde. Estão CORRETAS as afirmativas:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I e II, apenas."
+      },
+      {
+        "letter": "B",
+        "text": "III e IV apenas."
+      },
+      {
+        "letter": "C",
+        "text": "I, II e IV apenas."
+      },
+      {
+        "letter": "D",
+        "text": "I, II, III e IV."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        30
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q070",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 70,
+    "statement": "Jorge, 38 anos, trabalha há 10 anos como pedreiro em uma construtora, com carteira\nassinada. Ele procura o centro de saúde de seu bairro por causa de lombalgia, iniciada há\ncerca de dez dias. A dor aparece geralmente de manhã e se agrava ao longo do dia, e é pior\nem dias de muito trabalho. Em dias de folga, há alívio. Ele relata episódios semelhantes e\nintermitentes dessa dor há cerca de 2 anos. A respeito do caso de Jorge, analise as afirmativas\na seguir: I- A classificação de Schilling é III. II- Alberto tem diagnóstico de provável DORT. III-\nNão é necessário abrir uma CAT (Comunicação de Acidente de Trabalho). IV- O principal risco\nocupacional, neste caso, é o ergonômico. Estão CORRETAS as afirmativas:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I e III apenas."
+      },
+      {
+        "letter": "B",
+        "text": "II e IV apenas."
+      },
+      {
+        "letter": "C",
+        "text": "I, II e III apenas."
+      },
+      {
+        "letter": "D",
+        "text": "I, II, III e IV."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        31
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q071",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 71,
+    "statement": "Sobre os sistemas de informações no Brasil, é CORRETO afirmar que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O SISVAN é o sistema das campanhas de vacinação nacionais."
+      },
+      {
+        "letter": "B",
+        "text": "O RCH informa sobre a rede de consultas hospitalares."
+      },
+      {
+        "letter": "C",
+        "text": "CNES é o Cadastro Nacional de Estabelecimentos de Saúde."
+      },
+      {
+        "letter": "D",
+        "text": "O SIAB é o Sistema da Atenção Bucal."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        31
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q072",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 72,
+    "statement": "Sete homens foram pesados, e os resultados em kg foram: 58.0, 62.9, 63.5, 64.1, 66.1, 66.1, 73.6.\nA respeito das medidas de tendência central, analise as afirmativas a seguir: I-A média é =\n64.9; II- A mediana = 64,1; III- A moda = 66,1; Estão CORRETAS as afirmativas:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I e II apenas."
+      },
+      {
+        "letter": "B",
+        "text": "I e III apenas."
+      },
+      {
+        "letter": "C",
+        "text": "II e III apenas."
+      },
+      {
+        "letter": "D",
+        "text": "I, II e III."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        31
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q073",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 73,
+    "statement": "Em uma equipe em que sua área de abrangência tem 4.000 pessoas cadastradas, com 480\ndiabéticos, sendo que desses 80 tiveram diagnóstico no último mês durante uma campanha\nde busca ativa, é CORRETO afirmar que a incidência e a prevalência de diabéticos são\nrespectivamente",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "12% e 2%"
+      },
+      {
+        "letter": "B",
+        "text": "8% e 20%"
+      },
+      {
+        "letter": "C",
+        "text": "20% e 8%"
+      },
+      {
+        "letter": "D",
+        "text": "2% e 12%"
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        31,
+        32
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q074",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 74,
+    "statement": "É CORRETO afirmar que em uma auditoria clínica para avaliação do controle de hipertensão\narterial (HAS), as variáveis \"número de pessoas com HAS que aferiram a PA no último mês\" e\n\"IMC\", são respectivamente classificadas como:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Ordinal e discreta."
+      },
+      {
+        "letter": "B",
+        "text": "Nominal e ordinal."
+      },
+      {
+        "letter": "C",
+        "text": "Discreta e contínua."
+      },
+      {
+        "letter": "D",
+        "text": "Contínua e nominal."
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        32
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  },
+  {
+    "id": "santa-casa-bh-2024-q075",
+    "institution": "Santa Casa BH",
+    "year": 2024,
+    "number": 75,
+    "statement": "Um estudo sobre a influência do exercício físico na qualidade de vida de mulheres na pós-\nmenopausa, que analisou 197 mulheres na pós- menopausa com idade entre 50-65 anos: 132\nsedentárias e 65 praticantes de exercícios físicos aeróbicos de intensidade leve a moderada. A\nqualidade de vida e a sintomatologia climatérica foram avaliadas pela Menopause Rating\nScale (MRS). Concluiu-se que a atividade física regular de intensidade leve a moderada e a\nrenda familiar per capita influenciaram positivamente a qualidade de vida e a intensidade da\nsintomatologia climatérica. É CORRETO afirmar que este estudo é do tipo:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Transversal."
+      },
+      {
+        "letter": "B",
+        "text": "Coorte."
+      },
+      {
+        "letter": "C",
+        "text": "Caso controle."
+      },
+      {
+        "letter": "D",
+        "text": "Ecológico.\n\nGABARITO\n1. A B C D\n26. A B C D\n51. A B C D\n2. A B C D\n27. A B C D\n52. A B C D\n3. A B C D\n28. A B C D\n53. A B C D\n4. A B C D\n29. A B C D\n54. A B C D\n5. A B C D\n30. A B C D\n55. A B C D\n6. A B C D\n31. A B C D\n56. A B C D\n7. A B C D\n32. A B C D\n57. A B C D\n8. A B C D\n33. A B C D\n58. A B C D\n9. A B C D\n34. A B C D\n59. A B C D\n10. A B C D\n35. A B C D\n60. A B C D\n11. A B C D\n36. A B C D\n61. A B C D\n12. A B C D\n37. A B C D\n62. A B C D\n13. A B C D\n38. A B C D\n63. A B C D\n14. A B C D\n39. A B C D\n64. A B C D\n15. A B C D\n40. A B C D\n65. A B C D\n16. A B C D\n41. A B C D\n66. A B C D\n17. A B C D\n42. A B C D\n67. A B C D\n18. A B C D\n43. A B C D\n68. A B C D\n19. A B C D\n44. A B C D\n69. A B C D\n20. A B C D\n45. A B C D\n70. A B C D\n21. A B C D\n46. A B C D\n71. A B C D\n22. A B C D\n47. A B C D\n72. A B C D\n23. A B C D\n48. A B C D\n73. A B C D\n24. A B C D\n49. A B C D\n74. A B C D\n25. A B C D\n50. A B C D\n75. A B C D"
+      }
+    ],
+    "key": {
+      "status": "pending"
+    },
+    "images": [],
+    "source": {
+      "pdf": "provas/santa-casa-bh-2024.pdf",
+      "pages": [
+        32,
+        33
+      ]
+    },
+    "review": "required",
+    "notes": "Extração automática NÃO CONFERIDA. Verificar conteúdo integral, imagens, tabelas, alternativas e fonte oficial."
+  }
+]

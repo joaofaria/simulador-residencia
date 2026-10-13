@@ -1,0 +1,1262 @@
+{
+  "exam": "santa-casa-bh-2025",
+  "keys": [
+    {
+      "answer": "C",
+      "number": 1,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 21,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 41,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 61,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 2,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 22,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 42,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 62,
+      "page": 34
+    },
+    {
+      "answer": "ANULADA",
+      "number": 3,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 4,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 23,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 43,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 24,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 44,
+      "page": 34
+    },
+    {
+      "answer": "ANULADA",
+      "number": 63,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 64,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 5,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 25,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 45,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 65,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 6,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 26,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 46,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 66,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 7,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 27,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 47,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 67,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 8,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 28,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 48,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 68,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 9,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 29,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 49,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 69,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 10,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 30,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 50,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 70,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 11,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 31,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 51,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 71,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 12,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 32,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 52,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 72,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 13,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 33,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 53,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 14,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 34,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 54,
+      "page": 34
+    },
+    {
+      "answer": "ANULADA",
+      "number": 73,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 74,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 15,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 35,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 55,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 75,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 16,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 36,
+      "page": 34
+    },
+    {
+      "answer": "D",
+      "number": 56,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 17,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 37,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 57,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 18,
+      "page": 34
+    },
+    {
+      "answer": "A",
+      "number": 38,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 58,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 19,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 39,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 59,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 20,
+      "page": 34
+    },
+    {
+      "answer": "C",
+      "number": 40,
+      "page": 34
+    },
+    {
+      "answer": "B",
+      "number": 60,
+      "page": 34
+    }
+  ],
+  "questions": [
+    {
+      "assets": [
+        {
+          "alt": "Questão 1, trecho original da página 3, incluindo imagens, tabelas e alternativas.",
+          "page": 3,
+          "src": "provas/assets/santa-casa-bh-2025/0feab164697b-q001-p03.png"
+        }
+      ],
+      "number": 1
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 2, trecho original da página 3, incluindo imagens, tabelas e alternativas.",
+          "page": 3,
+          "src": "provas/assets/santa-casa-bh-2025/4bce5fbcc95d-q002-p03.png"
+        }
+      ],
+      "number": 2
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 3, trecho original da página 3, incluindo imagens, tabelas e alternativas.",
+          "page": 3,
+          "src": "provas/assets/santa-casa-bh-2025/4dddb27d259e-q003-p03.png"
+        }
+      ],
+      "number": 3
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 4, trecho original da página 3, incluindo imagens, tabelas e alternativas.",
+          "page": 3,
+          "src": "provas/assets/santa-casa-bh-2025/97f367f65fe1-q004-p03.png"
+        },
+        {
+          "alt": "Questão 4, trecho original da página 4, incluindo imagens, tabelas e alternativas.",
+          "page": 4,
+          "src": "provas/assets/santa-casa-bh-2025/84472f4cdc38-q004-p04.png"
+        }
+      ],
+      "number": 4
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 5, trecho original da página 4, incluindo imagens, tabelas e alternativas.",
+          "page": 4,
+          "src": "provas/assets/santa-casa-bh-2025/3973201b4096-q005-p04.png"
+        }
+      ],
+      "number": 5
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 6, trecho original da página 4, incluindo imagens, tabelas e alternativas.",
+          "page": 4,
+          "src": "provas/assets/santa-casa-bh-2025/2d988c1c9dba-q006-p04.png"
+        }
+      ],
+      "number": 6
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 7, trecho original da página 4, incluindo imagens, tabelas e alternativas.",
+          "page": 4,
+          "src": "provas/assets/santa-casa-bh-2025/0af150ab9e3a-q007-p04.png"
+        }
+      ],
+      "number": 7
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 8, trecho original da página 5, incluindo imagens, tabelas e alternativas.",
+          "page": 5,
+          "src": "provas/assets/santa-casa-bh-2025/df4ceec58b46-q008-p05.png"
+        }
+      ],
+      "number": 8
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 9, trecho original da página 5, incluindo imagens, tabelas e alternativas.",
+          "page": 5,
+          "src": "provas/assets/santa-casa-bh-2025/70b67bcac6cb-q009-p05.png"
+        }
+      ],
+      "number": 9
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 10, trecho original da página 5, incluindo imagens, tabelas e alternativas.",
+          "page": 5,
+          "src": "provas/assets/santa-casa-bh-2025/e07578111026-q010-p05.png"
+        }
+      ],
+      "number": 10
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 11, trecho original da página 5, incluindo imagens, tabelas e alternativas.",
+          "page": 5,
+          "src": "provas/assets/santa-casa-bh-2025/6bee34e11561-q011-p05.png"
+        },
+        {
+          "alt": "Questão 11, trecho original da página 6, incluindo imagens, tabelas e alternativas.",
+          "page": 6,
+          "src": "provas/assets/santa-casa-bh-2025/b86c74fe6b3b-q011-p06.png"
+        }
+      ],
+      "number": 11
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 12, trecho original da página 6, incluindo imagens, tabelas e alternativas.",
+          "page": 6,
+          "src": "provas/assets/santa-casa-bh-2025/457ab34767f4-q012-p06.png"
+        }
+      ],
+      "number": 12
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 13, trecho original da página 6, incluindo imagens, tabelas e alternativas.",
+          "page": 6,
+          "src": "provas/assets/santa-casa-bh-2025/e4a090acefdf-q013-p06.png"
+        }
+      ],
+      "number": 13
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 14, trecho original da página 6, incluindo imagens, tabelas e alternativas.",
+          "page": 6,
+          "src": "provas/assets/santa-casa-bh-2025/7b331a7025ed-q014-p06.png"
+        },
+        {
+          "alt": "Questão 14, trecho original da página 7, incluindo imagens, tabelas e alternativas.",
+          "page": 7,
+          "src": "provas/assets/santa-casa-bh-2025/2d774f1d5d81-q014-p07.png"
+        }
+      ],
+      "number": 14
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 15, trecho original da página 7, incluindo imagens, tabelas e alternativas.",
+          "page": 7,
+          "src": "provas/assets/santa-casa-bh-2025/98e96faab3c9-q015-p07.png"
+        }
+      ],
+      "number": 15
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 16, trecho original da página 7, incluindo imagens, tabelas e alternativas.",
+          "page": 7,
+          "src": "provas/assets/santa-casa-bh-2025/2154b0fe523e-q016-p07.png"
+        }
+      ],
+      "number": 16
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 17, trecho original da página 7, incluindo imagens, tabelas e alternativas.",
+          "page": 7,
+          "src": "provas/assets/santa-casa-bh-2025/4b3015d29c88-q017-p07.png"
+        },
+        {
+          "alt": "Questão 17, trecho original da página 8, incluindo imagens, tabelas e alternativas.",
+          "page": 8,
+          "src": "provas/assets/santa-casa-bh-2025/7a28d7eda886-q017-p08.png"
+        }
+      ],
+      "number": 17
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 18, trecho original da página 8, incluindo imagens, tabelas e alternativas.",
+          "page": 8,
+          "src": "provas/assets/santa-casa-bh-2025/483283067cc0-q018-p08.png"
+        }
+      ],
+      "number": 18
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 19, trecho original da página 8, incluindo imagens, tabelas e alternativas.",
+          "page": 8,
+          "src": "provas/assets/santa-casa-bh-2025/058474ec181f-q019-p08.png"
+        },
+        {
+          "alt": "Questão 19, trecho original da página 9, incluindo imagens, tabelas e alternativas.",
+          "page": 9,
+          "src": "provas/assets/santa-casa-bh-2025/79fe9aa94e74-q019-p09.png"
+        }
+      ],
+      "number": 19
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 20, trecho original da página 9, incluindo imagens, tabelas e alternativas.",
+          "page": 9,
+          "src": "provas/assets/santa-casa-bh-2025/f7a1d8b90735-q020-p09.png"
+        }
+      ],
+      "number": 20
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 21, trecho original da página 9, incluindo imagens, tabelas e alternativas.",
+          "page": 9,
+          "src": "provas/assets/santa-casa-bh-2025/2934b4f27599-q021-p09.png"
+        },
+        {
+          "alt": "Questão 21, trecho original da página 10, incluindo imagens, tabelas e alternativas.",
+          "page": 10,
+          "src": "provas/assets/santa-casa-bh-2025/c618374caa88-q021-p10.png"
+        }
+      ],
+      "number": 21
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 22, trecho original da página 10, incluindo imagens, tabelas e alternativas.",
+          "page": 10,
+          "src": "provas/assets/santa-casa-bh-2025/6e727125556c-q022-p10.png"
+        }
+      ],
+      "number": 22
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 23, trecho original da página 10, incluindo imagens, tabelas e alternativas.",
+          "page": 10,
+          "src": "provas/assets/santa-casa-bh-2025/0e4dc80acf36-q023-p10.png"
+        }
+      ],
+      "number": 23
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 24, trecho original da página 10, incluindo imagens, tabelas e alternativas.",
+          "page": 10,
+          "src": "provas/assets/santa-casa-bh-2025/ad46bba6933a-q024-p10.png"
+        },
+        {
+          "alt": "Questão 24, trecho original da página 11, incluindo imagens, tabelas e alternativas.",
+          "page": 11,
+          "src": "provas/assets/santa-casa-bh-2025/8043a967bb35-q024-p11.png"
+        }
+      ],
+      "number": 24
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 25, trecho original da página 11, incluindo imagens, tabelas e alternativas.",
+          "page": 11,
+          "src": "provas/assets/santa-casa-bh-2025/76f1161d8fc1-q025-p11.png"
+        },
+        {
+          "alt": "Questão 25, trecho original da página 12, incluindo imagens, tabelas e alternativas.",
+          "page": 12,
+          "src": "provas/assets/santa-casa-bh-2025/b31bf2a78b6a-q025-p12.png"
+        }
+      ],
+      "number": 25
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 26, trecho original da página 12, incluindo imagens, tabelas e alternativas.",
+          "page": 12,
+          "src": "provas/assets/santa-casa-bh-2025/ec46ffb8fa47-q026-p12.png"
+        }
+      ],
+      "number": 26
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 27, trecho original da página 12, incluindo imagens, tabelas e alternativas.",
+          "page": 12,
+          "src": "provas/assets/santa-casa-bh-2025/4855bca48b01-q027-p12.png"
+        },
+        {
+          "alt": "Questão 27, trecho original da página 13, incluindo imagens, tabelas e alternativas.",
+          "page": 13,
+          "src": "provas/assets/santa-casa-bh-2025/e73084f53e0d-q027-p13.png"
+        }
+      ],
+      "number": 27
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 28, trecho original da página 13, incluindo imagens, tabelas e alternativas.",
+          "page": 13,
+          "src": "provas/assets/santa-casa-bh-2025/7afd6e12c954-q028-p13.png"
+        }
+      ],
+      "number": 28
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 29, trecho original da página 14, incluindo imagens, tabelas e alternativas.",
+          "page": 14,
+          "src": "provas/assets/santa-casa-bh-2025/0211540b5f4d-q029-p14.png"
+        }
+      ],
+      "number": 29
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 30, trecho original da página 14, incluindo imagens, tabelas e alternativas.",
+          "page": 14,
+          "src": "provas/assets/santa-casa-bh-2025/2b33acfdad86-q030-p14.png"
+        }
+      ],
+      "number": 30
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 31, trecho original da página 14, incluindo imagens, tabelas e alternativas.",
+          "page": 14,
+          "src": "provas/assets/santa-casa-bh-2025/eb33bb8b5e51-q031-p14.png"
+        },
+        {
+          "alt": "Questão 31, trecho original da página 15, incluindo imagens, tabelas e alternativas.",
+          "page": 15,
+          "src": "provas/assets/santa-casa-bh-2025/94653a86875a-q031-p15.png"
+        }
+      ],
+      "number": 31
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 32, trecho original da página 15, incluindo imagens, tabelas e alternativas.",
+          "page": 15,
+          "src": "provas/assets/santa-casa-bh-2025/45b0ba6a2f13-q032-p15.png"
+        }
+      ],
+      "number": 32
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 33, trecho original da página 15, incluindo imagens, tabelas e alternativas.",
+          "page": 15,
+          "src": "provas/assets/santa-casa-bh-2025/d2275ed3a88a-q033-p15.png"
+        }
+      ],
+      "number": 33
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 34, trecho original da página 15, incluindo imagens, tabelas e alternativas.",
+          "page": 15,
+          "src": "provas/assets/santa-casa-bh-2025/2c781283ab41-q034-p15.png"
+        },
+        {
+          "alt": "Questão 34, trecho original da página 16, incluindo imagens, tabelas e alternativas.",
+          "page": 16,
+          "src": "provas/assets/santa-casa-bh-2025/4e50607eeddf-q034-p16.png"
+        }
+      ],
+      "number": 34
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 35, trecho original da página 16, incluindo imagens, tabelas e alternativas.",
+          "page": 16,
+          "src": "provas/assets/santa-casa-bh-2025/0aa0f907492a-q035-p16.png"
+        }
+      ],
+      "number": 35
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 36, trecho original da página 16, incluindo imagens, tabelas e alternativas.",
+          "page": 16,
+          "src": "provas/assets/santa-casa-bh-2025/cf3c17195abd-q036-p16.png"
+        },
+        {
+          "alt": "Questão 36, trecho original da página 17, incluindo imagens, tabelas e alternativas.",
+          "page": 17,
+          "src": "provas/assets/santa-casa-bh-2025/718b9c561868-q036-p17.png"
+        }
+      ],
+      "number": 36
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 37, trecho original da página 17, incluindo imagens, tabelas e alternativas.",
+          "page": 17,
+          "src": "provas/assets/santa-casa-bh-2025/787fd9d1d517-q037-p17.png"
+        }
+      ],
+      "number": 37
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 38, trecho original da página 17, incluindo imagens, tabelas e alternativas.",
+          "page": 17,
+          "src": "provas/assets/santa-casa-bh-2025/850dbe96adb5-q038-p17.png"
+        }
+      ],
+      "number": 38
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 39, trecho original da página 17, incluindo imagens, tabelas e alternativas.",
+          "page": 17,
+          "src": "provas/assets/santa-casa-bh-2025/909a1921e75b-q039-p17.png"
+        },
+        {
+          "alt": "Questão 39, trecho original da página 18, incluindo imagens, tabelas e alternativas.",
+          "page": 18,
+          "src": "provas/assets/santa-casa-bh-2025/7884bf01d199-q039-p18.png"
+        }
+      ],
+      "number": 39
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 40, trecho original da página 18, incluindo imagens, tabelas e alternativas.",
+          "page": 18,
+          "src": "provas/assets/santa-casa-bh-2025/b05412b3ac0e-q040-p18.png"
+        }
+      ],
+      "number": 40
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 41, trecho original da página 18, incluindo imagens, tabelas e alternativas.",
+          "page": 18,
+          "src": "provas/assets/santa-casa-bh-2025/9c7ea42101c3-q041-p18.png"
+        }
+      ],
+      "number": 41
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 42, trecho original da página 18, incluindo imagens, tabelas e alternativas.",
+          "page": 18,
+          "src": "provas/assets/santa-casa-bh-2025/df5d8f0a392f-q042-p18.png"
+        },
+        {
+          "alt": "Questão 42, trecho original da página 19, incluindo imagens, tabelas e alternativas.",
+          "page": 19,
+          "src": "provas/assets/santa-casa-bh-2025/e43096d5aadb-q042-p19.png"
+        }
+      ],
+      "number": 42
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 43, trecho original da página 19, incluindo imagens, tabelas e alternativas.",
+          "page": 19,
+          "src": "provas/assets/santa-casa-bh-2025/2dbdbe73456a-q043-p19.png"
+        }
+      ],
+      "number": 43
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 44, trecho original da página 19, incluindo imagens, tabelas e alternativas.",
+          "page": 19,
+          "src": "provas/assets/santa-casa-bh-2025/e00668a8e555-q044-p19.png"
+        }
+      ],
+      "number": 44
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 45, trecho original da página 19, incluindo imagens, tabelas e alternativas.",
+          "page": 19,
+          "src": "provas/assets/santa-casa-bh-2025/80b329b57296-q045-p19.png"
+        },
+        {
+          "alt": "Questão 45, trecho original da página 20, incluindo imagens, tabelas e alternativas.",
+          "page": 20,
+          "src": "provas/assets/santa-casa-bh-2025/1f8e40077ec0-q045-p20.png"
+        }
+      ],
+      "number": 45
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 46, trecho original da página 20, incluindo imagens, tabelas e alternativas.",
+          "page": 20,
+          "src": "provas/assets/santa-casa-bh-2025/5d4551435940-q046-p20.png"
+        }
+      ],
+      "number": 46
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 47, trecho original da página 20, incluindo imagens, tabelas e alternativas.",
+          "page": 20,
+          "src": "provas/assets/santa-casa-bh-2025/63cdc4cac566-q047-p20.png"
+        }
+      ],
+      "number": 47
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 48, trecho original da página 21, incluindo imagens, tabelas e alternativas.",
+          "page": 21,
+          "src": "provas/assets/santa-casa-bh-2025/282f517c1c4a-q048-p21.png"
+        }
+      ],
+      "number": 48
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 49, trecho original da página 21, incluindo imagens, tabelas e alternativas.",
+          "page": 21,
+          "src": "provas/assets/santa-casa-bh-2025/b9ebc2ca11b7-q049-p21.png"
+        }
+      ],
+      "number": 49
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 50, trecho original da página 21, incluindo imagens, tabelas e alternativas.",
+          "page": 21,
+          "src": "provas/assets/santa-casa-bh-2025/a32c3672e0a0-q050-p21.png"
+        },
+        {
+          "alt": "Questão 50, trecho original da página 22, incluindo imagens, tabelas e alternativas.",
+          "page": 22,
+          "src": "provas/assets/santa-casa-bh-2025/ff8963051662-q050-p22.png"
+        }
+      ],
+      "number": 50
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 51, trecho original da página 22, incluindo imagens, tabelas e alternativas.",
+          "page": 22,
+          "src": "provas/assets/santa-casa-bh-2025/9e11702056bb-q051-p22.png"
+        }
+      ],
+      "number": 51
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 52, trecho original da página 22, incluindo imagens, tabelas e alternativas.",
+          "page": 22,
+          "src": "provas/assets/santa-casa-bh-2025/571937ae0904-q052-p22.png"
+        },
+        {
+          "alt": "Questão 52, trecho original da página 23, incluindo imagens, tabelas e alternativas.",
+          "page": 23,
+          "src": "provas/assets/santa-casa-bh-2025/4c507841d0df-q052-p23.png"
+        }
+      ],
+      "number": 52
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 53, trecho original da página 23, incluindo imagens, tabelas e alternativas.",
+          "page": 23,
+          "src": "provas/assets/santa-casa-bh-2025/c109e866ac00-q053-p23.png"
+        }
+      ],
+      "number": 53
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 54, trecho original da página 23, incluindo imagens, tabelas e alternativas.",
+          "page": 23,
+          "src": "provas/assets/santa-casa-bh-2025/cce7ef7d37d2-q054-p23.png"
+        }
+      ],
+      "number": 54
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 55, trecho original da página 24, incluindo imagens, tabelas e alternativas.",
+          "page": 24,
+          "src": "provas/assets/santa-casa-bh-2025/bbbc463b7905-q055-p24.png"
+        }
+      ],
+      "number": 55
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 56, trecho original da página 24, incluindo imagens, tabelas e alternativas.",
+          "page": 24,
+          "src": "provas/assets/santa-casa-bh-2025/5bdcae5a339d-q056-p24.png"
+        }
+      ],
+      "number": 56
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 57, trecho original da página 24, incluindo imagens, tabelas e alternativas.",
+          "page": 24,
+          "src": "provas/assets/santa-casa-bh-2025/28e381a74683-q057-p24.png"
+        },
+        {
+          "alt": "Questão 57, trecho original da página 25, incluindo imagens, tabelas e alternativas.",
+          "page": 25,
+          "src": "provas/assets/santa-casa-bh-2025/050a878b0954-q057-p25.png"
+        }
+      ],
+      "number": 57
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 58, trecho original da página 25, incluindo imagens, tabelas e alternativas.",
+          "page": 25,
+          "src": "provas/assets/santa-casa-bh-2025/f1e56540d397-q058-p25.png"
+        }
+      ],
+      "number": 58
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 59, trecho original da página 25, incluindo imagens, tabelas e alternativas.",
+          "page": 25,
+          "src": "provas/assets/santa-casa-bh-2025/41c24ac37abb-q059-p25.png"
+        },
+        {
+          "alt": "Questão 59, trecho original da página 26, incluindo imagens, tabelas e alternativas.",
+          "page": 26,
+          "src": "provas/assets/santa-casa-bh-2025/d7989f603b80-q059-p26.png"
+        }
+      ],
+      "number": 59
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 60, trecho original da página 26, incluindo imagens, tabelas e alternativas.",
+          "page": 26,
+          "src": "provas/assets/santa-casa-bh-2025/8feb158cc1bb-q060-p26.png"
+        }
+      ],
+      "number": 60
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 61, trecho original da página 26, incluindo imagens, tabelas e alternativas.",
+          "page": 26,
+          "src": "provas/assets/santa-casa-bh-2025/9c86fa7bb725-q061-p26.png"
+        },
+        {
+          "alt": "Questão 61, trecho original da página 27, incluindo imagens, tabelas e alternativas.",
+          "page": 27,
+          "src": "provas/assets/santa-casa-bh-2025/2126ea7c2c44-q061-p27.png"
+        }
+      ],
+      "number": 61
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 62, trecho original da página 27, incluindo imagens, tabelas e alternativas.",
+          "page": 27,
+          "src": "provas/assets/santa-casa-bh-2025/8c4e5db6f751-q062-p27.png"
+        }
+      ],
+      "number": 62
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 63, trecho original da página 27, incluindo imagens, tabelas e alternativas.",
+          "page": 27,
+          "src": "provas/assets/santa-casa-bh-2025/01e1ed0b56c6-q063-p27.png"
+        },
+        {
+          "alt": "Questão 63, trecho original da página 28, incluindo imagens, tabelas e alternativas.",
+          "page": 28,
+          "src": "provas/assets/santa-casa-bh-2025/ee699001e41d-q063-p28.png"
+        }
+      ],
+      "number": 63
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 64, trecho original da página 28, incluindo imagens, tabelas e alternativas.",
+          "page": 28,
+          "src": "provas/assets/santa-casa-bh-2025/612036d25193-q064-p28.png"
+        }
+      ],
+      "number": 64
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 65, trecho original da página 28, incluindo imagens, tabelas e alternativas.",
+          "page": 28,
+          "src": "provas/assets/santa-casa-bh-2025/e1a33f3a647b-q065-p28.png"
+        }
+      ],
+      "number": 65
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 66, trecho original da página 28, incluindo imagens, tabelas e alternativas.",
+          "page": 28,
+          "src": "provas/assets/santa-casa-bh-2025/2631e05627bf-q066-p28.png"
+        },
+        {
+          "alt": "Questão 66, trecho original da página 29, incluindo imagens, tabelas e alternativas.",
+          "page": 29,
+          "src": "provas/assets/santa-casa-bh-2025/7daffef2220b-q066-p29.png"
+        }
+      ],
+      "number": 66
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 67, trecho original da página 29, incluindo imagens, tabelas e alternativas.",
+          "page": 29,
+          "src": "provas/assets/santa-casa-bh-2025/a4d794133287-q067-p29.png"
+        }
+      ],
+      "number": 67
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 68, trecho original da página 29, incluindo imagens, tabelas e alternativas.",
+          "page": 29,
+          "src": "provas/assets/santa-casa-bh-2025/65acd72775d2-q068-p29.png"
+        }
+      ],
+      "number": 68
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 69, trecho original da página 29, incluindo imagens, tabelas e alternativas.",
+          "page": 29,
+          "src": "provas/assets/santa-casa-bh-2025/f3b4542dc858-q069-p29.png"
+        },
+        {
+          "alt": "Questão 69, trecho original da página 30, incluindo imagens, tabelas e alternativas.",
+          "page": 30,
+          "src": "provas/assets/santa-casa-bh-2025/825c76656dd5-q069-p30.png"
+        }
+      ],
+      "number": 69
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 70, trecho original da página 30, incluindo imagens, tabelas e alternativas.",
+          "page": 30,
+          "src": "provas/assets/santa-casa-bh-2025/33af7f0dad87-q070-p30.png"
+        }
+      ],
+      "number": 70
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 71, trecho original da página 30, incluindo imagens, tabelas e alternativas.",
+          "page": 30,
+          "src": "provas/assets/santa-casa-bh-2025/1ff1522d18ed-q071-p30.png"
+        },
+        {
+          "alt": "Questão 71, trecho original da página 31, incluindo imagens, tabelas e alternativas.",
+          "page": 31,
+          "src": "provas/assets/santa-casa-bh-2025/1a28a6e409b3-q071-p31.png"
+        }
+      ],
+      "number": 71
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 72, trecho original da página 31, incluindo imagens, tabelas e alternativas.",
+          "page": 31,
+          "src": "provas/assets/santa-casa-bh-2025/3f9cf9c2138c-q072-p31.png"
+        }
+      ],
+      "number": 72
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 73, trecho original da página 31, incluindo imagens, tabelas e alternativas.",
+          "page": 31,
+          "src": "provas/assets/santa-casa-bh-2025/abe2501aaa83-q073-p31.png"
+        }
+      ],
+      "number": 73
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 74, trecho original da página 31, incluindo imagens, tabelas e alternativas.",
+          "page": 31,
+          "src": "provas/assets/santa-casa-bh-2025/9574193b17a2-q074-p31.png"
+        },
+        {
+          "alt": "Questão 74, trecho original da página 32, incluindo imagens, tabelas e alternativas.",
+          "page": 32,
+          "src": "provas/assets/santa-casa-bh-2025/8aa1ad8ad2b2-q074-p32.png"
+        }
+      ],
+      "number": 74
+    },
+    {
+      "assets": [
+        {
+          "alt": "Questão 75, trecho original da página 32, incluindo imagens, tabelas e alternativas.",
+          "page": 32,
+          "src": "provas/assets/santa-casa-bh-2025/7860c490a151-q075-p32.png"
+        },
+        {
+          "alt": "Questão 75, trecho original da página 33, incluindo imagens, tabelas e alternativas.",
+          "page": 33,
+          "src": "provas/assets/santa-casa-bh-2025/01b1ddcd7659-q075-p33.png"
+        }
+      ],
+      "number": 75
+    }
+  ]
+}

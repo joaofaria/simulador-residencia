@@ -21,13 +21,7 @@ jobs:
           cache: npm
           cache-dependency-path: package.json
       - name: Instalar dependências nativas da plataforma
-        run: |
-          # O lockfile gerado no macOS pode omitir os bindings do Linux.
-          # Recria o lock sem node_modules antes da instalação no runner.
-          rm -rf node_modules
-          rm -f package-lock.json
-          npm install --package-lock-only --include=optional
-          npm ci --include=optional
+        run: npm install --include=optional --no-package-lock
       - name: Verificar carregamento dos bindings nativos
         run: node --input-type=module -e "await import('rolldown'); await import('@tailwindcss/oxide');"
       - run: npm run validate:data

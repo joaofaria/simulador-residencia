@@ -17,7 +17,7 @@ npm run preview
 
 Acesse a URL informada pelo Vite, com `/simulador-residencia/`.
 
-As versões diretas estão fixadas em `package.json`. Gere o lockfile com acesso ao registry para incluir as dependências nativas de todos os sistemas. O workflow faz a instalação no runner Linux antes dos checks.
+As versões diretas estão fixadas em `package.json`. Gere o lockfile com acesso ao registry para incluir as dependências nativas de todos os sistemas. O workflow recria o lockfile no runner Linux, sem `node_modules`, e executa `npm ci --include=optional` antes dos checks. Isso evita que um lockfile gerado no macOS omita os bindings nativos do Linux.
 
 ## Estado das provas
 

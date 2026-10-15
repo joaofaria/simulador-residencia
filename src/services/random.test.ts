@@ -48,7 +48,7 @@ describe("Prova aleatória", () => {
       clinica: 0,
     });
     for (const q of exam.questions) expect(q.key.status).toBe("verified");
-    expect(new Set(exam.questions.map((q) => q.institution)).size).toBe(2);
+    expect(new Set(exam.questions.map((q) => q.institution)).size).toBe(3);
   });
 
   it("nunca usa a demonstração e aguenta a maior quantidade em qualquer área", () => {

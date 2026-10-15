@@ -80,7 +80,7 @@ export const examSchema = z.object({
   draftCount: z.number().int().nonnegative().optional(),
   keySource: z
     .object({
-      type: z.literal("validated-pdf"),
+      type: z.enum(["validated-pdf", "official-pdf"]),
       pdf: z.string(),
       page: z.number().int().positive(),
     })

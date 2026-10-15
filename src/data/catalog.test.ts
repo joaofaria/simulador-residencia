@@ -14,8 +14,11 @@ import { loadExam } from "./load";
 const realExams = exams.filter((e) => !e.demo);
 
 describe("Banco de provas reais e correção", () => {
-  it("disponibiliza as seis provas e 450 questões com gabaritos aceitos", () => {
+  it("disponibiliza as nove provas e 750 questões com gabaritos aceitos", () => {
     expect(realExams.map((e) => e.id).sort()).toEqual([
+      "ipsemg-2024",
+      "ipsemg-2025",
+      "ipsemg-2026",
       "psu-mg-2024",
       "psu-mg-2025",
       "psu-mg-2026",
@@ -23,16 +26,18 @@ describe("Banco de provas reais e correção", () => {
       "santa-casa-bh-2025",
       "santa-casa-bh-2026",
     ]);
-    expect(realExams.reduce((sum, e) => sum + e.questions.length, 0)).toBe(450);
+    expect(realExams.reduce((sum, e) => sum + e.questions.length, 0)).toBe(750);
     expect(
       new Set(realExams.flatMap((e) => e.questions.map((q) => q.id))).size,
-    ).toBe(450);
+    ).toBe(750);
     for (const exam of realExams)
       for (const q of exam.questions) {
         expect(q.review).toBe("approved");
         expect(q.key.status).not.toBe("pending");
         if (q.key.status !== "pending")
-          expect(q.key.basis).toBe("user-validated-pdf");
+          expect(q.key.basis).toBe(
+            exam.institution === "IPSEMG" ? "official" : "user-validated-pdf",
+          );
       }
   });
   it("preserva originais, imagens, tabelas e continuações com recortes existentes", () => {
@@ -64,6 +69,29 @@ describe("Banco de provas reais e correção", () => {
         .filter((q) => q.key.status === "annulled")
         .map((q) => q.number),
     ).toEqual([31, 32]);
+  });
+  it("segue os gabaritos definitivos do IPSEMG e os blocos de 20 por área", () => {
+    const annulled = Object.fromEntries(
+      realExams
+        .filter((e) => e.institution === "IPSEMG")
+        .map((e) => [
+          e.year,
+          e.questions
+            .filter((q) => q.key.status === "annulled")
+            .map((q) => q.number),
+        ]),
+    );
+    expect(annulled).toEqual({
+      2024: [10, 24, 74, 79, 100],
+      2025: [18, 20, 30, 42, 50],
+      2026: [1, 6, 11, 39, 40, 72, 77, 80],
+    });
+    const order = ["cirurgia", "clinica", "go", "preventiva", "pediatria"];
+    for (const exam of realExams.filter((e) => e.institution === "IPSEMG")) {
+      expect(exam.questions).toHaveLength(100);
+      for (const q of exam.questions)
+        expect(q.area).toBe(order[Math.floor((q.number - 1) / 20)]);
+    }
   });
   it.each(realExams)(
     "corrige $id com 100% ao responder o gabarito do documento",

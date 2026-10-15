@@ -9,18 +9,18 @@
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-  color: #4a3428;
-  background: #fff8f1;
+  color: #1f2d44;
+  background: #f3f7fd;
   font-synthesis: none;
   --surface: #fff;
-  --ink: #4a3428;
-  --muted: #7d6658;
-  --border: #f1e1d2;
-  --accent: #a84f2a;
-  --soft: #fdeee2;
-  --pink: #f7c6cc;
-  --bg: #fff8f1;
-  --paw: #a84f2a;
+  --ink: #1f2d44;
+  --muted: #586a85;
+  --border: #dae4f2;
+  --accent: #1d5fc4;
+  --soft: #e6effc;
+  --pink: #b9d3f5;
+  --bg: #f3f7fd;
+  --paw: #1d5fc4;
   --round: Nunito, ui-rounded, "Arial Rounded MT Bold", ui-sans-serif, system-ui,
     sans-serif;
 }
@@ -31,19 +31,19 @@ body {
   margin: 0;
   background-color: var(--bg);
   /* Patinhas bem discretas no fundo; os cartões brancos ficam por cima. */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg fill='%23a84f2a' opacity='.055'%3E%3Cg transform='translate(30 34) rotate(-18)'%3E%3Cellipse cx='0' cy='6' rx='8' ry='7'/%3E%3Ccircle cx='-9' cy='-5' r='3.4'/%3E%3Ccircle cx='-3' cy='-10' r='3.4'/%3E%3Ccircle cx='4' cy='-10' r='3.4'/%3E%3Ccircle cx='10' cy='-5' r='3.4'/%3E%3C/g%3E%3Cg transform='translate(112 112) rotate(16)'%3E%3Cellipse cx='0' cy='6' rx='8' ry='7'/%3E%3Ccircle cx='-9' cy='-5' r='3.4'/%3E%3Ccircle cx='-3' cy='-10' r='3.4'/%3E%3Ccircle cx='4' cy='-10' r='3.4'/%3E%3Ccircle cx='10' cy='-5' r='3.4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg fill='%231d5fc4' opacity='.055'%3E%3Cg transform='translate(30 34) rotate(-18)'%3E%3Cellipse cx='0' cy='6' rx='8' ry='7'/%3E%3Ccircle cx='-9' cy='-5' r='3.4'/%3E%3Ccircle cx='-3' cy='-10' r='3.4'/%3E%3Ccircle cx='4' cy='-10' r='3.4'/%3E%3Ccircle cx='10' cy='-5' r='3.4'/%3E%3C/g%3E%3Cg transform='translate(112 112) rotate(16)'%3E%3Cellipse cx='0' cy='6' rx='8' ry='7'/%3E%3Ccircle cx='-9' cy='-5' r='3.4'/%3E%3Ccircle cx='-3' cy='-10' r='3.4'/%3E%3Ccircle cx='4' cy='-10' r='3.4'/%3E%3Ccircle cx='10' cy='-5' r='3.4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 html[data-theme="dark"] {
   color-scheme: dark;
-  --surface: #2a211b;
-  --ink: #f6ebe2;
-  --muted: #c4ae9f;
-  --border: #45362c;
-  --accent: #f0a274;
-  --soft: #3d2c22;
-  --pink: #6b3d42;
-  --bg: #1f1814;
-  --paw: #f0a274;
+  --surface: #1a2536;
+  --ink: #e9eff8;
+  --muted: #a6b5cb;
+  --border: #2e3d55;
+  --accent: #7fb3ff;
+  --soft: #22324b;
+  --pink: #35527e;
+  --bg: #121b29;
+  --paw: #7fb3ff;
   background: var(--bg);
   color: var(--ink);
 }
@@ -70,7 +70,7 @@ a {
 button:focus-visible,
 a:focus-visible,
 select:focus-visible {
-  outline: 3px solid #e9a07a;
+  outline: 3px solid #7aa7e8;
   outline-offset: 4px;
 }
 .header {
@@ -228,7 +228,7 @@ p {
   position: absolute;
   inset: 18px;
   border-radius: 50%;
-  border: 1px dashed #83ab99;
+  border: 1px dashed var(--pink);
 }
 .art-chip {
   position: absolute;
@@ -242,7 +242,7 @@ p {
   font-size: 11px;
   padding: 12px 18px;
   border-radius: 9px;
-  box-shadow: 0 7px 30px #6b3a1a18;
+  box-shadow: 0 7px 30px #1a3a6b18;
   transform: rotate(8deg);
 }
 .section-heading {
@@ -341,7 +341,7 @@ select {
   background: var(--accent);
   color: var(--surface);
   border-color: var(--accent);
-  box-shadow: 0 3px 0 #7a3518;
+  box-shadow: 0 3px 0 #13428c;
 }
 .secondary {
   background: var(--surface);
@@ -638,7 +638,7 @@ footer {
   inset: 0;
   display: grid;
   place-items: center;
-  background: #2b1a10aa;
+  background: #0e1a2caa;
   padding: 20px;
   z-index: 100;
 }
@@ -972,7 +972,7 @@ figcaption {
   box-shadow: 0 20px 100px #0004;
 }
 .native-dialog::backdrop {
-  background: #2b1a10aa;
+  background: #0e1a2caa;
 }
 .native-dialog p {
   margin: 16px 0 24px;
@@ -1163,7 +1163,7 @@ h1,
 }
 .card {
   border-radius: 22px;
-  box-shadow: 0 6px 24px #b0643a0d;
+  box-shadow: 0 6px 24px #2a5aa00d;
 }
 .primary,
 .secondary {
@@ -1277,7 +1277,7 @@ h1,
   background: repeating-linear-gradient(
     -45deg,
     var(--accent) 0 8px,
-    #c46a3f 8px 16px
+    #4a85dd 8px 16px
   );
 }
 .progress-paw {

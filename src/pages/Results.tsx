@@ -6,6 +6,7 @@ import type { Attempt } from "../types";
 import {
   score,
   scoreByArea,
+  scoreBand,
   scoreMessage,
   formatTime,
   outcome,
@@ -48,11 +49,12 @@ export function Results({
   const mood: ThorMood =
     s.percentage === null
       ? "happy"
-      : s.percentage >= 85
-        ? "proud"
-        : s.percentage >= 70
-          ? "happy"
-          : "hopeful";
+      : {
+          topTop: "proud" as const,
+          top: "happy" as const,
+          chance: "happy" as const,
+          improve: "hopeful" as const,
+        }[scoreBand(s.percentage)];
   return (
     <>
       <span className="eyebrow">

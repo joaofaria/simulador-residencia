@@ -10,6 +10,7 @@ import {
   finish,
   score,
   scoreByArea,
+  scoreMessage,
   formatTime,
 } from "./session";
 import { decodeStore, recover, upsert, save, STORAGE_KEY } from "./storage";
@@ -219,5 +220,19 @@ describe("Desempenho por área", () => {
       { area: "cirurgia", correct: 0, valid: 1, percentage: 0 },
       { area: "pediatria", correct: 2, valid: 4, percentage: 50 },
     ]);
+  });
+});
+
+describe("Mensagem por faixa de aproveitamento", () => {
+  it("separa as faixas em 85% e 70%", () => {
+    expect(scoreMessage(100)).toMatch(/^Toooop/);
+    expect(scoreMessage(85)).toMatch(/^Toooop/);
+    expect(scoreMessage(84.9)).toMatch(/^Médio/);
+    expect(scoreMessage(70)).toMatch(/^Médio/);
+    expect(scoreMessage(69.9)).toMatch(/^Se esforce mais/);
+    expect(scoreMessage(0)).toMatch(/^Se esforce mais/);
+  });
+  it("não mostra mensagem sem questões válidas", () => {
+    expect(scoreMessage(null)).toBeNull();
   });
 });

@@ -9,6 +9,9 @@ const sources: Record<string, () => Promise<{ default: unknown }>> = {
   "santa-casa-bh-2024": () => import("./santa-casa-bh/2024.json"),
   "santa-casa-bh-2025": () => import("./santa-casa-bh/2025.json"),
   "santa-casa-bh-2026": () => import("./santa-casa-bh/2026.json"),
+  "ipsemg-2024": () => import("./ipsemg/2024.json"),
+  "ipsemg-2025": () => import("./ipsemg/2025.json"),
+  "ipsemg-2026": () => import("./ipsemg/2026.json"),
 };
 export async function loadExam(id: string): Promise<Exam> {
   if (id === demo.id) return demo;

@@ -100,5 +100,71 @@
         32
       ]
     }
+  },
+  {
+    "file": "public/provas/ipsemg-2024.pdf",
+    "sha256": "055c35d80e5dfe2383b8bb6714aed403c28648ee6d47e686bf854491db81582f",
+    "source": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
+    "keyFile": "public/provas/ipsemg-2024-gabarito.pdf",
+    "keySha256": "659de573dc86f07cc22591a1e16bac009ff448fdbd7cc5903f9d8f5e7a253212",
+    "keyStatus": "official-definitive",
+    "validation": {
+      "basis": "official-definitive-key",
+      "date": "2026-10-15",
+      "questions": 100,
+      "keyEntries": 100,
+      "annulled": [
+        10,
+        24,
+        74,
+        79,
+        100
+      ]
+    }
+  },
+  {
+    "file": "public/provas/ipsemg-2025.pdf",
+    "sha256": "9ed322917920c8224301f791ceb33d22dcaa6de2848211980922e2813441692d",
+    "source": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica (Edital 1/2024), prova de dezembro de 2024, Instituto ACCESS. Cópia publicada pelo QConcursos.",
+    "keyFile": "public/provas/ipsemg-2025-gabarito.pdf",
+    "keySha256": "3f0a730b2576adf1965e3afa6aabe0de728d2297fe8be1f32b47643cfb5e1537",
+    "keyStatus": "official-definitive",
+    "validation": {
+      "basis": "official-definitive-key",
+      "date": "2026-10-15",
+      "questions": 100,
+      "keyEntries": 100,
+      "annulled": [
+        18,
+        20,
+        30,
+        42,
+        50
+      ]
+    }
+  },
+  {
+    "file": "public/provas/ipsemg-2026.pdf",
+    "sha256": "1914223cd85f5a285b4120c64ed7f7d00f54af58ce0bd849734b43a44a08b095",
+    "source": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
+    "keyFile": "public/provas/ipsemg-2026-gabarito.pdf",
+    "keySha256": "aabf3f3be283f44d622a1411cc7c2a3fcc79ae960c008771fb86402b22625f5d",
+    "keyStatus": "official-definitive",
+    "validation": {
+      "basis": "official-definitive-key",
+      "date": "2026-10-15",
+      "questions": 100,
+      "keyEntries": 100,
+      "annulled": [
+        1,
+        6,
+        11,
+        39,
+        40,
+        72,
+        77,
+        80
+      ]
+    }
   }
 ]

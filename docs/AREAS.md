@@ -11,6 +11,8 @@ As provas do PSU-MG e da Santa Casa BH trazem 75 questões em cinco blocos de 15
 | Santa Casa BH • 2025 | Cirurgia | Clínica Médica | Pediatria | Ginecologia e Obstetrícia | Medicina Preventiva |
 | Santa Casa BH • 2026 | Cirurgia | Clínica Médica | Ginecologia e Obstetrícia | Medicina Preventiva | Pediatria |
 
+As provas do IPSEMG têm 100 questões em blocos de 20, sempre na mesma ordem: 1 a 20 Cirurgia, 21 a 40 Clínica Médica, 41 a 60 Ginecologia e Obstetrícia, 61 a 80 Medicina Preventiva e 81 a 100 Pediatria. Em 2024 e 2025 o próprio caderno traz o título de cada bloco; em 2026 a ordem vem da capa e foi conferida pelos enunciados nas viradas de bloco. Por isso o IPSEMG não entra na lista abaixo.
+
 ## Questões para conferir
 
 Estas ficaram na área do bloco, mas o tema puxa para outra. Se a banca considera a questão de outra área, basta trocar o campo `area` dela no JSON da prova.

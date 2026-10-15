@@ -16,3 +16,7 @@ export async function loadExam(id: string): Promise<Exam> {
   if (!source) throw Error(`Prova desconhecida: ${id}`);
   return examSchema.parse((await source()).default);
 }
+// Todas as provas reais, para montar a prova aleatória.
+export function loadRealExams(): Promise<Exam[]> {
+  return Promise.all(Object.keys(sources).map(loadExam));
+}

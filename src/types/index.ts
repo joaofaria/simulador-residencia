@@ -1,4 +1,26 @@
 import { z } from "zod";
+export const areas = [
+  "clinica",
+  "cirurgia",
+  "go",
+  "pediatria",
+  "preventiva",
+] as const;
+export type Area = (typeof areas)[number];
+export const areaLabels: Record<Area, string> = {
+  clinica: "Clínica Médica",
+  cirurgia: "Cirurgia",
+  go: "Ginecologia e Obstetrícia",
+  pediatria: "Pediatria",
+  preventiva: "Medicina Preventiva",
+};
+export const areaShortLabels: Record<Area, string> = {
+  clinica: "CM",
+  cirurgia: "Cir",
+  go: "GO",
+  pediatria: "Ped",
+  preventiva: "Prev",
+};
 export const questionSchema = z.object({
   id: z.string(),
   institution: z.string(),
@@ -36,7 +58,7 @@ export const questionSchema = z.object({
       }),
     )
     .optional(),
-  area: z.string().optional(),
+  area: z.enum(areas).optional(),
   images: z.array(z.object({ src: z.string(), alt: z.string() })).default([]),
   source: z.object({
     pdf: z.string(),

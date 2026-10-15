@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import { Download, History } from "lucide-react";
 import type { Attempt } from "../types";
-import { formatTime } from "../services/session";
+import { formatTime, scoreByArea } from "../services/session";
+import { useAreaLookup } from "../data/areas";
 import { AttemptRow } from "../components/AttemptRow";
+import { AreaBreakdown } from "../components/AreaBreakdown";
 export function HistoryPage({
   attempts,
   start,
@@ -12,6 +14,11 @@ export function HistoryPage({
   start: (id: string) => void;
   exportData: () => void;
 }) {
+  const lookup = useAreaLookup(attempts);
+  const finished = attempts.filter(
+    (a) => a.status === "finished" && !a.exam.demo,
+  );
+  const byArea = scoreByArea(finished, lookup);
   return (
     <>
       <span className="eyebrow">SUA JORNADA DE PREPARAÇÃO</span>
@@ -24,12 +31,27 @@ export function HistoryPage({
           <Download size={16} /> Exportar histórico
         </button>
       </div>
+      {byArea.length > 0 && (
+        <>
+          <div className="section-heading">
+            <h2>Desempenho por área</h2>
+          </div>
+          <AreaBreakdown scores={byArea} />
+          <p className="definition">
+            Soma de todos os simulados concluídos de provas reais. Acertos
+            sobre questões válidas de cada área.
+          </p>
+          <div className="section-heading">
+            <h2>Tentativas</h2>
+          </div>
+        </>
+      )}
       {attempts.length ? (
         attempts.map((a) => (
           <div key={a.id}>
             {a.status === "finished" ? (
               <>
-                <AttemptRow attempt={a} />
+                <AttemptRow attempt={a} lookup={lookup} />
                 <button
                   className="text-button"
                   onClick={() => start(a.exam.id)}

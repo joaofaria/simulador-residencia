@@ -1321,3 +1321,38 @@ footer {
     display: block;
   }
 }
+.score-card {
+  position: relative;
+}
+.score-thor {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  color: var(--accent);
+}
+.score-card .big-score {
+  font-weight: 800;
+}
+.badge.correct {
+  background: #fdf0d6;
+  color: #8a5a12;
+}
+html[data-theme="dark"] .badge.correct {
+  background: #4a3718;
+  color: #f5c97a;
+}
+html[data-theme="dark"] .badge.incorrect {
+  background: #4a2622;
+  color: #f2a39a;
+}
+.review-card .answer-label {
+  font-weight: 700;
+}
+@media (max-width: 520px) {
+  .score-thor {
+    width: 76px;
+    height: 76px;
+    top: 14px;
+    right: 14px;
+  }
+}

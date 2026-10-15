@@ -5,7 +5,7 @@ import { formatTime, scoreByArea } from "../services/session";
 import { useAreaLookup } from "../data/areas";
 import { AttemptRow } from "../components/AttemptRow";
 import { AreaBreakdown } from "../components/AreaBreakdown";
-import { Puppy } from "../components/Puppy";
+import { Thor } from "../components/Thor";
 export function HistoryPage({
   attempts,
   start,
@@ -75,7 +75,7 @@ export function HistoryPage({
         ))
       ) : (
         <div className="empty">
-          <Puppy className="puppy" mood="sleepy" coat="choco" size={72} />
+          <Thor className="puppy" mood="hopeful" size={72} />
           <p>
             Nenhum simulado realizado. <Link to="/">Escolher uma prova</Link>
           </p>

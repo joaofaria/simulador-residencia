@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { Puppy } from "./Puppy";
+import { Thor } from "./Thor";
 export function Missing() {
   return (
     <div className="card puppy-message">
-      <Puppy className="puppy" mood="sleepy" coat="cream" size={110} />
+      <Thor className="puppy" mood="sleepy" size={110} />
       <div>
         <h1>Tentativa não encontrada</h1>
         <p>O histórico é local a este navegador.</p>

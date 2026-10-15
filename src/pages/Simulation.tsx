@@ -19,7 +19,7 @@ import {
 } from "../services/session";
 import { QuestionView } from "../components/QuestionView";
 import { Missing } from "../components/Missing";
-import { Puppy } from "../components/Puppy";
+import { Thor } from "../components/Thor";
 import { ConfirmDialog } from "../components/ConfirmDialog";
 export function Simulation({
   attempts,
@@ -166,7 +166,7 @@ export function Simulation({
           </div>
         </section>
         <aside className="card navigation-card">
-          <Puppy className="nav-puppy" coat="cream" size={48} />
+          <Thor className="nav-puppy" size={48} />
           <h3>Navegação da prova</h3>
           <p>Volte a qualquer questão.</p>
           <div className="number-grid">

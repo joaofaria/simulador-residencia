@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, PawPrint } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 import type { Attempt } from "../types";
 import {
@@ -14,6 +14,7 @@ import { useAreaLookup } from "../data/areas";
 import { AreaBreakdown } from "../components/AreaBreakdown";
 import { QuestionView } from "../components/QuestionView";
 import { Missing } from "../components/Missing";
+import { Thor, type ThorMood } from "../components/Thor";
 const labels = {
   correct: "Correta",
   incorrect: "Incorreta",
@@ -36,12 +37,21 @@ export function Results({
   const s = score(a);
   const byArea = scoreByArea([a], lookup);
   const data = [
-    { name: "Acertos", value: s.correct, color: "#16745e" },
+    { name: "Acertos", value: s.correct, color: "#e0a03f" },
     { name: "Erros", value: s.incorrect, color: "#d76a63" },
-    { name: "Em branco", value: s.blank, color: "#b0b8c1" },
-    { name: "Anuladas", value: s.annulled, color: "#ddb35c" },
-    { name: "Pendentes", value: s.pending, color: "#8490b9" },
+    { name: "Em branco", value: s.blank, color: "#cbbcb0" },
+    { name: "Anuladas", value: s.annulled, color: "#8fb3c9" },
+    { name: "Pendentes", value: s.pending, color: "#a99ad1" },
   ].filter((x) => x.value > 0);
+  // O Thor reage com as mesmas faixas da mensagem de aproveitamento.
+  const mood: ThorMood =
+    s.percentage === null
+      ? "happy"
+      : s.percentage >= 85
+        ? "proud"
+        : s.percentage >= 70
+          ? "happy"
+          : "hopeful";
   return (
     <>
       <span className="eyebrow">
@@ -69,6 +79,7 @@ export function Results({
       )}
       <div className="result-grid">
         <section className="card score-card">
+          <Thor className="score-thor" mood={mood} size={104} />
           <span className="eyebrow">
             APROVEITAMENTO {s.pending ? "PARCIAL" : ""}
           </span>
@@ -152,6 +163,9 @@ export function Results({
       )}
       <div className="section-heading">
         <h2>Revisão das questões</h2>
+        <span>
+          <PawPrint size={14} /> Bora revisar com o Thor
+        </span>
       </div>
       <div className="filters">
         {[["all", "Todas"], ...Object.entries(labels)].map(([key, label]) => (

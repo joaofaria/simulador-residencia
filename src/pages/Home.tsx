@@ -13,7 +13,7 @@ import { summaries } from "../data/summaries";
 import type { Attempt } from "../types";
 import { formatTime } from "../services/session";
 import { AttemptRow } from "../components/AttemptRow";
-import { Puppy } from "../components/Puppy";
+import { Thor } from "../components/Thor";
 export function Home({
   attempts,
   start,
@@ -41,7 +41,7 @@ export function Home({
           <h1>
             Estude com calma.
             <br />
-            <span>Os filhotes torcem por você.</span>
+            <span>O Thor tá thorcendo por você.</span>
           </h1>
           <p>
             Pratique para a residência médica, acompanhe seu ritmo
@@ -59,11 +59,11 @@ export function Home({
         </div>
         <div className="hero-art" aria-hidden="true">
           <div className="art-ring" />
-          <Puppy className="hero-puppy" size={150} paws />
+          <Thor className="hero-puppy" size={150} paws />
           <PawPrint className="art-paw one" size={22} />
           <PawPrint className="art-paw two" size={18} />
           <span className="art-chip">
-            <Heart size={16} /> Um passo de cada vez
+            <Heart size={16} /> Oi, eu sou o Thor!
           </span>
         </div>
       </section>
@@ -142,7 +142,7 @@ export function Home({
           )}
         </div>
         <aside className="card focus-card">
-          <Puppy className="focus-puppy" mood="sleepy" coat="cream" size={78} />
+          <Thor className="focus-puppy" mood="sleepy" size={78} />
           <span className="eyebrow">ESTUDE NO SEU RITMO</span>
           <h3>
             Cada questão conta.
@@ -217,9 +217,9 @@ export function Home({
         completed.slice(0, 3).map((a) => <AttemptRow key={a.id} attempt={a} />)
       ) : (
         <div className="empty">
-          <Puppy className="puppy" mood="sleepy" size={72} />
+          <Thor className="puppy" mood="sleepy" size={72} />
           <div>
-            <h3>Os filhotes estão esperando a sua primeira tentativa</h3>
+            <h3>O Thor está esperando a sua primeira tentativa</h3>
             <p>Os resultados e tempos dos seus simulados aparecerão aqui.</p>
           </div>
         </div>

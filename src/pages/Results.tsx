@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { useParams } from "react-router-dom";
-import { ArrowRight, PawPrint } from "lucide-react";
+import { Link, useParams } from "react-router-dom";
+import { ArrowRight, PawPrint, Shuffle } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 import type { Attempt } from "../types";
 import {
@@ -10,6 +10,7 @@ import {
   formatTime,
   outcome,
 } from "../services/session";
+import { questionNumber, questionOrigin } from "../services/random";
 import { useAreaLookup } from "../data/areas";
 import { AreaBreakdown } from "../components/AreaBreakdown";
 import { QuestionView } from "../components/QuestionView";
@@ -24,10 +25,10 @@ const labels = {
 };
 export function Results({
   attempts,
-  start,
+  retry,
 }: {
   attempts: Attempt[];
-  start: (id: string) => void;
+  retry: (a: Attempt) => void;
 }) {
   const { id } = useParams();
   const a = attempts.find((x) => x.id === id);
@@ -57,7 +58,9 @@ export function Results({
       <span className="eyebrow">
         {a.exam.demo
           ? "RESULTADO FICTÍCIO · DEMONSTRAÇÃO"
-          : "SIMULADO CONCLUÍDO"}
+          : a.exam.random
+            ? "PROVA ALEATÓRIA CONCLUÍDA"
+            : "SIMULADO CONCLUÍDO"}
       </span>
       <div className="section-heading">
         <div>
@@ -67,10 +70,25 @@ export function Results({
             {new Date(a.finishedAt!).toLocaleDateString("pt-BR")}
           </p>
         </div>
-        <button className="secondary" onClick={() => start(a.exam.id)}>
-          Refazer prova <ArrowRight size={16} />
-        </button>
+        <div className="heading-actions">
+          {a.exam.random && (
+            <Link className="secondary" to="/#prova-aleatoria">
+              Sortear outra <Shuffle size={16} />
+            </Link>
+          )}
+          <button className="secondary" onClick={() => retry(a)}>
+            {a.exam.random ? "Refazer estas questões" : "Refazer prova"}{" "}
+            <ArrowRight size={16} />
+          </button>
+        </div>
       </div>
+      {a.exam.random && (
+        <p className="notice">
+          Esta prova foi montada por sorteio com questões de provas diferentes.
+          Serve para treinar e comparar áreas, mas não equivale a uma prova
+          real da banca.
+        </p>
+      )}
       {s.pending > 0 && (
         <p className="warning">
           {s.pending} questões sem gabarito verificado foram excluídas da
@@ -185,12 +203,15 @@ export function Results({
         .map((q) => (
           <section className="card review-card" key={q.id}>
             <div className="question-heading">
-              <h3>Questão {q.number}</h3>
+              <h3>Questão {questionNumber(a.exam, a.exam.questions.indexOf(q))}</h3>
               <span className={`badge ${outcome(q, a.answers[q.id])}`}>
                 {labels[outcome(q, a.answers[q.id])]}
               </span>
               <span>{formatTime(a.times[q.id] ?? 0)}</span>
             </div>
+            {a.exam.random && (
+              <p className="question-origin">{questionOrigin(q)}</p>
+            )}
             <QuestionView question={q} selected={a.answers[q.id]} reveal />
             <p>
               Sua resposta: {a.answers[q.id] ?? "Em branco"} ·{" "}

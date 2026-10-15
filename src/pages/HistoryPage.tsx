@@ -8,11 +8,11 @@ import { AreaBreakdown } from "../components/AreaBreakdown";
 import { Thor } from "../components/Thor";
 export function HistoryPage({
   attempts,
-  start,
+  retry,
   exportData,
 }: {
   attempts: Attempt[];
-  start: (id: string) => void;
+  retry: (a: Attempt) => void;
   exportData: () => void;
 }) {
   const lookup = useAreaLookup(attempts);
@@ -39,8 +39,9 @@ export function HistoryPage({
           </div>
           <AreaBreakdown scores={byArea} />
           <p className="definition">
-            Soma de todos os simulados concluídos de provas reais. Acertos
-            sobre questões válidas de cada área.
+            Soma de todos os simulados concluídos com questões reais,
+            incluindo as provas aleatórias. Acertos sobre questões válidas de
+            cada área.
           </p>
           <div className="section-heading">
             <h2>Tentativas</h2>
@@ -55,9 +56,9 @@ export function HistoryPage({
                 <AttemptRow attempt={a} lookup={lookup} />
                 <button
                   className="text-button"
-                  onClick={() => start(a.exam.id)}
+                  onClick={() => retry(a)}
                 >
-                  Refazer esta prova
+                  {a.exam.random ? "Refazer estas questões" : "Refazer esta prova"}
                 </button>
               </>
             ) : (

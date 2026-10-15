@@ -17,6 +17,7 @@ import {
   finish,
   formatTime,
 } from "../services/session";
+import { questionNumber, questionOrigin } from "../services/random";
 import { QuestionView } from "../components/QuestionView";
 import { Missing } from "../components/Missing";
 import { Thor } from "../components/Thor";
@@ -62,7 +63,11 @@ export function Simulation({
       <div className="exam-top">
         <div>
           <span className="eyebrow">
-            {a.exam.demo ? "DEMONSTRAÇÃO FICTÍCIA" : "ACESSO DIRETO · R1"}
+            {a.exam.demo
+              ? "DEMONSTRAÇÃO FICTÍCIA"
+              : a.exam.random
+                ? "TREINO SORTEADO · NÃO É UMA PROVA REAL"
+                : "ACESSO DIRETO · R1"}
           </span>
           <h1>{a.exam.title}</h1>
         </div>
@@ -118,12 +123,17 @@ export function Simulation({
       <div className="simulation-grid">
         <section className="card question-card" ref={questionRef}>
           <div className="question-heading">
-            <span className="badge">QUESTÃO {q.number}</span>
+            <span className="badge">
+              QUESTÃO {questionNumber(a.exam, a.current)}
+            </span>
             <span>
               <Clock size={15} /> Nesta questão:{" "}
               {formatTime(a.times[q.id] ?? 0)}
             </span>
           </div>
+          {a.exam.random && (
+            <p className="question-origin">{questionOrigin(q)}</p>
+          )}
           {q.key.status === "annulled" && (
             <p className="warning">
               Esta questão foi anulada pela banca e não conta na sua nota. Pode
@@ -187,12 +197,12 @@ export function Simulation({
             {a.exam.questions.map((item, i) => (
               <button
                 key={item.id}
-                aria-label={`Questão ${item.number}, ${a.answers[item.id] ? "respondida" : "não respondida"}`}
+                aria-label={`Questão ${questionNumber(a.exam, i)}, ${a.answers[item.id] ? "respondida" : "não respondida"}`}
                 aria-current={i === a.current ? "step" : undefined}
                 className={`${a.answers[item.id] ? "answered" : ""} ${i === a.current ? "current" : ""}`}
                 onClick={() => update(a.id, (x) => move(x, i, Date.now()))}
               >
-                {item.number}
+                {questionNumber(a.exam, i)}
               </button>
             ))}
           </div>

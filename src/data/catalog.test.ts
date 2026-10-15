@@ -9,6 +9,8 @@ import {
   score,
 } from "../services/session";
 import { decodeStore } from "../services/storage";
+import { summaries, summarize } from "./summaries";
+import { loadExam } from "./load";
 const realExams = exams.filter((e) => !e.demo);
 
 describe("Banco de provas reais e correção", () => {
@@ -97,6 +99,15 @@ describe("Banco de provas reais e correção", () => {
       expect(result.percentage).toBe(0);
       expect(result.correct + result.incorrect + result.pending).toBe(0);
       expect(result.blank + result.annulled).toBe(exam.questions.length);
+    },
+  );
+  it("mantém o resumo da tela inicial igual ao conteúdo das provas", () => {
+    expect(summaries).toEqual(exams.map(summarize));
+  });
+  it.each(exams)(
+    "carrega $id sob demanda com o mesmo conteúdo",
+    async (exam) => {
+      expect(await loadExam(exam.id)).toEqual(exam);
     },
   );
 });

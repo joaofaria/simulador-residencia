@@ -1,6 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { Clock, Pause, Play, ArrowLeft, ArrowRight } from "lucide-react";
+import {
+  Clock,
+  Pause,
+  Play,
+  ArrowLeft,
+  ArrowRight,
+  PawPrint,
+} from "lucide-react";
 import type { Attempt } from "../types";
 import {
   pause,
@@ -12,6 +19,7 @@ import {
 } from "../services/session";
 import { QuestionView } from "../components/QuestionView";
 import { Missing } from "../components/Missing";
+import { Puppy } from "../components/Puppy";
 import { ConfirmDialog } from "../components/ConfirmDialog";
 export function Simulation({
   attempts,
@@ -96,6 +104,15 @@ export function Simulation({
         <div
           style={{ width: `${(answered / a.exam.questions.length) * 100}%` }}
         />
+        <span
+          className="progress-paw"
+          aria-hidden="true"
+          style={{
+            left: `clamp(12px, ${(answered / a.exam.questions.length) * 100}%, calc(100% - 12px))`,
+          }}
+        >
+          <PawPrint size={13} />
+        </span>
       </div>
       <div className="simulation-grid">
         <section className="card question-card" ref={questionRef}>
@@ -149,6 +166,7 @@ export function Simulation({
           </div>
         </section>
         <aside className="card navigation-card">
+          <Puppy className="nav-puppy" coat="cream" size={48} />
           <h3>Navegação da prova</h3>
           <p>Volte a qualquer questão.</p>
           <div className="number-grid">
@@ -165,7 +183,7 @@ export function Simulation({
             ))}
           </div>
           <p className="legend">
-            ● Verde: respondida · Borda: atual
+            ● Preenchida: respondida · Borda: atual
             <br />○ Sem preenchimento: não respondida
           </p>
           <button className="primary wide" onClick={() => setConfirm(true)}>

@@ -105,12 +105,29 @@ export function score(a: Attempt) {
       : 0,
   };
 }
+// Faixas de aproveitamento (percentual de acertos entre as questões válidas,
+// então provas com número diferente de questões ficam comparáveis).
+export type ScoreBand = "topTop" | "top" | "chance" | "improve";
+// Arredonda como a tela mostra (uma casa) para 84,96% não aparecer como
+// "85.0%" com a mensagem da faixa de baixo.
+export function scoreBand(percentage: number): ScoreBand {
+  const p = Math.round(percentage * 10) / 10;
+  if (p >= 85) return "topTop";
+  if (p >= 80) return "top";
+  if (p >= 70) return "chance";
+  return "improve";
+}
+const bandMessages: Record<ScoreBand, string> = {
+  topTop: "Top top, basicamente tô dentro! O Thor tá abanando o rabo de orgulho.",
+  top: "Top, provavelmente dentro. O Thor já tá separando a coleira de festa.",
+  chance: "Tem chance de entrar sim. Tá no faro certo, e o Thor tá torcendo junto.",
+  improve:
+    "Precisa melhorar muito, e tudo bem: faz parte do caminho. O Thor fica do seu lado pra revisar e tentar de novo.",
+};
 // Mensagem do resultado por faixa de aproveitamento.
 export function scoreMessage(percentage: number | null) {
   if (percentage === null) return null;
-  if (percentage >= 85) return "Toooop! O Thor tá abanando o rabo de orgulho.";
-  if (percentage >= 70) return "Médio. Tá no faro certo, falta pouco pro topo.";
-  return "Faz parte do caminho. O Thor fica do seu lado pra revisar e tentar de novo.";
+  return bandMessages[scoreBand(percentage)];
 }
 export type AreaScore = {
   area: Area;

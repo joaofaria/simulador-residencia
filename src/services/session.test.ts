@@ -224,15 +224,18 @@ describe("Desempenho por área", () => {
 });
 
 describe("Mensagem por faixa de aproveitamento", () => {
-  it("separa as faixas em 85% e 70%", () => {
-    expect(scoreMessage(100)).toMatch(/^Toooop/);
-    expect(scoreMessage(85)).toMatch(/^Toooop/);
-    expect(scoreMessage(84.9)).toMatch(/^Médio/);
-    expect(scoreMessage(70)).toMatch(/^Médio/);
-    expect(scoreMessage(69.9)).toMatch(/^Faz parte do caminho/);
-    expect(scoreMessage(0)).toMatch(/^Faz parte do caminho/);
+  it("separa as faixas em 85%, 80% e 70%", () => {
+    expect(scoreMessage(100)).toMatch(/^Top top/);
+    expect(scoreMessage(85)).toMatch(/^Top top/);
+    expect(scoreMessage(84.96)).toMatch(/^Top top/);
+    expect(scoreMessage(84.9)).toMatch(/^Top, provavelmente/);
+    expect(scoreMessage(80)).toMatch(/^Top, provavelmente/);
+    expect(scoreMessage(79.9)).toMatch(/^Tem chance/);
+    expect(scoreMessage(70)).toMatch(/^Tem chance/);
+    expect(scoreMessage(69.9)).toMatch(/^Precisa melhorar muito/);
+    expect(scoreMessage(0)).toMatch(/^Precisa melhorar muito/);
   });
-  it("não mostra mensagem sem questões válidas", () => {
+  it("devolve nada quando não há questão válida", () => {
     expect(scoreMessage(null)).toBeNull();
   });
 });

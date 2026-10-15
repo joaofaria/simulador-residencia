@@ -56,6 +56,7 @@ export function Simulation({
     );
   const q = a.exam.questions[a.current];
   const answered = Object.keys(a.answers).length;
+  const blank = a.exam.questions.length - answered;
   return (
     <>
       <div className="exam-top">
@@ -123,15 +124,23 @@ export function Simulation({
               {formatTime(a.times[q.id] ?? 0)}
             </span>
           </div>
+          {q.key.status === "annulled" && (
+            <p className="warning">
+              Esta questão foi anulada pela banca e não conta na sua nota. Pode
+              responder mesmo assim, se quiser treinar.
+            </p>
+          )}
           {q.review === "required" && (
             <p className="warning">Transcrição pendente de revisão manual.</p>
           )}
           <QuestionView
             question={q}
             selected={a.answers[q.id]}
-            onSelect={(letter) =>
-              update(a.id, (x) => answer(x, letter, Date.now()))
-            }
+            onSelect={(letter) => {
+              const lastBlank = blank === 1 && !a.answers[q.id];
+              update(a.id, (x) => answer(x, letter, Date.now()));
+              if (lastBlank) setConfirm(true);
+            }}
           />
           <button
             className="text-button"
@@ -154,15 +163,20 @@ export function Simulation({
             <span>
               {a.current + 1} / {a.exam.questions.length}
             </span>
-            <button
-              className="primary"
-              disabled={a.current === a.exam.questions.length - 1}
-              onClick={() =>
-                update(a.id, (x) => move(x, x.current + 1, Date.now()))
-              }
-            >
-              Próxima <ArrowRight size={16} />
-            </button>
+            {a.current === a.exam.questions.length - 1 ? (
+              <button className="primary" onClick={() => setConfirm(true)}>
+                Finalizar simulado
+              </button>
+            ) : (
+              <button
+                className="primary"
+                onClick={() =>
+                  update(a.id, (x) => move(x, x.current + 1, Date.now()))
+                }
+              >
+                Próxima <ArrowRight size={16} />
+              </button>
+            )}
           </div>
         </section>
         <aside className="card navigation-card">
@@ -204,7 +218,11 @@ export function Simulation({
           onClose={() => setConfirm(false)}
         >
           <p>
-            {a.exam.questions.length - answered} questões ainda estão em branco.
+            {blank === 0
+              ? "Você respondeu todas as questões."
+              : blank === 1
+                ? "1 questão ainda está em branco."
+                : `${blank} questões ainda estão em branco.`}{" "}
             Depois de finalizar, as respostas não poderão ser alteradas.
           </p>
           <div className="modal-actions">

@@ -98,7 +98,10 @@ describe("Tela de prova", () => {
 
     await user.click(screen.getByRole("button", { name: /^Questão 3,/ }));
     expect(screen.getByText("QUESTÃO 3")).toBeTruthy();
-    expect(next().hasAttribute("disabled")).toBe(true);
+    expect(screen.queryByRole("button", { name: /^Próxima$/ })).toBeNull();
+    expect(
+      screen.getAllByRole("button", { name: "Finalizar simulado" }),
+    ).toHaveLength(2);
     expect(
       screen
         .getByRole("button", { name: /^Questão 3,/ })
@@ -109,6 +112,54 @@ describe("Tela de prova", () => {
     await user.click(previous());
     expect(screen.getByText("QUESTÃO 1")).toBeTruthy();
     expect(previous().hasAttribute("disabled")).toBe(true);
+  });
+
+  it("na última questão o botão vira Finalizar simulado e pede confirmação", async () => {
+    const user = setup();
+    await startDemo(user);
+    await user.click(screen.getByRole("button", { name: /^Questão 3,/ }));
+    const footer = screen.getByText("3 / 3").parentElement!;
+    await user.click(
+      within(footer).getByRole("button", { name: "Finalizar simulado" }),
+    );
+    expect(
+      screen.getByRole("dialog", { name: "Finalizar seu simulado?" }),
+    ).toBeTruthy();
+  });
+
+  it("avisa quando a questão foi anulada", async () => {
+    const user = setup();
+    await startDemo(user);
+    expect(screen.queryByText(/foi anulada pela banca/)).toBeNull();
+    await user.click(screen.getByRole("button", { name: /^Questão 2,/ }));
+    expect(screen.getByText(/foi anulada pela banca/)).toBeTruthy();
+  });
+
+  it("abre a confirmação sozinha ao responder a última questão em branco", async () => {
+    const user = setup();
+    await startDemo(user);
+    for (const n of [1, 2]) {
+      await user.click(
+        screen.getByRole("button", { name: new RegExp(`^Questão ${n},`) }),
+      );
+      await user.click(alternative("A"));
+    }
+    expect(screen.queryByRole("dialog")).toBeNull();
+    await user.click(screen.getByRole("button", { name: /^Questão 3,/ }));
+    await user.click(alternative("A"));
+    const dialog = screen.getByRole("dialog", {
+      name: "Finalizar seu simulado?",
+    });
+    expect(
+      within(dialog).getByText(/Você respondeu todas as questões/),
+    ).toBeTruthy();
+    expect(within(dialog).queryByText(/em branco/)).toBeNull();
+
+    await user.click(
+      within(dialog).getByRole("button", { name: "Continuar respondendo" }),
+    );
+    await user.click(alternative("B"));
+    expect(screen.queryByRole("dialog")).toBeNull();
   });
 
   it("mantém a resposta ao sair e voltar para a questão", async () => {
@@ -150,7 +201,7 @@ describe("Tela de prova", () => {
     );
     const dialog = screen.getByRole("dialog");
     expect(
-      within(dialog).getByText(/1 questões ainda estão em branco/),
+      within(dialog).getByText(/1 questão ainda está em branco/),
     ).toBeTruthy();
     await user.click(
       within(dialog).getByRole("button", { name: "Confirmar finalização" }),

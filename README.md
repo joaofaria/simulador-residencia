@@ -23,6 +23,8 @@ As versões diretas estão fixadas em `package.json`. O workflow instala as depe
 
 As seis provas reais de PSU-MG e Santa Casa BH, 2024–2026, estão liberadas: **450 questões**, com **18 anuladas** identificadas nos gabaritos dos documentos. Os PDFs e seus gabaritos foram aceitos pelo usuário como fonte de verdade para uso pessoal. A correção usa exclusivamente esses gabaritos, sem deduzir respostas por conhecimento médico ou substituir a origem por uma suposta confirmação oficial.
 
+As provas de Entrada Direta do IPSEMG (Instituto ACCESS), ingresso 2024 a 2026, somam mais **300 questões**, 100 por ano, com **18 anuladas** segundo os gabaritos definitivos da banca. Os cadernos e gabaritos ficam em `public/provas` (`ipsemg-<ano>.pdf` e `ipsemg-<ano>-gabarito.pdf`); em 2026 foi usado o caderno tipo 1 com a Prova 1 do gabarito.
+
 O modo **Original** mostra recortes fiéis das questões, com imagens, tabelas e continuações entre páginas. O botão **Ampliar** facilita a leitura de detalhes. O modo **Texto** oferece uma transcrição auxiliar para leitura fluida; o documento original prevalece em caso de diferença. Os recortes usam nomes por hash de conteúdo, preservando as referências de tentativas anteriores quando novas versões forem importadas.
 
 Há também uma demonstração de três itens de interface explicitamente fictícios, separada das provas reais. O manifesto `imports/sources.json` registra os hashes dos PDFs, a validação do usuário e as anulações. Os rascunhos de extração permanecem em `imports` como material de auditoria.

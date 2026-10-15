@@ -1,5 +1,7 @@
 # Verificação da entrega
 
+Em 15/10/2026, com a entrada das provas do IPSEMG: `npm run validate:data` com nove provas e 750 questões (150 por área), `npm test` com 78 testes aprovados e build aprovado. A tela inicial e a primeira questão do IPSEMG 2026 foram abertas no Chromium em largura de celular.
+
 Executado em 13/10/2026:
 
 - `npm test`: 36 testes aprovados.

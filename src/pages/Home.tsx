@@ -83,7 +83,7 @@ export function Home({
             </span>
             <div>
               <h3>Escolha sua prova</h3>
-              <p>PSU-MG e Santa Casa de Belo Horizonte</p>
+              <p>PSU-MG, Santa Casa de Belo Horizonte e IPSEMG</p>
             </div>
           </div>
           <div className="fields">
@@ -95,6 +95,7 @@ export function Home({
               >
                 <option>PSU-MG</option>
                 <option>Santa Casa BH</option>
+                <option>IPSEMG</option>
               </select>
             </label>
             <label>
@@ -117,7 +118,9 @@ export function Home({
           </div>
           {available > 0 && exam?.keySource && (
             <p className="notice">
-              Correção com o gabarito do PDF validado para uso pessoal.
+              {exam.keySource === "official-pdf"
+                ? "Correção com o gabarito definitivo da banca."
+                : "Correção com o gabarito do PDF validado para uso pessoal."}
             </p>
           )}
           {!available && (

@@ -59,6 +59,16 @@ Arquive versões anteriores e registre alterações após recursos. Não deduza 
 
 Execute `npm run validate:data`, `npm test` e `npm run build`. A validação estrutural procura IDs/números duplicados, alternativas repetidas, origem inconsistente e respostas inexistentes. Ela não verifica a fidelidade textual. Confira imagens, leitura mobile e acessibilidade; a liberação requer revisão humana integral. Mantenha questões pendentes de transcrição fora do catálogo aprovado. Tentativas existentes preservam o banco e gabarito utilizados na realização.
 
+## Provas do IPSEMG
+
+O caderno do Instituto ACCESS tem duas colunas e o gabarito vem em PDF separado. No Linux, com poppler e Pillow:
+
+```sh
+python3 scripts/import-ipsemg.py 2024 2025 2026
+```
+
+O script recorta cada questão pela coluna, junta o texto comum a duas questões ("Considere o trecho a seguir para as questões 18 e 19") às duas, lê o gabarito definitivo (`**` ou `X` é anulada), confere que há 100 questões e 100 respostas e grava `src/data/ipsemg/<ano>.json`, os recortes e a entrada em `imports/sources.json`. Em 2026 o gabarito tem quatro tipos de prova; o script usa a Prova 1, que corresponde ao caderno tipo 1, e para se ela diferir entre os programas de Entrada Direta.
+
 ## Importação atual dos PDFs aceitos pelo usuário
 
 As seis provas foram aceitas pelo usuário em 13/10/2026, incluindo seus gabaritos. Para reproduzir a importação no macOS, extraia o texto com PDFKit e prepare os rascunhos; depois gere os recortes e leia o gabarito por posição visual:

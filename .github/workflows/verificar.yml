@@ -1,0 +1,35 @@
+name: Verificar
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verificar-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Instalar dependências
+        run: npm ci --include=optional --legacy-peer-deps
+
+      - name: Verificar bindings nativos
+        run: |
+          node --input-type=module -e "await import('rolldown'); await import('@tailwindcss/oxide');"
+
+      - run: npm run validate:data
+      - run: npm test
+      - run: npm run build

@@ -154,15 +154,20 @@ export function Simulation({
             <span>
               {a.current + 1} / {a.exam.questions.length}
             </span>
-            <button
-              className="primary"
-              disabled={a.current === a.exam.questions.length - 1}
-              onClick={() =>
-                update(a.id, (x) => move(x, x.current + 1, Date.now()))
-              }
-            >
-              Próxima <ArrowRight size={16} />
-            </button>
+            {a.current === a.exam.questions.length - 1 ? (
+              <button className="primary" onClick={() => setConfirm(true)}>
+                Finalizar simulado
+              </button>
+            ) : (
+              <button
+                className="primary"
+                onClick={() =>
+                  update(a.id, (x) => move(x, x.current + 1, Date.now()))
+                }
+              >
+                Próxima <ArrowRight size={16} />
+              </button>
+            )}
           </div>
         </section>
         <aside className="card navigation-card">

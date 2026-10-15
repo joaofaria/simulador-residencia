@@ -73,6 +73,8 @@ export const examSchema = z.object({
   year: z.number(),
   title: z.string(),
   demo: z.boolean(),
+  // Prova montada por sorteio com questões de várias provas reais.
+  random: z.boolean().optional(),
   questions: z.array(questionSchema),
   pdf: z.string().optional(),
   draftCount: z.number().int().nonnegative().optional(),

@@ -264,3 +264,68 @@ describe("Tela de prova", () => {
     options.forEach((b) => expect(b.hasAttribute("disabled")).toBe(true));
   });
 });
+
+describe("Prova aleatória", () => {
+  it("sorteia das áreas escolhidas e mostra de onde veio cada questão", async () => {
+    const user = setup();
+    for (const area of [
+      "Clínica Médica",
+      "Cirurgia",
+      "Ginecologia e Obstetrícia",
+      "Medicina Preventiva",
+    ])
+      await user.click(screen.getByRole("checkbox", { name: area }));
+    await user.selectOptions(
+      screen.getByRole("combobox", { name: "Quantidade de questões" }),
+      "10",
+    );
+    expect(screen.getByText(/10 questões de cada área escolhida/)).toBeTruthy();
+    await user.click(screen.getByRole("button", { name: /Sortear e começar/ }));
+    await screen.findByRole("heading", { name: "Prova aleatória · 10 questões" });
+    expect(screen.getByText("QUESTÃO 1")).toBeTruthy();
+    expect(screen.getByText(/· questão \d+ · Pediatria$/)).toBeTruthy();
+    expect(screen.getByText(/NÃO É UMA PROVA REAL/)).toBeTruthy();
+    const stored = JSON.parse(localStorage.getItem(STORAGE_KEY)!);
+    expect(stored.attempts[0].exam.random).toBe(true);
+    expect(stored.attempts[0].exam.questions).toHaveLength(10);
+  });
+
+  it("no resultado avisa que não é prova real e refaz as mesmas questões", async () => {
+    const user = setup();
+    await user.selectOptions(
+      screen.getByRole("combobox", { name: "Quantidade de questões" }),
+      "10",
+    );
+    await user.click(screen.getByRole("button", { name: /Sortear e começar/ }));
+    await screen.findByRole("heading", { name: "Prova aleatória · 10 questões" });
+    await user.click(
+      screen.getAllByRole("button", { name: "Finalizar simulado" })[0],
+    );
+    await user.click(
+      screen.getByRole("button", { name: "Confirmar finalização" }),
+    );
+    await screen.findByText(/não equivale a uma prova\s+real/);
+    expect(screen.getByText("PROVA ALEATÓRIA CONCLUÍDA")).toBeTruthy();
+    expect(screen.getByRole("link", { name: /Sortear outra/ })).toBeTruthy();
+    await user.click(
+      screen.getByRole("button", { name: /Refazer estas questões/ }),
+    );
+    await screen.findByText("0 de 10 respondidas");
+    const stored = JSON.parse(localStorage.getItem(STORAGE_KEY)!);
+    const ids = (i: number) =>
+      stored.attempts[i].exam.questions.map((q: { id: string }) => q.id);
+    expect(stored.attempts).toHaveLength(2);
+    expect(ids(0)).toEqual(ids(1));
+  });
+
+  it("não deixa sortear sem nenhuma área", async () => {
+    const user = setup();
+    for (const box of screen.getAllByRole("checkbox")) await user.click(box);
+    expect(screen.getByText(/Escolha pelo menos uma área/)).toBeTruthy();
+    expect(
+      screen
+        .getByRole("button", { name: /Sortear e começar/ })
+        .hasAttribute("disabled"),
+    ).toBe(true);
+  });
+});

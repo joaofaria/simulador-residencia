@@ -7,8 +7,9 @@ import {
   useNavigate,
 } from "react-router-dom";
 import { Sun, Moon, History, PawPrint } from "lucide-react";
-import { loadExam } from "./data/load";
-import type { Attempt, Store } from "./types";
+import { loadExam, loadRealExams } from "./data/load";
+import { buildRandomExam, type RandomConfig } from "./services/random";
+import type { Attempt, Exam, Store } from "./types";
 import { createAttempt, settle, pause } from "./services/session";
 import {
   decodeStore,
@@ -137,12 +138,13 @@ export function App() {
       window.removeEventListener("pagehide", stop);
     };
   }, [error]);
-  async function start(examId: string) {
+  // Abre uma tentativa nova com a prova que `get` devolver. Uma chamada por vez.
+  async function begin(get: () => Promise<Exam>, failure: string) {
     if (error || starting.current) return;
     starting.current = true;
     setLoadError("");
     try {
-      const exam = await loadExam(examId);
+      const exam = await get();
       if (
         !exam.questions.length ||
         exam.questions.some((q) => q.review !== "approved")
@@ -152,12 +154,27 @@ export function App() {
       persist(upsert(ref.current, a));
       nav(`/simulado/${a.id}`);
     } catch {
-      setLoadError(
-        "Não foi possível carregar a prova. Verifique a conexão e tente de novo.",
-      );
+      setLoadError(failure);
     } finally {
       starting.current = false;
     }
+  }
+  const loadFailure =
+    "Não foi possível carregar a prova. Verifique a conexão e tente de novo.";
+  function start(examId: string) {
+    return begin(() => loadExam(examId), loadFailure);
+  }
+  function startRandom(config: RandomConfig) {
+    return begin(
+      async () => buildRandomExam(await loadRealExams(), config),
+      "Não foi possível montar a prova aleatória. Verifique a conexão e tente de novo.",
+    );
+  }
+  // Refazer uma prova aleatória repete as mesmas questões, na mesma ordem.
+  function retry(a: Attempt) {
+    return a.exam.random
+      ? begin(async () => a.exam, loadFailure)
+      : start(a.exam.id);
   }
   return (
     <>
@@ -221,6 +238,7 @@ export function App() {
                 <Home
                   attempts={store.attempts}
                   start={start}
+                  startRandom={startRandom}
                   blocked={!!error}
                 />
               }
@@ -231,14 +249,14 @@ export function App() {
             />
             <Route
               path="/resultado/:id"
-              element={<Results attempts={store.attempts} start={start} />}
+              element={<Results attempts={store.attempts} retry={retry} />}
             />
             <Route
               path="/historico"
               element={
                 <HistoryPage
                   attempts={store.attempts}
-                  start={start}
+                  retry={retry}
                   exportData={() =>
                     download(
                       JSON.stringify(ref.current, null, 2),

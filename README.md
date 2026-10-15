@@ -17,7 +17,7 @@ npm run preview
 
 Acesse a URL informada pelo Vite, com `/simulador-residencia/`.
 
-As versões diretas estão fixadas em `package.json`. O workflow instala as dependências opcionais da plataforma Linux diretamente a partir dele, sem usar o lockfile local, que pode ter sido gerado no macOS e omitir bindings nativos necessários no GitHub Actions.
+As versões diretas estão fixadas em `package.json`. O workflow instala as dependências com `npm ci --include=optional --legacy-peer-deps` a partir do `package-lock.json` e confere se os bindings nativos de Linux (`rolldown` e `@tailwindcss/oxide`) carregam antes de seguir.
 
 ## Estado das provas
 
@@ -52,8 +52,8 @@ Percentual = acertos ÷ questões verificadas não anuladas; brancos válidos pe
 
 ## GitHub Pages
 
-Crie o repositório independente `joaofaria/simulador-residencia`, envie estes arquivos para a branch `main` e em **Settings → Pages → Source** selecione **GitHub Actions**. O workflow executa validação de dados, testes e build antes de publicar. O Vite usa `base: '/simulador-residencia/'`; `HashRouter` permite abrir resultados diretamente sem regras de reescrita.
+O app está publicado em https://joaofaria.github.io/simulador-residencia/
 
-URL prevista: https://joaofaria.github.io/simulador-residencia/
+Cada push na branch `main` dispara o workflow `.github/workflows/deploy.yml` (também pode ser disparado manualmente). Ele executa validação de dados, testes e build e, se tudo passar, publica `dist` no Pages. A origem do Pages no repositório está em **Settings → Pages → Source → GitHub Actions**. O Vite usa `base: '/simulador-residencia/'`; `HashRouter` permite abrir resultados diretamente sem regras de reescrita.
 
-Não há publicação realizada por este projeto local. PDFs são assets públicos quando o repositório e o Pages forem publicados.
+Os PDFs em `public/provas` são servidos como assets públicos junto com o site.

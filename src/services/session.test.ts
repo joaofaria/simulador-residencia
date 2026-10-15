@@ -229,8 +229,8 @@ describe("Mensagem por faixa de aproveitamento", () => {
     expect(scoreMessage(85)).toMatch(/^Toooop/);
     expect(scoreMessage(84.9)).toMatch(/^Médio/);
     expect(scoreMessage(70)).toMatch(/^Médio/);
-    expect(scoreMessage(69.9)).toMatch(/^Se esforce mais/);
-    expect(scoreMessage(0)).toMatch(/^Se esforce mais/);
+    expect(scoreMessage(69.9)).toMatch(/^Faz parte do caminho/);
+    expect(scoreMessage(0)).toMatch(/^Faz parte do caminho/);
   });
   it("não mostra mensagem sem questões válidas", () => {
     expect(scoreMessage(null)).toBeNull();

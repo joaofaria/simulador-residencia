@@ -6,7 +6,7 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-import { GraduationCap, Sun, Moon, History } from "lucide-react";
+import { Sun, Moon, History, PawPrint } from "lucide-react";
 import { loadExam } from "./data/load";
 import type { Attempt, Store } from "./types";
 import { createAttempt, settle, pause } from "./services/session";
@@ -18,6 +18,7 @@ import {
   STORAGE_KEY,
 } from "./services/storage";
 import { Home } from "./pages/Home";
+import { Thor } from "./components/Thor";
 // Telas fora da página inicial carregam sob demanda; Results traz o recharts.
 const Simulation = lazy(() =>
   import("./pages/Simulation").then((m) => ({ default: m.Simulation })),
@@ -163,10 +164,10 @@ export function App() {
       <header className="header">
         <Link to="/" className="brand">
           <span className="brand-icon">
-            <GraduationCap size={25} />
+            <Thor size={50} />
           </span>
           <span>
-            residência<span className="brand-sub">SIMULADOR DE PROVAS</span>
+            ResidênCão<span className="brand-sub">SIMULADOR DE PROVAS</span>
           </span>
         </Link>
         <nav>
@@ -206,7 +207,13 @@ export function App() {
         </div>
       )}
       <main>
-        <Suspense fallback={<div className="card">Carregando…</div>}>
+        <Suspense
+          fallback={
+            <div className="card loading">
+              <PawPrint size={20} /> Carregando…
+            </div>
+          }
+        >
           <Routes>
             <Route
               path="/"
@@ -244,9 +251,13 @@ export function App() {
             <Route
               path="*"
               element={
-                <div className="card">
-                  <h1>Página não encontrada</h1>
-                  <Link to="/">Voltar ao início</Link>
+                <div className="card puppy-message">
+                  <Thor className="puppy" mood="hopeful" size={110} />
+                  <div>
+                    <h1>Página não encontrada</h1>
+                    <p>O Thor farejou tudo e não achou nada por aqui.</p>
+                    <Link to="/">Voltar ao início</Link>
+                  </div>
                 </div>
               }
             />
@@ -254,7 +265,7 @@ export function App() {
         </Suspense>
       </main>
       <footer>
-        Feito para a sua próxima etapa.{" "}
+        Feito com carinho (e as patinhas do Thor) para a sua próxima etapa.{" "}
         <span>Dados salvos neste navegador · sem conta ou servidor</span>
       </footer>
     </>

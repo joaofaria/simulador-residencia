@@ -6,6 +6,7 @@ import type { Attempt } from "../types";
 import {
   score,
   scoreByArea,
+  scoreMessage,
   formatTime,
   outcome,
 } from "../services/session";
@@ -74,6 +75,11 @@ export function Results({
           <strong className="big-score">
             {s.percentage === null ? "—" : s.percentage.toFixed(1) + "%"}
           </strong>
+          {scoreMessage(s.percentage) && (
+            <p>
+              <strong>{scoreMessage(s.percentage)}</strong>
+            </p>
+          )}
           <p>
             {s.correct} acertos em {s.valid} questões válidas com gabarito.
           </p>

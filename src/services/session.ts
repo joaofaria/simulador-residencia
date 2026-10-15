@@ -110,7 +110,7 @@ export function scoreMessage(percentage: number | null) {
   if (percentage === null) return null;
   if (percentage >= 85) return "Toooop! O Thor tá abanando o rabo de orgulho.";
   if (percentage >= 70) return "Médio. Tá no faro certo, falta pouco pro topo.";
-  return "Se esforce mais! O Thor te espera pra mais uma rodada de revisão.";
+  return "Faz parte do caminho. O Thor fica do seu lado pra revisar e tentar de novo.";
 }
 export type AreaScore = {
   area: Area;

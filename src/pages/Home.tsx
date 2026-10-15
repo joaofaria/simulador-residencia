@@ -10,7 +10,7 @@ import {
   ShieldCheck,
   Play,
 } from "lucide-react";
-import { exams } from "../data/catalog";
+import { summaries } from "../data/summaries";
 import type { Attempt } from "../types";
 import { formatTime } from "../services/session";
 import { AttemptRow } from "../components/AttemptRow";
@@ -25,14 +25,12 @@ export function Home({
 }) {
   const [institution, setInstitution] = useState("PSU-MG");
   const [year, setYear] = useState(2026);
-  const exam = exams.find(
+  const exam = summaries.find(
     (e) => e.institution === institution && e.year === year,
   );
   const active = attempts.filter((a) => a.status !== "finished");
   const completed = attempts.filter((a) => a.status === "finished");
-  const available = exam?.questions.every((q) => q.review === "approved")
-    ? exam.questions.length
-    : 0;
+  const available = exam?.available ?? 0;
   return (
     <>
       <section className="hero">

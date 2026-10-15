@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import {
   Link,
   Routes,
@@ -7,7 +7,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import { GraduationCap, Sun, Moon, History } from "lucide-react";
-import { exams } from "./data/catalog";
+import { loadExam } from "./data/load";
 import type { Attempt, Store } from "./types";
 import { createAttempt, settle, pause } from "./services/session";
 import {
@@ -18,9 +18,16 @@ import {
   STORAGE_KEY,
 } from "./services/storage";
 import { Home } from "./pages/Home";
-import { Simulation } from "./pages/Simulation";
-import { Results } from "./pages/Results";
-import { HistoryPage } from "./pages/HistoryPage";
+// Telas fora da página inicial carregam sob demanda; Results traz o recharts.
+const Simulation = lazy(() =>
+  import("./pages/Simulation").then((m) => ({ default: m.Simulation })),
+);
+const Results = lazy(() =>
+  import("./pages/Results").then((m) => ({ default: m.Results })),
+);
+const HistoryPage = lazy(() =>
+  import("./pages/HistoryPage").then((m) => ({ default: m.HistoryPage })),
+);
 function download(raw: string, name: string) {
   const url = URL.createObjectURL(
     new Blob([raw], { type: "application/json" }),
@@ -33,6 +40,8 @@ function download(raw: string, name: string) {
 }
 export function App() {
   const [error, setError] = useState("");
+  const [loadError, setLoadError] = useState("");
+  const starting = useRef(false);
   const [store, setStore] = useState<Store>(() => {
     try {
       return recover(decodeStore(localStorage.getItem(STORAGE_KEY)));
@@ -127,17 +136,27 @@ export function App() {
       window.removeEventListener("pagehide", stop);
     };
   }, [error]);
-  function start(examId: string) {
-    if (error) return;
-    const exam = exams.find((e) => e.id === examId);
-    if (
-      !exam?.questions.length ||
-      exam.questions.some((q) => q.review !== "approved")
-    )
-      return;
-    const a = createAttempt(exam, Date.now());
-    persist(upsert(ref.current, a));
-    nav(`/simulado/${a.id}`);
+  async function start(examId: string) {
+    if (error || starting.current) return;
+    starting.current = true;
+    setLoadError("");
+    try {
+      const exam = await loadExam(examId);
+      if (
+        !exam.questions.length ||
+        exam.questions.some((q) => q.review !== "approved")
+      )
+        return;
+      const a = createAttempt(exam, Date.now());
+      persist(upsert(ref.current, a));
+      nav(`/simulado/${a.id}`);
+    } catch {
+      setLoadError(
+        "Não foi possível carregar a prova. Verifique a conexão e tente de novo.",
+      );
+    } finally {
+      starting.current = false;
+    }
   }
   return (
     <>
@@ -181,47 +200,58 @@ export function App() {
           </button>
         </div>
       )}
+      {loadError && (
+        <div role="alert" className="warning">
+          {loadError}
+        </div>
+      )}
       <main>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Home attempts={store.attempts} start={start} blocked={!!error} />
-            }
-          />
-          <Route
-            path="/simulado/:id"
-            element={<Simulation attempts={store.attempts} update={update} />}
-          />
-          <Route
-            path="/resultado/:id"
-            element={<Results attempts={store.attempts} start={start} />}
-          />
-          <Route
-            path="/historico"
-            element={
-              <HistoryPage
-                attempts={store.attempts}
-                start={start}
-                exportData={() =>
-                  download(
-                    JSON.stringify(ref.current, null, 2),
-                    "residencia-historico.json",
-                  )
-                }
-              />
-            }
-          />
-          <Route
-            path="*"
-            element={
-              <div className="card">
-                <h1>Página não encontrada</h1>
-                <Link to="/">Voltar ao início</Link>
-              </div>
-            }
-          />
-        </Routes>
+        <Suspense fallback={<div className="card">Carregando…</div>}>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <Home
+                  attempts={store.attempts}
+                  start={start}
+                  blocked={!!error}
+                />
+              }
+            />
+            <Route
+              path="/simulado/:id"
+              element={<Simulation attempts={store.attempts} update={update} />}
+            />
+            <Route
+              path="/resultado/:id"
+              element={<Results attempts={store.attempts} start={start} />}
+            />
+            <Route
+              path="/historico"
+              element={
+                <HistoryPage
+                  attempts={store.attempts}
+                  start={start}
+                  exportData={() =>
+                    download(
+                      JSON.stringify(ref.current, null, 2),
+                      "residencia-historico.json",
+                    )
+                  }
+                />
+              }
+            />
+            <Route
+              path="*"
+              element={
+                <div className="card">
+                  <h1>Página não encontrada</h1>
+                  <Link to="/">Voltar ao início</Link>
+                </div>
+              }
+            />
+          </Routes>
+        </Suspense>
       </main>
       <footer>
         Feito para a sua próxima etapa.{" "}

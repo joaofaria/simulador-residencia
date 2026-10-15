@@ -30,10 +30,17 @@ for (const exam of exams) {
       !q.originalPages?.length
     )
       throw Error(`Documento validado sem recorte original: ${q.id}`);
+    if (!q.area) throw Error(`Área ausente: ${q.id}`);
     if (q.review === "required")
       throw Error(`Não publique transcrição sem revisão: ${q.id}`);
   }
 }
+const perArea = new Map<string, number>();
+for (const q of exams.flatMap((e) => e.questions))
+  perArea.set(q.area!, (perArea.get(q.area!) ?? 0) + 1);
+console.log(
+  [...perArea].map(([area, n]) => `${area}: ${n}`).join(", "),
+);
 console.log(
   `${exams.length} provas, ${ids.size} questões; conteúdo e arquivos estruturais validados.`,
 );

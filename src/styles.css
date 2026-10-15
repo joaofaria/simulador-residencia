@@ -697,6 +697,51 @@ footer {
   font-size: 24px;
   margin-top: 8px;
 }
+.area-card {
+  padding: 8px 24px;
+  margin-top: 20px;
+}
+.area-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 1.2fr) 2fr 110px;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.area-row:last-child {
+  border-bottom: 0;
+}
+.area-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+.area-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: var(--soft);
+  overflow: hidden;
+}
+.area-bar span {
+  display: block;
+  height: 100%;
+  background: var(--green);
+}
+.area-value {
+  font-size: 12px;
+  color: var(--muted);
+  text-align: right;
+}
+.area-value strong {
+  color: var(--ink);
+  font-size: 14px;
+}
+.area-line {
+  color: var(--muted);
+}
 .definition {
   font-size: 11px;
   margin: 16px 0;
@@ -798,6 +843,14 @@ figcaption {
   }
 }
 @media (max-width: 520px) {
+  .area-row {
+    grid-template-columns: 1fr auto;
+    gap: 8px 12px;
+  }
+  .area-bar {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
   main {
     padding: 26px 17px 40px;
   }

@@ -127,6 +127,35 @@ describe("Tela de prova", () => {
     ).toBeTruthy();
   });
 
+  it("avisa quando a questão foi anulada", async () => {
+    const user = setup();
+    await startDemo(user);
+    expect(screen.queryByText(/foi anulada pela banca/)).toBeNull();
+    await user.click(screen.getByRole("button", { name: /^Questão 2,/ }));
+    expect(screen.getByText(/foi anulada pela banca/)).toBeTruthy();
+  });
+
+  it("não fala em questões em branco quando todas foram respondidas", async () => {
+    const user = setup();
+    await startDemo(user);
+    for (const n of [1, 2, 3]) {
+      await user.click(
+        screen.getByRole("button", { name: new RegExp(`^Questão ${n},`) }),
+      );
+      await user.click(alternative("A"));
+    }
+    await user.click(
+      screen.getAllByRole("button", { name: "Finalizar simulado" })[0],
+    );
+    const dialog = screen.getByRole("dialog", {
+      name: "Finalizar seu simulado?",
+    });
+    expect(
+      within(dialog).getByText(/Você respondeu todas as questões/),
+    ).toBeTruthy();
+    expect(within(dialog).queryByText(/em branco/)).toBeNull();
+  });
+
   it("mantém a resposta ao sair e voltar para a questão", async () => {
     const user = setup();
     await startDemo(user);
@@ -166,7 +195,7 @@ describe("Tela de prova", () => {
     );
     const dialog = screen.getByRole("dialog");
     expect(
-      within(dialog).getByText(/1 questões ainda estão em branco/),
+      within(dialog).getByText(/1 questão ainda está em branco/),
     ).toBeTruthy();
     await user.click(
       within(dialog).getByRole("button", { name: "Confirmar finalização" }),

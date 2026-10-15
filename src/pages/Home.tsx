@@ -14,13 +14,17 @@ import type { Attempt } from "../types";
 import { formatTime } from "../services/session";
 import { AttemptRow } from "../components/AttemptRow";
 import { Thor } from "../components/Thor";
+import { RandomExamCard } from "../components/RandomExamCard";
+import type { RandomConfig } from "../services/random";
 export function Home({
   attempts,
   start,
+  startRandom,
   blocked,
 }: {
   attempts: Attempt[];
   start: (id: string) => void;
+  startRandom: (config: RandomConfig) => void;
   blocked: boolean;
 }) {
   const [institution, setInstitution] = useState("PSU-MG");
@@ -169,6 +173,7 @@ export function Home({
           </div>
         </aside>
       </section>
+      <RandomExamCard startRandom={startRandom} blocked={blocked} />
       <section className="demo-banner">
         <div>
           <span className="badge">DEMONSTRAÇÃO FICTÍCIA</span>

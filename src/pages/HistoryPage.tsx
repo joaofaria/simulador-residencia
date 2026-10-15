@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import { Download, History } from "lucide-react";
+import { Download } from "lucide-react";
 import type { Attempt } from "../types";
 import { formatTime, scoreByArea } from "../services/session";
 import { useAreaLookup } from "../data/areas";
 import { AttemptRow } from "../components/AttemptRow";
 import { AreaBreakdown } from "../components/AreaBreakdown";
+import { Thor } from "../components/Thor";
 export function HistoryPage({
   attempts,
   start,
@@ -74,7 +75,7 @@ export function HistoryPage({
         ))
       ) : (
         <div className="empty">
-          <History />
+          <Thor className="puppy" mood="hopeful" size={72} />
           <p>
             Nenhum simulado realizado. <Link to="/">Escolher uma prova</Link>
           </p>

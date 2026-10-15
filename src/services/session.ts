@@ -108,9 +108,9 @@ export function score(a: Attempt) {
 // Mensagem do resultado por faixa de aproveitamento.
 export function scoreMessage(percentage: number | null) {
   if (percentage === null) return null;
-  if (percentage >= 85) return "Toooop! Mandou muito bem.";
-  if (percentage >= 70) return "Médio. Tá no caminho, falta pouco pro topo.";
-  return "Se esforce mais! Revise os erros e tente de novo.";
+  if (percentage >= 85) return "Toooop! O Thor tá abanando o rabo de orgulho.";
+  if (percentage >= 70) return "Médio. Tá no faro certo, falta pouco pro topo.";
+  return "Faz parte do caminho. O Thor fica do seu lado pra revisar e tentar de novo.";
 }
 export type AreaScore = {
   area: Area;

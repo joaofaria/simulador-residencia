@@ -56,6 +56,7 @@ export function Simulation({
     );
   const q = a.exam.questions[a.current];
   const answered = Object.keys(a.answers).length;
+  const blank = a.exam.questions.length - answered;
   return (
     <>
       <div className="exam-top">
@@ -123,6 +124,12 @@ export function Simulation({
               {formatTime(a.times[q.id] ?? 0)}
             </span>
           </div>
+          {q.key.status === "annulled" && (
+            <p className="warning">
+              Esta questão foi anulada pela banca e não conta na sua nota. Pode
+              responder mesmo assim, se quiser treinar.
+            </p>
+          )}
           {q.review === "required" && (
             <p className="warning">Transcrição pendente de revisão manual.</p>
           )}
@@ -209,7 +216,11 @@ export function Simulation({
           onClose={() => setConfirm(false)}
         >
           <p>
-            {a.exam.questions.length - answered} questões ainda estão em branco.
+            {blank === 0
+              ? "Você respondeu todas as questões."
+              : blank === 1
+                ? "1 questão ainda está em branco."
+                : `${blank} questões ainda estão em branco.`}{" "}
             Depois de finalizar, as respostas não poderão ser alteradas.
           </p>
           <div className="modal-actions">

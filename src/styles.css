@@ -9,32 +9,41 @@
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-  color: #233930;
-  background: #f6f8f6;
+  color: #4a3428;
+  background: #fff8f1;
   font-synthesis: none;
   --surface: #fff;
-  --ink: #233930;
-  --muted: #738078;
-  --border: #e2e9e4;
-  --green: #136d59;
-  --soft: #eaf4ef;
-  --bg: #f6f8f6;
+  --ink: #4a3428;
+  --muted: #7d6658;
+  --border: #f1e1d2;
+  --accent: #a84f2a;
+  --soft: #fdeee2;
+  --pink: #f7c6cc;
+  --bg: #fff8f1;
+  --paw: #a84f2a;
+  --round: Nunito, ui-rounded, "Arial Rounded MT Bold", ui-sans-serif, system-ui,
+    sans-serif;
 }
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  background-color: var(--bg);
+  /* Patinhas bem discretas no fundo; os cartões brancos ficam por cima. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg fill='%23a84f2a' opacity='.055'%3E%3Cg transform='translate(30 34) rotate(-18)'%3E%3Cellipse cx='0' cy='6' rx='8' ry='7'/%3E%3Ccircle cx='-9' cy='-5' r='3.4'/%3E%3Ccircle cx='-3' cy='-10' r='3.4'/%3E%3Ccircle cx='4' cy='-10' r='3.4'/%3E%3Ccircle cx='10' cy='-5' r='3.4'/%3E%3C/g%3E%3Cg transform='translate(112 112) rotate(16)'%3E%3Cellipse cx='0' cy='6' rx='8' ry='7'/%3E%3Ccircle cx='-9' cy='-5' r='3.4'/%3E%3Ccircle cx='-3' cy='-10' r='3.4'/%3E%3Ccircle cx='4' cy='-10' r='3.4'/%3E%3Ccircle cx='10' cy='-5' r='3.4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 html[data-theme="dark"] {
   color-scheme: dark;
-  --surface: #172922;
-  --ink: #e4eee8;
-  --muted: #a2b5aa;
-  --border: #33483c;
-  --green: #67c9a5;
-  --soft: #223f32;
-  --bg: #10201a;
+  --surface: #2a211b;
+  --ink: #f6ebe2;
+  --muted: #c4ae9f;
+  --border: #45362c;
+  --accent: #f0a274;
+  --soft: #3d2c22;
+  --pink: #6b3d42;
+  --bg: #1f1814;
+  --paw: #f0a274;
   background: var(--bg);
   color: var(--ink);
 }
@@ -55,13 +64,13 @@ button:disabled {
   opacity: 0.55;
 }
 a {
-  color: var(--green);
+  color: var(--accent);
   text-decoration: none;
 }
 button:focus-visible,
 a:focus-visible,
 select:focus-visible {
-  outline: 3px solid #70bdaa;
+  outline: 3px solid #e9a07a;
   outline-offset: 4px;
 }
 .header {
@@ -85,7 +94,7 @@ select:focus-visible {
 .brand-icon {
   display: grid;
   place-items: center;
-  background: var(--green);
+  background: var(--accent);
   color: var(--surface);
   width: 43px;
   height: 43px;
@@ -112,7 +121,7 @@ select:focus-visible {
   color: var(--muted);
 }
 .header nav a.active {
-  color: var(--green);
+  color: var(--accent);
   font-weight: 650;
 }
 .icon-button {
@@ -167,7 +176,7 @@ p {
   font-size: 10px;
   font-weight: 750;
   letter-spacing: 1.9px;
-  color: var(--green);
+  color: var(--accent);
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -176,7 +185,7 @@ p {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  background: var(--green);
+  background: var(--accent);
 }
 .hero h1 {
   font-size: 46px;
@@ -185,7 +194,7 @@ p {
   letter-spacing: -1.9px;
 }
 .hero h1 span {
-  color: var(--green);
+  color: var(--accent);
 }
 .hero p {
   font-size: 15px;
@@ -212,7 +221,7 @@ p {
   width: 220px;
   height: 220px;
   margin-right: 65px;
-  color: var(--green);
+  color: var(--accent);
   transform: rotate(-8deg);
 }
 .art-ring {
@@ -233,7 +242,7 @@ p {
   font-size: 11px;
   padding: 12px 18px;
   border-radius: 9px;
-  box-shadow: 0 7px 30px #16362910;
+  box-shadow: 0 7px 30px #6b3a1a18;
   transform: rotate(8deg);
 }
 .section-heading {
@@ -269,7 +278,7 @@ p {
 }
 .small-icon {
   background: var(--soft);
-  color: var(--green);
+  color: var(--accent);
   padding: 12px;
   border-radius: 12px;
   display: flex;
@@ -309,7 +318,7 @@ select {
 }
 .badge {
   background: var(--soft);
-  color: var(--green);
+  color: var(--accent);
   font-size: 10px;
   letter-spacing: 0.5px;
   padding: 6px 9px;
@@ -329,9 +338,10 @@ select {
   border: 1px solid var(--border);
 }
 .primary {
-  background: var(--green);
+  background: var(--accent);
   color: var(--surface);
-  border-color: var(--green);
+  border-color: var(--accent);
+  box-shadow: 0 3px 0 #7a3518;
 }
 .secondary {
   background: var(--surface);
@@ -372,7 +382,7 @@ select {
   margin-top: 18px;
   font-size: 12px;
   font-weight: 600;
-  color: var(--green);
+  color: var(--accent);
 }
 .feature small {
   display: block;
@@ -448,7 +458,7 @@ footer {
   font-size: 13px;
 }
 .warning button {
-  color: var(--green);
+  color: var(--accent);
   margin-left: 10px;
   text-decoration: underline;
 }
@@ -496,7 +506,7 @@ footer {
 }
 .progress > div {
   height: 100%;
-  background: var(--green);
+  background: var(--accent);
   transition: width 0.2s;
 }
 .simulation-grid {
@@ -558,25 +568,25 @@ footer {
   font-size: 12px;
 }
 .alternative.selected {
-  border-color: var(--green);
+  border-color: var(--accent);
   background: var(--soft);
 }
 .alternative.selected .letter {
-  background: var(--green);
+  background: var(--accent);
   color: var(--surface);
 }
 .alternative.correct {
-  border: 2px solid var(--green);
+  border: 2px solid var(--accent);
 }
 .answer-label {
   display: block;
-  color: var(--green);
+  color: var(--accent);
   font-size: 11px;
 }
 .text-button {
   background: none;
   border: 0;
-  color: var(--green);
+  color: var(--accent);
   font-size: 12px;
   margin: 15px 0;
   padding: 4px;
@@ -613,10 +623,10 @@ footer {
 }
 .number-grid button.answered {
   background: var(--soft);
-  color: var(--green);
+  color: var(--accent);
 }
 .number-grid button.current {
-  outline: 2px solid var(--green);
+  outline: 2px solid var(--accent);
   outline-offset: 1px;
 }
 .navigation-card .legend {
@@ -628,7 +638,7 @@ footer {
   inset: 0;
   display: grid;
   place-items: center;
-  background: #061b12aa;
+  background: #2b1a10aa;
   padding: 20px;
   z-index: 100;
 }
@@ -653,7 +663,7 @@ footer {
   display: block;
   font-size: 64px;
   letter-spacing: -3px;
-  color: var(--green);
+  color: var(--accent);
   margin: 12px 0;
 }
 .score-card small {
@@ -728,7 +738,7 @@ footer {
 .area-bar span {
   display: block;
   height: 100%;
-  background: var(--green);
+  background: var(--accent);
 }
 .area-value {
   font-size: 12px;
@@ -762,8 +772,8 @@ footer {
 }
 .filters button.selected {
   background: var(--soft);
-  color: var(--green);
-  border-color: var(--green);
+  color: var(--accent);
+  border-color: var(--accent);
 }
 .review-card {
   margin-bottom: 20px;
@@ -962,7 +972,7 @@ figcaption {
   box-shadow: 0 20px 100px #0004;
 }
 .native-dialog::backdrop {
-  background: #061b12aa;
+  background: #2b1a10aa;
 }
 .native-dialog p {
   margin: 16px 0 24px;
@@ -996,7 +1006,7 @@ button:hover:not(:disabled) {
 .original-pages summary {
   cursor: pointer;
   padding: 13px 16px;
-  color: var(--green);
+  color: var(--accent);
   font-size: 13px;
   font-weight: 600;
 }
@@ -1017,7 +1027,7 @@ button:hover:not(:disabled) {
   padding-top: 7px;
 }
 .original-pages summary:focus-visible {
-  outline: 3px solid var(--green);
+  outline: 3px solid var(--accent);
   outline-offset: -3px;
 }
 .reading-controls {
@@ -1046,7 +1056,7 @@ button:hover:not(:disabled) {
 }
 .reading-modes button.selected {
   background: var(--surface);
-  color: var(--green);
+  color: var(--accent);
   box-shadow: 0 1px 4px #0001;
 }
 .zoom-button {
@@ -1118,4 +1128,196 @@ button:hover:not(:disabled) {
 }
 .question-card {
   scroll-margin-top: 110px;
+}
+/* Tema filhotes: títulos arredondados, cantos mais macios e bichinhos. */
+h1,
+h2,
+h3,
+.brand,
+.big-score,
+.eyebrow,
+.badge,
+.primary,
+.secondary {
+  font-family: var(--round);
+}
+h1,
+.hero h1 {
+  letter-spacing: -0.6px;
+  font-weight: 800;
+}
+.brand {
+  letter-spacing: -0.4px;
+  font-weight: 800;
+}
+.brand-icon {
+  background: var(--soft);
+  border: 2px solid var(--pink);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.brand-icon svg {
+  transform: translateY(4px);
+}
+.card {
+  border-radius: 22px;
+  box-shadow: 0 6px 24px #b0643a0d;
+}
+.primary,
+.secondary {
+  border-radius: 999px;
+  padding: 12px 22px;
+}
+.alternative {
+  border-radius: 14px;
+}
+.letter {
+  border-radius: 50%;
+}
+.number-grid button {
+  border-radius: 10px;
+}
+.badge {
+  border-radius: 999px;
+  padding: 6px 11px;
+}
+.hero-art {
+  background: radial-gradient(circle at 50% 40%, var(--surface), var(--soft));
+  border: 3px solid var(--pink);
+  color: var(--accent);
+  transform: rotate(-4deg);
+}
+.art-ring {
+  border: 2px dashed var(--pink);
+}
+.art-chip {
+  transform: rotate(4deg);
+  border-radius: 999px;
+  color: var(--accent);
+  font-weight: 650;
+}
+.hero-puppy {
+  animation: wag 3.2s ease-in-out infinite;
+  transform-origin: 50% 80%;
+}
+.art-paw {
+  position: absolute;
+  color: var(--accent);
+  opacity: 0.45;
+}
+.art-paw.one {
+  top: 6px;
+  right: -26px;
+  transform: rotate(20deg);
+}
+.art-paw.two {
+  top: 48px;
+  right: -52px;
+  transform: rotate(32deg);
+}
+@keyframes wag {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+.focus-card {
+  position: relative;
+  overflow: hidden;
+}
+.focus-puppy {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  color: var(--accent);
+}
+.empty .puppy,
+.puppy-message .puppy {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+.puppy-message {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.puppy-message h1 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+}
+.loading svg {
+  color: var(--accent);
+  animation: hop 0.9s ease-in-out infinite;
+}
+@keyframes hop {
+  50% {
+    transform: translateY(-4px) rotate(-12deg);
+  }
+}
+.progress {
+  position: relative;
+  height: 9px;
+  overflow: visible;
+  background: var(--soft);
+  border: 1px solid var(--border);
+}
+.progress > div {
+  border-radius: 10px;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--accent) 0 8px,
+    #c46a3f 8px 16px
+  );
+}
+.progress-paw {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  transition: left 0.2s;
+}
+.navigation-card {
+  position: relative;
+}
+.nav-puppy {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+}
+footer {
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .nav-puppy {
+    display: none;
+  }
+  .art-paw {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  .focus-puppy {
+    display: none;
+  }
+  .puppy-message {
+    display: block;
+  }
 }

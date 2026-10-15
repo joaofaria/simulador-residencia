@@ -11,6 +11,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 1,
+      "area": "cirurgia",
       "statement": "O abdome agudo inflamatório é um dos diagnósticos mais frequentes de consultas\ncirúrgicas de urgência. Dentre as alternativas abaixo, escolha a CORRETA com relação à qual\netiología de abdome agudo inflamatório é a mais comum em todas as faixas etárias.",
       "alternatives": [
         {
@@ -58,6 +59,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 2,
+      "area": "cirurgia",
       "statement": "Os defeitos de parede abdominal são afecções muito frequentes na prática cirúrgica. Um dos\nmotivos da recomendação de tratamento cirúrgico é a prevenção de complicações. Assinale\na alternativa CORRETA, relativa à complicação mais temida em uma hérnia estrangulada.",
       "alternatives": [
         {
@@ -105,6 +107,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 3,
+      "area": "cirurgia",
       "statement": "A semiologia da dor abdominal aguda é uma importante ferramenta indicativa de\ndiagnóstico, sendo a dor referida um sintoma importante. Dentre as condições abaixo, qual\ngeralmente NÃO está associada à dor abdominal irradiada para as costas?",
       "alternatives": [
         {
@@ -151,6 +154,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 4,
+      "area": "cirurgia",
       "statement": "As neoplasias do aparelho digestivo frequentemente apresentam fatores de risco ambientais,\npreviníveis ou tratáveis. Em relação ao câncer gástrico, assinale, dentre as afirmativas abaixo,\nqual é o fator de risco MAIS associado à doença.",
       "alternatives": [
         {
@@ -204,6 +208,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 5,
+      "area": "cirurgia",
       "statement": "O abdome agudo obstrutivo também é um diagnóstico frequente na prática cirúrgica de\nurgência, sendo comumente um desafio terapêutico. Qual é a PRINCIPAL causa de abdome\nagudo obstrutivo em pacientes adultos?",
       "alternatives": [
         {
@@ -251,6 +256,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 6,
+      "area": "cirurgia",
       "statement": "As hérnias inguinais são o principal defeito de parede e uma das afecções mais\nfrequentemente tratadas pelos cirurgiões. A respeito das hérnias inguinais, qual das\nseguintes afirmações é CORRETA?",
       "alternatives": [
         {
@@ -298,6 +304,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 7,
+      "area": "cirurgia",
       "statement": "O traumatismo abdominal fechado é uma das principais ocorrências atendidas pelas equipes\nde cirurgia em hospitais de referência. Qual é a PRINCIPAL causa de choque hipovolêmico\nem pacientes com trauma abdominal fechado?",
       "alternatives": [
         {
@@ -345,6 +352,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 8,
+      "area": "cirurgia",
       "statement": "A Doença do Refluxo Gastroesofágico (DRGE) é uma afecção de tratamento multidisciplinar,\nenvolvendo clinica, cirurgia e endoscopia em sua condução adequada. Dentre as afirmativas\nabaixo, qual é a PRINCIPAL complicação da doença que pode exigir intervenção cirúrgica?",
       "alternatives": [
         {
@@ -392,6 +400,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 9,
+      "area": "cirurgia",
       "statement": "A doença diverticular frequentemente é causa de atendimentos na rotina das urgências,\npodendo evoluir com vários tipos de apresentação. Na diverticulite aguda complicada com\nabscesso, qual é o tratamento MAIS indicado para este momento?",
       "alternatives": [
         {
@@ -439,6 +448,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 10,
+      "area": "cirurgia",
       "statement": "O carcinoma esofágico escamoso é um dos maiores desafios terapêuticos em oncologia\ndigestiva, sendo necessária a busca incessante pelo diagnóstico precoce. Qual é o PRINCIPAL\nfator de risco para o seu desenvolvimento?",
       "alternatives": [
         {
@@ -486,6 +496,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 11,
+      "area": "cirurgia",
       "statement": "O tratamento cirúrgico da obesidade é no momento a ferramenta mais eficaz no combate da\ndoença, porém, as técnicas comumente utilizadas têm suas consequências. Qual das\nseguintes complicações é MAIS comum após uma cirurgia bariátrica tipo Bypass Gástrico em\nY de Roux?",
       "alternatives": [
         {
@@ -539,6 +550,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 12,
+      "area": "cirurgia",
       "statement": "A doença ulcerosa péptica, apesar da importante evolução do tratamento farmacológico\ndisponível, em algumas situações ainda prescinde da ação do cirurgião. Qual das seguintes\ncondições é uma INDICAÇÃO ABSOLUTA para o tratamento cirúrgico de úlcera péptica?",
       "alternatives": [
         {
@@ -586,6 +598,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 13,
+      "area": "cirurgia",
       "statement": "O câncer colorretal é uma neoplasia em ascensão de incidência ao redor do planeta,\nrecebendo, por este motivo, atenção intensificada das autoridades sanitárias. A respeito desta\nafecção, qual das seguintes afirmações é CORRETA?",
       "alternatives": [
         {
@@ -633,6 +646,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 14,
+      "area": "cirurgia",
       "statement": "As doenças inflamatórias intestinais representam um desafio terapêutico para clínicos e\ncirurgiões, com diretrizes já bem estabelecidas na sua condução. Qual é a abordagem\ncirúrgica MAIS adequada para um paciente com colite ulcerativa refratária ao tratamento\nclínico?",
       "alternatives": [
         {
@@ -686,6 +700,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 15,
+      "area": "cirurgia",
       "statement": "A obesidade, pelo seu caráter multifatorial e recidivante, precisa receber abordagem\npermanente e adequada, especialmente após o tratamento cirúrgico. Qual das alternativas\nabaixo representa um dos PRINCIPAIS fatores associados ao reganho de peso após a cirurgia\nbariátrica?",
       "alternatives": [
         {
@@ -733,6 +748,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 16,
+      "area": "clinica",
       "statement": "Paciente sexo feminino, 38 anos, procurou o pronto atendimento devido à febre alta (39℃) há\n4 dias, acompanhada de tosse produtiva com expectoração amarelada, cansaço progressivo\ne dor torácica em região lateral direita, que piora ao respirar profundamente. Relata também\nfalta de ar nos últimos dois dias, especialmente ao realizar atividades leves, como subir\nescadas. Nega episódios semelhantes no passado. Pacientes é previamente hígida. Ao exame\nfebril (38,5℃), frequência cardíaca de 110 bpm, frequência respiratória de 19 irpm, pressão\narterial 125/80 mmHg, saturação de O2: de 93% em ar ambiente. Ausculta pulmonar:\nPresença de crepitações na base do hemitórax direito e diminuição do murmúrio vesicular na\nmesma região. Exames: Hb:11,8 GL:17900 neutrófilo de 13480 e Plaquetas 112000. Ureia: 38 Cr:\n0,98. PCR:2,8 procalcitonina negativa, Radiografia de tórax: Opacidade em base de pulmão\ndireito, sugestiva de consolidação lobar. Sobre o diagnóstico e tratamento, assinale a\nalternativa CORRETA.",
       "alternatives": [
         {
@@ -780,6 +796,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 17,
+      "area": "clinica",
       "statement": "Paciente apresentou quadro de dor abdominal grave acompanhado de diarreia e hipotensão\nrefratária. Foi admitido em terapia intensiva e tealizada estabilização clínica e colhidas\nculturas. Foi liberado resultado parcial de uma hemocultura com crescimento de duas\namostras. Resultado de exames: Hemocultura sangue periférico Crescimento: Enterococo\nfaecalis Antibiograma pendente demais resultados. Sobre o patógeno em questão, é\nCORRETO afirmar:",
       "alternatives": [
         {
@@ -833,6 +850,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 18,
+      "area": "clinica",
       "statement": "Paciente 45 anos, portador de marcapasso, refere que apresenta história de febre reumática\nna infância, informa que nos últimos dias iniciou febre persistente e fadiga, foi então trazido\nao pronto atendimento onde foi recebido com o seguinte exame clínico: FC: 140 bpm, FR: 17\nirpm, PA: 100x55 mg, Escala de coma de Glasgow 14. Após medidas iniciais foi iniciado terapia\nantimicrobiana. Posteriormente hemoculturas mostraram crescimento de Staphylococcus\naureus em três amostras. Sobre o manejo do paciente, a resposta CORRETA seria:",
       "alternatives": [
         {
@@ -880,6 +898,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 19,
+      "area": "clinica",
       "statement": "Você avalia em enfermaria paciente de 56 anos sexo masculino, com quadro febril\npersistente. Ao avaliar os exames o paciente encontra presença de esplenomegalia no nível\nda cicatriz umbilical esquerda, sem hepatomegalia. Paciente possui presença de edema\nassimétrico em membros inferiores. A avaliação das mãos apresenta a seguinte alteração.\nExames da paciente Hb: 11,8 GL:1040 neutrófilos 350 Plaq:480000 PCR:190 Qual dos seguintes\nexames deveria fazer parte da investigação inicial, pensando em sua PRINCIPAL hipótese\ndiagnóstica?",
       "alternatives": [
         {
@@ -933,6 +952,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 20,
+      "area": "clinica",
       "statement": "Paciente procura atendimento por queixa de fraqueza persistente. Faz acompanhamento\ncom Nefrologia com uma DRC dialítica. Na avaliação de anemia da insuficiência renal\ncrônica, analise as afirmativas a seguir: I. Na uremia grave, os critrócitos apresentam\nanomalias como células com espiculas irregulares (acantócitos) e burr cells (equinócitos). II. A\nanemia normalmente é normocítica normocrômica. III. A causa da anemia é multifatorial,\nmas a causa preponderante esta relacionada à diminuição da síntese de eritropoietina. IV. É\nhiperproliferativa, com aumento da produção de reticulócitos. Estão CORRETAS as\nafirmativas:",
       "alternatives": [
         {
@@ -980,6 +1000,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 21,
+      "area": "clinica",
       "statement": "Paciente 48 anos, sexo masculino, admitido com relato de estar apresentando urina mais\nconcentrada nos últimos dias além de uma perda de sensibilidade na ponta dos dedos, foi\nreferido pelo Posto de Saúde devido a picos pressóricos. No pronto atendimento foi admitido\nhipocorado e ictérico. Observaram-se lesões em membros inferiores com padrão livedóide.\nSeguem os exames: Hb:7,1g/dL Ht: 16% GL:9800/mm Plaq:90000 Cr:7,1mg/dL, Ur: 167 PCR:140,0\nTGO:16 TGP:26 FA: 32 GGT: 42 Alb: 3,1 BT: 5,1 BI: 4,6 Haptoglobina: 24 EAS: Proteinúria 4+,\nHematúria 3+, Com base do quadro clínico, quais os próximos exames, mais direcionados, a\nserem realizados?",
       "alternatives": [
         {
@@ -1033,6 +1054,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 22,
+      "area": "clinica",
       "statement": "Paciente sexo feminino, 35 anos, feminina, refere crises de tontura, sudorese excessiva,\ntremores e confusão mental, especialmente em jejum prolongado ou após exercícios físicos\nintensos, há cerca de seis meses. Teve três episódios de sincope nesse período, sempre\nrelacionados a períodos de jejum. Nega perda de peso, alterações gastrointestinais ou febre.\nExames laboratoriais: Insulina plasmática: 18 µU/mL, Peptídeo C: 4,5 ng/mL. Pensando no\nquadro clínico da paciente em questão, qual seria sua PRÓXIMA abordagem?",
       "alternatives": [
         {
@@ -1080,6 +1102,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 23,
+      "area": "clinica",
       "statement": "Mulher de 18 anos, assintomática, em consulta de pré-natal, traz o seguinte hemograma: Hb\n11,1 g/dL VCM=69 fL. Feita hipótese de anemia ferropriva, prescrito sulfato ferroso durante dois\nmeses e solicitado novo exame que não mostrou diferença do anterior. Prosseguindo na\ninvestigação, foi realizada cinética de ferro que estava dentro dos valores de referência e\nEletroforese de hemoglobina que também foi normal. A hipótese diagnóstica MAIS provável\né:",
       "alternatives": [
         {
@@ -1127,6 +1150,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 24,
+      "area": "clinica",
       "statement": "Paciente 53 anos, portador de Artrite reumatoide em uso de uso de Prednisona por conta\nprópria, procura atendimento com quadro de piora importante do padrão respiratório, vinha\nevoluindo com quadro de febre e tosse seca. Foi iniciado tratamento para pneumonia da\ncomunidade com Amoxicilina mais clavulanato associado a Azitromicina. Após ausência de\n\nmelhora do quadro, paciente foi entubado e levado para terapia intensiva. Foi optado por\nrealizar um BAL e uma tomografia. BAL: pesquisas diretas negativas, Galactomanana\nnegativa, Beta-d glauca a positiva, demais em andamento. No momento da admissão no CTI\napresentava alguns exames coletados na urgência: Gasometria arterial: pO2: 46mmHg, FiO2:\n21%, LDH 620 Sobre o tratamento desse paciente, qual medicamento você considera de\ngrande importância?",
       "alternatives": [
         {
@@ -1180,6 +1204,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 25,
+      "area": "clinica",
       "statement": "Paciente 34 anos, sexo feminino, previamente assintomática, estava em propedêutica de\numa fadiga leve, quando foi solicitado um eletrocardiograma. Qual sua PRINCIPAL hipótese\ndiagnóstica?",
       "alternatives": [
         {
@@ -1233,6 +1258,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 26,
+      "area": "clinica",
       "statement": "Paciente de 48 anos, portador de doença autoimune, em uso recente de corticoide\nassociados a ciclosporina. Refere que apresenta febre e dor abdominal há uma semana,\nassociado à diarreia aquosa de forte intensidade. Devido à suspeita de Clostridium, foram\ncoletados alguns exames e iniciado tratamento após o resultado dos mesmos. Sobre essa\ncondição, é INCORRETO afirmar:",
       "alternatives": [
         {
@@ -1280,6 +1306,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 27,
+      "area": "clinica",
       "statement": "Um homem de 47 anos procurou atendimento médico devido à dispneia progressiva há 2\nmeses. Inicialmente, a falta de ar ocorria apenas durante esforços intensos, mas agora é\ndesencadeada por atividades leves, como caminhar em terreno plano. Ele também relata\nepisódios de ortopneia, necessidade de usar dois travesseiros para dormir e despertar\nnoturno por sensação de sufocamento (dispneia paroxística noturna). Nos últimos 15 dias,\npercebeu edema nos membros inferiores, aumento do peso (3 kg) e diminuição do apetite.\nEle refere cansaço frequente e intolerância a atividades fisicas habituais. Nega dor torácica,\nmas relata palpitações intermitentes. Paciente previamente hipertenso, DM1, teve IAM há 3\nanos. Fazia uso regular de Insulina, AAS e Hidroclorotiazida. ECG: Fibrilação atrial com\nfrequência ventricular de 100 bpm, sinais de sobrecarga ventricular esquerda.\nEcocardiograma: Fração de ejeção do ventrículo esquerdo reduzida (30%), hipertrofia do\nventrículo esquerdo e dilatação do átrio esquerdo. Paciente foi hospitalizado e, após\ncompensação do quadro, qual deve ser a receita para alta com base no quadro de admissão\ndo paciente?",
       "alternatives": [
         {
@@ -1333,6 +1360,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 28,
+      "area": "clinica",
       "statement": "Paciente 42 anos, sexo masculino, relata início súbito de hematêmese e náuseas intensas,\nrefere não ter tido episódios prévios. Refere dor epigástrica leve e sensação de cansaço, mas\nnega melena ou alteração do hábito intestinal. Ao exame físico sem alterações significativas.\nPaciente nega comorbidades conhecidas. Ao Exame físico: Sinais vitais: Pressão arterial\n100/70 mmHg; frequência cardíaca 110 bpm; frequência respiratória 18 irpm. Abdome:\nSensibilidade leve em epigástrio, sem sinais de peritonite ou massa palpável. Exames\ncomplementares: Hb 8,5 g/dL RNI: 1,2. Neste caso, o CORRETO manejo desse paciente é:",
       "alternatives": [
         {
@@ -1380,6 +1408,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 29,
+      "area": "clinica",
       "statement": "Paciente sexo feminino, 43 anos, procura atendimento por estar apresentando quadro de\nqueda capilar e lesões em face que pioram a exposição solar. Paciente tem apresentado dor\narticular, porém sem nenhuma deformidade a avaliação. Pensando em sua avaliação\ndiagnostica, você pede alguns exames: Hb: 11,2 GL:3900 n:2100 Lf: 430 Plaq:110000 Coombs\nDireito positivo, C3:25, VHS: 65, EAS: Proteína +++, FAN não reagente. Sobre o diagnóstico\ndessa paciente, responda a alternativa CORRETA:",
       "alternatives": [
         {
@@ -1427,6 +1456,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 30,
+      "area": "clinica",
       "statement": "Paciente da entrada na UPA, 82 anos, relato de há 72 horas estar cursando com tosse\nassociada à febre. Paciente bem orientado, refere não ter comorbidades e faz uso apenas de\nSinvastatina 20mg e AAS 100mg prescrito pelo posto de saúde. Ao examinar, paciente\napresenta FC: 108bpm, PA:95x65mmHg, FR: 23irpm, Sat:99% em ar ambiente, abdômen livre\ne crepitações a ausculta pulmonar. Os primeiros exames solicitados são: Hb:10.1g/dl, GL: 13000\nsegmentados: 9.200 Plaq: 44.000 TGO:27 TGP: 43 Bilirrubina: 1.3mg/dl. Creatinina:2,0mg/dl\nUreia:89mg/dL. Sobre o diagnóstico e tratamento, assinale a alternativa CORRETA.",
       "alternatives": [
         {
@@ -1474,6 +1504,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 31,
+      "area": "pediatria",
       "statement": "Lactente, 3 meses de idade, sexo masculino, é levado a uma consulta médica por apresentar,\nhá 15 dias, quadro de tosse seca que vem progredindo com acessos de tosse, seguidos de\nvômitos ao final da tosse e acompanhado de cianose facial durante estes acessos de tosse.\nAcompanhante relata febre baixa, mas não aferida. Não há informação sobre o cartão vacinal\n\nda criança. Exame físico realizado mostrou criança com regular estado geral e constatada\numa crise de acesso de tosse, tossidas rápidas, curtas com vômito pós tosse. Demais dados\ndo exame físico sem alterações. Foi solicitado um hemograma deste paciente. Assinale a\nalternativa CORRETA a respeito deste resultado do hemograma.",
       "alternatives": [
         {
@@ -1527,6 +1558,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 32,
+      "area": "pediatria",
       "statement": "Criança de 7 anos de idade, sexo masculino, é internado por apresentar, há 3 dias, quadro de\ndor abdominal, cefaleia, edema facial e de membros inferiores, urina de cor escura, mais\navermelhada \"tipo caldo de carne\". Mãe relata que 15 dias antes de iniciar esse quadro a\ncriança foi diagnosticada com faringoamigdalite e recebeu dose única de penicilina\nbenzatina. Criança previamente hígida. Exame físico realizado mostrou criança com regular\nestado geral, em anasarca, pressão arterial acima do percentil 95% para a idade e sexo,\nhematúria macroscópica. Frequência cardíaca de 112bpm. Frequência respiratória 30 irpm e\nmurmúrio diminuído em bases. Abdome globoso de difícil palpação. A respeito do provável\ndiagnóstico desta criança, é CORRETO afirmar.",
       "alternatives": [
         {
@@ -1574,6 +1606,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 33,
+      "area": "pediatria",
       "statement": "Assinale a alternativa CORRETA a respeito da depressão em criança e adolescente,",
       "alternatives": [
         {
@@ -1621,6 +1654,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 34,
+      "area": "pediatria",
       "statement": "Lactente de 10 meses de idade, sexo masculino, cartão vacinal incompleto, é levado a um\npronto atendimento por apresentar quadro de vômitos, vários episódios, febre baixa, não\naferida, e fezes líquidas e volumosas, amareladas há três dias. Não há relato de sangue nas\nfezes. Exame físico revela criança desidratada leve/moderada, febril, 37,9°c, mas reativa, boa\nperfusão capilar, acianótica, demais dados do exame físico dentro da normalidade. Assinale a\nalternativa CORRETA para este caso.",
       "alternatives": [
         {
@@ -1674,6 +1708,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 35,
+      "area": "pediatria",
       "statement": "Criança de 6 anos de idade, sexo feminino, previamente hígida, cartão vacinal em dia, é\ninternada por apresentar, há 5 dias, quadro de febre, 39°C, tosse produtiva, dor abdominal.\nApós sua internação, o médico pediatra que a atendeu auscultou som bronquial no terço\nmédio do hemitórax direito e frequência respiratória de 45irpm com esforço leve. A MELHOR\nconduta para este caso é:",
       "alternatives": [
         {
@@ -1721,6 +1756,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 36,
+      "area": "pediatria",
       "statement": "Em consulta de rotina com pediatra no Centro de Saúde, mãe comparece com bebê de\nexatos 2 meses de idade, em aleitamento materno exclusivo. Realizada aferição de dados\nantropométricos e constatado ganho de 1,6kg de peso e 4cm de comprimento. Ao exame\nfísico, observada palidez cutânea 1+/4+, sem demais alterações. Exibe hemograma que\nrealizou por conta própria com o seguinte resultado: Hb:10g/dL Ht:35% VCM:96fl HCM:30pg\nCHCM:33g/dL Leucócitos: 12.500/mm³ (segmentados40% linfócitos50% monócitos8%\neosinófilos2%) Plaquetas 280.000/mm³. Com base no cenário acima, assinale a alternativa\nCORRETA:",
       "alternatives": [
         {
@@ -1774,6 +1810,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 37,
+      "area": "pediatria",
       "statement": "Trata-se de lactente de 1 mês de vida, internado devido à síndrome colestática. Realizada\nultrassonografia de abdome com evidência do sinal do cordão triangular. Sobre o caso\ndescrito, assinale a alternativa CORRETA:",
       "alternatives": [
         {
@@ -1821,6 +1858,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 38,
+      "area": "pediatria",
       "statement": "Criança de 2 anos, com cartão vacinal em dia, é levada ao pronto atendimento devido a\nquadro de febre de 3 dias de evolução e conjuntivite não purulenta. Ao exame físico, notadas\nhiperemia de orofaringe, coriza e linfonodos palpáveis em cadeia cervical anterior\nbilateralmente. Sobre o caso descrito, assinale a alternativa CORRETA:",
       "alternatives": [
         {
@@ -1868,6 +1906,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 39,
+      "area": "pediatria",
       "statement": "Dentre as cardiopatias listadas abaixo, assinale aquela com MAIOR probabilidade de evoluir\ncom insuficiência cardiaca congestiva na primeira semana de vida:",
       "alternatives": [
         {
@@ -1921,6 +1960,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 40,
+      "area": "pediatria",
       "statement": "INDIQUE a manobra semiológica que pode ser feita para desencadear a crise e auxiliar no\ndiagnóstico da epilepsia do tipo ausência típica, que é mais comum em meninas antes dos\n10 anos de idade.",
       "alternatives": [
         {
@@ -1968,6 +2008,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 41,
+      "area": "pediatria",
       "statement": "Lactente de 6 meses, em uso de leite de vaca diluído com água, é admitido em enfermaria\ncom quadro de hipoatividade, hipotonia generalizada (não sustenta pescoço, não consegue\nsentar com apoio) e palidez cutânea, sem relato de febre. Realizada aferição de dados\nantropométricos, com peso para estatura de acordo com sexo masculino entre - 3DP e - 2DP.\nExame físico com dados vitais de acordo para idade, não observadas hepatoesplenomegalia\nou linfadenopatia. Realizado hemograma com evidência de pancitopenia. Dentre as\nalternativas abaixo, assinale a hipótese diagnóstica MAIS PROVÁVEL:",
       "alternatives": [
         {
@@ -2015,6 +2056,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 42,
+      "area": "pediatria",
       "statement": "Trata-se de lactente de 4 meses de idade que iniciou quadro de coriza, congestão nasal e\ntosse. Procurado atendimento médico e paciente liberado para casa, sob hipótese\ndiagnóstica de nasofaringite. Evoluiu 3 dias após com taquidispneia e sibilância, com\nnecessidade de internação para suporte de oxigênio. Correlacionando o quadro descrito, leia\natentamente as afirmativas abaixo. I. O principal agente etiológico provável é o rinovírus. II. O\nperíodo de incubação do agente varia de 1 a 3 semanas, com transmissão por gotículas e\nnecessidade de isolamento respiratório. III. Está indicado tratamento com azitromicina. IV.\nAcomete principalmente crianças abaixo de 2 anos de idade. Está(ão) CORRETA(s) a(s)\nafirmativa(s):",
       "alternatives": [
         {
@@ -2068,6 +2110,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 43,
+      "area": "pediatria",
       "statement": "Trata-se de criança de 2 anos de idade, com quadro de febre de 3 dias de evolução e eritema\nmacular iniciado em região de dobras com progressão generalizada. Evoluiu com bolhas e\ndescamação. Ao exame físico, observado sinal de Nikolsky positivo, ausência de\ncomprometimento ocular ou de orofaringe. Sobre o quadro descrito, assinale a alternativa\nCORRETA:",
       "alternatives": [
         {
@@ -2115,6 +2158,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 44,
+      "area": "pediatria",
       "statement": "Lactente de 7 meses, sexo feminino, vai em consulta com queixa materna de estar mais\nmolinho. Mãe relata que percebeu que, neste mês, ao colocar o filho de pé, segurando-o\npelas mãos, agora ele dobra as pernas imediatamente, não ficando \"durinha\" como antes e\nque, ao limpar as fraldas, as pernas estão com maior amplitude ao serem estendidas. Do\nponto de vista de cognitivo comportamental, não há queixas. Diante do quadro descrito, qual\na MELHOR conduta:",
       "alternatives": [
         {
@@ -2162,6 +2206,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 45,
+      "area": "pediatria",
       "statement": "A respeito do TDAH, marque a alternativa CORRETA:",
       "alternatives": [
         {
@@ -2215,6 +2260,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 46,
+      "area": "go",
       "statement": "A predição do bem estar fetal pré-natal e durante o trabalho de parto incluem a prevenção\nde mortes fetais e de intervenções desnecessárias. Sobre esta avaliação fetal, está CORRETO\nafirmar:",
       "alternatives": [
         {
@@ -2262,6 +2308,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 47,
+      "area": "go",
       "statement": "No inicio do trabalho de parto, ocorrem por inúmeras alterações bioquímicas no colo e corpo\nuterino, que culminam com mudança na sua atividade e constituição. Com aumento\nprogressivo e ritmado das contrações uterinas e o amadurecimento, apagamento e perda da\nintegridade estrutural do colo. Sobre o período de trabalho de parto, está CORRETO afirmar:",
       "alternatives": [
         {
@@ -2309,6 +2356,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 48,
+      "area": "go",
       "statement": "A implantação do blastocisto fora da cavidade uterina é considerada uma gravidez ectópica,\napesar de pouco frequente, é uma importante causa de óbitos, relacionada à gestação de\nprimeiro trimestre. Sobre os vários locais de gravidez ectópica, é CORRETO que:",
       "alternatives": [
         {
@@ -2356,6 +2404,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 49,
+      "area": "go",
       "statement": "O diabetes pode ser prévio ou diagnosticado na gravidez. Podem ter repercussões distintas\nna gestante. Marque 1 para ocorrência mais comum em Diabetes prévio; 2 para diabetes\ngestacional. ( ) O prognóstico fetal e materno está relacionada ao grau de doença\ncardiovascular e renal subjacentes. ( ) Ainda há uma dificuldade de consenso no seu rastreio\napesar de mais de 4 décadas de pesquisa. ( ) O risco de abortamento está relacionado\ndiretamente com aumento dos níveis de glicohemoglobina. ( ) As taxas de malformações em\nvários estudos foram pouco aumentadas. ( ) Quando há hipertensão crônica e nefropatia\ndiabética, há um risco maior de desenvolver pré-eclâmpsia. Assinale a sequência CORRETA\nde respostas:",
       "alternatives": [
         {
@@ -2403,6 +2452,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 50,
+      "area": "go",
       "statement": "Os distúrbios hipertensivos permanecem entre os mais significativos e desafiadores da\nobstetrícia, o modo como a gravidez incita a pressão ou a agrava ainda permanece sem\nresposta. Suas repercussões sobre o binômio podem ter desfechos muito desfavoráveis,\nsendo um dos membros da tríade fatal: hipertensão, hemorragia e infecção. Sobre os\ndistúrbios da pressão e a gravides, esta CORRETO afirmar:",
       "alternatives": [
         {
@@ -2456,6 +2506,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 51,
+      "area": "go",
       "statement": "O puerpério é o período de 6 semanas que se seguem ao parto, onde a paciente pode trazer\nalgumas complicações da gestação e periparto, como a hipertensão arterial, ou intercorrer\ncom complicações que são mais frequentes nesse período. Sobre estas complicações, está\nCORRETO afirmar:",
       "alternatives": [
         {
@@ -2503,6 +2554,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 52,
+      "area": "go",
       "statement": "O crescimento fetal se dá em fases diferentes durante os trimestres da gravidez, sendo\nconcentrado nos últimos dois trimestres, ocorrendo principalmente pela provisão de\nsubstratos maternos, transferidos pela placenta, determinado também pela sua genética,\ninfluenciados por mecanismos celulares e moleculares como os fatores de crescimento e a\ninsulina. Sobre os extremos da curva de crescimento dos fetos, está CORRETO afirmar:",
       "alternatives": [
         {
@@ -2556,6 +2608,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 53,
+      "area": "go",
       "statement": "A incontinência urinaria é definida como perda involuntária de urina através da uretra, com\ngrande impacto na qualidade de vida das mulheres. As duas maiores síndromes são a\nincontinência de esforço e a de urgência (ou bexiga hiperativa). Em um grupo de mulheres\nelas se sobrepõem, causando um quadro de incontinência mista. Sobre estas grandes\nsíndromes urinárias e a fisiopatologia, está CORRETO afirmar:",
       "alternatives": [
         {
@@ -2603,6 +2656,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 54,
+      "area": "go",
       "statement": "O câncer de colo uterino ainda é o câncer ginecológico mais comum nas mulheres\nbrasileiras, a despeito dos avanços da prevenção através das vacinas nas últimas décadas.\nContinua sendo um desafio para toda sociedade diminuir a incidência desse câncer para\nalcançar níveis de países desenvolvidos. Sobre o câncer de colo uterino, está CORRETO\nafirmar:",
       "alternatives": [
         {
@@ -2650,6 +2704,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 55,
+      "area": "go",
       "statement": "O câncer de endométrio está em ascensão no nosso meio e deve superar o câncer de colo\ncomo ocorreu nos países de primeiro mundo. Seu diagnóstico é mais precoce que do colo\nuterino, o que diminui a sua mortalidade em relação a outros tumores ginecológicos. Sobre\neste tumor, está CORRETO afirmar:",
       "alternatives": [
         {
@@ -2697,6 +2752,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 56,
+      "area": "go",
       "statement": "A transição menopausica ocorre em torno dos 50 anos e é um período em que a mulher\npassa dos ciclos ovulatório previsíveis à irregularidade menstrual até a senescência ovariana\ncom completa parada dos ciclos. Esse período pode vir com vários sintomas típicos e\naumento da incidência de várias patologias clínicas e ginecológicas. Portanto, merece\nbastante atenção por parte das mulheres e dos ginecologistas. Sobre este período está\nCORRETO afirmar:",
       "alternatives": [
         {
@@ -2744,6 +2800,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 57,
+      "area": "go",
       "statement": "A distopia vaginal é uma afecção comum e pode ter morbidade importante para a paciente,\nporém de baixaa mortalidade. Uma nova classificação mais objetiva e consistente desde 1996\n(POP-Q) para aprimorar as estratégias de correção e a comparação dos resultados dos\n\ntratamentos, Numere a coluna II de acordo com a coluna I das medidas obtidas pela\nclassificação de POP-Q durante uma avaliação de distopia vaginal, considerando o\ncumprimento vaginal de 11 centímetros. Coluna I 1. Grau 1 2. Grau 2 3. Grau 3 4. Grau 4 Coluna\nII ( ) O ponto Ba foi medido com o valor de +6 ( ) O ponto C foi medido com o valor de +9 ( ) O\nponto Bp foi medido com o valor de +1 com Marque a sequência CORRETA de respostas:",
       "alternatives": [
         {
@@ -2797,6 +2854,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 58,
+      "area": "go",
       "statement": "Os métodos contraceptivos atualmente disponíveis têm alta eficácia e baixos efeitos\ncolaterais, entretanto um grande número de gestações não planejadas ainda é detectado, o\nque reforça o papel do ginecologista na orientação e prescrição do método que mais adapte\naos anseios do paciente, de acordo com seu perfil e condição clínica. Sobre tais métodos, é\nCORRETO afirmar:",
       "alternatives": [
         {
@@ -2844,6 +2902,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 59,
+      "area": "go",
       "statement": "As alterações anatômicas congénitas no sistema reprodutor feminino podem ser de origem\ngenética, parada no desenvolvimento, exposição anormal a hormônios ou agressões\nambientais. Entender a complexa embriologia normal auxilia muito no diagnóstico as\npossíveis associações com alterações genitourinárias e ao planejamento terapêutico. Sobre\nestas patologias, é CORRETO afirmar:",
       "alternatives": [
         {
@@ -2897,6 +2956,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 60,
+      "area": "go",
       "statement": "As alterações no equilíbrio da flora vaginal podem levar a crescimento abundante de\npatógenos que causam sintomas desagradáveis e até outras alterações clínicas mais sérias\npara a saúde feminina como a infertilidade consequente ao episódio de doença inflamatória\npélvica. Destaca-se a importância do diagnóstico correto e tratamento de tais afecções. Sobre\neste tema, está CORRETO afirmar:",
       "alternatives": [
         {
@@ -2944,6 +3004,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 61,
+      "area": "preventiva",
       "statement": "Sobre a Lei N° 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a\npromoção, proteção e recuperação da saúde, é CORRETO afirmar:",
       "alternatives": [
         {
@@ -2997,6 +3058,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 62,
+      "area": "preventiva",
       "statement": "A história do Sistema de Saúde no Brasil e a Reforma Sanitária Brasileira são marcos\nfundamentais para a estruturação do Sistema Único de Saúde (SUS) e para a promoção de\npolíticas de saúde pública no país. Considerando os avanços e desafios ao longo desse\nprocesso, assinale com 'V' para as afirmativas verdadeiras e 'F' para as afirmativas falsas sobre\nos principais acontecimentos e princípios da reforma sanitária e a evolução do sistema de\nsaúde no Brasil. ( ) Anteriormente ao SUS, o beneficio de saúde era vinculado ao contrato de\ntrabalho formal, tendo as características de seguro e não de direito de cidadania. ( ) Nas\ndécadas de 60 e 70, na esfera das políticas de saúde, o referencial da medicina comunitária se\nmaterializava em programas de extensão da cobertura de ações básicas, direcionados para a\npopulação excluída do sistema previdenciário. ( ) A 8ª Conferência Nacional de Saúde (CNS),\nrealizada em março de 1986, resultou da negociação entre o Ministério da Previdência e\nAssistência Social e o Ministério da Saúde, em virtude do impasse entre os dois ministérios\nquanto ao aprofundamento da Reforma Sanitária, especialmente a passagem do Inamps\npara o Ministério da Saúde. ( ) Uma das diretrizes resultantes da 8ª CNS foi a constituição de\num novo Conselho Nacional de Saúde composto por representantes de: ministérios da área\nsocial, governos estaduais e municipais e proprietários de instituições filantrópicas de saúde.\nAo Conselho seriam conferidas atribuições de planejamento e financiamento de políticas\npúblicas. Assinale a sequência CORRETA de respostas:",
       "alternatives": [
         {
@@ -3044,6 +3106,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 63,
+      "area": "preventiva",
       "statement": "No capítulo V da Lei 8.080/1990, são estabelecidos os princípios e diretrizes para a criação e\norganização do Subsistema de Atenção à Saúde Indígena, integrado ao Sistema Único de\nSaúde (SUS). Com base nesse capítulo, julgue as afirmativas a seguir: I. A rede do SUS deverá\nobrigatoriamente fazer o registro e a notificação da declaração de raça ou cor, garantindo a\nidentificação de todos os indígenas atendidos nos sistemas públicos de saúde. II. As\npopulações indígenas terão direito a participar dos organismos colegiados de formulação,\nacompanhamento e avaliação das políticas de saúde, tais como o Conselho Nacional de\nSaúde e os Conselhos Estaduais e Municipais de Saúde, quando for o caso. III. As populações\nindígenas devem ter acesso garantido ao SUS, em âmbito local, de acordo com suas\nnecessidades, compreendendo apenas a atenção primária à saúde. IV. Em situações\n\nemergenciais e de calamidade pública, a União deverá assegurar aporte adicional de\nrecursos não previstos nos planos de saúde dos Distritos Sanitários Especiais Indígenas\n(Dseis) ao Subsistema de Atenção à Saúde Indígena. A partir das afirmações acima, assinale a\nalternativa CORRETA:",
       "alternatives": [
         {
@@ -3096,6 +3159,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 64,
+      "area": "preventiva",
       "statement": "A Estratégia Saúde da Família (ESF) foi desenvolvida para prestar cuidados de saúde\nabrangentes, desde a promoção da saúde até a reabilitação, focando no cuidado integrado e\ndirecionado à população de um território específico. Assinale a alternativa INCORRETA sobre\na ESF:",
       "alternatives": [
         {
@@ -3143,6 +3207,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 65,
+      "area": "preventiva",
       "statement": "São diretrizes do Sistema Único de Saúde (SUS) e da Rede de Atenção à Saúde (RAS) a serem\noperacionalizados na Atenção Básica, EXCETO:",
       "alternatives": [
         {
@@ -3190,6 +3255,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 66,
+      "area": "preventiva",
       "statement": "\"É o conjunto de serviços executados pela equipe de saúde que atendam às necessidades da\npopulação adscrita nos campos do cuidado, da promoção e manutenção da saúde, da\nprevenção de doenças e agravos, da cura, da reabilitação, redução de danos e dos cuidados\n\npaliativos. Inclui a responsabilização pela oferta de serviços em outros pontos de atenção à\nsaúde e o reconhecimento adequado das necessidades biológicas, psicológicas, ambientais e\nsociais causadoras das doenças, e manejo das diversas tecnologias de cuidado e de gestão\nnecessárias a estes fins, além da ampliação da autonomia das pessoas e coletividade.\" A\ndescrição acima se refere a qual PRINCÍPIO do Sistema Único de Saúde (SUS):",
       "alternatives": [
         {
@@ -3243,6 +3309,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 67,
+      "area": "preventiva",
       "statement": "As mudanças climáticas estão causando aumento de inundações, tempestades, secas e na\ntemperatura e, portanto, aumentando a exposição a contaminantes, fungos e micróbios,\nresultando em problemas respiratórios. Qual o setor de Vigilância em Saúde que se estrutura\nno pensar e no agir em saúde a partir de relações entre grupos populacionais e seu processo\nde exposições como as que foram citadas?",
       "alternatives": [
         {
@@ -3290,6 +3357,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 68,
+      "area": "preventiva",
       "statement": "A farmacovigilância e todos os aspectos que envolvem a segurança de medicamentos são\npertinentes a todos aqueles que têm sua vida afetada, direta ou indiretamente, por\nprocedimentos em saúde. A notificação de eventos adversos é fundamental no\nfortalecimento tanto do Sistema Nacional de Vigilância em Saúde quanto do Sistema\nNacional de Vigilância Sanitária. Devem ser notificados os seguintes problemas ou eventos\nrelacionados aos medicamentos, EXCETO:",
       "alternatives": [
         {
@@ -3337,6 +3405,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 69,
+      "area": "preventiva",
       "statement": "Durante a investigação de um surto de gastroenterite em uma creche, que ocasionou em\nmais de 30 casos, a equipe de saúde inicia uma análise para determinar a fonte da infecção e\ncontrolar a propagação da doença. Qual das seguintes etapas é considerada a MAIS\nprioritária na investigação inicial deste surto, diante do relatado acima?",
       "alternatives": [
         {
@@ -3390,6 +3459,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 70,
+      "area": "preventiva",
       "statement": "No dia 05 de outubro se comemora o Dia Mundial de Combate à Meningite. A data destaca a\nimportância da prevenção, do diagnóstico, do tratamento e da melhoria das medidas de\nsuporte àqueles que lidam com os efeitos potencialmente devastadores dessa doença\nmortal. Assinale a alternativa INCORRETA sobre meningites:",
       "alternatives": [
         {
@@ -3437,6 +3507,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 71,
+      "area": "preventiva",
       "statement": "Assinale a alternativa INCORRETA abaixo. A Vigilância Epidemiológica em Saúde do\nTrabalhador (VESAT) é um conjunto de ações que proporcionam o conhecimento e a\ndetecção de mudanças nos fatores determinantes e condicionantes da saúde individual e\ncoletiva dos(as) trabalhadores(as), relacionados aos ambientes e processos de trabalho, com a\nfinalidade de recomendar e adotar as medidas de prevenção e controle das doenças e dos\nagravos à saúde da população trabalhadora. Considerando a descrição acima, assinale a\nalternativa INCORRETA sobre as principais atribuições da VESAT:",
       "alternatives": [
         {
@@ -3490,6 +3561,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 72,
+      "area": "preventiva",
       "statement": "A produção e divulgação de informações em saúde constituem um componente essencial\ndo Sistema Único de Saúde (SUS) e, para isso, depende de dados dos sistemas de informação\noficiais. Estes sistemas de informação possibilitam identificar e caracterizar as doenças e\nagravos à saúde nessas diferentes fases da vida dos indivíduos, além de subsidiar a produção\nde conhecimento sobre a história natural de eventos relevantes para a saúde pública. Fazem\nparte dos sistemas oficiais de informação no Brasil, EXCETO:",
       "alternatives": [
         {
@@ -3537,6 +3609,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 73,
+      "area": "preventiva",
       "statement": "De acordo com o manual do Ministério da Saúde sobre o preenchimento da Declaração de\nÓbito, qual das seguintes afirmações é CORRETA em relação às responsabilidades do médico\nao emitir este documento?",
       "alternatives": [
         {
@@ -3583,6 +3656,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 74,
+      "area": "preventiva",
       "statement": "Sobre os tipos de estudos epidemiológicos, qual dos seguintes tipos de estudo\nepidemiológico é MAIS apropriado para investigar a relação causal entre um fator de risco\nespecífico e uma doença, levando em consideração o tempo entre exposição e desfecho?",
       "alternatives": [
         {
@@ -3636,6 +3710,7 @@
       "institution": "Santa Casa BH",
       "year": 2025,
       "number": 75,
+      "area": "preventiva",
       "statement": "Qual dos seguintes métodos é APROPRIADO para determinar a associação estatística entre\nexposição e doença em um estudo epidemiológico?",
       "alternatives": [
         {

@@ -1,6 +1,9 @@
-// Thor, o golden retriever filhote do site, desenhado à mão em SVG.
-const fur = "#f2c27b";
-const ear = "#d38c3e";
+// Thor, o golden retriever do site, desenhado em SVG a partir de fotos dele:
+// topo da cabeça dourado, rosto e focinho quase brancos, olhos castanhos.
+const fur = "#e9b46e";
+const ear = "#d8944a";
+const face = "#f8eedf";
+const iris = "#7a4524";
 const ink = "#3b2a22";
 export type ThorMood = "happy" | "sleepy" | "proud" | "hopeful";
 export function Thor({
@@ -31,7 +34,10 @@ export function Thor({
         strokeLinejoin="round"
       />
       <ellipse cx="60" cy="64" rx="38" ry="34" fill={fur} />
-      <ellipse cx="60" cy="46" rx="16" ry="9" fill="#f7d39d" />
+      <path
+        d="M52 40c4-3 12-3 16 0l2 18c8 2 22 6 24 18-2 14-18 22-34 22S28 90 26 76c2-12 16-16 24-18Z"
+        fill={face}
+      />
       <path
         d="M31 37C16 39 7 57 11 74c1 5 5 9 9 8 2 4 8 4 10-1 2 3 6 1 6-3 2-13 4-29-5-41Z"
         fill={ear}
@@ -48,17 +54,20 @@ export function Thor({
         strokeLinecap="round"
       />
       <circle cx="60" cy="101" r="4.5" fill="#f5c542" stroke="#c99a1e" />
-      <ellipse cx="60" cy="81" rx="20" ry="15" fill="#fff4e3" />
+      <ellipse cx="60" cy="82" rx="21" ry="15" fill="#fffaf3" />
       <Eyes mood={mood} />
       {(mood === "happy" || mood === "proud") && (
-        <path d="M56 86c0 9 8 9 8 0Z" fill="#f28b9b" />
+        <path
+          d={mood === "proud" ? "M54 86c0 13 12 13 12 0Z" : "M56 86c0 9 8 9 8 0Z"}
+          fill="#e98aa0"
+        />
       )}
-      <ellipse cx="60" cy="73" rx="7" ry="5" fill={ink} />
-      <ellipse cx="58" cy="71.5" rx="2.2" ry="1.3" fill="#fff" opacity="0.7" />
+      <ellipse cx="60" cy="73" rx="8.5" ry="6" fill={ink} />
+      <ellipse cx="57.5" cy="71" rx="2.6" ry="1.4" fill="#fff" opacity="0.6" />
       <path
         d={
           mood === "hopeful"
-            ? "M60 78v4m-6 5q6-4 12 0"
+            ? "M60 78v5m0 0c-2 3-6 3-7 1m7-1c2 3 6 3 7 1"
             : "M60 78v5m0 0c-2 4-8 4-10 0m10 0c2 4 8 4 10 0"
         }
         fill="none"
@@ -121,15 +130,17 @@ function Eyes({ mood }: { mood: ThorMood }) {
     <>
       {mood === "hopeful" && (
         <path
-          d="M37 47l10-4M83 47l-10-4"
+          d="M38 48q5-5 10-5M82 48q-5-5-10-5"
           fill="none"
           stroke={ear}
           strokeWidth="2.6"
           strokeLinecap="round"
         />
       )}
-      <circle cx="45" cy="58" r={r} fill={ink} />
-      <circle cx="75" cy="58" r={r} fill={ink} />
+      <circle cx="45" cy="58" r={r} fill={iris} stroke={ink} strokeWidth="1.6" />
+      <circle cx="75" cy="58" r={r} fill={iris} stroke={ink} strokeWidth="1.6" />
+      <circle cx="45" cy="58.5" r={r * 0.5} fill={ink} />
+      <circle cx="75" cy="58.5" r={r * 0.5} fill={ink} />
       <circle cx="47" cy="55.5" r={r / 3} fill="#fff" />
       <circle cx="77" cy="55.5" r={r / 3} fill="#fff" />
       {mood === "hopeful" && (

@@ -98,7 +98,10 @@ describe("Tela de prova", () => {
 
     await user.click(screen.getByRole("button", { name: /^Questão 3,/ }));
     expect(screen.getByText("QUESTÃO 3")).toBeTruthy();
-    expect(next().hasAttribute("disabled")).toBe(true);
+    expect(screen.queryByRole("button", { name: /^Próxima$/ })).toBeNull();
+    expect(
+      screen.getAllByRole("button", { name: "Finalizar simulado" }),
+    ).toHaveLength(2);
     expect(
       screen
         .getByRole("button", { name: /^Questão 3,/ })
@@ -109,6 +112,19 @@ describe("Tela de prova", () => {
     await user.click(previous());
     expect(screen.getByText("QUESTÃO 1")).toBeTruthy();
     expect(previous().hasAttribute("disabled")).toBe(true);
+  });
+
+  it("na última questão o botão vira Finalizar simulado e pede confirmação", async () => {
+    const user = setup();
+    await startDemo(user);
+    await user.click(screen.getByRole("button", { name: /^Questão 3,/ }));
+    const footer = screen.getByText("3 / 3").parentElement!;
+    await user.click(
+      within(footer).getByRole("button", { name: "Finalizar simulado" }),
+    );
+    expect(
+      screen.getByRole("dialog", { name: "Finalizar seu simulado?" }),
+    ).toBeTruthy();
   });
 
   it("mantém a resposta ao sair e voltar para a questão", async () => {

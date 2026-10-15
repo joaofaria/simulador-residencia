@@ -9,6 +9,7 @@ import {
   answer,
   finish,
   score,
+  scoreByArea,
   formatTime,
 } from "./session";
 import { decodeStore, recover, upsert, save, STORAGE_KEY } from "./storage";
@@ -182,4 +183,41 @@ it("não inicia provas vazias ou transcrições sem revisão", () => {
   expect(() => createAttempt(pending, 0, "pendente")).toThrow(
     "pendentes de revisão",
   );
+});
+describe("Desempenho por área", () => {
+  const exam = {
+    ...demo,
+    questions: [
+      { ...demo.questions[0], id: "x1", area: "pediatria" as const },
+      { ...demo.questions[0], id: "x2", area: "pediatria" as const },
+      { ...demo.questions[0], id: "x3", area: "cirurgia" as const },
+      { ...demo.questions[1], id: "x4", area: "cirurgia" as const },
+      { ...demo.questions[2], id: "x5", area: "go" as const },
+    ],
+  };
+  it("conta acertos sobre válidas e ignora anuladas e pendentes", () => {
+    let a = createAttempt(exam, 0, "a");
+    a = answer(a, "A", 1000);
+    a = navigate(a, 1, 1000);
+    a = answer(a, "B", 2000);
+    a = navigate(a, 3, 2000);
+    a = answer(a, "A", 3000);
+    expect(scoreByArea([a])).toEqual([
+      { area: "cirurgia", correct: 0, valid: 1, percentage: 0 },
+      { area: "pediatria", correct: 1, valid: 2, percentage: 50 },
+    ]);
+  });
+  it("soma tentativas e usa o mapa para provas salvas sem área", () => {
+    const old = {
+      ...exam,
+      questions: exam.questions.map(({ area: _, ...q }) => q),
+    };
+    const a = { ...createAttempt(exam, 0, "a"), answers: { x1: "A" } };
+    const b = { ...createAttempt(old, 0, "b"), answers: { x1: "A" } };
+    expect(scoreByArea([b])).toEqual([]);
+    expect(scoreByArea([a, b], { x1: "pediatria", x2: "pediatria" })).toEqual([
+      { area: "cirurgia", correct: 0, valid: 1, percentage: 0 },
+      { area: "pediatria", correct: 2, valid: 4, percentage: 50 },
+    ]);
+  });
 });

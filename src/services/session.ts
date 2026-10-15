@@ -1,4 +1,11 @@
-import type { Attempt, Exam, Question, Outcome } from "../types";
+import {
+  areas,
+  type Area,
+  type Attempt,
+  type Exam,
+  type Question,
+  type Outcome,
+} from "../types";
 export function createAttempt(
   exam: Exam,
   now: number,
@@ -97,6 +104,37 @@ export function score(a: Attempt) {
       ? a.totalMs / a.exam.questions.length
       : 0,
   };
+}
+export type AreaScore = {
+  area: Area;
+  correct: number;
+  valid: number;
+  percentage: number;
+};
+// Acertos por grande área, com a mesma regra do aproveitamento geral:
+// anuladas e pendentes ficam de fora e válidas em branco contam como erro.
+// Tentativas antigas guardam a prova sem área; `lookup` supre essa lacuna.
+export function scoreByArea(
+  attempts: Attempt[],
+  lookup: Record<string, Area> = {},
+): AreaScore[] {
+  const totals = new Map<Area, { correct: number; valid: number }>();
+  for (const a of attempts)
+    for (const q of a.exam.questions) {
+      const area = q.area ?? lookup[q.id];
+      const result = outcome(q, a.answers[q.id]);
+      if (!area || result === "annulled" || result === "pending") continue;
+      const t = totals.get(area) ?? { correct: 0, valid: 0 };
+      t.valid++;
+      if (result === "correct") t.correct++;
+      totals.set(area, t);
+    }
+  return areas
+    .filter((area) => totals.has(area))
+    .map((area) => {
+      const { correct, valid } = totals.get(area)!;
+      return { area, correct, valid, percentage: (100 * correct) / valid };
+    });
 }
 export function formatTime(ms: number) {
   const s = Math.floor(ms / 1000);

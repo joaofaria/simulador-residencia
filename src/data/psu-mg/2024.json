@@ -11,6 +11,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 1,
+      "area": "pediatria",
       "statement": "Criança de, 5 anos e 2 meses compareceu ao Posto de Saúde em Belo Horizonte para\natualização do cartão vacinal. Apresenta histórico de duas internações prévias por infecções\nrespiratórias desde o nascimento. Em relação à proteção contra doenças respiratórias, o\nesquema vacinal desta criança, até o momento, deve incluir:",
       "alternatives": [
         {
@@ -58,6 +59,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 2,
+      "area": "pediatria",
       "statement": "O raquitismo e a osteomalácia são doenças caracterizadas pela deficiência da mineralização\nóssea com repercussões primariamente esqueléticas, mas que também podem afetar\ndiversos outros tecidos e órgãos e comprometer a saúde global do indivíduo.\" Em relação às\nalterações de cálcio, fósforo e vitamina D na infância, assinale a alternativa CORRETA:",
       "alternatives": [
         {
@@ -105,6 +107,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 3,
+      "area": "pediatria",
       "statement": "Pré-escolar, 4 anos de idade, comparece ao pronto atendimento com relato de febre, otalgia\ne secreção ocular, iniciados há três dias. Mãe relata que a dor piorou na última noite, com\nalívio parcial após uso de dipirona. Ao exame físico, o paciente encontra-se febril (Tax: 38,7°C),\n\nobserva-se hiperemia e abaulamento da membrana timpânica à direita, secreção purulenta\ne hiperemia de conjuntiva em olho direito. Assinale a conduta MAIS ADEQUADA para o\npaciente:",
       "alternatives": [
         {
@@ -158,6 +161,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 4,
+      "area": "pediatria",
       "statement": "A maior parte dos óbitos nos primeiros cinco anos de vida concentra-se no primeiro ano,\nsobretudo no primeiro mês de vida pós-natal. Esse fato tem como causa elevado número de\nagravos perinatais preveníveis. Sobre fatores envolvidos em um Nascimento Seguro para os\nrecém-nascidos, é CORRETO afirmar:",
       "alternatives": [
         {
@@ -205,6 +209,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 5,
+      "area": "pediatria",
       "statement": "As principais causas de parada cardiorrespiratória em lactentes e crianças graves são o\nchoque e a insuficiência respiratória. Diante da importância do atendimento precoce e\nadequado ao choque nesta faixa etária, a American Heart Association (AHA) fez algumas\natualizações em relação ao tratamento no atendimento inicial. Qual das afirmativas abaixo\nNÃO É concernente com as recomendações da AHA de 2020:",
       "alternatives": [
         {
@@ -258,6 +263,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 6,
+      "area": "pediatria",
       "statement": "Paciente de 7 anos de idade, residente na capital, procura a Unidade Básica de Saúde com\nrelato de febre, cefaleia e dor abdominal há cinco dias sem melhora com tratamento. Ao\nexame físico, você percebe a presença de exantema maculopapular em tronco e membros.\nAssinale a alternativa que descreve UM DADO EPIDEMIOLÓGICO IMPORTANTE para o\nesclarecimento diagnóstico:",
       "alternatives": [
         {
@@ -305,6 +311,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 7,
+      "area": "pediatria",
       "statement": "Eliane vai até a unidade básica de saúde em que você está atuando, levando seu filho\nAugusto de 14 anos. Na última consulta, foi feita uma avaliação clínica do adolescente com\ndiagnóstico de obesidade. Desde então, a mãe tem procurado melhorar a alimentação do\nadolescente, bem como buscado opções de atividades físicas. No último mês ficou muito\npreocupada, pois leu notícias na internet que afirmavam que o uso de adoçantes dietéticos\npoderia causar câncer. Ela se preocupou mais quando uma vizinha disse que a Organização\nMundial de Saúde tinha \"proibido o uso do tal aspartame\": Sobre esse assunto, assinale a\nalternativa que traz informação ERRADA:",
       "alternatives": [
         {
@@ -358,6 +365,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 8,
+      "area": "pediatria",
       "statement": "Lactente, 1 ano e 8 meses de idade, é trazido para consulta de puericultura. Pais relatam que\nobservaram que a criança está apresentando discreta hiperemia em olho esquerdo há\nalgumas semanas, sem outras alterações. Ao exame físico, além da hiperemia conjuntival,\nobserva-se estrabismo convergente e leucocoria no olho esquerdo. Assinale a alternativa que\napresenta a CONDUTA MAIS ADEQUADA neste momento:",
       "alternatives": [
         {
@@ -405,6 +413,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 9,
+      "area": "pediatria",
       "statement": "A vigilância do desenvolvimento é de extrema importância em toda consulta pediátrica. O\nconhecimento do desenvolvimento normal possibilita a identificação de possíveis atrasos e\numa condução mais eficiente do paciente. Sobre o desenvolvimento do lactente nos\nprimeiros dois meses de vida, é CORRETO afirmar:",
       "alternatives": [
         {
@@ -452,6 +461,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 10,
+      "area": "pediatria",
       "statement": "Apesar do aumento na sobrevivência e de bons resultados neurológicos após ressuscitação\ncardiorrespiratória na faixa etária pediátrica, as taxas de sobrevivência em pacientes vítimas\nde paradas cardíacas extra hospitalares ainda permanecem deficientes. Diante disto, a\nAmerican Heart Association (AHA), em 2020, fez algumas atualizações nas suas diretrizes. Em\nrelação à ressuscitação cardiorrespiratória, qual das alternativas abaixo NÃO está de acordo\ncom as diretrizes 2020 da AHA:",
       "alternatives": [
         {
@@ -505,6 +515,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 11,
+      "area": "pediatria",
       "statement": "Criança de 8 anos é levada à Unidade Básica de Saúde com relato de dor abdominal há\nquatro meses. A dor acontece apenas durante o dia e é intercalada por períodos\nassintomáticos, ocorre na região peri-umbilical, com duração de cerca de uma a duas horas,\nsendo acompanhada de sudorese e náusea. Em relação ao diagnóstico diferencial da dor\nabdominal desse paciente, analise as assertivas abaixo, classificando-as em Verdadeiras (V) e\nFalsas (F) e assinale a alternativa CORRETA: (1) As causas orgânicas são responsáveis por cerca\nda metade dos casos de dor abdominal crônica em crianças. (2) A constipação intestinal\ncrônica funcional está frequentemente associada a dieta pobre em fibras, em escolares. (3) O\nalívio dos sintomas com uso de medicamentos que previnem enxaqueca reforça o\ndiagnóstico de enxaqueca abdominal. (4) Na síndrome do intestino irritável a dor abdominal\né associada a esforço para defecar e sensação de evacuação incompleta. Assinale a\nalternativa CORRETA:",
       "alternatives": [
         {
@@ -552,6 +563,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 12,
+      "area": "pediatria",
       "statement": "A violência sexual contra crianças e adolescentes é uma violação dos direitos humanos e um\nproblema de saúde pública. Nesse sentido, os profissionais de saúde que atendem esse\npúblico precisam estar capacitados para atuar desde o levantamento de suspeitas,\nconfirmação do diagnóstico, até o acompanhamento e tratamento de possíveis lesões e\nsequelas, além da condução das medidas legais e de proteção cabíveis nestes casos, em\ntodos os serviços de saúde pediátricos, públicos e/ou privados. Sobre essa atuação, assinale a\nalternativa ERRADA:",
       "alternatives": [
         {
@@ -605,6 +617,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 13,
+      "area": "pediatria",
       "statement": "Lactente, 5 meses de idade, comparece à consulta para avaliação de lesões cutâneas. A mãe\nrelata que há duas semanas a criança iniciou com lesões eritemato-papulares, algumas\nconfluindo em placas, pruriginosas, em bochechas e couro cabeludo. Não consegue\nidentificar nenhuma relação com produtos de higiene ou alimentação. Nega febre ou outras\nalterações. Vacinação em dia. Nega lesões semelhantes em outros familiares. Ao exame físico,\nobserva-se pele seca, lesões descritas pela mãe, sem outras alterações ou lesões em outros\nlocais. Assinale a hipótese diagnóstica MAIS PROVÁVEL para o paciente acima:",
       "alternatives": [
         {
@@ -652,6 +665,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 14,
+      "area": "pediatria",
       "statement": "Os fatores de risco para o desenvolvimento de asma em lactentes têm sido cada vez mais\nelucidados. Sobre esses fatores, assinale a alternativa CORRETA:",
       "alternatives": [
         {
@@ -705,6 +719,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 15,
+      "area": "pediatria",
       "statement": "O atendimento aos distúrbios de ritmo cardíaco na faixa etária pediátrica é de difícil\ncondução e, por este motivo, a American Heart Association (AHA) elaborou um novo\nfluxograma em 2020 de forma a facilitar o reconhecimento e a abordagem. Considerando os\nnovos fluxogramas e orientações, qual das alternativas abaixo NÃO está de acordo com o que\né preconizado pela AHA:",
       "alternatives": [
         {
@@ -752,6 +767,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 16,
+      "area": "go",
       "statement": "Paciente, 29 anos, é trazida ao atendimento de urgência por autoridades policiais. A paciente\nrelata ter sido agredida sexualmente quanto voltava do trabalho. Chorosa e confusa, refere ter\nsido forçada a praticar sexo oral e coito vaginal. Não sabe dizer se o agressor usou\npreservativos. Nega doenças ou uso de medicamentos regulares. Ciclos menstruais regulares\ne é usuária de DIU T de cobre há cinco anos. Após acolhimento inicial, é levada para\nrealização de exames laboratoriais e abordagem terapêutica. Sobre a assistência à paciente\nna urgência, é CORRETO afirmar que:",
       "alternatives": [
         {
@@ -799,6 +815,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 17,
+      "area": "go",
       "statement": "Puérpera, cinco dias após parto normal sem episiotomia ou intercorrências clínicas,\ncomparece à UBS com queixa de febre e mal-estar há dois dias. Pré-natal de risco habitual.\nSobre as infecções puerperais, é CORRETO afirmar que:",
       "alternatives": [
         {
@@ -852,6 +869,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 18,
+      "area": "go",
       "statement": "São nervos somáticos da pelve:",
       "alternatives": [
         {
@@ -898,6 +916,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 19,
+      "area": "go",
       "statement": "É esperado que ocorra durante um ciclo menstrual fisiológico:",
       "alternatives": [
         {
@@ -944,6 +963,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 20,
+      "area": "go",
       "statement": "A anemia é uma condição onde há redução da massa ou quantidade total de glóbulos\nvermelhos na corrente sanguínea. As gestantes apresentam maior vulnerabilidade para\nanormalidades hematológicas, devido às modificações específicas do ciclo gravídico-\npuerperal. Em relação às anemias na gestação, assinale a alternativa CORRETA:",
       "alternatives": [
         {
@@ -997,6 +1017,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 21,
+      "area": "go",
       "statement": "Adolescente de 13 anos é atendida no serviço de ginecologia com as seguintes queixas:\nausência de desenvolvimento das mamas e de menstruação. Informa rendimento escolar\nadequado, sempre foi a \"mais baixa da turma\" e faz atividade física (ginástica artística\nregularmente) desde os setes anos de idade. Nega patologias prévias, porém não fez controle\npediátrico regularmente. Dentre as hipóteses diagnósticas abaixo relacionadas, assinale a\nMENOS PROVÁVEL:",
       "alternatives": [
         {
@@ -1044,6 +1065,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 22,
+      "area": "go",
       "statement": "Paciente de 37 anos, nulípara, comparece para atendimento ginecológico de rotina. Faz uso\nde DIU T de cobre 380A como contraceptivo. Vive com HIV, em tratamento com terapia\nantirretroviral de alta atividade, com carga viral indetectável e CD4 > 1.000células/mm³.\nSolicita orientações sobre vacina contra HPV. Já fez uso de duas doses da vacina\nquadrivalente contra HPV, na unidade básica de saúde, sendo a segunda dose há um ano. A\norientação CORRETA a ser dada à paciente é:",
       "alternatives": [
         {
@@ -1091,6 +1113,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 23,
+      "area": "go",
       "statement": "Primigesta de 22 anos, sem parceiro fixo, com 28 semanas de gestação, deseja realizar\nlaqueadura tubária após o fim da gestação. Afirma querer parto cesariana para que possa ser\nsubmetida à laqueadura. Traz consigo um Termo de Solicitação de Contracepção Cirúrgica\nassinado por ela e por um médico, datado do início da gestação. Sobre a demanda da\npaciente, é CORRETO informa-la que a esterilização cirúrgica:",
       "alternatives": [
         {
@@ -1144,6 +1167,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 24,
+      "area": "go",
       "statement": "Desde a chegada da gestante ao hospital, o médico e a equipe devem garantir a segurança\nda assistência. O foco na mulher, seu concepto e nos familiares, o envolvimento da equipe de\nsaúde e a definição de um planejamento individualizado podem promover uma melhor\nexperiência. Baseado nessa premissa, assinale a recomendação que deve SER ADOTADA\ndurante o processo do trabalho de parto:",
       "alternatives": [
         {
@@ -1191,6 +1215,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 25,
+      "area": "go",
       "statement": "Gestante, com 34 semanas de gestação, comparece à consulta de urgência com queixa de\ndor supra púbica e ao fim da micção, bem como aumento da frequência urinária noturna e\ndiurna. Refere ter tido dois outros episódios semelhantes nesta gestação, todos tratados com\nantibiótico na UBS. Em relação ao caso, assinale a alternativa CORRETA:",
       "alternatives": [
         {
@@ -1244,6 +1269,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 26,
+      "area": "go",
       "statement": "Paciente de 22 anos, G1A1, retorna à consulta ginecológica trazendo resultado de exame\ncitológico coletado há um mês. Relata bastante preocupação, pois o resultado evidencia\nprocesso inflamatório compatível com infeção pelo vírus papiloma humano (HPV) e lesão\nintraepitelial escamosa de baixo grau (LSIL). Nega ter sido vacinada para HPV. Não tem\nparceria fixa e faz uso de contraceptivo hormonal combinado oral. Afirma uso irregular de\npreservativos. Conforme diretriz do Ministério da Saúde, a conduta MAIS INDICADA para esta\npaciente é:",
       "alternatives": [
         {
@@ -1291,6 +1317,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 27,
+      "area": "go",
       "statement": "Paciente de 14 anos de idade, refere ciclos menstruais irregulares, com duração entre 50 e 60\ndias e sangramento vaginal intenso, chegando a 10 dias de duração. Nega dismenorreia ou\noutros sintomas associados. Menarca aos 13 anos. Nega atividade sexual, comorbidades ou\nuso de medicamentos. A hipótese diagnóstica MAIS PROVÁVEL é:",
       "alternatives": [
         {
@@ -1338,6 +1365,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 28,
+      "area": "go",
       "statement": "A aderência anormal da placenta no miométrio é chamada de acretismo placentário, sendo\nconhecidos três tipos: acreta em que há adesão da placenta ao miométrio, increta aquela\nque invade o miométrio e percreta aquela que atinge a serosa uterina e, por vezes, pode\nchegar a órgãos adjacentes como bexiga, ureter e intestino. Este quadro obstétrico está\n\nassociado a importante morbimortalidade materna, em decorrência de hemorragia\nintraparto relevante. O seu diagnóstico pré-natal é essencial para diminuir a\nmorbimortalidade materna. Em relação aos fatores de risco e diagnóstico pré-natal do\nacretismo placentário, é CORRETO afirmar que:",
       "alternatives": [
         {
@@ -1391,6 +1419,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 29,
+      "area": "go",
       "statement": "Sobre vascularização da pelve e períneo, é CORRETO afirmar que:",
       "alternatives": [
         {
@@ -1438,6 +1467,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 30,
+      "area": "go",
       "statement": "Paciente com 53 anos de idade, sem comorbidades, G3P3A0, menopausa aos 48 anos de\nidade, comparece à consulta ginecológica de rotina, assintomática. Hipertensa, obesidade\ngrau III e diabética com mau controle, faz uso de hidroclorotiazida, losartana, enalapril,\nmetformina, sinvastatina e AAS. Ao exame físico sob esforço, observa-se descida de parede\nvaginal anterior até 1cm acima do hímen. A conduta MAIS APROPRIADA para a paciente é:",
       "alternatives": [
         {
@@ -1485,6 +1515,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 31,
+      "area": "preventiva",
       "statement": "Sobre incorporação ou a exclusão de medicamentos e tecnologias em saúde e produtos de\ninteresse para a saúde: órteses, próteses, bolsas coletoras e equipamentos médico, no âmbito\ndo Sistema Único de Saúde (SUS) é CORRETO afirmar:",
       "alternatives": [
         {
@@ -1538,6 +1569,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 32,
+      "area": "preventiva",
       "statement": "Sobre a Política Nacional de Vigilância em Saúde (PNVS) no Sistema Único de Saúde (SUS) é\nCORRETO afirmar:",
       "alternatives": [
         {
@@ -1585,6 +1617,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 33,
+      "area": "preventiva",
       "statement": "A Política Nacional de Promoção da Saúde (PNPS) baseia-se no conceito ampliado de saúde\ne apresenta sua promoção como um conjunto de estratégias e formas de produzir saúde, no\nâmbito individual e coletivo, com responsabilidades para os três entes federados. NÃO é\nconsiderada ação específica no âmbito da PNPS:",
       "alternatives": [
         {
@@ -1638,6 +1671,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 34,
+      "area": "preventiva",
       "statement": "Matheus de 13 anos de idade comparece à Unidade Básica de Saúde (UBS) acompanhado da\nmãe, Maria, que está, há um mês, em tratamento para tuberculose pulmonar bacilífera. Maria\ninforma que está utilizando corretamente os medicamentos prescritos e que já teve melhora\nimportante do quadro, inclusive com ganho de peso. Matheus está assintomático, com\nexame físico sem alterações. Apresentou cartão de vacinação onde constava ter sido\nvacinado com BCG ao nascimento. Foram solicitados para ele, exame radiológico do tórax,\nque se apresentou sem alterações, e teste tuberculínico (PPD) cujo resultado foi reator = 13\nmilímetros. Sobre a situação de Matheus é CORRETO afirmar:",
       "alternatives": [
         {
@@ -1684,6 +1718,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 35,
+      "area": "preventiva",
       "statement": "Na tomada de decisões na condução de um paciente é importante a pergunta: \"essa\nconduta trará mais benefícios que malefícios para o meu paciente?\". Ou seja: ele deve utilizar\ndos princípios da Medicina Baseada em Evidências (MBE). O preceito fundamental da MBE é\nque existe uma hierarquia da qualidade de informações, que é função da metodologia usada\nno estudo, cuja qualidade deve ser definida em níveis de evidência. Os melhores tipos de\nestudo que apresentam o MAIS ALTO grau ou nível de evidência são os estudos tipo:",
       "alternatives": [
         {
@@ -1731,6 +1766,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 36,
+      "area": "preventiva",
       "statement": "A asma é uma doença inflamatória crônica das vias aéreas inferiores que se caracteriza,\nclinicamente, por aumento da responsividade dessas vias a diferentes estímulos, com\nconsequente obstrução ao fluxo aéreo, de forma recorrente e, tipicamente, reversível. Com\nrelação às etapas de tratamento da asma de crianças a partir de seis anos de idade,\nadolescentes e adultos no SUS, assinale a alternativa ERRADA: CI: corticoide inalatório; SABA:\nbroncodilatador ß2-agonista de curta duração; FORM: formoterol; LABA: broncodilatador ß2-\nagonista de longa duração; Anti-ige: antiimunoglobulina E; CO: corticosteroides oral.",
       "alternatives": [
         {
@@ -1778,6 +1814,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 37,
+      "area": "preventiva",
       "statement": "Sobre a profilaxia antirrábica humana pós-exposição, em caso de acidente grave, assinale a\nalternativa ERRADA:",
       "alternatives": [
         {
@@ -1825,6 +1862,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 38,
+      "area": "preventiva",
       "statement": "Na vida da mulher, a transição entre o estágio reprodutivo e o não reprodutivo é denominada\nclimatério. Nessa fase, as mulheres apresentam inúmeras necessidades de prevenção de\ndoenças e de promoção de saúde, e os médicos devem estar atentos a uma série de\ncondutas direcionadas à otimização da qualidade de vida. Das recomendações abaixo, qual\nNÃO É indicada para o climatério?",
       "alternatives": [
         {
@@ -1872,6 +1910,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 39,
+      "area": "preventiva",
       "statement": "Com relação ao manejo da dor na Chikungunya, assinale a alternativa ERRADA:",
       "alternatives": [
         {
@@ -1919,6 +1958,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 40,
+      "area": "preventiva",
       "statement": "No atendimento a pacientes com quadro suspeito de dengue é necessário a realização do\nestadiamento clínico e classificação para estabelecer o manejo clínico de acordo com\n\ncritérios estabelecidos pelo Ministério da Saúde. Para pacientes sem sinais de alarme e sem\nsinais de gravidade, é preciso avaliar se apresentam fatores de risco (classificados no grupo B)\nou se são ausentes (classificados no grupo A). Dos dados citados abaixo, qual deles NÃO É\nconsiderado fator de risco para o paciente ser classificado no grupo B:",
       "alternatives": [
         {
@@ -1972,6 +2012,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 41,
+      "area": "preventiva",
       "statement": "O câncer de intestino abrange os tumores que se iniciam no cólon e no reto (15-12cm finais\ndo intestino, imediatamente antes do ânus). É tratável e, na maioria dos casos, curável ao ser\ndetectado precocemente, quando ainda não se espalhou para outros órgãos. Com relação ao\ncâncer colorretal é ERRADO afirmar que:",
       "alternatives": [
         {
@@ -2019,6 +2060,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 42,
+      "area": "preventiva",
       "statement": "A insônia pode ser definida como uma experiência subjetiva de sono inadequado, com\ndificuldade em iniciar ou na manutenção do sono, despertares precoces e \"sono não\nreparador\", com repercussão no funcionamento sócio-ocupacional diurno. Seu tratamento\ndepende do tipo de insônia, devendo ser individualizado de acordo com as preferências do\npaciente, disponibilidade de recursos, gravidade e os riscos, benefícios e custos do\ntratamento. Assinale entre as alternativas abaixo, sobre a terapêutica da insônia, aquela que\nestá ERRADA:",
       "alternatives": [
         {
@@ -2071,6 +2113,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 43,
+      "area": "preventiva",
       "statement": "Paciente de 25 anos de idade comparece à Unidade Básica de Saúde informando que teve\ncontato com água de enchente, sem uso de proteção há 15 dias. Iniciou há uma semana com\nfebre de 38°C, mialgia, náuseas, vômitos e dor no hipocôndrio direito. Há dois dias relata que\nteve melhora parcial do quadro, mas ficou ictérico. Ao exame físico, apresenta-se corado,\nhidratado, ictérico (++/4+), acianótico. Restante do exame físico estava normal, exceto no\nexame de abdome, onde apresentou dor a palpação no hipocôndrio direito e hepatomegalia\na 4cm do RCD. No dia anterior havia realizado exames laboratoriais onde foi visto\nhemograma sem alterações, bilirrubinas totais de 16mg/dL (à custa de bilirrubina direta =\n14mg/dL), TGO = 500U/L e TGP = 3.000U/L. Ureia, creatinina e eletrólitos sem alterações.\nLevando em consideração os aspectos clínicos, laboratoriais e epidemiológicos, dos exames\nabaixo, qual é o indicado para a confirmação diagnóstica deste caso:",
       "alternatives": [
         {
@@ -2118,6 +2161,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 44,
+      "area": "preventiva",
       "statement": "Nas recomendações para avaliação oftalmológica de crianças saudáveis menores de cinco\nanos, qual alternativa abaixo é considerada ERRADA?",
       "alternatives": [
         {
@@ -2171,6 +2215,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 45,
+      "area": "preventiva",
       "statement": "Os Sistemas de Informação em Saúde são parte da estrutura dos Sistemas de Saúde e têm\ncomo propósito geral facilitar a formulação e avaliação das políticas, planos e programas de\nsaúde, subsidiando a tomada de decisões. Sobre os sistemas nacionais de informação em\nsaúde analise as assertivas abaixo: 1. O Sistema Nacional de Agravos de Notificação (Sinan) é\nfonte de dados indispensáveis ao cálculo dos principais indicadores relacionados a doenças\nde importância epidemiológica, surtos, endemias e epidemias, tais como as taxas de\nincidência, letalidade e mortalidade, coeficiente de prevalência, entre outros. 2. O Sistema de\nInformação sobre Mortalidade (SIM) tem como fonte de informação a Declaração de Óbito\n(DO); 3. O Sistema de Informações sobre Nascidos Vivos (Sinasc) tem como principal fonte de\ninformação a ficha de notificação compulsória. 4. O Sistema do Programa Nacional de\nImunizações - SI-PNI tem como objetivo fundamental possibilitar aos gestores envolvidos no\nprograma uma avaliação dinâmica do risco quanto à ocorrência de surtos ou epidemias, a\npartir do registro dos imunos aplicados e do quantitativo populacional vacinado, que são\nagregados por faixa etária, em determinado período de tempo, em uma área geográficas.\nSobre as assertivas, assinale a alternativa CORRETA:",
       "alternatives": [
         {
@@ -2218,6 +2263,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 46,
+      "area": "clinica",
       "statement": "Homem de 64 anos foi atendido no pronto-socorro de um hospital que não possui serviço de\nhemodinâmica. Foi diagnosticado com infarto agudo do miocárdio (IAM) com supraelevação\ndo segmento ST. Recebeu tratamento trombolítico com alteplase, apresentou resposta\nclínica e eletrocardiográfica (ECG pós-reperfusão sem anormalidades) e permaneceu sob\nmonitorização. Encontrava-se assintomático e apresentava os seguintes dados vitais: FC\n68bpm, FR 18ipm, SpO2 95% (ar ambiente), PA 136/84mmHg, quando foi observado o\nseguinte traçado eletrocardiográfico: Assinale a alternativa que apresenta a conduta MAIS\nADEQUADA neste momento em relação à abordagem da alteração eletrocardiográfica\nobservada:",
       "alternatives": [
         {
@@ -2271,6 +2317,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 47,
+      "area": "clinica",
       "statement": "Assinale a alternativa que apresenta um achado semiológico que NÃO poderia ter sido\ncausado pela anormalidade identificada ao ECG:",
       "alternatives": [
         {
@@ -2324,6 +2371,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 48,
+      "area": "clinica",
       "statement": "O paciente é avaliado no ambulatório um ano após o IAM. Não apresenta queixas. É portador\nde diabetes melito tipo 2. Está em uso de AAS 100mg/dia, clopidogrel 75mg/dia, metoprolol\n50mg/dia, metformina 850mg duas vezes/dia e atorvastatina 80mg/dia. Ao exame físico, PA\n110/70mmHg e FC 72bpm. O ecocardiograma atual revela hipocinesia da parede anterior\nmédia e apical, e a fração de ejeção do VE foi estimada em 47%. Exames de laboratório:\nglicemia de jejum 145mg/dL; HgA1c 8,7%; colesterol total 166mg/dL; HDL 34mg/dL; LDL\n88mg/dL; creatinina 1,1mg/dL; potássio 4,5mEq/L. Assinale a alternativa que apresenta uma\nconduta INADEQUADA neste caso:",
       "alternatives": [
         {
@@ -2371,6 +2419,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 49,
+      "area": "clinica",
       "statement": "Durante exame neurológico, o médico observa que o paciente apresenta pupilas simétricas e\nque se contraem com a exposição de cada olho à luz de uma lanterna. Ao mudar\nrapidamente a lanterna acesa de um olho para o outro diversas vezes, o médico observa\ndiscreta variação no diâmetro das pupilas, sendo ligeiramente menores quando a luz é\nposicionada em frente ao olho direito. Assinale a alternativa que apresenta uma possível\ntopografia de lesão que poderia estar associada ao exame neurológico descrito:",
       "alternatives": [
         {
@@ -2424,6 +2473,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 50,
+      "area": "clinica",
       "statement": "Mulher de 35 anos foi diagnosticada com anemia ferropriva. Após três meses de tratamento\ncom reposição oral de sulfato ferroso de forma adequada e aderente, os exames revelaram\nque não houve elevação das reservas de ferro ou aumento da hemoglobina. Assinale a\nalternativa que NÃO apresenta um diagnóstico diferencial para a refratariedade ao\ntratamento descrito:",
       "alternatives": [
         {
@@ -2471,6 +2521,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 51,
+      "area": "clinica",
       "statement": "Homem de 65 anos apresenta anorexia e perda de 7kg em três meses. Nega outras queixas e\ndesconhece comorbidades. Não faz uso de quaisquer medicamentos. Ao exame físico não\napresenta anormalidades. Exames de laboratório: Hg 10,9g/dL; leucócitos 12.450/mm³;\neosinófilos 1.790/mm³; neutrófilos 6.400/mm³; linfócitos 3.800/mm³; plaquetas 167.000/mm³.\nAssinale a alternativa que NÃO apresenta um diagnóstico diferencial para a eosinofilia\napresentada por esse paciente:",
       "alternatives": [
         {
@@ -2518,6 +2569,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 52,
+      "area": "clinica",
       "statement": "Mulher de 23 anos realiza consulta periódica de saúde. Palpa-se nódulo tireoidiano e solicita-\nse ultrassonografia da tireoide, que revela nódulo sólido hipoecoico no terço inferior do lobo\nesquerdo, de contornos regulares, focos hiperecoicos puntiformes de permeio, medindo\n19x12x16 mm. Qual das características sonográfica deste nódulo tireoidiano NÃO está\nassociada a maior probabilidade de neoplasia:",
       "alternatives": [
         {
@@ -2571,6 +2623,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 53,
+      "area": "clinica",
       "statement": "Homem de 58 anos queixa-se de epigastralgia contínua, leve a moderada, exacerbada após\nas refeições, associada a anorexia, náuseas e vômitos. Os sintomas ocorrem há seis meses,\nperíodo em que perdeu 8kg. É tabagista (30 maços-ano) e etilista (pelo menos 1L de destilado\nao dia) há mais de 30 anos. Ao exame físico, apresenta dor à palpação do epigástrio, sem\nsinais de irritação peritoneal ou massas palpáveis. A TC do abdome revelou a seguinte\nimagem: Considerando o diagnóstico mais provável nesse caso, assinale uma alternativa que\nNÃO APRESENTA uma complicação possível dessa doença:",
       "alternatives": [
         {
@@ -2624,6 +2677,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 54,
+      "area": "clinica",
       "statement": "Homem de 57 anos é admitido no hospital com quadro de febre e calafrios há três dias. Não\napresenta queixas localizatórias à admissão. Não possui comorbidades conhecidas e\napresenta creatinina sérica de 0,8mg/dL. Após as hemoculturas apresentarem crescimento\nde Staphylococcus aureus, o paciente recebe a prescrição de vancomicina pela via IV. O\necocardiograma transtorácico não revela quaisquer anormalidades. No segundo dia do\ntratamento com vancomicina, o paciente se queixa de lombalgia moderada contínua, pior\n\ndurante a deambulação. Assinale a alternativa que apresenta uma conduta INADEQUADA\nnesse caso:",
       "alternatives": [
         {
@@ -2677,6 +2731,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 55,
+      "area": "clinica",
       "statement": "Homem de 77 anos queixa-se de dor no hipocôndrio direito e prurido generalizado. Realizou\nultrassonografia abdominal que revelou dilatação do colédoco (11mm), dilatação das vias\nbiliares intrahepáticas e dilatação do ducto pancreático principal, sem causas obstrutivas\nidentificadas ao método. Não possui comorbidades, não faz uso de medicamentos e foi\nsubmetido a colecistectomia por pólipo de vesícula biliar há três anos. Assinale a alternativa\nque NÃO apresenta um sinal de alarme para causas obstrutivas das vias biliares nesse\npaciente:",
       "alternatives": [
         {
@@ -2724,6 +2779,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 56,
+      "area": "clinica",
       "statement": "Homem de 35 anos apresenta febre, tosse produtiva com escarro purulento, dor torácica\nventilatório-dependente no hemitórax direito e dispneia há 72h. Desconhece comorbidades\ne nega uso de quaisquer drogas. Ao exame físico, PA 130/78mmHg, FC 104bpm, FR 18ipm,\nSpO2 95% (ar ambiente), Tax 38,8°C. Apresenta-se alerta e orientado. A ausculta respiratória\nrevela crepitações grossas e sons respiratórios reduzidos na base do hemitórax direito; a\npercussão revela submacicez e o frêmito toracovocal está abolido. Exames de laboratório:\nPCR 123mg/L; leucócitos 14.560/mm³; neutrófilos segmentados 9.760/mm3; 1.200/mm³\nneutrófilos bastonetes; plaquetas 234.000/mm³; creatinina 1,1mg/dL; bilirrubinas totais 0,8mg/\ndL. Teste de Covid-19 não reagente. Radiografia do tórax: consolidação no lobo inferior direito,\nderrame pleural leve a moderado à D com sinal do menisco evidente e sem alterações\npleurais evidentes. No decúbito lateral direito, houve mudança do aspecto do derrame\npleural, que assumiu posição gravidade-dependente e mediu 1cm entre as pleuras parietal e\nvisceral. O paciente foi internado. Assinale a alternativa que apresenta a conduta inicial MAIS\nADEQUADA nesse caso:",
       "alternatives": [
         {
@@ -2777,6 +2833,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 57,
+      "area": "clinica",
       "statement": "Homem de 63 anos apresentou episódio isolado de urina de coloração vermelho escuro. Não\npossui outras queixas, desconhece comorbidades nem faz uso de medicamentos. Fuma um\nmaço de cigarro desde os 20 anos de idade e nega etilismo. O exame físico, inclusive o toque\nretal, não apresenta anormalidades. Exame de urina: 3 hemácias por campo, sem cilindros,\nsem proteína. Ultrassonografia do trato urinário e da pelve masculina: sem anormalidades.\nAssinale a alternativa que apresenta a conduta MAIS ADEQUADA nesse caso:",
       "alternatives": [
         {
@@ -2824,6 +2881,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 58,
+      "area": "clinica",
       "statement": "Mulher de 42 anos queixa-se de fraqueza e dor proximal nos membros superiores e inferiores\nhá duas semanas. Apresenta astenia, dor, edema e vermelhidão nas articulações das mãos e\nrigidez matinal de 40 minutos. Ao exame físico, apresenta pápulas arroxeadas na face dorsal\ndas articulações metacarpofalangeanas e interfalangeanas das mãos. A face apresenta\neritema malar envolvendo as sulcos nasolabiais. Exames de laboratório: Hg 10,5g/dL;\nleucócitos 6.540/mm³; neutrófilos 3.450/mm³; linfócitos 1.340/mm³; plaquetas 169.000/mm³;\nCPK 540U/L; FAN reagente 1/320 (padrão citoplasmático pontilhado fino); fator reumatoide\nnão reagente; anti-SSA não reagente; anti-DNA não reagente; anti-Sm não reagente; anti-\nRNP não reagente. Assinale a alternativa que apresenta o diagnóstico MAIS PROVÁVEL nesse\ncaso:",
       "alternatives": [
         {
@@ -2871,6 +2929,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 59,
+      "area": "clinica",
       "statement": "Homem de 37 anos, assintomático, apresenta os seguintes resultados de exames: AST 24U/L;\nALT 32U/L; HBsAg reagente, anti-HBs não reagente; anti-HBc total reagente; HBeAg não\n\nreagente; anti-HBe reagente. Assinale a alternativa que apresenta a conduta MAIS\nADEQUADA nesse caso:",
       "alternatives": [
         {
@@ -2924,6 +2983,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 60,
+      "area": "clinica",
       "statement": "Homem de 35 anos é levado ao Pronto-Socorro por causa de fraqueza generalizada,\ndificuldade para deambular, náuseas e vômitos. Possui seminoma testicular com\nacometimento linfonodal secundário acentuado. Recebeu a primeira quimioterapia quatro\ndias antes. Ao exame físico, apresenta as mucosas desidratadas e coradas. Está alerta e\norientado. Apresentou contratura do antebraço e da mão durante a aferição da pressão\narterial nesse membro. Exames de laboratório: creatinina 1,8mg/dL; ureia 64mg/dL; sódio\n136mEq/L; potássio 6,2mEq/L; fósforo 5,3mg/dL; ácido úrico 12,4mg/dL; cálcio iônico\n0,72mmol/L. Assinale a alternativa que apresenta uma conduta inicial INADEQUADA:",
       "alternatives": [
         {
@@ -2971,6 +3031,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 61,
+      "area": "cirurgia",
       "statement": "A cicatrização das feridas é fundamental para a restauração da integridade da pele. Embora o\nprocesso de cicatrização seja contínuo, ele pode ser dividido em algumas fases. Em relação\nao tema é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3018,6 +3079,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 62,
+      "area": "cirurgia",
       "statement": "O cirurgião tem a possibilidade de utilizar diferentes anestésicos locais e seus adjuvantes\ncom o objetivo de fornecer anestesia e analgesia ao paciente. Ao se comparar a lidocaína\ncom a ropivacaína é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3071,6 +3133,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 63,
+      "area": "cirurgia",
       "statement": "A desnutrição pré-operatória é fator independente de risco para complicações pós-\noperatórias, por maior tempo de internação e por maior mortalidade. Em relação ao preparo\npré-operatório destes pacientes é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3118,6 +3181,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 64,
+      "area": "cirurgia",
       "statement": "O choque hipovolêmico é dividido em quatro classes, dependendo da gravidade da\nhemorragia. Por isso, é importante saber reconhecê-las para que seja aplicado o tratamento\nadequado conforme a dimensão da hemorragia ocasionada pelo trauma. As classes são\nespecificadas por meio da perda sanguínea baseada na apresentação inicial do paciente. Em\nrelação a este tipo de choque em um adulto de 70 Kg é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3165,6 +3229,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 65,
+      "area": "cirurgia",
       "statement": "Paciente do sexo feminino, 27 anos, solteira, sem comorbidades, relata ser tabagista de meio\nmaço/dia há cinco anos. Ela será submetida a colecistectomia videolaparoscópica sob\nanestesia geral. Em relação à avaliação e ao preparo pré-operatório desta paciente é\nCORRETO afirmar:",
       "alternatives": [
         {
@@ -3218,6 +3283,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 66,
+      "area": "cirurgia",
       "statement": "O estresse metabólico, ao qual qualquer indivíduo é submetido em todo contexto de insulto,\nseja ele traumático ou cirúrgico, respeita um padrão de resposta fisiológico. No contexto do\ntrauma, entende-se que a resposta ao estresse é, em sua maioria, dividida em diferentes\nfases de elevada importância. Em paciente vítima de esmagamento dos membros inferiores\npor acidente automobilístico é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3265,6 +3331,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 67,
+      "area": "cirurgia",
       "statement": "PSM, 59 anos, sexo masculino, com quadro de disfagia progressiva, apresentou perda\nponderal de 20Kg nos últimos seis meses. Relata ingestão de um litro de aguardente por dia\naté há três meses. Foi submetido a exame de endoscopia digestiva alta, que evidenciou\ngrande lesão úlcero-infiltrativa, de limites mal definidos, localizada a 25cm da ADS. Não foi\npossível a progressão do aparelho. Biópsia da lesão evidenciou CEC. Em relação à condução\ndesse caso, assinale a alternativa ERRADA.",
       "alternatives": [
         {
@@ -3318,6 +3385,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 68,
+      "area": "cirurgia",
       "statement": "Paciente de 68 anos, sexo masculino, está no terceiro dia de pós-operatório de\nesofagectomia. Ele inicia quadro de dificuldade respiratória com queda da saturação de\noxigênio. Foram solicitados exames laboratoriais que mostraram: pH: 7,25; PaCO2: 42mmHg;\nNa: 135mmol/L; K: 3,8mmol/L; Cloreto: 95mmol/L; e bicarbonato: 13mmol/L. Qual o\ndiagnóstico do distúrbio ácido-base apresentado por este paciente?",
       "alternatives": [
         {
@@ -3365,6 +3433,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 69,
+      "area": "cirurgia",
       "statement": "Após os diferentes tipos de procedimentos cirúrgicos os pacientes recebem hidratação\nvenosa no pós-operatório, uma vez que ficarão em jejum no pós-operatório por determinado\nperíodo. Em relação à hidratação venosa no pós-operatório é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3412,6 +3481,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 70,
+      "area": "cirurgia",
       "statement": "A utilização de antibióticos tem revolucionado o tratamento de determinadas enfermidades,\nmuitas vezes letais. No entanto, em muitas situações, verifica-se que as indicações de tais\nmedicações são inadequadas, não havendo, em muitas ocasiões, necessidade do seu uso. Em\nrelação a antibioticoprofilaxia cirúrgica é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3465,6 +3535,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 71,
+      "area": "cirurgia",
       "statement": "Um número cada vez maior de pessoas idosas é submetido a procedimentos cirúrgicos. Em\ngeral, a função orgânica declina com a idade, mas na maioria das vezes é adequada para\natender à demanda metabólica de idosos submetidos a operações eletivas. Em relação às\nalterações fisiológicas que ocorrem durante o envelhecimento é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3512,6 +3583,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 72,
+      "area": "cirurgia",
       "statement": "A tromboembolia venosa, que inclui tanto a trombose venosa profunda quanto sua\ncomplicação mais grave, a embolia pulmonar, está presente em cerca de um terço dos\npacientes internados e contribui como causa de morte em até 10% deles. Em relação à\nprofilaxia destes eventos é CORRETO afirmar:",
       "alternatives": [
         {
@@ -3559,6 +3631,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 73,
+      "area": "cirurgia",
       "statement": "Mulher de 54 anos, ao ir à podóloga, toma conhecimento de lesão enegrecida na planta do\npé esquerdo, com cerca de 2 centímetros de diâmetro. Paciente e podóloga têm certeza de\nque a lesão não existia um ano antes. Assinale a alternativa que apresenta a conduta\nCORRETA:",
       "alternatives": [
         {
@@ -3612,6 +3685,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 74,
+      "area": "cirurgia",
       "statement": "Mulher de 32 anos, IMC 42Kg/m², apresentado como co-morbidades hipertensão arterial\nsistêmica, dislipidemia, esteatose hepática acentuada e diabetes mellitus tipo 2 de difícil\ncontrole. Está em uso de insulina há dois anos. Ela foi encaminhada para tratamento\ncirúrgico da obesidade e foi liberada pela equipe multidisciplinar. Em relação ao tratamento\ncirúrgico dessa paciente, assinale a alternativa ERRADA:",
       "alternatives": [
         {
@@ -3659,6 +3733,7 @@
       "institution": "PSU-MG",
       "year": 2024,
       "number": 75,
+      "area": "cirurgia",
       "statement": "Paciente idoso vitima de colisão frontal de carro x objeto fixo no anel rodoviário. A\nambulância do SAMU chegou ao local e realizou o atendimento pré-hospitalar. O paciente\nencontrava-se torporoso com Glasgow de 8, muito dispnéico e hipotenso, bem como\napresentava uma amputação traumática da coxa com sangramento arterial ativo em jato da\nartéria femoral superficial. Considerando o atendimento pré-hospitalar ao trauma, qual a\nconduta emergencial a ser tomada para evitar a morte do paciente:",
       "alternatives": [
         {

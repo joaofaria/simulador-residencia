@@ -3,7 +3,14 @@ import { useParams } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 import type { Attempt } from "../types";
-import { score, formatTime, outcome } from "../services/session";
+import {
+  score,
+  scoreByArea,
+  formatTime,
+  outcome,
+} from "../services/session";
+import { useAreaLookup } from "../data/areas";
+import { AreaBreakdown } from "../components/AreaBreakdown";
 import { QuestionView } from "../components/QuestionView";
 import { Missing } from "../components/Missing";
 const labels = {
@@ -23,8 +30,10 @@ export function Results({
   const { id } = useParams();
   const a = attempts.find((x) => x.id === id);
   const [filter, setFilter] = useState("all");
+  const lookup = useAreaLookup(a ? [a] : []);
   if (!a || a.status !== "finished") return <Missing />;
   const s = score(a);
+  const byArea = scoreByArea([a], lookup);
   const data = [
     { name: "Acertos", value: s.correct, color: "#16745e" },
     { name: "Erros", value: s.incorrect, color: "#d76a63" },
@@ -123,6 +132,18 @@ export function Results({
         todos os itens:{" "}
         {a.exam.questions.filter((q) => !a.answers[q.id]).length}.
       </p>
+      {byArea.length > 0 && (
+        <>
+          <div className="section-heading">
+            <h2>Desempenho por área</h2>
+          </div>
+          <AreaBreakdown scores={byArea} />
+          <p className="definition">
+            Acertos sobre questões válidas de cada área, com a mesma regra do
+            aproveitamento geral.
+          </p>
+        </>
+      )}
       <div className="section-heading">
         <h2>Revisão das questões</h2>
       </div>

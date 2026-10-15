@@ -136,9 +136,11 @@ export function Simulation({
           <QuestionView
             question={q}
             selected={a.answers[q.id]}
-            onSelect={(letter) =>
-              update(a.id, (x) => answer(x, letter, Date.now()))
-            }
+            onSelect={(letter) => {
+              const lastBlank = blank === 1 && !a.answers[q.id];
+              update(a.id, (x) => answer(x, letter, Date.now()));
+              if (lastBlank) setConfirm(true);
+            }}
           />
           <button
             className="text-button"

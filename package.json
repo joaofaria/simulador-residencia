@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "validate:data": "node --import tsx scripts/validate-data.ts"
+    "validate:data": "node --import tsx scripts/validate-data.ts",
+    "pix:qr": "node --import tsx scripts/pix-qr.ts"
   },
   "dependencies": {
     "lucide-react": "0.577.0",
@@ -25,10 +26,12 @@
     "@testing-library/react": "16.3.3",
     "@testing-library/user-event": "14.6.8",
     "@types/node": "22.20.1",
+    "@types/qrcode": "1.5.5",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.3",
     "jsdom": "29.1.1",
+    "qrcode": "1.5.4",
     "tailwindcss": "4.3.3",
     "tsx": "4.23.1",
     "typescript": "5.9.3",

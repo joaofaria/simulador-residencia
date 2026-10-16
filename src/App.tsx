@@ -28,6 +28,9 @@ const Simulation = lazy(() =>
 const Results = lazy(() =>
   import("./pages/Results").then((m) => ({ default: m.Results })),
 );
+const Support = lazy(() =>
+  import("./pages/Support").then((m) => ({ default: m.Support })),
+);
 const HistoryPage = lazy(() =>
   import("./pages/HistoryPage").then((m) => ({ default: m.HistoryPage })),
 );
@@ -270,6 +273,7 @@ export function App() {
                 />
               }
             />
+            <Route path="/apoie" element={<Support />} />
             <Route
               path="*"
               element={
@@ -288,7 +292,17 @@ export function App() {
       </main>
       <footer>
         Feito com carinho (e as patinhas do Thor) para a sua próxima etapa.{" "}
-        <span>Dados salvos neste navegador · sem conta ou servidor</span>
+        <span>
+          Dados salvos neste navegador · sem conta ou servidor
+          {!location.pathname.startsWith("/simulado/") && (
+            <>
+              {" · "}
+              <Link className="footer-pix" to="/apoie">
+                Apoie com Pix
+              </Link>
+            </>
+          )}
+        </span>
       </footer>
     </>
   );

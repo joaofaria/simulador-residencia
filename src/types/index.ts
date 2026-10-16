@@ -40,12 +40,16 @@ export const questionSchema = z.object({
       status: z.literal("verified"),
       answer: z.string(),
       source: z.string().min(1),
-      basis: z.enum(["official", "user-validated-pdf", "demo"]).optional(),
+      basis: z
+        .enum(["official", "user-validated-pdf", "third-party", "demo"])
+        .optional(),
     }),
     z.object({
       status: z.literal("annulled"),
       source: z.string().min(1),
-      basis: z.enum(["official", "user-validated-pdf", "demo"]).optional(),
+      basis: z
+        .enum(["official", "user-validated-pdf", "third-party", "demo"])
+        .optional(),
     }),
     z.object({ status: z.literal("pending") }),
   ]),
@@ -60,9 +64,20 @@ export const questionSchema = z.object({
     .optional(),
   area: z.enum(areas).optional(),
   images: z.array(z.object({ src: z.string(), alt: z.string() })).default([]),
+  // Tabelas da prova refeitas em texto, mostradas depois do enunciado.
+  tables: z
+    .array(
+      z.object({
+        header: z.array(z.string()),
+        rows: z.array(z.array(z.string())),
+      }),
+    )
+    .optional(),
   source: z.object({
-    pdf: z.string(),
-    pages: z.array(z.number().int().positive()),
+    pdf: z.string().optional(),
+    pages: z.array(z.number().int().positive()).default([]),
+    // Crédito à banca quando o caderno original não é publicado no site.
+    credit: z.string().optional(),
   }),
   review: z.enum(["approved", "required"]),
   notes: z.string().optional(),
@@ -80,9 +95,9 @@ export const examSchema = z.object({
   draftCount: z.number().int().nonnegative().optional(),
   keySource: z
     .object({
-      type: z.enum(["validated-pdf", "official-pdf"]),
-      pdf: z.string(),
-      page: z.number().int().positive(),
+      type: z.enum(["validated-pdf", "official-pdf", "third-party"]),
+      pdf: z.string().optional(),
+      page: z.number().int().positive().optional(),
     })
     .optional(),
 });
@@ -149,4 +164,8 @@ export const storeSchema = z.object({
 });
 export type Store = z.infer<typeof storeSchema>;
 export type Outcome =
-  "correct" | "incorrect" | "blank" | "annulled" | "pending";
+  | "correct"
+  | "incorrect"
+  | "blank"
+  | "annulled"
+  | "pending";

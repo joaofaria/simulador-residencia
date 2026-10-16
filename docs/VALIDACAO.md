@@ -1,5 +1,7 @@
 # Verificação da entrega
 
+Em 16/10/2026, com a retirada do material de cursinho de PSU-MG e Santa Casa BH: `npm run validate:data` com nove provas e 750 questões, `npm test` e build aprovados. As 450 questões dessas provas conferem com a transcrição anterior; mudou a quebra de linhas e, em oito questões com colunas ou afirmativas, a pontuação que separava os itens. Gabaritos conferidos contra os documentos oficiais de PSU-MG 2024 e 2025 e Santa Casa BH 2025 e 2026, sem divergência.
+
 Em 15/10/2026, com a entrada das provas do IPSEMG: `npm run validate:data` com nove provas e 750 questões (150 por área), `npm test` com 78 testes aprovados e build aprovado. A tela inicial e a primeira questão do IPSEMG 2026 foram abertas no Chromium em largura de celular.
 
 Executado em 13/10/2026:
@@ -16,4 +18,4 @@ A execução visual em navegador não foi realizada localmente: este ambiente bl
 
 Deploy no GitHub Pages: o workflow `Publicar no GitHub Pages` roda a cada push em `main`. A primeira execução bem-sucedida foi em 13/10/2026, no commit `8c45d04` (instalação no runner Linux, validação de dados, testes, build e publicação aprovados), depois de duas execuções anteriores que falharam na instalação das dependências nativas. O site está publicado em https://joaofaria.github.io/simulador-residencia/.
 
-O usuário validou os PDFs e autorizou seus gabaritos como fonte de verdade para uso pessoal. As seis provas estão liberadas. Gabaritos e anulações foram extraídos pela posição das células e comparados com o texto legível. A correção usa 432 questões válidas, com 18 anuladas excluídas do denominador. Os documentos fornecidos são a referência de conteúdo, com modo Original e transcrição auxiliar no modo Texto. A demonstração usa apenas itens de interface fictícios e identificados, sem conteúdo médico.
+As seis provas de PSU-MG e Santa Casa BH estão liberadas. Gabaritos e anulações foram extraídos pela posição das células e comparados com o texto legível. A correção usa 432 questões válidas, com 18 anuladas excluídas do denominador. Desde 16/10/2026 essas provas aparecem só em texto, com figuras recortadas e crédito à banca. A demonstração usa apenas itens de interface fictícios e identificados, sem conteúdo médico.

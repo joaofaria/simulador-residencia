@@ -120,7 +120,7 @@ export function Home({
             <p className="notice">
               {exam.keySource === "official-pdf"
                 ? "Correção com o gabarito definitivo da banca."
-                : "Correção com o gabarito do PDF validado para uso pessoal."}
+                : "Correção com gabarito de outra fonte, sem o documento oficial da banca."}
             </p>
           )}
           {!available && (

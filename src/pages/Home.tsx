@@ -125,9 +125,9 @@ export function Home({
           )}
           {!available && (
             <p className="notice">
-              {exam?.draftCount ?? 0} questões
-              extraídas aguardam revisão. A transcrição e o gabarito ainda
-              precisam de conferência antes de liberar esta prova.
+              {exam?.draftCount ?? 0} questões extraídas aguardam revisão. A
+              transcrição e o gabarito ainda precisam de conferência antes de
+              liberar esta prova.
             </p>
           )}
           <button

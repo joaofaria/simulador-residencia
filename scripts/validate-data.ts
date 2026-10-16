@@ -32,9 +32,9 @@ for (const exam of exams) {
     const marks = q.statement.split("{{figura}}").length - 1;
     if (marks > 1 || (marks && !q.images.length && !q.tables?.length))
       throw Error(`Marca {{figura}} sem figura ou repetida: ${q.id}`);
-    if (marks && !q.statement.includes("\n{{figura}}\n"))
+    if (marks && !/(^|\n)\{\{figura\}\}(\n|$)/.test(q.statement))
       throw Error(`Marca {{figura}} fora de linha própria: ${q.id}`);
-    for (const image of [...q.images, ...(q.originalPages ?? [])])
+    for (const image of q.images)
       if (!existsSync(`public/${image.src}`))
         throw Error(`Imagem ausente: ${q.id}, ${image.src}`);
     const extra = (figuras as Record<string, unknown>)[q.id];

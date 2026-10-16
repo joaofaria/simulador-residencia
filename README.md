@@ -25,7 +25,7 @@ As seis provas de PSU-MG e Santa Casa BH, ingresso 2024 a 2026, somam **450 ques
 
 Os gabaritos de PSU-MG 2024 e 2025 e de Santa Casa BH 2025 e 2026 seguem os documentos oficiais da banca, citados em cada questão (os arquivos foram conferidos, mas não são publicados). Em PSU-MG 2024 as questões seguem a numeração da Prova Geral Tipo 3; em 2025 e 2026, a do Tipo 1; na Santa Casa BH, a do tipo A. Para PSU-MG 2026 e Santa Casa BH 2024 o gabarito oficial completo não foi localizado: as respostas vêm de compilação de terceiros, e no PSU-MG 2026 as anulações foram conferidas no documento oficial de alterações após recursos. A tela inicial avisa qual é o caso de cada prova.
 
-As provas de Entrada Direta do IPSEMG (Instituto ACCESS), ingresso 2024 a 2026, somam mais **300 questões**, 100 por ano, com **18 anuladas** segundo os gabaritos definitivos da banca. Os gabaritos definitivos da banca foram usados na correção; em 2026 foi usado o caderno tipo 1 com a Prova 1 do gabarito. Nessas provas o modo **Original** mostra recortes de página do caderno da banca, e o modo **Texto** traz a transcrição. Os PDFs em si não são publicados.
+As provas de Entrada Direta do IPSEMG (Instituto ACCESS), ingresso 2024 a 2026, somam mais **300 questões**, 100 por ano, com **18 anuladas** segundo os gabaritos definitivos da banca. Os gabaritos definitivos da banca foram usados na correção; em 2026 foi usado o caderno tipo 1 com a Prova 1 do gabarito. Como nas outras, o site publica só o texto de cada questão, com o crédito à banca, e a figura ou a tabela de que a questão depende (uma imagem na questão 4 de 2024 e uma tabela na 69). Nenhum PDF é publicado.
 
 Há também uma demonstração de três itens de interface explicitamente fictícios, separada das provas reais. O manifesto `imports/sources.json` registra a origem de cada prova e de cada gabarito, com os hashes dos arquivos conferidos e as anulações.
 
@@ -49,7 +49,7 @@ Percentual = acertos ÷ questões verificadas não anuladas; brancos válidos pe
 - `src/pages`: início, simulado, resultado e histórico.
 - `src/App.tsx`: integração, rotas e ciclo de vida das sessões.
 - `src/data`: catálogo real e demonstração separada.
-- `public/provas`: recortes do IPSEMG e figuras das questões. Nenhum PDF fica aqui (`npm run validate:data` falha se aparecer um).
+- `public/provas`: figuras das questões. Nenhum PDF fica aqui (`npm run validate:data` falha se aparecer um).
 - `scripts`: extração e validação de importações.
 
 ## GitHub Pages

@@ -1025,16 +1025,8 @@
             "Frequência cardíaca (bpm)"
           ],
           "rows": [
-            [
-              "Sentada",
-              "108/68",
-              "80"
-            ],
-            [
-              "Ortostatismo (após 3 min)",
-              "116/76",
-              "124"
-            ]
+            ["Sentada", "108/68", "80"],
+            ["Ortostatismo (após 3 min)", "116/76", "124"]
           ]
         }
       ]

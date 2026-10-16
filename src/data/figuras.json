@@ -1,4 +1,27 @@
 {
+  "ipsemg-2024-q004": {
+    "images": [
+      {
+        "src": "provas/figuras/ipsemg-2024/q004.jpg",
+        "alt": "Tomografia computadorizada do abdome, corte axial."
+      }
+    ]
+  },
+  "ipsemg-2024-q069": {
+    "tables": [
+      {
+        "header": ["Indicadores", "Cidade A", "Cidade B"],
+        "rows": [
+          ["Número de nascidos vivos", "30.000", "15.000"],
+          ["Número total de óbitos", "4.500", "6.000"],
+          ["Número total de óbitos em menores de 1 ano", "450", "300"],
+          ["Número total de óbitos em menores de 28 dias", "240", "180"],
+          ["Número total de óbitos de 28 a 364 dias", "90", "66"],
+          ["Número total de óbitos maternos", "12", "6"]
+        ]
+      }
+    ]
+  },
   "psu-mg-2024-q046": {
     "images": [
       {
@@ -96,16 +119,8 @@
           "Frequência cardíaca (bpm)"
         ],
         "rows": [
-          [
-            "Sentada",
-            "108/68",
-            "80"
-          ],
-          [
-            "Ortostatismo (após 3 min)",
-            "116/76",
-            "124"
-          ]
+          ["Sentada", "108/68", "80"],
+          ["Ortostatismo (após 3 min)", "116/76", "124"]
         ]
       }
     ]

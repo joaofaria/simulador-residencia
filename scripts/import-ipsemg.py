@@ -2,12 +2,13 @@
 
 Uso: python3 scripts/import-ipsemg.py 2024 2025 2026
 
-Requer poppler (pdftotext, pdftoppm) e Pillow. Lê os PDFs da prova
-(ipsemg-<ano>.pdf) e do gabarito definitivo (ipsemg-<ano>-gabarito.pdf) da
-pasta imports/pdfs, ou da indicada em PROVAS_PDF_DIR; eles não são
-publicados no site nem versionados. Recorta cada questão por coluna (o
-caderno do ACCESS tem duas colunas) e grava src/data/ipsemg/<ano>.json, os
-recortes em public/provas/assets/ipsemg-<ano> e o rascunho em imports.
+Requer poppler (pdftotext). Lê os PDFs da prova (ipsemg-<ano>.pdf) e do
+gabarito definitivo (ipsemg-<ano>-gabarito.pdf) da pasta imports/pdfs, ou da
+indicada em PROVAS_PDF_DIR; eles não são publicados no site nem versionados.
+Separa as questões por coluna (o caderno do ACCESS tem duas colunas) e grava
+src/data/ipsemg/<ano>.json só com texto. O texto sai com as quebras de linha
+do caderno: reorganize em parágrafos e refaça figuras e tabelas em
+src/data/figuras.json depois, como nas provas já publicadas.
 
 O gabarito vem do documento definitivo da banca. A área segue o bloco da
 prova: as cinco disciplinas aparecem sempre na mesma ordem, 20 questões cada.
@@ -20,12 +21,9 @@ import pathlib
 import re
 import subprocess
 import sys
-import tempfile
 
-from PIL import Image, ImageChops
 
 root = pathlib.Path(__file__).resolve().parent.parent
-SCALE = 2  # 144 dpi, a mesma escala dos recortes das outras provas.
 AREAS = ['cirurgia', 'clinica', 'go', 'preventiva', 'pediatria']
 HEADERS = re.compile(r'^(CIRURGIA GERAL|CLÍNICA MÉDICA|GINECOLOGIA E OBSTETRÍCIA|MEDICINA PREVENTIVA E SOCIAL( \(SAÚDE)?|PEDIATRIA|Conhecimentos [Ee]specíficos)$')
 MARKER = re.compile(r'^Questão\s+0*(\d{1,3})$')
@@ -164,16 +162,6 @@ def segments(pages, config):
     return questions
 
 
-def trim(image):
-    """Remove o branco abaixo e acima do conteúdo, mantendo uma margem."""
-    background = Image.new(image.mode, image.size, (255, 255, 255))
-    box = ImageChops.difference(image, background).convert('L').point(lambda v: 255 if v > 24 else 0).getbbox()
-    if not box:
-        return None
-    pad = 8
-    return image.crop((0, max(0, box[1] - pad), image.width, min(image.height, box[3] + pad)))
-
-
 def parse_text(lines):
     body = '\n'.join(lines)
     opts = list(re.finditer(r'^\(([A-D])\)\s*', body, re.M))
@@ -194,15 +182,6 @@ def import_year(year):
     pages = read_lines(pdf)
     keys, key_page = parse_key(year, key_pdf)
     questions = segments(pages, config)
-    out_dir = root / f'public/provas/assets/{exam_id}'
-    out_dir.mkdir(parents=True, exist_ok=True)
-    for old in out_dir.glob('*.png'):
-        old.unlink()
-    rendered = {}
-    with tempfile.TemporaryDirectory() as tmp:
-        run('pdftoppm', '-r', str(72 * SCALE), '-png', str(pdf), f'{tmp}/p')
-        for file in sorted(pathlib.Path(tmp).glob('p-*.png')):
-            rendered[int(file.stem.split('-')[1]) - 1] = Image.open(file).convert('RGB')
     draft = []
     key_reference = f"{config['key_origin']}"
     for q in questions:
@@ -211,38 +190,6 @@ def import_year(year):
         if not parsed:
             raise ValueError(f'{exam_id} questão {q["number"]}: alternativas A a D não encontradas')
         statement, alternatives = parsed
-        by_page = {}
-        for part in (shared['parts'] if shared else []) + q['parts']:
-            image = rendered[part['page']]
-            width = pages[part['page']]['width']
-            mid = width / 2
-            x0, x1 = (16, mid - 2) if part['column'] == 0 else (mid + 2, width - 16)
-            crop = image.crop(tuple(round(v * SCALE) for v in (x0, part['top'], x1, part['bottom'])))
-            crop = trim(crop)
-            if crop:
-                by_page.setdefault(part['page'], []).append(crop)
-        assets = []
-        for page, crops in by_page.items():
-            # Partes da mesma página (fim de uma coluna e início da outra) ficam empilhadas.
-            gap = 12
-            width = max(c.width for c in crops)
-            canvas = Image.new('RGB', (width, sum(c.height for c in crops) + gap * (len(crops) - 1)), (255, 255, 255))
-            y = 0
-            for c in crops:
-                canvas.paste(c, (0, y))
-                y += c.height + gap
-            name = f'q{q["number"]:03d}-p{page + 1:02d}.png'
-            target = out_dir / name
-            # Sem cor, o PNG em tons de cinza fica bem menor e idêntico na tela.
-            r, g, b = canvas.split()
-            spread = max(ImageChops.difference(r, g).getextrema()[1], ImageChops.difference(g, b).getextrema()[1])
-            (canvas.convert('L') if spread < 16 else canvas).save(target, optimize=True)
-            digest = hashlib.sha256(target.read_bytes()).hexdigest()[:12]
-            versioned = out_dir / f'{digest}-{name}'
-            target.rename(versioned)
-            assets.append(dict(alt=f'Questão {q["number"]}, trecho original da página {page + 1}, incluindo imagens, tabelas e alternativas.', page=page + 1, src=f'provas/assets/{exam_id}/{versioned.name}'))
-        if not assets:
-            raise ValueError(f'{exam_id} questão {q["number"]}: sem recorte')
         answer = keys[q['number']]
         if answer == 'ANULADA':
             key = dict(status='annulled', source=key_reference, basis='official')
@@ -251,10 +198,9 @@ def import_year(year):
         draft.append(dict(
             id=f'{exam_id}-q{q["number"]:03d}', institution='IPSEMG', year=year, number=q['number'],
             area=AREAS[(q['number'] - 1) // 20], statement=statement, alternatives=alternatives, key=key,
-            images=[], source=dict(credit=config['origin'].split(' Cópia')[0].rstrip('.'), pages=[a['page'] for a in assets]),
+            images=[], source=dict(credit=config['origin'].split(' Cópia')[0].rstrip('.'), pages=[]),
             review='approved',
-            notes='Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.',
-            originalPages=assets))
+            notes='Texto transcrito do caderno da banca. Figuras e tabelas, quando a questão depende delas, são refeitas à mão em src/data/figuras.json.'))
     exam = dict(id=exam_id, institution='IPSEMG', year=year, title=f'IPSEMG • {year}', demo=False,
                 keySource=dict(type='official-pdf'),
                 questions=draft)

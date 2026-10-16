@@ -2,25 +2,17 @@ import { storeSchema, attemptSchema, type Store, type Attempt } from "../types";
 import type { Question } from "../types";
 import figuras from "../data/figuras.json";
 export const STORAGE_KEY = "residencia.store";
-// PSU-MG e Santa Casa BH deixaram de publicar recortes e PDFs de terceiros.
-// Tentativas antigas guardam uma cópia da prova com esses caminhos; aqui eles
-// saem e entram as figuras e tabelas refeitas, para a revisão não quebrar.
-const removed = /^provas\/(assets\/)?(psu-mg|santa-casa-bh)-\d{4}/;
+// O site deixou de publicar PDFs e recortes de página. Tentativas antigas
+// guardam uma cópia da prova com esses caminhos e com o texto antigo; aqui
+// eles saem e entram as figuras e tabelas refeitas, para a revisão não quebrar.
 const extras = figuras as Record<
   string,
   Partial<Pick<Question, "images" | "tables">>
 >;
-function withoutRemoved(q: Question): Question {
-  if (
-    !removed.test(q.source.pdf ?? "") &&
-    !q.originalPages?.some((p) => removed.test(p.src))
-  )
-    return q;
-  const rest = { ...q };
-  delete rest.originalPages;
+function refresh(q: Question): Question {
   const source = { ...q.source };
   delete source.pdf;
-  return { ...rest, ...extras[q.id], source: { ...source, pages: [] } };
+  return { ...q, ...extras[q.id], source };
 }
 function clean(store: Store): Store {
   return {
@@ -28,9 +20,11 @@ function clean(store: Store): Store {
     attempts: store.attempts.map((a) => {
       const exam = {
         ...a.exam,
-        questions: a.exam.questions.map(withoutRemoved),
+        questions: a.exam.questions.map(refresh),
       };
-      if (removed.test(exam.pdf ?? "")) delete exam.pdf;
+      delete exam.pdf;
+      delete exam.keySource?.pdf;
+      delete exam.keySource?.page;
       return { ...a, exam };
     }),
   };

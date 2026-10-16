@@ -6,7 +6,7 @@ import { demo } from "./demo";
 export type ExamSummary = Pick<
   Exam,
   "id" | "institution" | "year" | "title" | "demo" | "pdf" | "draftCount"
-> & { available: number; keySource?: "validated-pdf" | "official-pdf" };
+> & { available: number; keySource?: NonNullable<Exam["keySource"]>["type"] };
 export function summarize(exam: Exam): ExamSummary {
   return {
     id: exam.id,
@@ -26,28 +26,28 @@ const real = (
   institution: string,
   slug: string,
   year: number,
-  available = 75,
-  keySource: ExamSummary["keySource"] = "validated-pdf",
+  available: number,
+  keySource: ExamSummary["keySource"],
 ): ExamSummary => ({
   id: `${slug}-${year}`,
   institution,
   year,
   title: `${institution} • ${year}`,
   demo: false,
-  pdf: `provas/${slug}-${year}.pdf`,
+  pdf: undefined,
   draftCount: undefined,
   keySource,
   available,
 });
 export const summaries: ExamSummary[] = [
-  real("PSU-MG", "psu-mg", 2024),
-  real("Santa Casa BH", "santa-casa-bh", 2024),
+  real("PSU-MG", "psu-mg", 2024, 75, "official-pdf"),
+  real("Santa Casa BH", "santa-casa-bh", 2024, 75, "third-party"),
   real("IPSEMG", "ipsemg", 2024, 100, "official-pdf"),
-  real("PSU-MG", "psu-mg", 2025),
-  real("Santa Casa BH", "santa-casa-bh", 2025),
+  real("PSU-MG", "psu-mg", 2025, 75, "official-pdf"),
+  real("Santa Casa BH", "santa-casa-bh", 2025, 75, "official-pdf"),
   real("IPSEMG", "ipsemg", 2025, 100, "official-pdf"),
-  real("PSU-MG", "psu-mg", 2026),
-  real("Santa Casa BH", "santa-casa-bh", 2026),
+  real("PSU-MG", "psu-mg", 2026, 75, "third-party"),
+  real("Santa Casa BH", "santa-casa-bh", 2026, 75, "official-pdf"),
   real("IPSEMG", "ipsemg", 2026, 100, "official-pdf"),
   summarize(demo),
 ];

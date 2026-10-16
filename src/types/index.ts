@@ -53,15 +53,6 @@ export const questionSchema = z.object({
     }),
     z.object({ status: z.literal("pending") }),
   ]),
-  originalPages: z
-    .array(
-      z.object({
-        src: z.string(),
-        alt: z.string(),
-        page: z.number().int().positive(),
-      }),
-    )
-    .optional(),
   area: z.enum(areas).optional(),
   images: z.array(z.object({ src: z.string(), alt: z.string() })).default([]),
   // Tabelas da prova refeitas em texto, mostradas depois do enunciado.
@@ -76,7 +67,7 @@ export const questionSchema = z.object({
   source: z.object({
     pdf: z.string().optional(),
     pages: z.array(z.number().int().positive()).default([]),
-    // Crédito à banca quando o caderno original não é publicado no site.
+    // Crédito à banca; o caderno não é publicado no site.
     credit: z.string().optional(),
   }),
   review: z.enum(["approved", "required"]),

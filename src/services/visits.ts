@@ -1,7 +1,7 @@
 // Contador de visitas do GoatCounter (sem cookies). O código é o subdomínio da
-// conta: "residencao" corresponde a https://residencao.goatcounter.com.
+// conta, e o painel fica em https://residencao.goatcounter.com.
 // Com o código vazio, nada é carregado nem contado.
-export const GOATCOUNTER_CODE = "";
+export const GOATCOUNTER_CODE: string = "residencao";
 
 type GoatCounter = {
   count: (vars: { path: string; title?: string }) => void;

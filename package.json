@@ -8,7 +8,6 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "import:pdf": "node scripts/import-pdf.mjs",
     "validate:data": "node --import tsx scripts/validate-data.ts",
     "pix:qr": "node --import tsx scripts/pix-qr.ts"
   },

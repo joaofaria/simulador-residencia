@@ -1,6 +1,6 @@
 # Verificação da entrega
 
-Em 16/10/2026, com a retirada do material de cursinho de PSU-MG e Santa Casa BH: `npm run validate:data` com nove provas e 750 questões, `npm test` e build aprovados. As 450 questões dessas provas conferem com a transcrição anterior; mudou a quebra de linhas e, em oito questões com colunas ou afirmativas, a pontuação que separava os itens. Gabaritos conferidos contra os documentos oficiais de PSU-MG 2024 e 2025 e Santa Casa BH 2025 e 2026, sem divergência.
+Em 16/10/2026, com a retirada do material de cursinho de PSU-MG e Santa Casa BH: `npm run validate:data` com nove provas e 750 questões, `npm test` e build aprovados. As 450 questões dessas provas conferem com a transcrição anterior; mudou a quebra de linhas e, em oito questões com colunas ou afirmativas, a pontuação que separava os itens. Gabaritos conferidos contra os documentos oficiais de PSU-MG 2024 e 2025 e Santa Casa BH 2025 e 2026, sem divergência. Nenhum PDF fica publicado: `validate:data` falha se houver algum em `public`.
 
 Em 15/10/2026, com a entrada das provas do IPSEMG: `npm run validate:data` com nove provas e 750 questões (150 por área), `npm test` com 78 testes aprovados e build aprovado. A tela inicial e a primeira questão do IPSEMG 2026 foram abertas no Chromium em largura de celular.
 

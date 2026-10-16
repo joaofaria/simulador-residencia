@@ -22,21 +22,19 @@ export function summarize(exam: Exam): ExamSummary {
       : 0,
   };
 }
-// Só o IPSEMG publica o caderno no site; das outras provas fica o texto.
 const real = (
   institution: string,
   slug: string,
   year: number,
   available: number,
   keySource: ExamSummary["keySource"],
-  pdf = false,
 ): ExamSummary => ({
   id: `${slug}-${year}`,
   institution,
   year,
   title: `${institution} • ${year}`,
   demo: false,
-  pdf: pdf ? `provas/${slug}-${year}.pdf` : undefined,
+  pdf: undefined,
   draftCount: undefined,
   keySource,
   available,
@@ -44,12 +42,12 @@ const real = (
 export const summaries: ExamSummary[] = [
   real("PSU-MG", "psu-mg", 2024, 75, "official-pdf"),
   real("Santa Casa BH", "santa-casa-bh", 2024, 75, "third-party"),
-  real("IPSEMG", "ipsemg", 2024, 100, "official-pdf", true),
+  real("IPSEMG", "ipsemg", 2024, 100, "official-pdf"),
   real("PSU-MG", "psu-mg", 2025, 75, "official-pdf"),
   real("Santa Casa BH", "santa-casa-bh", 2025, 75, "official-pdf"),
-  real("IPSEMG", "ipsemg", 2025, 100, "official-pdf", true),
+  real("IPSEMG", "ipsemg", 2025, 100, "official-pdf"),
   real("PSU-MG", "psu-mg", 2026, 75, "third-party"),
   real("Santa Casa BH", "santa-casa-bh", 2026, 75, "official-pdf"),
-  real("IPSEMG", "ipsemg", 2026, 100, "official-pdf", true),
+  real("IPSEMG", "ipsemg", 2026, 100, "official-pdf"),
   summarize(demo),
 ];

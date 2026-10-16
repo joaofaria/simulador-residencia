@@ -4,11 +4,8 @@
   "year": 2026,
   "title": "IPSEMG • 2026",
   "demo": false,
-  "pdf": "provas/ipsemg-2026.pdf",
   "keySource": {
-    "type": "official-pdf",
-    "pdf": "provas/ipsemg-2026-gabarito.pdf",
-    "page": 1
+    "type": "official-pdf"
   },
   "questions": [
     {
@@ -38,15 +35,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -86,15 +83,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -134,15 +131,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -182,15 +179,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -230,15 +227,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -277,15 +274,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -325,15 +322,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -373,15 +370,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -421,15 +418,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -469,15 +466,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -516,15 +513,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -564,15 +561,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -612,15 +609,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -660,15 +657,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           7
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -708,15 +705,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           7
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -756,15 +753,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           7
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -804,15 +801,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           8
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -852,15 +849,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           8
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -900,15 +897,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           8
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -948,15 +945,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           8
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -996,15 +993,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1044,15 +1041,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1092,15 +1089,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1140,15 +1137,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1188,15 +1185,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1236,15 +1233,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1284,15 +1281,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1332,15 +1329,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1380,15 +1377,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1428,15 +1425,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1476,15 +1473,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1524,15 +1521,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1572,15 +1569,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1620,15 +1617,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1668,15 +1665,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1716,15 +1713,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1764,15 +1761,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1812,15 +1809,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1859,15 +1856,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1906,15 +1903,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1954,15 +1951,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2002,15 +1999,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2050,15 +2047,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2098,15 +2095,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2146,15 +2143,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2194,15 +2191,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           17
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2242,15 +2239,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           17
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2290,15 +2287,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           18
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2338,15 +2335,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           18
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2386,15 +2383,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           19
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2434,15 +2431,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           19
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2482,15 +2479,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           20
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2530,15 +2527,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           20
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2578,15 +2575,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           21
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2626,15 +2623,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           21
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2674,15 +2671,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           22
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2722,15 +2719,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           22
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2770,15 +2767,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           23
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2818,15 +2815,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           23
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2866,15 +2863,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           24
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2914,15 +2911,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           24
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2962,15 +2959,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           24
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3010,15 +3007,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           25
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3058,15 +3055,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           25
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3106,15 +3103,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           25
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3154,15 +3151,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           25
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3202,15 +3199,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           26
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3250,15 +3247,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           26
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3298,15 +3295,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           26
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3346,15 +3343,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           26
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3394,15 +3391,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           27
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3441,15 +3438,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           27
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3489,15 +3486,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           27
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3537,15 +3534,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           28
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3585,15 +3582,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           28
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3633,15 +3630,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           28
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3680,15 +3677,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           29
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3728,15 +3725,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           29
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3776,15 +3773,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           29
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3823,15 +3820,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           29
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3871,15 +3868,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           30
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3919,15 +3916,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           30
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3967,15 +3964,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           31
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4015,15 +4012,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           31
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4063,15 +4060,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           32
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4111,15 +4108,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           32
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4159,15 +4156,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           33
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4207,15 +4204,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           33
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4255,15 +4252,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           33
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4303,15 +4300,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           34
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4351,15 +4348,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           34
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4399,15 +4396,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           35
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4447,15 +4444,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           35
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4495,15 +4492,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           36
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4543,15 +4540,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           36
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4591,15 +4588,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           37
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4639,15 +4636,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           37
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4687,15 +4684,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           38
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4735,15 +4732,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           38
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4783,15 +4780,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED. Arquivo provas/ipsemg-2026-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da prova de 7/12/2025, Prova 1 (caderno tipo 1), igual em todos os programas de Entrada Direta, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2026.pdf",
         "pages": [
           39
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",

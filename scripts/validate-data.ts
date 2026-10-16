@@ -1,14 +1,16 @@
-import { existsSync } from "node:fs";
+import { existsSync, readdirSync } from "node:fs";
 import { exams as catalog } from "../src/data/catalog";
 import { examSchema } from "../src/types";
 import figuras from "../src/data/figuras.json";
+// O site não publica PDFs para download.
+const pdfs = (readdirSync("public", { recursive: true }) as string[]).filter(
+  (f) => f.toLowerCase().endsWith(".pdf"),
+);
+if (pdfs.length) throw Error(`PDF publicado em public: ${pdfs.join(", ")}`);
 const exams = examSchema.array().parse(catalog.filter((e) => !e.demo));
 const ids = new Set<string>();
 for (const exam of exams) {
   const numbers = new Set<number>();
-  for (const pdf of [exam.pdf, exam.keySource?.pdf])
-    if (pdf && !existsSync(`public/${pdf}`))
-      throw Error(`PDF ausente: ${exam.id}, ${pdf}`);
   for (const q of exam.questions) {
     if (ids.has(q.id) || numbers.has(q.number))
       throw Error(`Duplicata: ${q.id}`);

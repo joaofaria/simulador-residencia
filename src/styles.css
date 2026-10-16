@@ -125,6 +125,14 @@ select:focus-visible {
   color: var(--accent);
   font-weight: 650;
 }
+.header nav a.support-nav {
+  color: var(--accent);
+  border: 1px solid var(--pink);
+  background: var(--soft);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-weight: 650;
+}
 .icon-button {
   display: grid;
   place-items: center;
@@ -913,6 +921,9 @@ figcaption {
   }
   .header nav a span {
     display: none;
+  }
+  .header nav a.support-nav {
+    padding: 7px 12px;
   }
   .hero h1 {
     font-size: 35px;

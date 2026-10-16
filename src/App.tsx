@@ -6,7 +6,7 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-import { Sun, Moon, History, PawPrint } from "lucide-react";
+import { Sun, Moon, History, PawPrint, Heart } from "lucide-react";
 import { loadExam, loadRealExams } from "./data/load";
 import { buildRandomExam, type RandomConfig } from "./services/random";
 import type { Attempt, Exam, Store } from "./types";
@@ -183,6 +183,8 @@ export function App() {
       ? begin(async () => a.exam, loadFailure)
       : start(a.exam.id);
   }
+  // A contribuição nunca aparece durante a prova.
+  const inExam = location.pathname.startsWith("/simulado/");
   return (
     <>
       <header className="header">
@@ -201,6 +203,15 @@ export function App() {
           <Link to="/historico">
             <History size={17} /> <span>Histórico</span>
           </Link>
+          {!inExam && (
+            <Link
+              to="/apoie"
+              className={`support-nav${location.pathname === "/apoie" ? " active" : ""}`}
+              aria-label="Apoie com Pix"
+            >
+              <Heart size={16} /> <span>Apoie</span>
+            </Link>
+          )}
           <button
             className="icon-button"
             aria-label={dark ? "Ativar modo claro" : "Ativar modo escuro"}
@@ -294,7 +305,7 @@ export function App() {
         Feito com carinho (e as patinhas do Thor) para a sua próxima etapa.{" "}
         <span>
           Dados salvos neste navegador · sem conta ou servidor
-          {!location.pathname.startsWith("/simulado/") && (
+          {!inExam && (
             <>
               {" · "}
               <Link className="footer-pix" to="/apoie">

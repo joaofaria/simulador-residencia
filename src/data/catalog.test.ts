@@ -43,9 +43,11 @@ describe("Banco de provas reais e correção", () => {
           );
       }
   });
-  it("publica originais só do IPSEMG; das outras provas ficam texto, figuras e crédito à banca", () => {
+  it("não publica PDFs; só o IPSEMG tem recortes originais, e toda questão traz crédito à banca", () => {
     for (const exam of realExams)
       for (const q of exam.questions) {
+        expect(q.source.pdf).toBeUndefined();
+        expect(q.source.credit).toMatch(/AREMG|IBGP|ACCESS/);
         if (exam.institution === "IPSEMG") {
           expect(q.originalPages?.length).toBeGreaterThan(0);
           expect(q.originalPages?.map((p) => p.page)).toEqual(q.source.pages);
@@ -60,8 +62,6 @@ describe("Banco de provas reais e correção", () => {
           }
         } else {
           expect(q.originalPages).toBeUndefined();
-          expect(q.source.pdf).toBeUndefined();
-          expect(q.source.credit).toMatch(/AREMG|IBGP/);
           for (const image of q.images) {
             expect(image.src).toMatch(/^provas\/figuras\//);
             expect(existsSync(`public/${image.src}`)).toBe(true);

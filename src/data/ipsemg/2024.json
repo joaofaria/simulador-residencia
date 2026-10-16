@@ -4,11 +4,8 @@
   "year": 2024,
   "title": "IPSEMG • 2024",
   "demo": false,
-  "pdf": "provas/ipsemg-2024.pdf",
   "keySource": {
-    "type": "official-pdf",
-    "pdf": "provas/ipsemg-2024-gabarito.pdf",
-    "page": 1
+    "type": "official-pdf"
   },
   "questions": [
     {
@@ -39,15 +36,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -87,15 +84,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -135,15 +132,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -183,15 +180,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -231,15 +228,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -279,15 +276,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           3
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -327,15 +324,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -375,15 +372,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -423,15 +420,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -470,15 +467,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -518,15 +515,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -566,15 +563,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -614,15 +611,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           4
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -662,15 +659,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -710,15 +707,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -758,15 +755,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -806,15 +803,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -854,15 +851,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -902,15 +899,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -950,15 +947,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -998,15 +995,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           5
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1046,15 +1043,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1094,15 +1091,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1141,15 +1138,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1189,15 +1186,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1237,15 +1234,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1285,15 +1282,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           6
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1333,15 +1330,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           7
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1381,15 +1378,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           7
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1429,15 +1426,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           7
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1477,15 +1474,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           7
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1525,15 +1522,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           7
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1573,15 +1570,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           8
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1621,15 +1618,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           8
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1669,15 +1666,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           8
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1717,15 +1714,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           8
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1765,15 +1762,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1813,15 +1810,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1861,15 +1858,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1909,15 +1906,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -1957,15 +1954,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2005,15 +2002,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           9
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2053,15 +2050,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2101,15 +2098,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2149,15 +2146,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2197,15 +2194,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2245,15 +2242,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2293,15 +2290,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2341,15 +2338,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2389,15 +2386,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           10
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2437,15 +2434,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2485,15 +2482,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2533,15 +2530,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2581,15 +2578,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2629,15 +2626,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2677,15 +2674,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2725,15 +2722,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2773,15 +2770,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2821,15 +2818,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2869,15 +2866,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2917,15 +2914,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           11
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -2965,15 +2962,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3013,15 +3010,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3061,15 +3058,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3109,15 +3106,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3157,15 +3154,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3205,15 +3202,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3253,15 +3250,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           12
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3301,15 +3298,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3349,15 +3346,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3397,15 +3394,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3445,15 +3442,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3493,15 +3490,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3540,15 +3537,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3588,15 +3585,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3636,15 +3633,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           13
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3684,15 +3681,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3732,15 +3729,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3779,15 +3776,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3827,15 +3824,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3875,15 +3872,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3923,15 +3920,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           14
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -3971,15 +3968,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4019,15 +4016,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4067,15 +4064,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4115,15 +4112,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4163,15 +4160,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4211,15 +4208,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4259,15 +4256,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4307,15 +4304,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           15
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4355,15 +4352,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4403,15 +4400,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4451,15 +4448,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4499,15 +4496,15 @@
       "key": {
         "status": "verified",
         "answer": "B",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4547,15 +4544,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4595,15 +4592,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4643,15 +4640,15 @@
       "key": {
         "status": "verified",
         "answer": "D",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4691,15 +4688,15 @@
       "key": {
         "status": "verified",
         "answer": "C",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4739,15 +4736,15 @@
       "key": {
         "status": "verified",
         "answer": "A",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",
@@ -4786,15 +4783,15 @@
       ],
       "key": {
         "status": "annulled",
-        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos. Arquivo provas/ipsemg-2024-gabarito.pdf, página 1.",
+        "source": "Gabarito definitivo da Entrada Direta, prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo QConcursos.",
         "basis": "official"
       },
       "images": [],
       "source": {
-        "pdf": "provas/ipsemg-2024.pdf",
         "pages": [
           16
-        ]
+        ],
+        "credit": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS"
       },
       "review": "approved",
       "notes": "Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.",

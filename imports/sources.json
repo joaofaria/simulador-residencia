@@ -9,7 +9,7 @@
       "https://med.estrategia.com/portal/wp-content/uploads/2023/12/GABARITOPROVAGERALTIPO3PSU2024-20231203172636.pdf",
       "https://med.estrategia.com/portal/wp-content/uploads/2023/12/AlteracaodeGabarito-PSUMG2024-20231221180424.pdf"
     ],
-    "keyFile": "public/provas/psu-mg-2024-gabarito.pdf",
+    "keyFile": "psu-mg-2024-gabarito.pdf",
     "keySha256": "9c178d7d153a2536b90be45d1eda233fb9b310bd8d483828de32e443d326a734",
     "validation": {
       "date": "2026-10-16",
@@ -20,7 +20,8 @@
         34,
         42
       ]
-    }
+    },
+    "keyNote": "Arquivo conferido e não publicado no site."
   },
   {
     "exam": "psu-mg-2025",
@@ -32,7 +33,7 @@
       "https://med.estrategia.com/portal/wp-content/uploads/2024/12/GABARITOPRELIMINARPROVAGERALTIPO1-PSUMG2025-20241201170547.pdf",
       "https://med.estrategia.com/portal/wp-content/uploads/2024/12/AlteracgabaritopsuMG2025-20241219200026.pdf"
     ],
-    "keyFile": "public/provas/psu-mg-2025-gabarito.pdf",
+    "keyFile": "psu-mg-2025-gabarito.pdf",
     "keySha256": "17d591e2cddce778c0a827cd03db94b46307f3d3c33f5f7d9221a83812989bad",
     "validation": {
       "date": "2026-10-16",
@@ -41,7 +42,8 @@
         12,
         67
       ]
-    }
+    },
+    "keyNote": "Arquivo conferido e não publicado no site."
   },
   {
     "exam": "psu-mg-2026",
@@ -52,7 +54,7 @@
     "keyOrigin": [
       "https://med.estrategia.com/portal/wp-content/uploads/2025/12/Alteracaodegabaritoaposrecurso-PSUMG2026-20251217195115.pdf"
     ],
-    "keyFile": "public/provas/psu-mg-2026-gabarito.pdf",
+    "keyFile": "psu-mg-2026-gabarito.pdf",
     "keySha256": "7c5a5e8774bd6af7447314c940ed06763f39863f22eb6a1d3ebe0b7d9f992819",
     "validation": {
       "date": "2026-10-16",
@@ -63,7 +65,8 @@
         65,
         74
       ]
-    }
+    },
+    "keyNote": "Arquivo conferido e não publicado no site."
   },
   {
     "exam": "santa-casa-bh-2024",
@@ -91,7 +94,7 @@
     "keyOrigin": [
       "https://med.estrategia.com/portal/wp-content/uploads/2024/12/GABARITO-SANTA-CASA-edital-01-APOS-RECURSO.pdf"
     ],
-    "keyFile": "public/provas/santa-casa-bh-2025-gabarito.pdf",
+    "keyFile": "santa-casa-bh-2025-gabarito.pdf",
     "keySha256": "f6fe1b541cf15cb26c8faf905381a799387fec2f28a25877e6a900624a786545",
     "validation": {
       "date": "2026-10-16",
@@ -101,7 +104,8 @@
         63,
         73
       ]
-    }
+    },
+    "keyNote": "Arquivo conferido e não publicado no site."
   },
   {
     "exam": "santa-casa-bh-2026",
@@ -112,7 +116,7 @@
     "keyOrigin": [
       "https://med.estrategia.com/portal/wp-content/uploads/2025/12/GABARITO-DEFINITIVO-ED05.pdf"
     ],
-    "keyFile": "public/provas/santa-casa-bh-2026-gabarito.pdf",
+    "keyFile": "santa-casa-bh-2026-gabarito.pdf",
     "keySha256": "d9180e123a65dae004f39920baf5db7287a26894ebf88ff9da62814c4a9f6123",
     "validation": {
       "date": "2026-10-16",
@@ -121,13 +125,14 @@
         31,
         32
       ]
-    }
+    },
+    "keyNote": "Arquivo conferido e não publicado no site."
   },
   {
-    "file": "public/provas/ipsemg-2024.pdf",
+    "file": "ipsemg-2024.pdf",
     "sha256": "055c35d80e5dfe2383b8bb6714aed403c28648ee6d47e686bf854491db81582f",
     "source": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica 2024 (Edital 1/2023), prova de 8/12/2023, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
-    "keyFile": "public/provas/ipsemg-2024-gabarito.pdf",
+    "keyFile": "ipsemg-2024-gabarito.pdf",
     "keySha256": "659de573dc86f07cc22591a1e16bac009ff448fdbd7cc5903f9d8f5e7a253212",
     "keyStatus": "official-definitive",
     "validation": {
@@ -142,13 +147,15 @@
         79,
         100
       ]
-    }
+    },
+    "keyNote": "Arquivo conferido e não publicado no site.",
+    "note": "Arquivo conferido e não publicado no site."
   },
   {
-    "file": "public/provas/ipsemg-2025.pdf",
+    "file": "ipsemg-2025.pdf",
     "sha256": "9ed322917920c8224301f791ceb33d22dcaa6de2848211980922e2813441692d",
     "source": "Caderno de Entrada Direta do Processo Seletivo de Residência Médica (Edital 1/2024), prova de dezembro de 2024, Instituto ACCESS. Cópia publicada pelo QConcursos.",
-    "keyFile": "public/provas/ipsemg-2025-gabarito.pdf",
+    "keyFile": "ipsemg-2025-gabarito.pdf",
     "keySha256": "3f0a730b2576adf1965e3afa6aabe0de728d2297fe8be1f32b47643cfb5e1537",
     "keyStatus": "official-definitive",
     "validation": {
@@ -163,13 +170,15 @@
         42,
         50
       ]
-    }
+    },
+    "keyNote": "Arquivo conferido e não publicado no site.",
+    "note": "Arquivo conferido e não publicado no site."
   },
   {
-    "file": "public/provas/ipsemg-2026.pdf",
+    "file": "ipsemg-2026.pdf",
     "sha256": "1914223cd85f5a285b4120c64ed7f7d00f54af58ce0bd849734b43a44a08b095",
     "source": "Caderno de Entrada Direta, tipo 1, do Processo Seletivo de Residência Médica (Edital 1/2025), prova de 7/12/2025, Instituto ACCESS. Cópia publicada pelo Estratégia MED.",
-    "keyFile": "public/provas/ipsemg-2026-gabarito.pdf",
+    "keyFile": "ipsemg-2026-gabarito.pdf",
     "keySha256": "aabf3f3be283f44d622a1411cc7c2a3fcc79ae960c008771fb86402b22625f5d",
     "keyStatus": "official-definitive",
     "validation": {
@@ -187,6 +196,8 @@
         77,
         80
       ]
-    }
+    },
+    "keyNote": "Arquivo conferido e não publicado no site.",
+    "note": "Arquivo conferido e não publicado no site."
   }
 ]

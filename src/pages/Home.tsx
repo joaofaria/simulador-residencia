@@ -125,7 +125,7 @@ export function Home({
           )}
           {!available && (
             <p className="notice">
-              PDF original disponível. {exam?.draftCount ?? 0} questões
+              {exam?.draftCount ?? 0} questões
               extraídas aguardam revisão. A transcrição e o gabarito ainda
               precisam de conferência antes de liberar esta prova.
             </p>
@@ -137,16 +137,6 @@ export function Home({
           >
             Iniciar simulado <ArrowRight size={18} />
           </button>
-          {exam?.pdf && (
-            <a
-              className="source"
-              target="_blank"
-              rel="noreferrer"
-              href={import.meta.env.BASE_URL + exam.pdf}
-            >
-              Abrir PDF original
-            </a>
-          )}
         </div>
         <aside className="card focus-card">
           <Thor className="focus-puppy" mood="sleepy" size={78} />

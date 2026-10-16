@@ -2,8 +2,10 @@
 
 Uso: python3 scripts/import-ipsemg.py 2024 2025 2026
 
-Requer poppler (pdftotext, pdftoppm) e Pillow. Lê os PDFs da prova e do
-gabarito definitivo em public/provas, recorta cada questão por coluna (o
+Requer poppler (pdftotext, pdftoppm) e Pillow. Lê os PDFs da prova
+(ipsemg-<ano>.pdf) e do gabarito definitivo (ipsemg-<ano>-gabarito.pdf) da
+pasta imports/pdfs, ou da indicada em PROVAS_PDF_DIR; eles não são
+publicados no site nem versionados. Recorta cada questão por coluna (o
 caderno do ACCESS tem duas colunas) e grava src/data/ipsemg/<ano>.json, os
 recortes em public/provas/assets/ipsemg-<ano> e o rascunho em imports.
 
@@ -13,6 +15,7 @@ prova: as cinco disciplinas aparecem sempre na mesma ordem, 20 questões cada.
 import hashlib
 import html
 import json
+import os
 import pathlib
 import re
 import subprocess
@@ -185,8 +188,9 @@ def parse_text(lines):
 def import_year(year):
     config = EXAMS[year]
     exam_id = f'ipsemg-{year}'
-    pdf = root / f'public/provas/{exam_id}.pdf'
-    key_pdf = root / f'public/provas/{exam_id}-gabarito.pdf'
+    pdf_dir = pathlib.Path(os.environ.get('PROVAS_PDF_DIR', root / 'imports/pdfs'))
+    pdf = pdf_dir / f'{exam_id}.pdf'
+    key_pdf = pdf_dir / f'{exam_id}-gabarito.pdf'
     pages = read_lines(pdf)
     keys, key_page = parse_key(year, key_pdf)
     questions = segments(pages, config)
@@ -200,7 +204,7 @@ def import_year(year):
         for file in sorted(pathlib.Path(tmp).glob('p-*.png')):
             rendered[int(file.stem.split('-')[1]) - 1] = Image.open(file).convert('RGB')
     draft = []
-    key_reference = f"{config['key_origin']} Arquivo provas/{exam_id}-gabarito.pdf, página {key_page}."
+    key_reference = f"{config['key_origin']}"
     for q in questions:
         shared = q.get('shared')
         parsed = parse_text((shared['lines'] if shared else []) + q['lines'])
@@ -247,22 +251,22 @@ def import_year(year):
         draft.append(dict(
             id=f'{exam_id}-q{q["number"]:03d}', institution='IPSEMG', year=year, number=q['number'],
             area=AREAS[(q['number'] - 1) // 20], statement=statement, alternatives=alternatives, key=key,
-            images=[], source=dict(pdf=f'provas/{exam_id}.pdf', pages=[a['page'] for a in assets]),
+            images=[], source=dict(credit=config['origin'].split(' Cópia')[0].rstrip('.'), pages=[a['page'] for a in assets]),
             review='approved',
             notes='Caderno e gabarito definitivo do Instituto ACCESS. Os recortes originais preservam o conteúdo visual; o texto extraído é uma transcrição auxiliar.',
             originalPages=assets))
     exam = dict(id=exam_id, institution='IPSEMG', year=year, title=f'IPSEMG • {year}', demo=False,
-                pdf=f'provas/{exam_id}.pdf', keySource=dict(type='official-pdf', pdf=f'provas/{exam_id}-gabarito.pdf', page=key_page),
+                keySource=dict(type='official-pdf'),
                 questions=draft)
     data_dir = root / 'src/data/ipsemg'
     data_dir.mkdir(exist_ok=True)
     (data_dir / f'{year}.json').write_text(json.dumps(exam, ensure_ascii=False, indent=2) + '\n')
     annulled = sorted(n for n, a in keys.items() if a == 'ANULADA')
     sources_path = root / 'imports/sources.json'
-    sources = [s for s in json.loads(sources_path.read_text()) if s['file'] != f'public/provas/{exam_id}.pdf']
+    sources = [s for s in json.loads(sources_path.read_text()) if s.get('exam') != exam_id and s.get('file') != f'{exam_id}.pdf']
     sources.append(dict(
-        file=f'public/provas/{exam_id}.pdf', sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
-        source=config['origin'], keyFile=f'public/provas/{exam_id}-gabarito.pdf',
+        file=f'{exam_id}.pdf', note='Arquivo conferido e não publicado no site.', sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
+        source=config['origin'], keyFile=f'{exam_id}-gabarito.pdf',
         keySha256=hashlib.sha256(key_pdf.read_bytes()).hexdigest(), keyStatus='official-definitive',
         validation=dict(basis='official-definitive-key', date='2026-10-15', questions=len(draft), keyEntries=len(keys), annulled=annulled)))
     sources_path.write_text(json.dumps(sources, ensure_ascii=False, indent=2) + '\n')

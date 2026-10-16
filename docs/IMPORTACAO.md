@@ -2,7 +2,7 @@
 
 ## 1. Registrar a origem
 
-Preserve o PDF original e registre instituição, ano de ingresso, nome do arquivo, URL oficial quando conhecida, data de obtenção e hash SHA-256. O ano da prova deve ser confirmado na capa, sem inferência pelo nome. Guarde o gabarito definitivo e as decisões após recursos separadamente. O site é público: só publique cadernos e gabaritos da própria banca. Material de cursinhos e compilações de terceiros (apostilas, PDFs com marca, recortes da diagramação deles) não entra no repositório, nem como fonte visual. Quando o gabarito oficial não for localizado, registre a origem como `third-party` e diga isso na tela.
+Preserve o PDF original e registre instituição, ano de ingresso, nome do arquivo, URL oficial quando conhecida, data de obtenção e hash SHA-256. O ano da prova deve ser confirmado na capa, sem inferência pelo nome. Guarde o gabarito definitivo e as decisões após recursos separadamente. O site é público e não publica PDFs: o caderno e o gabarito ficam só na sua máquina (pasta `imports/pdfs`, fora do Git), e o repositório guarda o texto, os recortes, as figuras e o hash do arquivo conferido. Material de cursinhos e compilações de terceiros (apostilas, PDFs com marca, recortes da diagramação deles) não entra no repositório, nem como fonte visual. Quando o gabarito oficial não for localizado, registre a origem como `third-party` e diga isso na tela.
 
 ## 2. Extrair sem publicar automaticamente
 
@@ -25,7 +25,7 @@ Organize os arquivos por instituição e ano, em `src/data/<instituição>/<ano>
   ],
   "key": { "status": "pending" },
   "images": [],
-  "source": { "pdf": "provas/ipsemg-2026.pdf", "pages": [2] },
+  "source": { "credit": "Caderno de Entrada Direta ... Instituto ACCESS", "pages": [2] },
   "review": "required",
   "notes": "Conferir texto, alternativas e imagens no original."
 }
@@ -53,18 +53,18 @@ Execute `npm run validate:data`, `npm test` e `npm run build`. A validação est
 
 ## Provas do IPSEMG
 
-O caderno do Instituto ACCESS tem duas colunas e o gabarito vem em PDF separado. No Linux, com poppler e Pillow:
+O caderno do Instituto ACCESS tem duas colunas e o gabarito vem em PDF separado. Coloque `ipsemg-<ano>.pdf` e `ipsemg-<ano>-gabarito.pdf` em `imports/pdfs` (ou indique outra pasta em `PROVAS_PDF_DIR`). No Linux, com poppler e Pillow:
 
 ```sh
 python3 scripts/import-ipsemg.py 2024 2025 2026
 ```
 
-O script recorta cada questão pela coluna, junta o texto comum a duas questões ("Considere o trecho a seguir para as questões 18 e 19") às duas, lê o gabarito definitivo (`**` ou `X` é anulada), confere que há 100 questões e 100 respostas e grava `src/data/ipsemg/<ano>.json`, os recortes e a entrada em `imports/sources.json`. Em 2026 o gabarito tem quatro tipos de prova; o script usa a Prova 1, que corresponde ao caderno tipo 1, e para se ela diferir entre os programas de Entrada Direta.
+O script recorta cada questão pela coluna, junta o texto comum a duas questões ("Considere o trecho a seguir para as questões 18 e 19") às duas, lê o gabarito definitivo (`**` ou `X` é anulada), confere que há 100 questões e 100 respostas e grava `src/data/ipsemg/<ano>.json`, os recortes em `public/provas/assets` e a entrada em `imports/sources.json`. Em 2026 o gabarito tem quatro tipos de prova; o script usa a Prova 1, que corresponde ao caderno tipo 1, e para se ela diferir entre os programas de Entrada Direta.
 
 ## PSU-MG e Santa Casa BH
 
-Estas seis provas foram importadas em 13/10/2026 a partir de PDFs compilados por um cursinho. Em 16/10/2026 esse material saiu do site e do repositório: ficaram a transcrição das questões, com crédito à banca no campo `source.credit`, as figuras clínicas recortadas da própria imagem embutida (sem a moldura do compilado) e os gabaritos oficiais localizados. Não há caderno publicado, então essas questões não têm modo Original.
+Estas seis provas foram importadas em 13/10/2026 a partir de PDFs compilados por um cursinho. Em 16/10/2026 esse material saiu do site e do repositório: ficaram a transcrição das questões, com crédito à banca no campo `source.credit`, as figuras clínicas recortadas da própria imagem embutida (sem a moldura do compilado) e os gabaritos oficiais localizados, citados no texto da fonte sem publicar o arquivo. Não há caderno publicado, então essas questões não têm modo Original.
 
-O texto foi reorganizado em parágrafos, com afirmativas (I, II, III), parênteses de verdadeiro ou falso e colunas para relacionar em linhas próprias, sem mudar palavras. As respostas foram conferidas contra os gabaritos oficiais: PSU-MG 2024 é a Prova Geral Tipo 3 e PSU-MG 2025 e 2026 são o Tipo 1, porque as anulações e respostas batem com esses tipos; na Santa Casa BH, 2025 e 2026 batem com o tipo A. `imports/sources.json` traz os endereços das cópias usadas (publicadas pelo Estratégia MED) e os hashes dos arquivos em `public/provas`.
+O texto foi reorganizado em parágrafos, com afirmativas (I, II, III), parênteses de verdadeiro ou falso e colunas para relacionar em linhas próprias, sem mudar palavras. As respostas foram conferidas contra os gabaritos oficiais: PSU-MG 2024 é a Prova Geral Tipo 3 e PSU-MG 2025 e 2026 são o Tipo 1, porque as anulações e respostas batem com esses tipos; na Santa Casa BH, 2025 e 2026 batem com o tipo A. `imports/sources.json` traz os endereços das cópias usadas (publicadas pelo Estratégia MED) e os hashes dos arquivos conferidos, que não ficam no repositório.
 
 `src/data/figuras.json` repete as figuras e tabelas dessas provas por questão. O histórico do navegador guarda uma cópia de cada prova feita; ao carregar tentativas antigas, `src/services/storage.ts` tira delas os recortes e PDFs que saíram do site e põe essas figuras no lugar. `npm run validate:data` falha se o arquivo divergir das provas.

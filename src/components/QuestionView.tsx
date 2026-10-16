@@ -175,21 +175,10 @@ export function QuestionView({
           );
         })}
       </div>
-      {q.source.pdf ? (
-        <a
-          className="source"
-          href={`${import.meta.env.BASE_URL}${q.source.pdf}#page=${q.source.pages[0]}`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Consultar prova original · página {q.source.pages.join(", ")}
-        </a>
-      ) : (
-        q.source.credit && (
-          <p className="source credit">
-            Questão {q.number} · {q.source.credit}
-          </p>
-        )
+      {q.source.credit && (
+        <p className="source credit">
+          Questão {q.number} · {q.source.credit}
+        </p>
       )}
     </>
   );

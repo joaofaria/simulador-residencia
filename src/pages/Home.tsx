@@ -15,6 +15,7 @@ import { formatTime } from "../services/session";
 import { AttemptRow } from "../components/AttemptRow";
 import { Thor } from "../components/Thor";
 import { RandomExamCard } from "../components/RandomExamCard";
+import { SupportCard } from "../components/SupportCard";
 import type { RandomConfig } from "../services/random";
 export function Home({
   attempts,
@@ -232,6 +233,7 @@ export function Home({
           </div>
         </div>
       )}
+      <SupportCard />
     </>
   );
 }

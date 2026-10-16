@@ -1460,12 +1460,37 @@ html[data-theme="dark"] .badge.incorrect {
 .support-link {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 18px;
   margin-top: 28px;
-  font-size: 14px;
+}
+.support-link > svg {
+  flex-shrink: 0;
+}
+.support-link > div {
+  flex: 1;
+}
+.support-link h3 {
+  margin: 0 0 4px;
 }
 .support-link p {
   margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.support-link .secondary {
+  flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  .support-link {
+    flex-wrap: wrap;
+  }
+  .support-link > div {
+    flex-basis: calc(100% - 82px);
+  }
+  .support-link .secondary {
+    width: 100%;
+  }
 }
 footer .footer-pix {
   color: var(--muted);

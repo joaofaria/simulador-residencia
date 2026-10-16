@@ -181,6 +181,13 @@ export function Results({
           </p>
         </>
       )}
+      <div className="card support-link">
+        <Thor mood="happy" size={56} />
+        <p>
+          O ResidênCão é gratuito. Se ele te ajudou, dá para mandar um petisco
+          para o Thor: <Link to="/apoie">apoie com Pix</Link>.
+        </p>
+      </div>
       <div className="section-heading">
         <h2>Revisão das questões</h2>
         <span>

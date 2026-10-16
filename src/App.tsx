@@ -18,6 +18,7 @@ import {
   upsert,
   STORAGE_KEY,
 } from "./services/storage";
+import { countVisit } from "./services/visits";
 import { Home } from "./pages/Home";
 import { Thor } from "./components/Thor";
 // Telas fora da página inicial carregam sob demanda; Results traz o recharts.
@@ -96,6 +97,9 @@ export function App() {
       /* A interface permanece disponível sem persistência do tema. */
     }
   }, [dark]);
+  useEffect(() => {
+    countVisit(location.pathname);
+  }, [location.pathname]);
   useEffect(() => {
     const leaving = ref.current.attempts.filter(
       (a) =>

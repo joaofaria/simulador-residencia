@@ -58,4 +58,6 @@ O app está publicado em https://joaofaria.github.io/simulador-residencia/
 
 Cada push na branch `main` dispara o workflow `.github/workflows/deploy.yml` (também pode ser disparado manualmente). Ele executa validação de dados, testes e build e, se tudo passar, publica `dist` no Pages. A origem do Pages no repositório está em **Settings → Pages → Source → GitHub Actions**. O Vite usa `base: '/simulador-residencia/'`; `HashRouter` permite abrir resultados diretamente sem regras de reescrita.
 
+As visitas são contadas pelo [GoatCounter](https://www.goatcounter.com), sem cookies. O código da conta fica em `GOATCOUNTER_CODE`, em `src/services/visits.ts`; vazio, nada é contado. Cada troca de tela conta como uma página (`/`, `/simulado`, `/resultado`, `/historico`), e só o site publicado conta, nunca o `npm run dev`. Os números ficam no painel da conta, em `https://<código>.goatcounter.com`.
+
 Os PDFs em `public/provas` são servidos como assets públicos junto com o site.

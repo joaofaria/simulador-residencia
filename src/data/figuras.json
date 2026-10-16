@@ -1,0 +1,177 @@
+{
+  "psu-mg-2024-q046": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2024/q046.jpg",
+        "alt": "Eletrocardiograma de 12 derivações."
+      }
+    ]
+  },
+  "psu-mg-2024-q047": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2024/q046.jpg",
+        "alt": "Eletrocardiograma de 12 derivações."
+      }
+    ]
+  },
+  "psu-mg-2024-q048": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2024/q046.jpg",
+        "alt": "Eletrocardiograma de 12 derivações."
+      }
+    ]
+  },
+  "psu-mg-2024-q053": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2024/q053.jpg",
+        "alt": "Tomografia computadorizada do abdome, corte axial."
+      }
+    ]
+  },
+  "psu-mg-2025-q004": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2025/q004.jpg",
+        "alt": "Radiografia do tórax."
+      }
+    ]
+  },
+  "psu-mg-2025-q008": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2025/q008.jpg",
+        "alt": "Eletrocardiograma de 12 derivações."
+      }
+    ]
+  },
+  "psu-mg-2025-q009": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2025/q008.jpg",
+        "alt": "Eletrocardiograma de 12 derivações."
+      }
+    ]
+  },
+  "psu-mg-2025-q049": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2025/q049.jpg",
+        "alt": "Partograma da paciente."
+      }
+    ]
+  },
+  "psu-mg-2026-q008": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2026/q008.jpg",
+        "alt": "Radiografia do tórax."
+      }
+    ]
+  },
+  "psu-mg-2026-q009": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2026/q008.jpg",
+        "alt": "Radiografia do tórax."
+      }
+    ]
+  },
+  "psu-mg-2026-q014": {
+    "images": [
+      {
+        "src": "provas/figuras/psu-mg-2026/q014.jpg",
+        "alt": "Tomografia do tórax, corte coronal."
+      }
+    ]
+  },
+  "santa-casa-bh-2024-q026": {
+    "tables": [
+      {
+        "header": [
+          "Posição",
+          "Pressão arterial (mmHg)",
+          "Frequência cardíaca (bpm)"
+        ],
+        "rows": [
+          [
+            "Sentada",
+            "108/68",
+            "80"
+          ],
+          [
+            "Ortostatismo (após 3 min)",
+            "116/76",
+            "124"
+          ]
+        ]
+      }
+    ]
+  },
+  "santa-casa-bh-2024-q028": {
+    "images": [
+      {
+        "src": "provas/figuras/santa-casa-bh-2024/q028.jpg",
+        "alt": "Traçado mostrado no monitor."
+      }
+    ]
+  },
+  "santa-casa-bh-2024-q058": {
+    "images": [
+      {
+        "src": "provas/figuras/santa-casa-bh-2024/q058.jpg",
+        "alt": "Partograma da paciente."
+      }
+    ]
+  },
+  "santa-casa-bh-2025-q019": {
+    "images": [
+      {
+        "src": "provas/figuras/santa-casa-bh-2025/q019.jpg",
+        "alt": "Fotografia das mãos da paciente."
+      }
+    ]
+  },
+  "santa-casa-bh-2025-q024": {
+    "images": [
+      {
+        "src": "provas/figuras/santa-casa-bh-2025/q024.jpg",
+        "alt": "Tomografia do tórax, corte axial."
+      }
+    ]
+  },
+  "santa-casa-bh-2025-q025": {
+    "images": [
+      {
+        "src": "provas/figuras/santa-casa-bh-2025/q025.jpg",
+        "alt": "Eletrocardiograma de 12 derivações."
+      }
+    ]
+  },
+  "santa-casa-bh-2026-q018": {
+    "images": [
+      {
+        "src": "provas/figuras/santa-casa-bh-2026/q018.jpg",
+        "alt": "Radiografia do tórax no leito."
+      }
+    ]
+  },
+  "santa-casa-bh-2026-q019": {
+    "images": [
+      {
+        "src": "provas/figuras/santa-casa-bh-2026/q019.jpg",
+        "alt": "Eletrocardiograma de 12 derivações."
+      }
+    ]
+  },
+  "santa-casa-bh-2026-q021": {
+    "images": [
+      {
+        "src": "provas/figuras/santa-casa-bh-2026/q021.jpg",
+        "alt": "Radiografia do tórax em PA."
+      }
+    ]
+  }
+}

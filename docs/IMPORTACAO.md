@@ -2,23 +2,15 @@
 
 ## 1. Registrar a origem
 
-Preserve o PDF original e registre instituição, ano de ingresso, nome do arquivo, URL oficial quando conhecida, data de obtenção e hash SHA-256. O ano da prova deve ser confirmado na capa, sem inferência pelo nome. Guarde o gabarito definitivo e as decisões após recursos separadamente. Neste projeto de uso pessoal, o usuário aceitou explicitamente os PDFs e seus gabaritos como fonte de verdade. Registre essa procedência; não descreva a aceitação pessoal como confirmação oficial. Para novas fontes, use a política de validação correspondente.
+Preserve o PDF original e registre instituição, ano de ingresso, nome do arquivo, URL oficial quando conhecida, data de obtenção e hash SHA-256. O ano da prova deve ser confirmado na capa, sem inferência pelo nome. Guarde o gabarito definitivo e as decisões após recursos separadamente. O site é público: só publique cadernos e gabaritos da própria banca. Material de cursinhos e compilações de terceiros (apostilas, PDFs com marca, recortes da diagramação deles) não entra no repositório, nem como fonte visual. Quando o gabarito oficial não for localizado, registre a origem como `third-party` e diga isso na tela.
 
 ## 2. Extrair sem publicar automaticamente
 
-Instale o extrator opcional: `npm install --no-save pdfjs-dist`. Execute:
-
-```sh
-npm run import:pdf -- /caminho/Provas_R1_2024_2026
-```
-
-Este comando copia os originais e gera textos por página em `imports`. Ele gera um catálogo inicial separado em `imports/catalog.generated.json`, preservando o banco aprovado em `src/data`. PDFs com colunas, imagens ou fontes especiais podem produzir ordem incorreta; a extração não é prova de integridade. No macOS existe também `swift scripts/extract-pdf.swift arquivo.pdf` para extrair páginas com PDFKit.
-
-Os arquivos existentes em `imports/*.draft.json` são rascunhos extraídos dos seis PDFs fornecidos (75 itens por arquivo), usados como transcrição auxiliar do banco liberado após aceitação dos PDFs pelo usuário. `python3 scripts/prepare-drafts.py` recria esses rascunhos a partir dos textos por página, sem inferir gabaritos. O manifesto `imports/sources.json` registra hashes dos PDFs.
+Extraia o texto do caderno da banca com poppler (`pdftotext -bbox-layout`) ou PyMuPDF e gere rascunhos fora de `src/data`. A extração não é prova de integridade: colunas, imagens e fontes especiais podem embaralhar a ordem. O importador do IPSEMG, descrito abaixo, é o modelo.
 
 ## 3. Montar questões
 
-Organize os arquivos por instituição e ano, em `src/data/psu-mg` e `src/data/santa-casa-bh` (um JSON por ano); o catálogo `src/data/catalog.ts` agrega esses arquivos. Use o contrato `questionSchema` em `src/types/index.ts`:
+Organize os arquivos por instituição e ano, em `src/data/<instituição>/<ano>.json`; o catálogo `src/data/catalog.ts` agrega esses arquivos. Use o contrato `questionSchema` em `src/types/index.ts`:
 
 ```json
 {
@@ -33,13 +25,13 @@ Organize os arquivos por instituição e ano, em `src/data/psu-mg` e `src/data/s
   ],
   "key": { "status": "pending" },
   "images": [],
-  "source": { "pdf": "provas/psu-mg-2026.pdf", "pages": [2] },
+  "source": { "pdf": "provas/ipsemg-2026.pdf", "pages": [2] },
   "review": "required",
   "notes": "Conferir texto, alternativas e imagens no original."
 }
 ```
 
-O exemplo acima é um contrato, não uma questão. Não introduza esses placeholders no catálogo público. Não corrija ortografia ou simplifique enunciados. Preserve tabelas como imagens com transcrição acessível, imagens em `public/provas/assets` com alt descritivo, fórmulas, unidades e referências. Use `area` apenas quando identificada; não force classificação.
+O exemplo acima é um contrato, não uma questão. Não introduza esses placeholders no catálogo público. Não corrija ortografia ou simplifique enunciados. Refaça tabelas no campo `tables` (cabeçalho e linhas em texto) e guarde figuras em `public/provas/figuras/<prova>/qNNN.jpg`, recortadas só na figura, com alt descritivo. Preserve fórmulas, unidades e referências. Use `area` apenas quando identificada; não force classificação.
 
 ## 4. Conferir integridade
 
@@ -47,7 +39,7 @@ Confronte cada questão e todas as alternativas visualmente com o PDF, incluindo
 
 ## 5. Verificar gabarito
 
-Após a confirmação da fonte adotada (oficial, quando disponível, ou PDF explicitamente aceito pelo usuário para uso pessoal):
+Após a confirmação da fonte adotada (documento oficial da banca sempre que existir):
 
 - Verificada: `{"status":"verified","answer":"A","source":"URL ou caminho do gabarito definitivo, data e referência"}`.
 - Anulada: `{"status":"annulled","source":"Referência à decisão oficial definitiva"}`.
@@ -69,22 +61,10 @@ python3 scripts/import-ipsemg.py 2024 2025 2026
 
 O script recorta cada questão pela coluna, junta o texto comum a duas questões ("Considere o trecho a seguir para as questões 18 e 19") às duas, lê o gabarito definitivo (`**` ou `X` é anulada), confere que há 100 questões e 100 respostas e grava `src/data/ipsemg/<ano>.json`, os recortes e a entrada em `imports/sources.json`. Em 2026 o gabarito tem quatro tipos de prova; o script usa a Prova 1, que corresponde ao caderno tipo 1, e para se ela diferir entre os programas de Entrada Direta.
 
-## Importação atual dos PDFs aceitos pelo usuário
+## PSU-MG e Santa Casa BH
 
-As seis provas foram aceitas pelo usuário em 13/10/2026, incluindo seus gabaritos. Para reproduzir a importação no macOS, extraia o texto com PDFKit e prepare os rascunhos; depois gere os recortes e leia o gabarito por posição visual:
+Estas seis provas foram importadas em 13/10/2026 a partir de PDFs compilados por um cursinho. Em 16/10/2026 esse material saiu do site e do repositório: ficaram a transcrição das questões, com crédito à banca no campo `source.credit`, as figuras clínicas recortadas da própria imagem embutida (sem a moldura do compilado) e os gabaritos oficiais localizados. Não há caderno publicado, então essas questões não têm modo Original.
 
-```sh
-python3 scripts/prepare-drafts.py
-swift scripts/render-questions.swift public/provas/psu-mg-2024.pdf public/provas/assets/psu-mg-2024 psu-mg-2024
-# Repita o comando para cada um dos seis IDs do catálogo.
-python3 scripts/publish-validated-pdfs.py
-npm run validate:data
-npm test
-npm run build
-```
+O texto foi reorganizado em parágrafos, com afirmativas (I, II, III), parênteses de verdadeiro ou falso e colunas para relacionar em linhas próprias, sem mudar palavras. As respostas foram conferidas contra os gabaritos oficiais: PSU-MG 2024 é a Prova Geral Tipo 3 e PSU-MG 2025 e 2026 são o Tipo 1, porque as anulações e respostas batem com esses tipos; na Santa Casa BH, 2025 e 2026 batem com o tipo A. `imports/sources.json` traz os endereços das cópias usadas (publicadas pelo Estratégia MED) e os hashes dos arquivos em `public/provas`.
 
-`render-questions.swift` preserva imagens e tabelas em recortes PNG, incluindo continuações da questão. No gabarito, associa a resposta ao número pela posição na mesma linha/célula. Isso evita o erro da extração linear em células anuladas consecutivas (PSU-MG 2024: 18/19; Santa Casa BH 2026: 31/32). O arquivo `.rendered.json` registra as referências e respostas obtidas.
-
-`publish-validated-pdfs.py` verifica o hash do PDF, correspondência entre números de questões/recortes/gabarito, existência das alternativas e dos arquivos de imagem. Compara as respostas que a extração de texto consegue identificar com a leitura visual por coordenadas; divergências interrompem a importação. Não presume 75 questões para novas provas. Recortes têm nomes por hash de conteúdo para manter os artefatos de tentativas anteriores. O catálogo recebe `basis: user-validated-pdf` nos gabaritos, mantendo a origem explícita.
-
-A aprovação diz respeito ao documento original aceito pelo usuário. A transcrição auxiliar não substitui o original; o simulador inicia a leitura no modo Original. Não acrescente imagens, dados clínicos ou respostas que não constem nos documentos.
+`src/data/figuras.json` repete as figuras e tabelas dessas provas por questão. O histórico do navegador guarda uma cópia de cada prova feita; ao carregar tentativas antigas, `src/services/storage.ts` tira delas os recortes e PDFs que saíram do site e põe essas figuras no lugar. `npm run validate:data` falha se o arquivo divergir das provas.

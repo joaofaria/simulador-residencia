@@ -17,6 +17,55 @@ export function QuestionView({
   const [zoomed, setZoomed] = useState(false);
   const hasOriginal = Boolean(q.originalPages?.length);
   const showOriginal = hasOriginal && originalMode;
+  // {{figura}} no enunciado marca onde entram tabelas e figuras; sem a marca,
+  // elas ficam logo depois do texto.
+  const [before, after = ""] = q.statement.split("\n{{figura}}\n");
+  const media = (
+    <>
+      {q.tables?.map((table, t) => (
+        <div className="question-table" key={t}>
+          <table>
+            <thead>
+              <tr>
+                {table.header.map((cell, c) => (
+                  <th key={c} scope="col">
+                    {cell}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {table.rows.map((row, r) => (
+                <tr key={r}>
+                  {row.map((cell, c) => (
+                    <td key={c}>{cell}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
+      {q.images.map((i) => (
+        <figure className="question-figure" key={i.src}>
+          <a
+            href={import.meta.env.BASE_URL + i.src}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`Abrir em tamanho real: ${i.alt}`}
+          >
+            <img
+              src={import.meta.env.BASE_URL + i.src}
+              alt={i.alt}
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+          <figcaption>{i.alt} Toque para ampliar.</figcaption>
+        </figure>
+      ))}
+    </>
+  );
   return (
     <>
       {hasOriginal && (
@@ -94,13 +143,9 @@ export function QuestionView({
               Original.
             </p>
           )}
-          <p className="statement">{q.statement}</p>
-          {q.images.map((i) => (
-            <figure key={i.src}>
-              <img src={import.meta.env.BASE_URL + i.src} alt={i.alt} />
-              <figcaption>{i.alt}</figcaption>
-            </figure>
-          ))}
+          {before && <p className="statement">{before}</p>}
+          {media}
+          {after && <p className="statement">{after}</p>}
         </>
       )}
       <div className={`alternatives ${showOriginal ? "original-options" : ""}`}>
@@ -130,7 +175,7 @@ export function QuestionView({
           );
         })}
       </div>
-      {q.source.pdf && (
+      {q.source.pdf ? (
         <a
           className="source"
           href={`${import.meta.env.BASE_URL}${q.source.pdf}#page=${q.source.pages[0]}`}
@@ -139,6 +184,12 @@ export function QuestionView({
         >
           Consultar prova original · página {q.source.pages.join(", ")}
         </a>
+      ) : (
+        q.source.credit && (
+          <p className="source credit">
+            Questão {q.number} · {q.source.credit}
+          </p>
+        )
       )}
     </>
   );

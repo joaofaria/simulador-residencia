@@ -1,14 +1,19 @@
 [
   {
-    "file": "public/provas/psu-mg-2024.pdf",
-    "sha256": "e74b7f9038e6f34483639b7a90482bc92c1d331acde12563ce4b1b20d354876e",
-    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
-    "keyStatus": "accepted-user-source-of-truth",
+    "exam": "psu-mg-2024",
+    "text": "Transcrição das questões da Prova Geral Tipo 3. O caderno e os recortes de página não são publicados; ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "figures": "public/provas/figuras/psu-mg-2024",
+    "key": "Gabarito oficial da Prova Geral Tipo 3 (3/12/2023) e alterações após recursos (21/12/2023), AREMG.",
+    "keyStatus": "official-definitive",
+    "keyOrigin": [
+      "https://med.estrategia.com/portal/wp-content/uploads/2023/12/GABARITOPROVAGERALTIPO3PSU2024-20231203172636.pdf",
+      "https://med.estrategia.com/portal/wp-content/uploads/2023/12/AlteracaodeGabarito-PSUMG2024-20231221180424.pdf"
+    ],
+    "keyFile": "public/provas/psu-mg-2024-gabarito.pdf",
+    "keySha256": "9c178d7d153a2536b90be45d1eda233fb9b310bd8d483828de32e443d326a734",
     "validation": {
-      "basis": "user-authorization",
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "questions": 75,
-      "keyEntries": 75,
       "annulled": [
         18,
         19,
@@ -18,15 +23,20 @@
     }
   },
   {
-    "file": "public/provas/psu-mg-2025.pdf",
-    "sha256": "d2efd67361d25bd4e61be15aeeda7416e8d20038619a86d22b071f7a74e10ec0",
-    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
-    "keyStatus": "accepted-user-source-of-truth",
+    "exam": "psu-mg-2025",
+    "text": "Transcrição das questões da Prova Geral Tipo 1. O caderno e os recortes de página não são publicados; ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "figures": "public/provas/figuras/psu-mg-2025",
+    "key": "Gabarito preliminar oficial da Prova Geral Tipo 1 (1/12/2024) e alterações após recursos (19/12/2024), AREMG.",
+    "keyStatus": "official-definitive",
+    "keyOrigin": [
+      "https://med.estrategia.com/portal/wp-content/uploads/2024/12/GABARITOPRELIMINARPROVAGERALTIPO1-PSUMG2025-20241201170547.pdf",
+      "https://med.estrategia.com/portal/wp-content/uploads/2024/12/AlteracgabaritopsuMG2025-20241219200026.pdf"
+    ],
+    "keyFile": "public/provas/psu-mg-2025-gabarito.pdf",
+    "keySha256": "17d591e2cddce778c0a827cd03db94b46307f3d3c33f5f7d9221a83812989bad",
     "validation": {
-      "basis": "user-authorization",
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "questions": 75,
-      "keyEntries": 75,
       "annulled": [
         12,
         67
@@ -34,15 +44,19 @@
     }
   },
   {
-    "file": "public/provas/psu-mg-2026.pdf",
-    "sha256": "dfffe8cf8eb085520e93fa0d9a6ec0814593c4f8a3097d85616058ce27ba749d",
-    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
-    "keyStatus": "accepted-user-source-of-truth",
+    "exam": "psu-mg-2026",
+    "text": "Transcrição das questões da Prova Geral Tipo 1. O caderno e os recortes de página não são publicados; ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "figures": "public/provas/figuras/psu-mg-2026",
+    "key": "Só as alterações após recursos (17/12/2025, AREMG) foram localizadas; elas confirmam as anulações. As demais respostas vêm de compilação de terceiros.",
+    "keyStatus": "third-party-annulments-official",
+    "keyOrigin": [
+      "https://med.estrategia.com/portal/wp-content/uploads/2025/12/Alteracaodegabaritoaposrecurso-PSUMG2026-20251217195115.pdf"
+    ],
+    "keyFile": "public/provas/psu-mg-2026-gabarito.pdf",
+    "keySha256": "7c5a5e8774bd6af7447314c940ed06763f39863f22eb6a1d3ebe0b7d9f992819",
     "validation": {
-      "basis": "user-authorization",
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "questions": 75,
-      "keyEntries": 75,
       "annulled": [
         49,
         57,
@@ -52,15 +66,15 @@
     }
   },
   {
-    "file": "public/provas/santa-casa-bh-2024.pdf",
-    "sha256": "6ba8cdaef169391004740aadf8d4a7b2b7468c0aaabc94c0f97297f61595ef43",
-    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
-    "keyStatus": "accepted-user-source-of-truth",
+    "exam": "santa-casa-bh-2024",
+    "text": "Transcrição das questões da Entrada Direta. O caderno e os recortes de página não são publicados; ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "figures": "public/provas/figuras/santa-casa-bh-2024",
+    "key": "Gabarito definitivo da banca (IBGP) não localizado; respostas de compilação de terceiros.",
+    "keyStatus": "third-party",
+    "keyOrigin": [],
     "validation": {
-      "basis": "user-authorization",
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "questions": 75,
-      "keyEntries": 75,
       "annulled": [
         16,
         45,
@@ -69,15 +83,19 @@
     }
   },
   {
-    "file": "public/provas/santa-casa-bh-2025.pdf",
-    "sha256": "b94f0d889dd34ab2d097906446c80f6940405e24f5eee958a9bb9360f9bd34ac",
-    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
-    "keyStatus": "accepted-user-source-of-truth",
+    "exam": "santa-casa-bh-2025",
+    "text": "Transcrição das questões da Entrada Direta, tipo A. O caderno e os recortes de página não são publicados; ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "figures": "public/provas/figuras/santa-casa-bh-2025",
+    "key": "Gabarito após recurso, Edital 001/2024, Santa Casa BH (IBGP).",
+    "keyStatus": "official-definitive",
+    "keyOrigin": [
+      "https://med.estrategia.com/portal/wp-content/uploads/2024/12/GABARITO-SANTA-CASA-edital-01-APOS-RECURSO.pdf"
+    ],
+    "keyFile": "public/provas/santa-casa-bh-2025-gabarito.pdf",
+    "keySha256": "f6fe1b541cf15cb26c8faf905381a799387fec2f28a25877e6a900624a786545",
     "validation": {
-      "basis": "user-authorization",
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "questions": 75,
-      "keyEntries": 75,
       "annulled": [
         3,
         63,
@@ -86,15 +104,19 @@
     }
   },
   {
-    "file": "public/provas/santa-casa-bh-2026.pdf",
-    "sha256": "066167db09d0acaca49b56c71beb085f280f3b9908db05a4f133ae32956c6eab",
-    "source": "PDF fornecido e validado pelo usuário para uso pessoal.",
-    "keyStatus": "accepted-user-source-of-truth",
+    "exam": "santa-casa-bh-2026",
+    "text": "Transcrição das questões da Entrada Direta, tipo A. O caderno e os recortes de página não são publicados; ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "figures": "public/provas/figuras/santa-casa-bh-2026",
+    "key": "Gabarito definitivo, Edital 005/2025, Santa Casa BH (IBGP).",
+    "keyStatus": "official-definitive",
+    "keyOrigin": [
+      "https://med.estrategia.com/portal/wp-content/uploads/2025/12/GABARITO-DEFINITIVO-ED05.pdf"
+    ],
+    "keyFile": "public/provas/santa-casa-bh-2026-gabarito.pdf",
+    "keySha256": "d9180e123a65dae004f39920baf5db7287a26894ebf88ff9da62814c4a9f6123",
     "validation": {
-      "basis": "user-authorization",
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "questions": 75,
-      "keyEntries": 75,
       "annulled": [
         31,
         32

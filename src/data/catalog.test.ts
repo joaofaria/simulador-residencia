@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync } from "node:fs";
 import { exams } from "./catalog";
 import {
   createAttempt,
@@ -14,7 +14,7 @@ import { loadExam } from "./load";
 const realExams = exams.filter((e) => !e.demo);
 
 describe("Banco de provas reais e correção", () => {
-  it("disponibiliza as nove provas e 750 questões com gabaritos aceitos", () => {
+  it("disponibiliza as nove provas e 750 questões com gabarito e fonte registrados", () => {
     expect(realExams.map((e) => e.id).sort()).toEqual([
       "ipsemg-2024",
       "ipsemg-2025",
@@ -36,25 +36,57 @@ describe("Banco de provas reais e correção", () => {
         expect(q.key.status).not.toBe("pending");
         if (q.key.status !== "pending")
           expect(q.key.basis).toBe(
-            exam.institution === "IPSEMG" ? "official" : "user-validated-pdf",
+            exam.keySource?.type === "official-pdf" ||
+              (q.key.status === "annulled" && exam.id === "psu-mg-2026")
+              ? "official"
+              : "third-party",
           );
       }
   });
-  it("preserva originais, imagens, tabelas e continuações com recortes existentes", () => {
+  it("não publica PDFs nem recortes de página; toda questão traz crédito à banca", () => {
     for (const exam of realExams)
       for (const q of exam.questions) {
-        expect(q.originalPages?.length).toBeGreaterThan(0);
-        expect(q.originalPages?.map((p) => p.page)).toEqual(q.source.pages);
-        for (const original of q.originalPages ?? []) {
-          expect(existsSync(`public/${original.src}`)).toBe(true);
-          expect(original.src).toMatch(/[a-f0-9]{12}-q\d+-p\d+\.png$/);
-          expect(
-            readFileSync(`public/${original.src}`)
-              .subarray(0, 8)
-              .toString("hex"),
-          ).toBe("89504e470d0a1a0a");
+        expect(q.source.pdf).toBeUndefined();
+        expect(q.source.credit).toMatch(/AREMG|IBGP|ACCESS/);
+        expect(q.statement).not.toMatch(/-\n/);
+        for (const image of q.images) {
+          expect(image.src).toMatch(/^provas\/figuras\//);
+          expect(existsSync(`public/${image.src}`)).toBe(true);
         }
       }
+    const withFigure = realExams.flatMap((e) =>
+      e.questions.filter((q) => q.images.length || q.tables?.length),
+    );
+    expect(withFigure).toHaveLength(22);
+  });
+  it("limpa de tentativas antigas os recortes e PDFs retirados do site", () => {
+    const exam = realExams.find((e) => e.id === "psu-mg-2024")!;
+    const old = {
+      ...exam,
+      pdf: "provas/psu-mg-2024.pdf",
+      questions: exam.questions.map((q) => ({
+        ...q,
+        images: [],
+        source: { pdf: "provas/psu-mg-2024.pdf", pages: [3] },
+        originalPages: [
+          {
+            src: "provas/assets/psu-mg-2024/abc-q001-p03.png",
+            alt: "x",
+            page: 3,
+          },
+        ],
+      })),
+    };
+    const attempt = finish(createAttempt(old, 0, "antiga"), 1000);
+    const restored = decodeStore(
+      JSON.stringify({ version: 2, attempts: [attempt] }),
+    ).attempts[0];
+    expect(restored.exam.pdf).toBeUndefined();
+    const q46 = restored.exam.questions.find((q) => q.number === 46)!;
+    expect(Object.keys(q46)).not.toContain("originalPages");
+    expect(q46.source.pdf).toBeUndefined();
+    expect(q46.images).toEqual(exam.questions[45].images);
+    expect(restored.result).toEqual(attempt.result);
   });
   it("identifica anulações cujas células foram separadas na extração de texto", () => {
     const psu = realExams.find((e) => e.id === "psu-mg-2024")!;
@@ -115,8 +147,8 @@ describe("Banco de provas reais e correção", () => {
         JSON.stringify({ version: 2, attempts: [attempt] }),
       ).attempts[0];
       expect(persisted.result).toEqual(result);
-      expect(persisted.exam.questions[0].originalPages).toEqual(
-        exam.questions[0].originalPages,
+      expect(persisted.exam.questions[0].images).toEqual(
+        exam.questions[0].images,
       );
     },
   );

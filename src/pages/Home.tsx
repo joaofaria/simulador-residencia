@@ -30,6 +30,13 @@ export function Home({
 }) {
   const [institution, setInstitution] = useState("PSU-MG");
   const [year, setYear] = useState(2026);
+  // Os anos do seletor saem das provas cadastradas para a instituição.
+  const yearsOf = (inst: string) =>
+    summaries
+      .filter((e) => !e.demo && e.institution === inst)
+      .map((e) => e.year)
+      .sort((a, b) => b - a);
+  const years = yearsOf(institution);
   const exam = summaries.find(
     (e) => e.institution === institution && e.year === year,
   );
@@ -92,7 +99,11 @@ export function Home({
               Instituição
               <select
                 value={institution}
-                onChange={(e) => setInstitution(e.target.value)}
+                onChange={(e) => {
+                  const next = e.target.value;
+                  setInstitution(next);
+                  if (!yearsOf(next).includes(year)) setYear(yearsOf(next)[0]);
+                }}
               >
                 <option>PSU-MG</option>
                 <option>Santa Casa BH</option>
@@ -105,7 +116,7 @@ export function Home({
                 value={year}
                 onChange={(e) => setYear(Number(e.target.value))}
               >
-                {[2026, 2025, 2024].map((y) => (
+                {years.map((y) => (
                   <option key={y}>{y}</option>
                 ))}
               </select>

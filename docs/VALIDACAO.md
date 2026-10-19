@@ -1,5 +1,7 @@
 # Verificação da entrega
 
+Em 19/10/2026, com a entrada do PSU-MG 2021, 2022 e 2023: `npm run validate:data` com doze provas e 975 questões (195 por área), `npm test` com 94 testes aprovados e build aprovado. Gabaritos das três provas conferidos contra os documentos oficiais da AREMG, com as alterações após recursos aplicadas.
+
 Em 16/10/2026, com a retirada do material de cursinho de PSU-MG e Santa Casa BH e a passagem do IPSEMG para só texto: `npm run validate:data` com nove provas e 750 questões, `npm test` e build aprovados. As 450 questões de PSU-MG e Santa Casa BH conferem com a transcrição anterior; mudou a quebra de linhas e, em oito questões com colunas ou afirmativas, a pontuação que separava os itens. Gabaritos conferidos contra os documentos oficiais de PSU-MG 2024 e 2025 e Santa Casa BH 2025 e 2026, sem divergência. Nenhum PDF fica publicado: `validate:data` falha se houver algum em `public`.
 
 Em 15/10/2026, com a entrada das provas do IPSEMG: `npm run validate:data` com nove provas e 750 questões (150 por área), `npm test` com 78 testes aprovados e build aprovado. A tela inicial e a primeira questão do IPSEMG 2026 foram abertas no Chromium em largura de celular.

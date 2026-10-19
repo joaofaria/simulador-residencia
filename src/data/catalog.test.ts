@@ -14,11 +14,14 @@ import { loadExam } from "./load";
 const realExams = exams.filter((e) => !e.demo);
 
 describe("Banco de provas reais e correção", () => {
-  it("disponibiliza as nove provas e 750 questões com gabarito e fonte registrados", () => {
+  it("disponibiliza as doze provas e 975 questões com gabarito e fonte registrados", () => {
     expect(realExams.map((e) => e.id).sort()).toEqual([
       "ipsemg-2024",
       "ipsemg-2025",
       "ipsemg-2026",
+      "psu-mg-2021",
+      "psu-mg-2022",
+      "psu-mg-2023",
       "psu-mg-2024",
       "psu-mg-2025",
       "psu-mg-2026",
@@ -26,10 +29,10 @@ describe("Banco de provas reais e correção", () => {
       "santa-casa-bh-2025",
       "santa-casa-bh-2026",
     ]);
-    expect(realExams.reduce((sum, e) => sum + e.questions.length, 0)).toBe(750);
+    expect(realExams.reduce((sum, e) => sum + e.questions.length, 0)).toBe(975);
     expect(
       new Set(realExams.flatMap((e) => e.questions.map((q) => q.id))).size,
-    ).toBe(750);
+    ).toBe(975);
     for (const exam of realExams)
       for (const q of exam.questions) {
         expect(q.review).toBe("approved");
@@ -57,7 +60,7 @@ describe("Banco de provas reais e correção", () => {
     const withFigure = realExams.flatMap((e) =>
       e.questions.filter((q) => q.images.length || q.tables?.length),
     );
-    expect(withFigure).toHaveLength(22);
+    expect(withFigure).toHaveLength(34);
   });
   it("limpa de tentativas antigas os recortes e PDFs retirados do site", () => {
     const exam = realExams.find((e) => e.id === "psu-mg-2024")!;

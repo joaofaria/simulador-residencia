@@ -1,0 +1,2959 @@
+{
+  "id": "psu-mg-2022",
+  "institution": "PSU-MG",
+  "year": 2022,
+  "title": "PSU-MG • 2022",
+  "demo": false,
+  "keySource": {
+    "type": "official-pdf"
+  },
+  "questions": [
+    {
+      "id": "psu-mg-2022-q001",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 1,
+      "area": "pediatria",
+      "statement": "A escolha dos alimentos para o preparo das refeições da criança é fundamental para uma alimentação adequada e saudável. Nos dois primeiros anos de vida da criança, a escolha dos alimentos merece atenção especial, pois é quando os hábitos alimentares estão sendo formados e existem alguns cuidados relacionados a esses alimentos. Considerando cuidados de saúde e segurança do lactente, qual dentre as opções abaixo apresenta um alimento que NÃO precisa ser evitado no primeiro ano de vida da criança:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Carne de porco"
+        },
+        {
+          "letter": "B",
+          "text": "Mel"
+        },
+        {
+          "letter": "C",
+          "text": "Pipoca"
+        },
+        {
+          "letter": "D",
+          "text": "Suco de frutas"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q002",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 2,
+      "area": "pediatria",
+      "statement": "Sobre o aleitamento materno, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Em regiões muito secas e quentes, pode ser necessário completar a amamentação de crianças de 4 a 6 meses com água filtrada para evitar a desidratação"
+        },
+        {
+          "letter": "B",
+          "text": "O leite materno, até os 6 meses de idade da criança, quando oferecido exclusivamente, fornece a quantidade necessária de vitamina D e zinco para a criança"
+        },
+        {
+          "letter": "C",
+          "text": "Em mulheres que possuem mamilos planos ou invertidos é importante já no pré-natal orientar exercícios de tração para os mamilos no intuito de torná-los preparados para a amamentação"
+        },
+        {
+          "letter": "D",
+          "text": "Na situação em que ocorre mastite e que pode cursar com infecção bacteriana, o tratamento com antibiótico adequado pode ser necessário e a amamentação pode ser mantida"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q003",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 3,
+      "area": "pediatria",
+      "statement": "Adolescente, sexo masculino, 11 anos de idade, previamente saudável, residente em Belo Horizonte, apresenta há quatro dias febre, mialgia, cefaleia e dor retro-orbitária. Ao exame físico, está corado, hidratado, pulsos cheios, enchimento capilar de 2 segundos, PA: 110x60mmHg. Ausência de dor abdominal, vômitos e sinais de sangramento. Fígado e baço não palpados. O pediatra de plantão suspeitou de Dengue, porém não é possível solicitar teste de detecção de antígeno NS1. Qual afirmativa é considerada ERRADA em relação ao caso?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A prova do laço deve ser realizada para estratificação de risco"
+        },
+        {
+          "letter": "B",
+          "text": "Não é necessário solicitar hemograma"
+        },
+        {
+          "letter": "C",
+          "text": "Não utilizar anti-inflamatório não esteroide"
+        },
+        {
+          "letter": "D",
+          "text": "Orientar hidratação oral no domicílio de acordo com o peso"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q004",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 4,
+      "area": "pediatria",
+      "statement": "Em relação à avaliação oftalmológica em crianças menores de cinco anos, assinale alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A avaliação do fundo de olho com dilatação pupilar medicamentosa está recomendada a partir dos dois anos de idade e deve ser realizada nas consultas oftalmológicas de rotina"
+        },
+        {
+          "letter": "B",
+          "text": "Na avaliação oftalmológica de um lactente de sete meses é esperado que ele siga os objetos com os olhos, mas ainda possa apresentar não coordenação dos movimentos oculares em movimentos horizontais"
+        },
+        {
+          "letter": "C",
+          "text": "O \"teste do olhinho\" que avalia o reflexo luminoso vermelho à luz nos olhos da criança deve ser realizado nas consultas de rotina pediátrica ao menos três vezes ao ano até os três anos de idade"
+        },
+        {
+          "letter": "D",
+          "text": "O exame de acuidade visual utilizando optótipos gráficos é possível em crianças com desenvolvimento normal, a partir do momento em que a criança começa a ler, devendo ser feito de rotina em todas as consultas a partir desse momento"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q005",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 5,
+      "area": "pediatria",
+      "statement": "Antônio é um lactente de 10 meses de idade e a mãe o trouxe para uma consulta de rotina. À anamnese completa e ao exame físico para avaliação dos marcos do desenvolvimento, qual dos achados abaixo é preocupante e deve ser motivo de melhor investigação nessa idade?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A criança apresenta somente os dentes incisivos centrais inferiores e superiores"
+        },
+        {
+          "letter": "B",
+          "text": "A criança assenta-se utilizando o tripé de pernas com uma mão apoiada e segura um objeto com a mão, mas sem conseguir passá-lo para a outra mão"
+        },
+        {
+          "letter": "C",
+          "text": "A criança fica de pé com apoio, mas quando colocada no chão não engatinha em quatro apoios, arrastando-se"
+        },
+        {
+          "letter": "D",
+          "text": "A criança reconhece a face da mãe ou cuidador e chora quando é afastado dos mesmos"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q006",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 6,
+      "area": "pediatria",
+      "statement": "O ensaio publicado em maio de 2020 pela Revista Ciência e Saúde Coletiva, da Associação Brasileira de Saúde Coletiva, intitulado \"O uso intensivo da internet por crianças e adolescentes no contexto da Covid-19 e os riscos para violências autoinflingidas\", traz reflexões referentes aos impactos do isolamento social imposto pela pandemia da Covid-19 e sobre o uso intensivo da internet entre crianças e adolescentes e suas possíveis consequências para a prática de violências autoinflingidas. Quanto à saúde mental de crianças e adolescentes, dentre as considerações abaixo, qual é considerada ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Há algumas práticas de autoagressões, que não necessariamente envolvem transtornos de ordem emocional ou quadros depressivos e que são vistos como práticas culturais aceitas socialmente no universo online."
+        },
+        {
+          "letter": "B",
+          "text": "Não é considerada necessária a criação de protocolos e medidas exclusivas para os adolescentes quanto à prevenção das formas de violências autoinflingidas"
+        },
+        {
+          "letter": "C",
+          "text": "O uso excessivo da internet pode também gerar uma forma de adição, um transtorno que gera dependência, podendo se expressar em várias formas: cyber sexo, relacional (das redes sociais), adição por jogos"
+        },
+        {
+          "letter": "D",
+          "text": "Pode ocorrer acirramento de vulnerabilidades para ideações e tentativas de suicídio quando a criança ou o adolescente apresenta, previamente, condições especificas da saúde mental que demandem monitoramento"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q007",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 7,
+      "area": "pediatria",
+      "statement": "A Lei n° 13.185, de 6 de novembro de 2015, instituiu o Programa de Combate à Intimidação Sistemática (Bullying) no Brasil. Na referida lei, o Bullying é definido como \"todo ato de violência física ou psicológica, intencional e repetitivo que ocorre sem motivação evidente, praticado por indivíduo ou grupo, contra uma ou mais pessoas, com o objetivo de intimidá-la ou agredi-la, causando dor e angustia à vitima, em uma relação de desequilíbrio de poder entre as partes envolvidas (Artigo 1°, inciso 1). Espaços como o ambiente escolar são mais propícios para esse tipo de violência entre crianças e adolescentes e que podem desencadear problemas de aprendizagem e traumas psíquicos entre as vitimas e os envolvidos. Analise as afirmativas abaixo e marque a alternativa CORRETA:\nI. As vítimas de bullying têm dificuldade de reconhecer emoções, sentem mais medo e mais estresse, o que gera dificuldade no aprendizado e vulnerabilidade aos transtornos de ansiedade e humor.\nII. Dependendo do grau de sofrimento vivido pela criança, ela poderá sentir-se ancorada a construções inconscientes de pensamentos de vingança e de suicídio, ou manifestar determinados tipos de comportamentos agressivos ou violentos, prejudicais a si mesmo e à sociedade;\nIII. As vítimas de bullying apresentam resultados escolares piores, maiores chances de abandonar os estudos após o ensino médio, além de, durante o período escolar comum, tenderem duas vezes mais a faltar e três vezes mais a se sentirem estranhas;\nIV. Não é considerado como bullying atos praticados contra alunos por professores e outros profissionais integrantes da escola e da comunidade escolar.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Somente as afirmativas I e III são verdadeiras"
+        },
+        {
+          "letter": "B",
+          "text": "As afirmativas I, II e IV são verdadeiras"
+        },
+        {
+          "letter": "C",
+          "text": "Apenas a afirmativa IV é falsa"
+        },
+        {
+          "letter": "D",
+          "text": "Todas as afirmativas são verdadeiras"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q008",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 8,
+      "area": "pediatria",
+      "statement": "Criança de 15 meses é levada pela mãe a uma Unidade Básica de Saúde com queixa de tosse, febre e cansaço de evolução há cinco dias, com piora nas últimas 24 horas. A criança era previamente hígida e tem o calendário vacinal completo para a idade. Pelos achados da avaliação clínica e do exame físico, assinale o sinal que NÃO representa alerta para um quadro grave de pneumonia:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Frequência respiratória acima de 60 incursões por minuto"
+        },
+        {
+          "letter": "B",
+          "text": "Saturação de oxigênio aferida menor que 92%"
+        },
+        {
+          "letter": "C",
+          "text": "Temperatura axilar relatada e aferida acima de 39,5°C"
+        },
+        {
+          "letter": "D",
+          "text": "Uso de musculatura acessória com tiragem intercostal"
+        }
+      ],
+      "key": {
+        "status": "annulled",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q009",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 9,
+      "area": "pediatria",
+      "statement": "Criança de dois anos de idade, sexo masculino, é atendida no Posto Médico com relato materno de episódios repetidos de tosse e \"chieira\" no último ano. Há relato de episódios semelhantes também no primeiro ano de vida. A mãe relata ainda que a criança nem sempre apresenta febre durante os episódios e que já usou vários medicamentos como \"bombinhas\" e antibióticos, mas que o quadro \"sempre volta\". Na história pregressa, há relato de prematuridade (32 semanas) devido a complicações maternas na gestação. A criança permaneceu em unidade neonatal por 1 mês e segundo a mãe, usou oxigênio por cânula nasal nesse período. Foi aventada a hipótese de asma para o quadro, no entanto não foi iniciado nenhum tratamento até o momento. Considerando o caso acima, assinale a alternativa que traz a CORRELAÇÃO ADEQUADA entre possível diagnóstico diferencial para o quadro de asma e os sintomas/sinais ou relatos que podem ser encontrados.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Aspiração de corpo estranho e tosse crônica com perda de peso associada"
+        },
+        {
+          "letter": "B",
+          "text": "Displasia broncopulmonar e histórico de prematuridade com uso de oxigenioterapia"
+        },
+        {
+          "letter": "C",
+          "text": "Fibrose cística e estridor respiratório recorrente que piora com choro e atividade física"
+        },
+        {
+          "letter": "D",
+          "text": "Refluxo gastroesofágico e febre recorrente que não responde a antibioticoterapia habitual"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q010",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 10,
+      "area": "pediatria",
+      "statement": "Em uma Unidade de Pronto Atendimento (UPA), é atendida criança de nove anos, sexo feminino, sabidamente asmática, que apresenta crise aguda grave de sibilância associada a tosse, coriza nasal e odinofagia. Ao exame clínico são encontrados: febre (38,5°C), saturação de oxigênio em ar ambiente de 89%, frequência respiratória aumentada, sibilos expiratórios difusos em ambos hemitórax e uso de musculatura acessória. Foi realizado o tratamento inicial da crise com oxigenioterapia por cânula nasal (2L/min) e broncodilatador em aerossol com espaçador, cinco jatos a cada 20 minutos, durante uma hora. A paciente obteve resposta parcial, mantendo ainda sibilos expiratórios esparsos e uso de musculatura acessória, com saturação de oxigênio de 93% com oxigenioterapia (2L/min). Considerando o caso neste momento, qual das seguintes medicações deve ser incluída imediatamente à prescrição da paciente?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Antibioticoterapia para Gram positivo por via venosa"
+        },
+        {
+          "letter": "B",
+          "text": "Broncodilatador de longa duração, dois jatos, com espaçador"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoide por via oral (prednisona) 1 a 2mg/kg de peso"
+        },
+        {
+          "letter": "D",
+          "text": "Epinefrina (adrenalina) por via intramuscular, dose única"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q011",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 11,
+      "area": "pediatria",
+      "statement": "Os hábitos alimentares da população mundial têm sido alterados ao longo dos últimos anos e, a cada ano, cresce o número de adeptos das dietas vegetarianas e veganas, inclusive entre crianças e adolescentes. Ao atender uma adolescente, sexo feminino, 15 anos de idade, previamente hígida, ela diz que deseja conhecer mais sobre as dietas vegetarianas e até veganas existentes, pois quer mudar seus hábitos. Assinale a alternativa com informações ERRADAS em relação às dietas vegetarianas e veganas:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A carência nutricional de ferro é mais comum na criança vegetariana, portanto, é recomendável que a ingestão de ferro por estes pacientes seja 5,8 a 6 vezes maiores do que a das crianças onívoras"
+        },
+        {
+          "letter": "B",
+          "text": "Indivíduos lacto-ovo-vegetarianos, quando consomem leite e ovos regularmente, recebem quantidades adequadas de vitamina B12 e não necessitarão de reposição continua dessa vitamina"
+        },
+        {
+          "letter": "C",
+          "text": "O consumo de gorduras na alimentação saudável deve variar de 25% a 35% do total de calorias da dieta e as crianças vegetarianas devem ser orientadas a consumir o mesmo que as onívoras a ovo-lacto-vegetarianas"
+        },
+        {
+          "letter": "D",
+          "text": "O consumo regular de alimentos ricos em fibras como vegetais, frutos e grãos está associado à redução do risco de obesidade, constipação, doenças cardiovasculares e câncer"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q012",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 12,
+      "area": "pediatria",
+      "statement": "Durante o acompanhamento de uma família com três crianças de idades distintas, em Unidade Básica de Saúde, a mãe pergunta sobre a conduta adequada quanto aos cuidados com os dentes das crianças. As crianças têm 10 meses, 5 anos e 9 anos. Sobre as orientações adequadas de saúde bucal para a faixa etária pediátrica, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A alimentação da criança não deve conter açúcar simples adicionado às preparações até um ano de idade para se evitar as cáries"
+        },
+        {
+          "letter": "B",
+          "text": "A criança de cinco anos já sabe cuspir, portanto deverá utilizar creme dental fluoretado na quantidade equivalente a um grão de ervilha (0,3g)"
+        },
+        {
+          "letter": "C",
+          "text": "A criança de nove anos pode realizar a escovação e a utilização do fio dental sem a necessidade da supervisão de um adulto"
+        },
+        {
+          "letter": "D",
+          "text": "A escovação com escova de dentes adequada à idade e realizada por um adulto deve ter inicio aos dois anos de idade"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q013",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 13,
+      "area": "pediatria",
+      "statement": "Pediatra é chamado para acompanhar parto de mãe sabidamente hipertensa, que fez o controle pré-natal com uso de medicação adequada aos níveis pressóricos, com bom controle, com 38 semanas de gestação. Foi detectado, durante o período expulsivo, liquido amniótico meconial espesso. Ao chegar, ele avalia que o recém-nascido apresenta, logo após o parto vaginal, frequência cardíaca de 110bpm e ritmo respiratório regular (choro forte). Nesse momento, a conduta que se mostra MAIS ADEQUADA é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Aguardar, no mínimo, um minuto até o cordão umbilical parar de pulsar, para só então realizar-se o clampeamento"
+        },
+        {
+          "letter": "B",
+          "text": "Introduzir o recém-nascido, exceto a face, dentro do saco plástico para evitar perda de calor e, a seguir, realizar as manobras necessárias"
+        },
+        {
+          "letter": "C",
+          "text": "Retirar o mecônio residual da hipofaringe e da traqueia sob visualização direta e fonte de calor radiante"
+        },
+        {
+          "letter": "D",
+          "text": "Utilizar o boletim de Apgar para determinar o início da reanimação e as manobras a serem instituídas no decorrer do procedimento"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q014",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 14,
+      "area": "pediatria",
+      "statement": "Lactente de sete meses, sexo feminino, é trazida ao atendimento pela mãe com queixa de \"urina escura, com odor fétido\", irritabilidade ao urinar, febre alta (>39,5°C). Foi realizado exame de urina rotina com achado de nitrito positivo e no sedimento apresentava numerosos leucócitos e flora aumentada. No Gram de gota de urina foram vistos numerosos bastonetes Gram negativos e leucócitos. Nesse momento, foi iniciado tratamento com amoxicilina por via oral e orientado a retornar em 48 horas. No retorno, a mãe relatou que houve piora do quadro, estando a criança muito prostrada, mantendo febre e com muita dificuldade para urinar. Na urocultura foi detectado crescimento de Klebsiella pneumoniae ESBL (produtora de beta- lactamase de espectro ampliado) O tratamento MAIS INDICADO para esse quadro, no momento, é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Iniciar amoxicilina-clavulanato via oral e orientar cuidados domiciliares com novo retorno em 24h"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar ceftriaxona intramuscular e orientar retornos diários à unidade de pronto atendimento para aplicação de medicação"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar ciprofloxacino via oral e encaminhar para internação em unidade pediátrica para monitorização"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar meropenem endovenoso e internar a criança em unidade pediátrica para monitorização"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q015",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 15,
+      "area": "pediatria",
+      "statement": "Lactente de oito meses de idade, sexo feminino, 6,2Kg, desnutrido, vem apresentando, há três dias, eliminação de fezes líquidas, quatro a cinco vezes ao dia, acompanhada de febre baixa, 1 a 2 vezes ao dia, e que cede com antitérmico. Está em uso de soro caseiro. Mãe o leva ao pronto atendimento devido ao surgimento de prostração intensa, piora da febre, hiporexia, vômito e surgimento de sangue nas fezes. Ao exame físico: letárgico, sinal da prega que diminui após quatro segundos, mucosa oral muito seca, olhos muito fundos, sem lágrimas, fontanela anterior muito deprimida, pulsos periféricos muito finos, diurese ausente hoje. Nasceu a termo (IGC= 37 semanas; PN= 3Kg) Em relação ao caso, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Está indicado antibioticoterapia, sendo a ceftriaxona via intramuscular, uma vez ao dia por cinco dias, uma das alternativas"
+        },
+        {
+          "letter": "B",
+          "text": "Inicialmente, deve ser administrado cloreto de sódio a 0,9%, 20mL/Kg, via intravenosa, em até 30 minutos"
+        },
+        {
+          "letter": "C",
+          "text": "O vômito prejudica a reidratação oral e ondansetrona em dose única oral pode ser administrada"
+        },
+        {
+          "letter": "D",
+          "text": "O zinco deve ser administrado na dose de 10mg, uma vez no dia, durante 10 a 14 dias"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q016",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 16,
+      "area": "go",
+      "statement": "Em relação aos esquemas de imunização em mulheres, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A imunização para HPV quadrivalente, segundo o Programa Nacional, são duas doses com intervalo de seis meses entre elas, para meninas de 9 a 14 anos"
+        },
+        {
+          "letter": "B",
+          "text": "A vacina contra febre amarela contem vírus atenuado, por isso é contraindicada na gravidez"
+        },
+        {
+          "letter": "C",
+          "text": "As gestantes com esquema vacinal completo para dTpa (tríplice bacteriana acelular do adulto) não necessitam de dose de reforço a cada gestação"
+        },
+        {
+          "letter": "D",
+          "text": "Na imunização de gestantes e puérperas contra a COVID-19 não se deve usar imunizantes que tenham como vetor o Adenovírus"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q017",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 17,
+      "area": "go",
+      "statement": "Sobre as principais queixas ginecológicas em crianças no consultório, marque a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A coalescência de pequenos lábios deve ser tratada em casos de dificuldade de micção, de retenção urinária com infecção secundária ou de vulvovaginites de repetição"
+        },
+        {
+          "letter": "B",
+          "text": "A principal causa de sangramento vaginal na infância é a puberdade precoce, porém devemos excluir outras causas, como presença de corpo estranho e violência sexual"
+        },
+        {
+          "letter": "C",
+          "text": "Na maioria das vulvovaginites na infância e adolescência, identifica-se o patógeno responsável pela infecção e a antibioticoterapia é direcionada especificamente"
+        },
+        {
+          "letter": "D",
+          "text": "O diagnóstico do prolapso uretral é clínico e a única possibilidade de tratamento é a excisão da mucosa prolapsada"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q018",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 18,
+      "area": "go",
+      "statement": "Casal procura atendimento com desejo de engravidar. Estão sem contracepção há 1 ano e 6 meses. Ela, 35 anos e nuligesta, tem história de ciclos menstruais regulares, com fluxo moderado e dismenorreia, que se intensificou no último ano. Ele, 34 anos e um filho de outro relacionamento, relata história de hérnia inguinal unilateral corrigida cirurgicamente na infância. Qual das afirmativas abaixo está CORRETA, considerando os exames iniciais para avaliação e identificação de possível causa de infertilidade desse casal?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Dosagem de FSH esta indicada e pode ser realizada em qualquer dia do ciclo menstrual"
+        },
+        {
+          "letter": "B",
+          "text": "Endometriose é um provável diagnóstico e o exame padrão-ouro para o seu diagnóstico é a ressonância magnética"
+        },
+        {
+          "letter": "C",
+          "text": "Histerossalpingografia apresenta alta sensibilidade para detecção de oclusão tubária"
+        },
+        {
+          "letter": "D",
+          "text": "Espermograma não faz parte da propedêutica inicial, nos casos em que o parceiro já tenha sido pai de um filho"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q019",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 19,
+      "area": "go",
+      "statement": "Mulher de 22 anos vai à consulta com ginecologista querendo trocar o método contraceptivo. Relata uso de pílula contraceptiva combinada oral, há seis meses, desde que iniciou a vida sexual com o atual namorado. Porém, queixa de náuseas importantes e cefaleia holocraniana desde que iniciou o método. Vinha controlando o sintomas com antiemético e analgésicos, acreditando que os sintomas cessariam. É portadora de Diabetes Mellitus tipo 1 bem controlado, diagnosticado há três anos. Não apresenta alterações no exame físico na consulta atual Considerando o exposto, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Implantes subdérmicos de etonogestrel constituem a alternativa mais segura e com menor potencial de provocar náuseas e cefaleia nessa paciente"
+        },
+        {
+          "letter": "B",
+          "text": "Métodos contraceptivos hormonais são contraindicados em pacientes com diabetes mellitus tipo 1, devendo ser indicado DIU de cobre, métodos comportamentais ou preservativos"
+        },
+        {
+          "letter": "C",
+          "text": "Métodos contraceptivos progestogênicos isolados contraindicados em pacientes com Diabetes Mellitus tipo 1, por estarem mais relacionados a eventos tromboembólicos"
+        },
+        {
+          "letter": "D",
+          "text": "Observando as características clinicas da paciente, dispositivos intrauterinos de cobre ou de levonorgestrel são considerados critério 2 de elegibilidade e poderiam ser indicados sem restrições"
+        }
+      ],
+      "key": {
+        "status": "annulled",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q020",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 20,
+      "area": "go",
+      "statement": "Mulher, 19 anos, três gestações prévias, duas cesarianas a termos e um abortamento precoce, procura assistência na unidade básica de saúde, solicitando encaminhamento para realização de laqueadura tubária. Afirma ser solteira, sem parceria fixa. Vive com os dois filhos e a mãe em casa com quatro cômodos: dois quartos, uma cozinha e um banheiro. Tabagista, nega morbidades e faz uso irregular de contraceptivo hormonal combinado oral. Possui dois gatos e um cão de estimação. Considerando o contexto exposto e a Lei de Planejamento Familiar nº 9.263/1996, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A solicitação da paciente não poderá ser atendida por não ser casada nem estar em união estável"
+        },
+        {
+          "letter": "B",
+          "text": "Sua idade inferior a 25 anos é impedimento legal à laqueadura tubária"
+        },
+        {
+          "letter": "C",
+          "text": "A paciente poderá realizar a laqueadura tubária, se for respeitado o prazo de seis meses entre a manifestação da vontade e a realização do ato operatório"
+        },
+        {
+          "letter": "D",
+          "text": "A laqueadura tubária solicitada pela paciente poderá ser atendida por ela já possuir uma prole constituída"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q021",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 21,
+      "area": "go",
+      "statement": "Mulher, 25 anos, procura atendimento ginecológico devido a quadro de leucorreia iniciada há três dias. Afirma corrimento aumentado, com odor fétido que piora após relação sexual. Ao exame ginecológico, notou-se corrimento abundante, malcheiroso, branco amarelado, com poucas bolhas, pH de 6,1 e teste das aminas positivo. Considerando o quadro clínico apresentado pela paciente, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "a paciente deverá fazer uso de metronidazol via oral e realizar sorologia para rastreio de HIV, sífilis, hepatite B e C"
+        },
+        {
+          "letter": "B",
+          "text": "a terapia com antimicrobianos só deve ser iniciada após cultura ampla de agentes microbiológicos"
+        },
+        {
+          "letter": "C",
+          "text": "caso se verifique a presença de Trichomonas vaginalis no exame a fresco será excluída a possibilidade de vaginose bacteriana"
+        },
+        {
+          "letter": "D",
+          "text": "o tratamento de parceiro deve ser realizado somente após bacterioscopia positiva para gonococo e clamídia"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q022",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 22,
+      "area": "go",
+      "statement": "Os distúrbios hipertensivos na gestação constituem causa de morte materna e morbimortalidade neonatal importantes no mundo. Sobre a fisiopatologia da pré-eclampsia e os mecanismos conhecidos de lesão endotelial, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Placentação anormal, com invasão deficiente do interstício materno, mediada pela baixa produção de receptores de fator de crescimento do endotélio vascular (VEGF) é um mecanismo aceito"
+        },
+        {
+          "letter": "B",
+          "text": "A placentação deficiente, que leva à lesão endotelial dos vasos placentários, mediada pelo aumento de produção de substâncias antiangiogênicas, explica a fisiopatologia da pré- eclâmpsia"
+        },
+        {
+          "letter": "C",
+          "text": "O aumento dos níveis circulantes de substâncias antiangiogênicas associado à desregulação do sistema renina-angiotensina compromete a atividade do óxido nítrico, causando a lesão endotelial e pré-eclâmpsia"
+        },
+        {
+          "letter": "D",
+          "text": "O estresse oxidativo, que consiste em um desequilíbrio entre substâncias pró-oxidativas (radicais livres e outros) e antioxidantes, está ligado à lesão endotelial e ao desenvolvimento da pré-eclampsia"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q023",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 23,
+      "area": "go",
+      "statement": "Sobre o diabetes gestacional assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A glicemia de jejum e o teste de tolerância à glicose com 75g de glicose são exames utilizados para o diagnóstico"
+        },
+        {
+          "letter": "B",
+          "text": "Na maioria das mulheres, o metabolismo de carboidratos não retorna as funções normais após a parto"
+        },
+        {
+          "letter": "C",
+          "text": "Seu tratamento tem como pilares: a dieta, o exercício físico e o uso de hipoglicemiantes orais"
+        },
+        {
+          "letter": "D",
+          "text": "Se o controle glicêmico for insatisfatório, a resolução da gravidez pode ser considerada entre 39 e 40 semanas"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q024",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 24,
+      "area": "go",
+      "statement": "A asma é caracterizada por inflamação crônica das vias aéreas e seu comportamento durante a gestação apresenta grande variação, havendo pacientes que melhoram e aquelas que têm seus sintomas agravados. Em relação à asma na gravidez, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A asma grave está associada a um aumento de cesarianas e de mortes maternas"
+        },
+        {
+          "letter": "B",
+          "text": "O controle da asma tem como pilar o tratamento não farmacológico"
+        },
+        {
+          "letter": "C",
+          "text": "O diagnóstico é essencialmente clínico e confirmado por espirometria"
+        },
+        {
+          "letter": "D",
+          "text": "O exercício físico é proscrito, já que pode ser um fator desencadeante"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q025",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 25,
+      "area": "go",
+      "statement": "Gestante, G2PC1, 23 semanas de gestação, comparece ao pronto-atendimento com queixa de dor na perna esquerda, de início há três dias. Ao exame: perna edemaciada hiperemiada, com a circunferência de panturrilha esquerda apresentando-se 3cm maior que a da direita. Assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A indicação de dosagem do dímero D para esse diagnóstico é controversa na gravidez, já que há aumento fisiológico de cerca de 40% a cada trimestre"
+        },
+        {
+          "letter": "B",
+          "text": "Diante da suspeita clínica, a anticoagulação deve ser iniciada antes mesmo da confirmação diagnóstica"
+        },
+        {
+          "letter": "C",
+          "text": "O duplex scan é de baixo custo e de fácil repetição, com sensibilidade e especificidade altas para esse diagnóstico"
+        },
+        {
+          "letter": "D",
+          "text": "Os warfarínicos são os medicamentos de eleição, sendo a primeira escolha na anticoagulação empírica nessa suspeita clínica"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q026",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 26,
+      "area": "go",
+      "statement": "As gestantes e puérperas são consideradas pacientes de risco para complicações de COVID-19. Assim, o manejo adequado dos casos evita a morbimortalidade materna e o comprometimento fetal. Em relação ao manejo de gestantes com COVID-19, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Antibioticoterapia deve ser iniciada na presença de critérios clínicos e radiológicos de pneumonia bacteriana"
+        },
+        {
+          "letter": "B",
+          "text": "Deve ser iniciado Oseltamivir na presença de síndrome gripal ou na presença de síndrome respiratória aguda grave (SRAG), caso o quadro clínico tenha se iniciado há menos de 48 horas"
+        },
+        {
+          "letter": "C",
+          "text": "O decúbito ventral (pronação) não se mostrou seguro para a gestante e foi associado a risco para os fetos"
+        },
+        {
+          "letter": "D",
+          "text": "O monitoramento diário por exames laboratoriais nos casos moderados é desnecessário e a sua repetição deve ser baseada na evolução clínica e na presença de comorbidades"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q027",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 27,
+      "area": "go",
+      "statement": "O ciclo reprodutivo feminino é controlado pelo eixo hipotálamo-hipófise-ovário (HHO). Sobre esse eixo é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A progesterona é o principal esteroide sexual responsável pelo feedback positivo no eixo gonadal, estimulando o pico do hormônio luteinizante (LH)"
+        },
+        {
+          "letter": "B",
+          "text": "Níveis circulantes altos e contínuos de estradiol, que ocorrem no final da fase folicular, são importantes para o controle do eixo HHO e inibem (feedback negativo) a secreção do hormônio luteinizante (LH)"
+        },
+        {
+          "letter": "C",
+          "text": "O aumento inicial do estradiol que ocorre no início da fase folicular, exerce feedback negativo no eixo hipotálamo-hipofisário, inibindo a secreção de hormônio folículo estimulante (FSH)"
+        },
+        {
+          "letter": "D",
+          "text": "O hormônio liberador de gonadotrofina (GnRH) é produzido, principalmente, por neurônios localizados no hipotálamo mediobasal secretado no sistema porta-hipofisário de maneira contínua, modulando a liberação de gonadotrofinas"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q028",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 28,
+      "area": "go",
+      "statement": "O ciclo ovariano de mulheres e primatas superiores é denominado ciclo menstrual em virtude da presença de menstruação, o que não ocorre em outras espécies. Sobre o ciclo menstrual feminino, é ERRADO afirmar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Durante o processo de desabamento menstrual, as camadas endometriais média (esponjosa) e superficial (compacta) são descamadas, permanecendo apenas a camada profunda (basal), que é responsável pela renovação endometrial no próximo ciclo"
+        },
+        {
+          "letter": "B",
+          "text": "Em geral, a duração do ciclo menstrual reflete a duração da fase lútea, ou seja, ciclos curtos ocorrem por fase lútea menor"
+        },
+        {
+          "letter": "C",
+          "text": "O ciclo menstrual de mulheres tem duração média de 28 dias, podendo variar de 21 a 35 dias, divide-se em fase folicular ovulação e fase lútea, sendo que a menstruação marca o início da fase folicular"
+        },
+        {
+          "letter": "D",
+          "text": "Variação na duração do ciclo e na intensidade do fluxo menstrual são comuns nos extremos da vida reprodutiva"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q029",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 29,
+      "area": "go",
+      "statement": "O manejo e diagnóstico de anormalidades do ciclo menstrual baseia-se na compreensão dos mecanismos fisiológicos envolvidos na regulação do ciclo menstrual normal. Sobre esses mecanismos é ERRADO afirmar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A enzima aromatase converte androgênios em progesterona, processo que ocorre, principalmente, nas células da granulosa e estimulado pela ação do FSH"
+        },
+        {
+          "letter": "B",
+          "text": "A multiplicação das células germinativas começa por volta de 6 a 8 semanas de gravidez, atingindo pico máximo entre 16 e 20 semanas de gestação"
+        },
+        {
+          "letter": "C",
+          "text": "O crescimento do folículo primordial e sua atresia é um processo contínuo, não sendo interrompido em nenhuma circunstância fisiológica, incluindo gravidez, ovulação ou períodos de anovulação"
+        },
+        {
+          "letter": "D",
+          "text": "O início do desenvolvimento folicular envolve diversos mecanismos que são independentes das gonadotrofinas"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q030",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 30,
+      "area": "go",
+      "statement": "NÃO faz parte da abordagem inicial da incontinência urinária na mulher:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Anamnese"
+        },
+        {
+          "letter": "B",
+          "text": "Exame físico com teste de esforço"
+        },
+        {
+          "letter": "C",
+          "text": "Urinálise"
+        },
+        {
+          "letter": "D",
+          "text": "Urodinâmica"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q031",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 31,
+      "area": "preventiva",
+      "statement": "Através de estudos demográficos em saúde de base populacional e estatísticos, lançou-se em 1971, o conceito da lei dos cuidados inversos, quando o professor Julian Tudor Hart concluiu que pessoas que necessitavam de cuidados de saúde eram aquelas a quem menos eram oferecidos e os que menos utilizavam. Baseando-se nessa lei, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Apesar do acesso aos cuidados de saúde ser um dos princípios do SUS, ele não tem garantido a equidade em saúde à população"
+        },
+        {
+          "letter": "B",
+          "text": "O diagnóstico situacional de uma equipe de saúde da família é uma das ferramentas de gestão para promoção de equidade, devendo levar em consideração dados epidemiológicos e determinantes socais de saúde do território"
+        },
+        {
+          "letter": "C",
+          "text": "O fenômeno de sobrediagnóstico e, consequentemente, de sobretratamento pode ser considerado uma consequência da lei dos cuidados inversos, sendo mais comum em serviços que fazem uma boa gestão clínica dos recursos disponíveis"
+        },
+        {
+          "letter": "D",
+          "text": "Uma equipe de Atenção Básica que priorize pessoas com maior necessidade em saúde, mais vulneráveis e com maior risco de adoecimento, tem maior potencial para reduzir as iniquidades do sistema de saúde"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q032",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 32,
+      "area": "preventiva",
+      "statement": "Paciente masculino de 49 anos, em tratamento medicamentoso há seis meses para transtorno depressivo maior grave, sem sintomas psicóticos, compareceu para atendimento na UBS, relatando remissão total dos sintomas e recuperação de sua capacidade funcional. Em sua história pregressa, relata diagnóstico de depressão aos 20 anos de idade após falecimento de sua mãe. Na época recebeu alta por cura sem fazer uso de medicamentos. No início do episódio atual apresentou pensamentos de autoextermínio, sem planejamento. Em sua família há histórico de transtornos mentais e um tio faleceu por suicídio. Dentre as condutas abaixo, qual a MAIS ADEQUADA para esse caso?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Manter o tratamento medicamentoso com a mesma dose que levou à remissão dos sintomas até completar 12 meses ou mais, levando-se em consideração o risco de recorrência"
+        },
+        {
+          "letter": "B",
+          "text": "Reduzir a dose do antidepressivo e manter tratamento por mais 12 semanas"
+        },
+        {
+          "letter": "C",
+          "text": "Suspender a medicação antidepressiva e compartilhar o caso com o psicólogo do Núcleo de Apoio à Saúde da Família para inserir paciente em grupo de psicoterapia"
+        },
+        {
+          "letter": "D",
+          "text": "Suspender o tratamento farmacológico e dar alta, pois houve remissão total dos sintomas e o paciente completou 6 meses de acompanhamento"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q033",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 33,
+      "area": "preventiva",
+      "statement": "Sobre o pré-natal na Atenção Básica, analise as afirmativas abaixo.\nI. Diante de um teste rápido positivo para sífilis, na gestação é necessário solicitar o VDRL para confirmação diagnóstica antes de iniciar o tratamento com penicilina.\nII. A suplementação periconcepcional de ácido fólico em mulheres que planejam engravidar deve ser iniciada, pelo menos, 30 dias antes da provável concepção, de forma a prevenir malformações do tubo neural.\nIII. A indução do parto nas pacientes com gestações de 41 semanas é preferível à avaliação seriada do bem- estar fetal, sendo associada a menor taxa de morbimortalidade perinatal. Assinale a alternativa em que todas as afirmativa(s) são VERDADEIRAS:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "I e II"
+        },
+        {
+          "letter": "B",
+          "text": "I e III"
+        },
+        {
+          "letter": "C",
+          "text": "II e III"
+        },
+        {
+          "letter": "D",
+          "text": "I; II e III"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q034",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 34,
+      "area": "preventiva",
+      "statement": "O alcoolismo é um problema prevalente e complexo. Os profissionais que atuam nas Unidades Básicas de Saúde são os mais indicados para a detecção precoce e para realizar alguma intervenção em relação ao uso abusivo do álcool. Identifique a forma CORRETA sobre essa abordagem na atenção primária à saúde:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A equipe de saúde, coordenada pelo médico, deve desenvolver campanhas alertando sobre os riscos do consumo de álcool e implementar estratégias para diminuir a comercialização deste na sua área de atuação"
+        },
+        {
+          "letter": "B",
+          "text": "A Intervenção Breve é uma técnica de motivação para a mudança de comportamentos de saúde direcionada, principalmente, para pessoas que fazem uso abusivo de álcool ou outras drogas"
+        },
+        {
+          "letter": "C",
+          "text": "O médico deve prescrever tratamento medicamentoso a todo paciente que faz uso abusivo de álcool, buscando gerar um efeito aversivo, diminuindo assim seu consumo"
+        },
+        {
+          "letter": "D",
+          "text": "Sempre que identificado, o paciente com problemas relacionados ao álcool deve ser encaminhado para atendimento especializado"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q035",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 35,
+      "area": "preventiva",
+      "statement": "A Atenção Primária em Saúde (APS) é um componente-chave dos sistemas de saúde. Sobre esse nível de atenção à saúde, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A APS representa a porta preferencial de acesso ao sistema e se caracteriza por um conjunto de ações de saúde para a organização e reorganização do sistema de saúde"
+        },
+        {
+          "letter": "B",
+          "text": "São atributos derivados na APS: a orientação familiar e comunitária e a competência cultural"
+        },
+        {
+          "letter": "C",
+          "text": "São atributos essenciais na APS: a atenção no primeiro contato, a longitudinalidade, a integralidade e a coordenação"
+        },
+        {
+          "letter": "D",
+          "text": "São atributos essenciais na APS: a orientação familiar e comunitária, a longitudinalidade, integralidade e a coordenação"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q036",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 36,
+      "area": "preventiva",
+      "statement": "Com relação ao Plano Nacional da Imunização contra a COVID-19 no Brasil, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Gestantes e puérperas deverão ser imunizadas exclusivamente com o imunizante BioNTech da Pfizer, independentemente da faixa etária"
+        },
+        {
+          "letter": "B",
+          "text": "Idealmente, a vacinação deve ser adiada até a recuperação clínica total mais, pelo menos, quatro semanas após o início dos sintomas, ou quatro semanas a partir da primeira amostra de PCR positiva em pessoas assintomáticas"
+        },
+        {
+          "letter": "C",
+          "text": "O intervalo para a dose de reforço em pessoas com alto grau de imunosupressão deverá ser de 28 dias após a última dose do esquema básico"
+        },
+        {
+          "letter": "D",
+          "text": "Os antiagregantes plaquetários devem ser mantidos e não implicam em impedimento à vacinação"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q037",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 37,
+      "area": "preventiva",
+      "statement": "Durante visita domiciliar, o médico de equipe de saúde de família constatou que na residência havia um idoso de 72 anos, diabético e hipertenso, cadeirante após amputação de membros inferiores e com dificuldade para organizar o uso de seus medicamentos, pois é analfabeto. A residência possui saneamento básico e mais dois moradores, um deles uma criança de 3 meses, cuja mãe estava desempregada. Com base na Escala de Coelho, levando em consideração a estrutura familiar e determinantes socioeconômicos identificados estratifique o risco dessa família:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Risco baixo = Escore 7"
+        },
+        {
+          "letter": "B",
+          "text": "Risco máximo = Escore 10"
+        },
+        {
+          "letter": "C",
+          "text": "Risco máximo = Escore 7"
+        },
+        {
+          "letter": "D",
+          "text": "Risco médio = Escore 10"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q038",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 38,
+      "area": "preventiva",
+      "statement": "Paciente, 42 anos, morador da região metropolitana de Belo Horizonte, hipertenso e em uso irregular de anti-hipertensivos, queixa de prostração, febre, dor muscular, cefaleia, náuseas, dor abdominal e exantema, sintomas que se iniciaram há dois dias. Nega viagem recente. Ao exame físico, o médico encontra: Temperatura axilar de 38,5°C, dor à movimentação das grandes e pequenas articulações, exantema morbiliforme distribuído em todo corpo, PA: 90/60mmHg. Tendo em vista o caso apresentado, a hipótese diagnóstica MAIS PROVÁVEL é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Chikungunya"
+        },
+        {
+          "letter": "B",
+          "text": "Dengue do grupo B"
+        },
+        {
+          "letter": "C",
+          "text": "Dengue do grupo C"
+        },
+        {
+          "letter": "D",
+          "text": "Febre amarela"
+        }
+      ],
+      "key": {
+        "status": "annulled",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q039",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 39,
+      "area": "preventiva",
+      "statement": "Em relação à abordagem para cessação do tabagismo no âmbito do Sistema Único de Saúde, analise as afirmativas abaixo como Verdadeiras (V) ou Falsas (F) e, em seguida, assinale a alternativa que apresenta a sequência CORRETA.\nI. O uso de adesivos transdérmicos de nicotina pode ser iniciado enquanto o paciente ainda estiver fumando, como forma de motivação para o abandono do hábito de fumar.\nII. A terapia cognitivo-comportamental consiste em fornecer informações sobre os riscos do tabagismo e os benefícios de parar de fumar, e no estímulo ao autocontrole ou auto-manejo para que os indivíduos possam administrar o ciclo da dependência.\nIII. É recomendado que pacientes tabagistas que relatam história pregressa de transtorno psiquiátrico ao profissional de saúde que o recebe, sejam encaminhados (caso ainda não tenham sido) para avaliação de profissional da saúde mental.\nIV. O acompanhamento médico deve ser semanal por três meses, em seguida, quinzenal por mais dois meses, e mensal até um ano. Entre os critérios de prescrição de apoio medicamentoso, estão os fumantes com escore do teste de Fagerström < 4",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "I (V); II (F); III (F); IV (V)"
+        },
+        {
+          "letter": "B",
+          "text": "I (V); II (V); III (F); IV (V)"
+        },
+        {
+          "letter": "C",
+          "text": "I (F); II (V); III (V); IV (F)"
+        },
+        {
+          "letter": "D",
+          "text": "I (F); II (F); III (V); IV (F)"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q040",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 40,
+      "area": "preventiva",
+      "statement": "Em relação à comunicação de más noticias pelo protocolo SPIKES, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Durante a fase de percepção, antes de discutir achados médicos, o profissional usa perguntas abertas para compreender como o paciente percebe a situação"
+        },
+        {
+          "letter": "B",
+          "text": "Na fase da transmissão das informações, avisar ao paciente que más noticias estão por vir e utilizar comunicação direta, rápida e concisa com termos técnicos"
+        },
+        {
+          "letter": "C",
+          "text": "Na fase de abordagem das emoções, o uso de respostas afetivas como \"Eu também queria que as noticias fossem melhores.\" pode ser uma forma de mostrar apoio ao paciente"
+        },
+        {
+          "letter": "D",
+          "text": "Na fase de planejamento, o ensaio mental é uma maneira útil de se preparar para a tarefa estressante."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q041",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 41,
+      "area": "preventiva",
+      "statement": "A ocorrência de um acidente de trabalho com um empregado exige do seu empregador a emissão da Comunicação de Acidente de Trabalho (CAT). Dentre as opções abaixo, qual delas é um desdobramento administrativo da emissão da CAT nos casos de agravos relacionados ao trabalho que exigem afastamento do trabalho por mais de 15 dias:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Estabilidade provisória ao trabalhador a qual perdura por 24 meses após a cessação do auxílio incapacidade temporária"
+        },
+        {
+          "letter": "B",
+          "text": "Necessidade de depósito do Fundo de Garantia por Tempo de Serviço (FGTS) para o trabalhador acidentado"
+        },
+        {
+          "letter": "C",
+          "text": "Redução da base de cálculo do Fator Acidentário Previdenciário (FAP)"
+        },
+        {
+          "letter": "D",
+          "text": "Abertura de ação regressiva contra a empresa para ressarcimento de despesas trabalhistas do Ministério do Trabalho"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q042",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 42,
+      "area": "preventiva",
+      "statement": "Visando estabelecer uma relação de causa e efeito entre as doenças e trabalho, o médico inglês Richard Schilling criou em 1984 a classificação que ficou conhecida como \"Classificação de Schilling\", a qual resume e exemplifica os grupos das doenças relacionadas ao trabalho. Nos termos desta classificação, em qual dos grupos abaixo estão incluídas as doenças comuns que são mais frequentes ou mais precoces em determinados grupos ocupacionais e para as quais o nexo causal é de natureza eminentemente epidemiológica?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Doenças em que o trabalho é causa necessária"
+        },
+        {
+          "letter": "B",
+          "text": "Doenças em que o trabalho pode ser um fator de risco, contributivo, mas não necessário"
+        },
+        {
+          "letter": "C",
+          "text": "Doenças em que o trabalho é agravador de doença preexistente, ou seja, concausa"
+        },
+        {
+          "letter": "D",
+          "text": "Doenças para as quais o trabalho é causa necessária e são agravadas por patologias preexistentes"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q043",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 43,
+      "area": "preventiva",
+      "statement": "AFR 50 anos, trabalha como torneiro mecânico com carteira assinada e sofreu atropelamento por automóvel quando retornava do trabalho para casa, de bicicleta, sofrendo fratura de clavícula direita. AFR foi assistido em unidade de Pronto Socorro de sua cidade e foi afastado do trabalho com recomendação de manter a imobilização do braço direito por cinco semanas, após as quais deverá fazer reabilitação física (fisioterapia). Considerando as circunstâncias do acidente e a legislação em vigor, o custeio de reabilitação física cabe ao:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "INSS"
+        },
+        {
+          "letter": "B",
+          "text": "empregador"
+        },
+        {
+          "letter": "C",
+          "text": "SUS"
+        },
+        {
+          "letter": "D",
+          "text": "motorista responsável pelo atropelamento"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q044",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 44,
+      "area": "preventiva",
+      "statement": "As nanopartículas medem menos de um centésimo de bilionésimo de metro e são regidas por leis físicas diferentes daquelas bem conhecidas pela ciência. Existem probabilidades de que apresentem maior grau de toxicidade do que as partículas em tamanhos maiores, podendo ocasionar danos futuros, ainda não plenamente conhecidos, aos pesquisadores, trabalhadores e consumidores. A prevenção de possíveis agravos à saúde dos trabalhadores expostos a nanopartículas nos ambientes de trabalho deve se orientar pelo princípio:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "da Precaução"
+        },
+        {
+          "letter": "B",
+          "text": "do Controle Social"
+        },
+        {
+          "letter": "C",
+          "text": "da Integração Intrainstitucional"
+        },
+        {
+          "letter": "D",
+          "text": "da Responsabilidade Sanitária"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q045",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 45,
+      "area": "preventiva",
+      "statement": "Em setembro de 2021, médico de Saúde da Família confirmou gravidez em técnica de enfermagem que trabalha na unidade de terapia intensiva do hospital do município, o qual constitui unidade de saúde que atende pacientes suspeitos ou confirmados de COVID 19. O médico faz-lhe algumas recomendações e, a seu pedido, elaborou relatório a ser entregue no serviço de medicina do trabalho do hospital Considerando, à época do diagnóstico, o estado de emergência pela pandemia pela COVID 19 e a legislação vigente, qual conduta do empregador era MAIS ADEQUADA?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "solicitar o afastamento imediato da gestante do trabalho presencial no hospital"
+        },
+        {
+          "letter": "B",
+          "text": "restringir as atividades a serem exercidas pela gestante no interior da unidade de terapia intensiva"
+        },
+        {
+          "letter": "C",
+          "text": "encaminhar a gestante para o INSS com solicitação de afastamento do trabalho em gozo de auxílio incapacidade temporária"
+        },
+        {
+          "letter": "D",
+          "text": "remanejar a gestante para outra unidade do hospital onde não sejam atendidos pacientes com suspeita de COVID 19"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q046",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 46,
+      "area": "clinica",
+      "statement": "Mulher de 66 anos relata vários episódios de perda súbita da consciência, precedida de náusea, palidez cutânea e sudorese, com recuperação completa em até um minuto. O primeiro evento ocorreu quando tinha 22 anos. O evento mais recente ocorreu após 30 minutos em ortostatismo em local com temperatura ambiente alta. É portadora de hipertensão arterial sistêmica diagnosticada há três anos, desde quando está em tratamento regular com anlodipino e clortalidona. Ao exame físico, na posição deitada: PA 150/86mmHg e FC 76bpm; em ortostatismo: PA 134/80mmHg e FC 92bpm. O restante do exame físico não apresentou alterações significativas. O eletrocardiograma realizado na consulta pode ser visto abaixo:\n{{figura}}\nAssinale a alternativa que apresenta o exame MAIS INDICADO para a propedêutica dessa paciente?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Duplex scan das artérias cervicais."
+        },
+        {
+          "letter": "B",
+          "text": "Holter de 24h."
+        },
+        {
+          "letter": "C",
+          "text": "Monitoramento ambulatorial da pressão arterial."
+        },
+        {
+          "letter": "D",
+          "text": "Teste de inclinação (tilttest)."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [
+        {
+          "src": "provas/figuras/psu-mg-2022/q046.jpg",
+          "alt": "Eletrocardiograma de 12 derivações."
+        }
+      ],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca. Figuras recortadas sem moldura."
+    },
+    {
+      "id": "psu-mg-2022-q047",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 47,
+      "area": "clinica",
+      "statement": "Mulher de 66 anos relata vários episódios de perda súbita da consciência, precedida de náusea, palidez cutânea e sudorese, com recuperação completa em até um minuto. O primeiro evento ocorreu quando tinha 22 anos. O evento mais recente ocorreu após 30 minutos em ortostatismo em local com temperatura ambiente alta. É portadora de hipertensão arterial sistêmica diagnosticada há três anos, desde quando está em tratamento regular com anlodipino e clortalidona. Ao exame físico, na posição deitada: PA 150/86mmHg e FC 76bpm; em ortostatismo: PA 134/80mmHg e FC 92bpm. O restante do exame físico não apresentou alterações significativas. O eletrocardiograma realizado na consulta pode ser visto abaixo:\n{{figura}}\nConsiderando a hipótese diagnóstica mais provável nesse caso, assinale a alternativa que apresenta a conduta terapêutica MAIS ADEQUADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Indicar ingestão de sal e hidratação oral frequente."
+        },
+        {
+          "letter": "B",
+          "text": "Prescrever amiodarona."
+        },
+        {
+          "letter": "C",
+          "text": "Prescrever beta-bloqueador."
+        },
+        {
+          "letter": "D",
+          "text": "Suspender anlodipino e clortalidona."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [
+        {
+          "src": "provas/figuras/psu-mg-2022/q046.jpg",
+          "alt": "Eletrocardiograma de 12 derivações."
+        }
+      ],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca. Figuras recortadas sem moldura."
+    },
+    {
+      "id": "psu-mg-2022-q048",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 48,
+      "area": "clinica",
+      "statement": "Homem de 24 anos queixa-se de astenia, hiporexia e perda de 5kg em três meses. Há 15 dias, apresenta tosse oligoprodutiva com escarro hemoptoico e dispneia aos esforços. Desconhece doenças prévias. Ao exame físico: PA 150/94 mmHg, FC 86bpm, FR 22ipm, SpO2 92% (em ar ambiente). Exames de laboratório: Hemoglobina: 8,3g/dL; Leucócitos totais: 10.450/mm³; Plaquetas: 210.000/mm³; Proteína C reativa: 45mg/L; Creatinina: 2,3mg/dL; Ureia: 26mg/dL; albumina sérica: 2,9g/dL; FAN: positivo até título 1:80 com padrão nuclear pontilhado fino; ANCA: reagente com padrão perinuclear; exame de urina: proteína 3+, 34 hemácias/campo, 12 piócitos/campo. Presença de cilindros hemáticos. Radiografia do tórax:\n{{figura}}\nAssinale a alternativa que apresenta um diagnóstico diferencial INADEQUADO para esse paciente?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Lupus eritematoso sistêmico"
+        },
+        {
+          "letter": "B",
+          "text": "Poliangiite microscópica"
+        },
+        {
+          "letter": "C",
+          "text": "Poliarterite nodosa"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de Goodpasture"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [
+        {
+          "src": "provas/figuras/psu-mg-2022/q048.jpg",
+          "alt": "Radiografia do tórax em incidência posteroanterior."
+        }
+      ],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca. Figuras recortadas sem moldura."
+    },
+    {
+      "id": "psu-mg-2022-q049",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 49,
+      "area": "clinica",
+      "statement": "Mulher de 47 anos queixa-se de dores no dorso, membros superiores e inferiores, baixa energia e insônia há um ano. Nega febre, emagrecimento ou sudorese noturna. Descreve episódios paroxísticos de mudança de cor nas pontas dos dedos das mãos por alguns minutos, que se tornam pálidos e, em seguida, azulados, quando expostos ao frio. É portadora de transtorno depressivo e faz uso de fluoxetina. O exame físico não apresenta anormalidades. Exames de laboratório: Hb 13,4g/dL; Leucócitos totais: 7.840/mm³; Plaquetas: 198.000/mm³; Proteína C reativa 3mg/dL; TSH 1,4UI/mL; cálcio iônico 1,23mmol/L; anti-HIV. Não Reagente; HBsAg Não Reagente, anti-HCV Não Reagente; FAN reagente até título 1:320 com padrão nuclear pontilhado fino denso. Considerando a hipótese diagnóstica mais provável para essa paciente, assinale a alternativa que apresenta uma opção terapêutica MAIS ADEQUADA.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Amitriptilina"
+        },
+        {
+          "letter": "B",
+          "text": "Azatioprina"
+        },
+        {
+          "letter": "C",
+          "text": "Codeína"
+        },
+        {
+          "letter": "D",
+          "text": "Prednisona"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q050",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 50,
+      "area": "clinica",
+      "statement": "Mulher de 53 anos relata que há um ano apresenta episódios paroxísticos recorrentes de rubor não pruriginoso na face, pescoço e tórax superior, de duração de cerca de um minuto e que melhora espontaneamente, associado a chieira torácica e palpitação (percepção de taquicardia regular) de curta duração. Há três meses, vem apresentando seis evacuações ao dia com fezes líquidas contendo muco, sem sangue ou pus, precedidas de dor abdominal em cólica que alivia após as evacuações. Nega febre ou emagrecimento. Sua última menstruação ocorreu há 18 meses. Ao exame, aparenta leve confusão mental. O exame cardiovascular revela ritmo cardíaco regular, movimento paraesternal inferior esquerdo da parede torácica, sopro holossistólico suave na mesma região, mais audível à inspiração, e sopro diastólico inicial, aspirativo e suave, audível ao longo da borda paraesternal esquerda. O pulso arterial está normal, e o pulso venoso central elevado com onda V gigante. O fígado está aumentado à palpação, de consistência aumentada e superfície nodular irregular. A pele apresenta áreas de hiperemia, hiperpigmentação e descamação na face, pescoço e antebraços. Há queilite angular e glossite. Assinale a alternativa que apresenta as anormalidades cardíacas que MAIS PROVAVELMENTE justificariam os achados do exame físico dessa paciente:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Comunicação interatrial e insuficiência mitral."
+        },
+        {
+          "letter": "B",
+          "text": "Dupla lesão tricúspide."
+        },
+        {
+          "letter": "C",
+          "text": "Insuficiência aórtica e estenose pulmonar."
+        },
+        {
+          "letter": "D",
+          "text": "Insuficiência pulmonar e insuficiência tricúspide."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q051",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 51,
+      "area": "clinica",
+      "statement": "Mulher de 53 anos relata que há um ano apresenta episódios paroxísticos recorrentes de rubor não pruriginoso na face, pescoço e tórax superior, de duração de cerca de um minuto e que melhora espontaneamente, associado a chieira torácica e palpitação (percepção de taquicardia regular) de curta duração. Há três meses, vem apresentando seis evacuações ao dia com fezes líquidas contendo muco, sem sangue ou pus, precedidas de dor abdominal em cólica que alivia após as evacuações. Nega febre ou emagrecimento. Sua última menstruação ocorreu há 18 meses. Ao exame, aparenta leve confusão mental. O exame cardiovascular revela ritmo cardíaco regular, movimento paraesternal inferior esquerdo da parede torácica, sopro holossistólico suave na mesma região, mais audível à inspiração, e sopro diastólico inicial, aspirativo e suave, audível ao longo da borda paraesternal esquerda. O pulso arterial está normal, e o pulso venoso central elevado com onda V gigante. O fígado está aumentado à palpação, de consistência aumentada e superfície nodular irregular. A pele apresenta áreas de hiperemia, hiperpigmentação e descamação na face, pescoço e antebraços. Há queilite angular e glossite. O diagnóstico dermatológico MAIS PROVÁVEL nesse caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Dermatomiosite."
+        },
+        {
+          "letter": "B",
+          "text": "Pelagra."
+        },
+        {
+          "letter": "C",
+          "text": "Porfiria cutânea tarda."
+        },
+        {
+          "letter": "D",
+          "text": "Psoríase."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q052",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 52,
+      "area": "clinica",
+      "statement": "Mulher de 53 anos relata que há um ano apresenta episódios paroxísticos recorrentes de rubor não pruriginoso na face, pescoço e tórax superior, de duração de cerca de um minuto e que melhora espontaneamente, associado a chieira torácica e palpitação (percepção de taquicardia regular) de curta duração. Há três meses, vem apresentando seis evacuações ao dia com fezes líquidas contendo muco, sem sangue ou pus, precedidas de dor abdominal em cólica que alivia após as evacuações. Nega febre ou emagrecimento. Sua última menstruação ocorreu há 18 meses. Ao exame, aparenta leve confusão mental. O exame cardiovascular revela ritmo cardíaco regular, movimento paraesternal inferior esquerdo da parede torácica, sopro holossistólico suave na mesma região, mais audível à inspiração, e sopro diastólico inicial, aspirativo e suave, audível ao longo da borda paraesternal esquerda. O pulso arterial está normal, e o pulso venoso central elevado com onda V gigante. O fígado está aumentado à palpação, de consistência aumentada e superfície nodular irregular. A pele apresenta áreas de hiperemia, hiperpigmentação e descamação na face, pescoço e antebraços. Há queilite angular e glossite. O diagnóstico MAIS PROVÁVEL para o quadro clínico apresentado por essa paciente é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Climatério."
+        },
+        {
+          "letter": "B",
+          "text": "Feocromocitoma."
+        },
+        {
+          "letter": "C",
+          "text": "Mastocitose sistêmica."
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome carcinoide."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q053",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 53,
+      "area": "clinica",
+      "statement": "Homem de 76 anos é levado ao Pronto Socorro por causa de confusão mental, hiporexia, náuseas, vômitos e dor abdominal há cinco dias. É portador de câncer de próstata com metástases ósseas. Faz uso de morfina 15mg de 4/4h para controle álgico. Ao exame físico: PA 100/60mmHg, FC 96bpm, FR 11ipm, SpO2 98% (em ar ambiente) e afebril. Abre os olhos ao chamado, responde com palavras desconexas de difícil compreensão e localiza os estímulos dolorosos com ambas as mãos. Exames de laboratório: creatinina: 2,1mg/dL (basal de 1,3mg/ dL); ureia: 112mg/dL; cálcio total: 14,4mg/dL; albumina sérica: 2,0g/dL; hemoglobina: 9,2g/dL; proteína C reativa: 13mg/L. Assinale a alternativa que apresenta o tratamento imediato MAIS ADEQUADO para esse paciente:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Cinacalcet pela via endovenosa"
+        },
+        {
+          "letter": "B",
+          "text": "Hemodiálise"
+        },
+        {
+          "letter": "C",
+          "text": "Naloxona pela via endovenosa"
+        },
+        {
+          "letter": "D",
+          "text": "Soro fisiológico pela via endovenosa"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q054",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 54,
+      "area": "clinica",
+      "statement": "Mulher de 23 anos, atendente de supermercado, é levada ao Pronto Socorro com relato de ter apresentado, durante o trabalho, uma crise convulsiva interpretada como do tipo tônico- clônico-generalizada de dois minutos de duração. Nega quaisquer eventos neurológicos prévios. Não possui comorbidades conhecidas, nega trauma anterior, não faz uso de medicamentos e nem de drogas lícitas ou ilícitas. O exame clínico e neurológico, assim como os exames de laboratório e a tomografia computadorizada do crânio, não apresentam anormalidades. Assinale a alternativa que apresenta a conduta MAIS ADEQUADA nesse caso.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Dar alta com a solicitação de eletroencefalograma, ressonância magnética de crânio e encaminhamento ao neurologista"
+        },
+        {
+          "letter": "B",
+          "text": "Prescrever dose de ataque de fenitoína e dar alta com anticonvulsivante oral, que deve ser usado, pelo menos, por 1 ano"
+        },
+        {
+          "letter": "C",
+          "text": "Prescrever dose de ataque de fenitoína pela via IV e manter em observação hospitalar por 24h"
+        },
+        {
+          "letter": "D",
+          "text": "Transferir para hospital com neurologista, para realizar a extensão propedêutica com a paciente internada"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q055",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 55,
+      "area": "clinica",
+      "statement": "Mulher de 76 anos apresenta emagrecimento, dor lombar, astenia e dispneia aos esforços. Desconhece comorbidades prévias, nega tabagismo etilismo ou uso de medicamentos. Ao exame, as mucosas estão descoradas; sem outras anormalidades. Exames de laboratório: Hb 7,3g/dL; LG 6.500/mm³; Plq 112.000/mm³; VHS 95mm na primeira hora; creatinina 2,2mg/dL; Ureia 47mg/dL; cálcio total 10,6g/dL; albumina serica 2,0g/dL; LDH 450U/L; BT 0,9mg/dL. A hematoscopia revelou o seguinte achado:\n{{figura}}\nConsiderando o diagnóstico mais provável para essa paciente, assinale a alternativa que apresenta o(s) exame(s) MAIS ADEQUADO(S) a ser(em) solicitado(s) nesse momento:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Eletroforese de proteínas séricas e urinárias."
+        },
+        {
+          "letter": "B",
+          "text": "Endoscopias do trato digestivo alto e baixo."
+        },
+        {
+          "letter": "C",
+          "text": "Pesquisa do cromossomo Philadelphia."
+        },
+        {
+          "letter": "D",
+          "text": "Teste de fragilidade osmótica de eritrócitos."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [
+        {
+          "src": "provas/figuras/psu-mg-2022/q055.jpg",
+          "alt": "Esfregaço de sangue periférico com área destacada por um círculo."
+        }
+      ],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca. Figuras recortadas sem moldura."
+    },
+    {
+      "id": "psu-mg-2022-q056",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 56,
+      "area": "clinica",
+      "statement": "Homem de 68 anos queixa-se de dispneia e tosse há 10 dias. É tabagista desde os 20 anos e fuma um maço de cigarros ao dia. É operário em uma mineradora há 25 anos. Ao exame físico, a avaliação do tórax revela expansibilidade reduzida no hemitórax direito, observando-se no 1/3 superior ipsilateral: submacicez à percussão, frêmito toracovocal abolido e ausência de sons respiratórios na mesma região.\n{{figura}}\nAssinale a alternativa que apresenta a causa MAIS PROVÁVEL para os achados no exame físico e na radiografia do tórax desse paciente:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Atelectasia do lobo médio"
+        },
+        {
+          "letter": "B",
+          "text": "Câncer de pulmão"
+        },
+        {
+          "letter": "C",
+          "text": "Pneumonia lobar"
+        },
+        {
+          "letter": "D",
+          "text": "Silicose pulmonar"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [
+        {
+          "src": "provas/figuras/psu-mg-2022/q056.jpg",
+          "alt": "Radiografia do tórax em incidência posteroanterior."
+        }
+      ],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca. Figuras recortadas sem moldura."
+    },
+    {
+      "id": "psu-mg-2022-q057",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 57,
+      "area": "clinica",
+      "statement": "Homem de 72 anos se queixa de dor epigástrica intensa cerca de 40 minutos após as refeições, com uma hora de duração, há cerca de dois meses. Nega alteração do hábito intestinal, distensão abdominal, náuseas, vômitos, pirose ou regurgitação. A dor nunca ocorre durante a noite ou o desperta do sono. Perdeu 7kg nesse período e tem evitado se alimentar. É tabagista desde os 20 anos e fuma um maço de cigarros ao dia. É etilista, ingerindo duas latas de cerveja ao dia, há sete anos. É portador de hipertensão arterial sistêmica e faz uso de losartana há cinco anos. O exame físico não apresenta anormalidades. A endoscopia digestiva alta e a tomografia computadorizada do abdome não revelaram anormalidades. Assinale a alternativa que apresenta o diagnóstico MAIS PROVÁVEL para esse paciente:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Angina mesentérica"
+        },
+        {
+          "letter": "B",
+          "text": "Dispepsia funcional"
+        },
+        {
+          "letter": "C",
+          "text": "Pancreatite crônica"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de super-crescimento bacteriano"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q058",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 58,
+      "area": "clinica",
+      "statement": "Mulher de 58 anos vai ao Centro de Saúde para consulta de acompanhamento médico. Queixa- se de acordar frequentemente durante a madrugada com taquicardia e sudorese. Possui diabetes melito tipo 2 e hipertensão arterial sistêmica. Faz uso domiciliar regular, há dois anos, de metformina 850mg duas vezes ao dia, gliclazida 60mg pela manhã, enalapril 20mg duas vezes ao dia. Relata menopausa há três anos, é viúva há seis anos e não possui parceiro sexual desde então. Ao exame, PA 156/84mmHg, FC 98bpm, FR 19ipm; sem outras anormalidades. Diz que a PA aferida pela filha enfermeira, em casa, geralmente está em torno de 120/80mmHg. Exames de laboratório atuais: hemoglobina glicada A1c 6,3%; creatinina 0,7mg/dL, potássio 4,3mg/dL. Assinale a alternativa que apresenta uma conduta INADEQUADA após essa consulta",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Acrescentar anlodipino à prescrição"
+        },
+        {
+          "letter": "B",
+          "text": "Reduzir a dosagem de gliclazida"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar dosagem de vitamina B12"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar aferições de glicemia capilar durante a madrugada"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q059",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 59,
+      "area": "clinica",
+      "statement": "Mulher de 58 anos vai ao Centro de Saúde para consulta de acompanhamento médico. Queixa- se de acordar frequentemente durante a madrugada com taquicardia e sudorese. Possui diabetes melito tipo 2 e hipertensão arterial sistêmica. Faz uso domiciliar regular, há dois anos, de metformina 850mg duas vezes ao dia, gliclazida 60mg pela manhã, enalapril 20mg duas vezes ao dia. Relata menopausa há três anos, é viúva há seis anos e não possui parceiro sexual desde então. Ao exame, PA 156/84mmHg, FC 98bpm, FR 19ipm; sem outras anormalidades. Diz que a PA aferida pela filha enfermeira, em casa, geralmente está em torno de 120/80mmHg. Exames de laboratório atuais: hemoglobina glicada A1c 6,3%; creatinina 0,7mg/dL, potássio 4,3mg/dL. Na avaliação preventiva de saúde dessa paciente, qual dos exames abaixo NÃO ESTÁ INDICADO neste momento?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Colonoscopia"
+        },
+        {
+          "letter": "B",
+          "text": "Densitometria óssea"
+        },
+        {
+          "letter": "C",
+          "text": "Dosagem de triglicérides e de colesterol"
+        },
+        {
+          "letter": "D",
+          "text": "Exame citopatológico do colo uterino"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q060",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 60,
+      "area": "clinica",
+      "statement": "Homem de 80 anos é levado ao consultório por familiares que relatam mudança de comportamento há seis meses, com desinibição social e perda de memória. Não há comorbidades conhecidas ou uso de medicamentos, negam tabagismo e etilismo. O exame físico não apresenta anormalidades. Trazem os seguintes exames: Exames de laboratório: anti-HIV não reator; VDRL não reator; sorologia positiva para T. pallidum; TSH 6,7UI/mL, vitamina B12 256pg/mL. Tomografia Computadorizada do crânio: sem anormalidades. Considerando esses dados clínicos, assinale a alternativa que apresenta a conduta sequencial MAIS ADEQUADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Prescrever levotiroxina e cianocobalamina"
+        },
+        {
+          "letter": "B",
+          "text": "Prescrever penicilina endovenosa"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar punção lombar"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar ressonância magnética do encéfalo"
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q061",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 61,
+      "area": "cirurgia",
+      "statement": "Várias alterações endócrino-metabólicas ocorrem imediatamente após o trauma cirúrgico. Em paciente submetido a cirurgia de grande porte, prolongada e com grande perda sanguínea, assinale a alternativa que apresenta CORRETAMENTE a alteração metabólica esperada:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Excreção urinária de nitrogênio em torno de 5 gramas ao dia."
+        },
+        {
+          "letter": "B",
+          "text": "Hiperglicemia decorrente, principalmente, da liberação de aminoácidos cetogênicos."
+        },
+        {
+          "letter": "C",
+          "text": "Liberação aumentada de ácidos graxos livres que serão utilizados na gliconeogênese."
+        },
+        {
+          "letter": "D",
+          "text": "Redução da produção de proteínas de fase aguda como a albumina."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q062",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 62,
+      "area": "cirurgia",
+      "statement": "Muitos pacientes candidatos a cirurgia fazem uso de medicamentos para tratamento de doenças que podem trazer consequências adversas no período perioperatório. Por outro lado, alguns pacientes podem iniciar o uso de medicamentos com o objetivo de prevenir complicações perioperatórias. Em relação ao tema, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A prescrição de aspirina no pré-operatório é recomendada em todos pacientes com risco de isquemia coronariana pois não aumenta o risco de sangramento perioperatório."
+        },
+        {
+          "letter": "B",
+          "text": "A utilização de ponte pré-operatória com heparina não está indicada em todos os pacientes com fibrilação atrial que fazem uso de anticoagulante oral."
+        },
+        {
+          "letter": "C",
+          "text": "Existe o consenso de que os inibidores da enzima conversora da angiotensina devam ser administrados inclusive no dia da cirurgia."
+        },
+        {
+          "letter": "D",
+          "text": "Em pacientes com alto risco de isquemia coronariana, recomenda-se a introdução de betabloqueadores quatro horas antes do procedimento cirúrgico."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q063",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 63,
+      "area": "cirurgia",
+      "statement": "A correta avaliação pré-operatória acompanhada do adequado preparo pré-operatório podem reduzir as taxas de complicações cardiovasculares, respiratórias e renais. Em relação ao tema é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A revascularização miocárdica está indicada de rotina antes da cirurgia não-cardíaca nos pacientes com isquemia coronariana."
+        },
+        {
+          "letter": "B",
+          "text": "A impossibilidade de subir quatro lances de escada corresponde a equivalente metabólico menor que quatro, o que dobra, por si só, o risco de complicações cardiovasculares."
+        },
+        {
+          "letter": "C",
+          "text": "No índice de risco cardíaco revisado, a presença de isquemia coronariana recente e de insuficiência cardíaca descompensada são os fatores de maior pontuação para a ocorrência de complicações cardiovasculares."
+        },
+        {
+          "letter": "D",
+          "text": "Pacientes que apresentam valvopatia com indicação de tratamento intervencionista valvar devem ser, prioritariamente, submetidos ao tratamento cardíaco antes da cirurgia não- cardíaca proposta."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q064",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 64,
+      "area": "cirurgia",
+      "statement": "Paciente de 53 anos, sexo masculino, sem comorbidades, foi submetido a colectomia esquerda laparotômica e ressecção sincrônica de metástase hepática em lobo esquerdo. O procedimento cirúrgico durou aproximadamente seis horas e foi necessária administração de grande quantidade de cristaloides (soro fisiológico e Ringer lactato) e 900 mL de concentrado de hemácias. Foi extubado apresentando bom padrão respiratório, sem dor e com estabilidade hemodinâmica, não sendo necessário o uso de aminas vasoativas. Enquanto aguardava transferência para o centro de tratamento intensivo, o paciente permaneceu na sala de cirurgia onde o anestesiologista colheu gasometria arterial. Considerando as informações apresentadas acima, assinale a alternativa que apresenta a gasometria arterial MAIS PROVÁVEL de ser encontrada pelo anestesiologista:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "pH = 7,15; HCO3 = 14 mEq/L; PaCO2 = 37 mmHg; BE = -11 mEq/L."
+        },
+        {
+          "letter": "B",
+          "text": "pH = 7,25; HCO3 = 17 mEq/L; PaCO2 = 45 mmHg; BE = -8 mEq/L."
+        },
+        {
+          "letter": "C",
+          "text": "pH = 7,32; HCO3 = 18 mEq/L; PaCO2 = 35 mmHg; BE = -7 mEq/L."
+        },
+        {
+          "letter": "D",
+          "text": "pH = 7,52; HCO3 = 20 mEq/L; PaCO2 = 28 mmHg; BE = -5 mEq/L."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q065",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 65,
+      "area": "cirurgia",
+      "statement": "FBG, 55 anos, sexo masculino, com cirrose hepática de origem etanólica, no momento sem queixas, está em pré-operatório de colecistectomia videolaparoscópica, indicado no tratamento de colecistolitíase sintomática. Ao exame físico encontrava-se orientado no tempo e espaço, FC: 80bpm, PA: 130x60mmHg, ascite grau I e sem edema em membros inferiores. Os exames laboratoriais evidenciavam: Hb: 10,3g%, Leucócitos globais: 5.000/mm³, plaquetas: 122.000/mm³, Ur: 50mg%, Cr: 1,2mg%, NA: 132mEq/L, K: 3,0mEq/L, albumina 3,6%, bilirrubina 1,5mg%, tempo de protrombina 14 segundos (controle 12 segundos) e RNI 1,4. Em relação ao caso é CORRETO afirmar?",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A cirurgia deve ser contraindicada neste momento, em decorrência do grau de cirrose hepática."
+        },
+        {
+          "letter": "B",
+          "text": "É indispensável calcular o MELD (modelo para doença hepática crônica terminal) nestes casos para avaliar a indicação cirúrgica."
+        },
+        {
+          "letter": "C",
+          "text": "O paciente é classificado como ChildPugh B, devendo ser encaminhado ao hepatologista para avaliação clínica completa."
+        },
+        {
+          "letter": "D",
+          "text": "O risco cirúrgico desse paciente não é elevado considerando o seu estado geral e o porte da operação proposta."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q066",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 66,
+      "area": "cirurgia",
+      "statement": "Alguns adjuvantes são utilizados em associação aos anestésicos locais para melhorar a qualidade da anestesia durante o procedimento cirúrgico. Em relação a essa associação é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A adrenalina aumenta o pH do local da cirurgia reduzindo a latência anestésica."
+        },
+        {
+          "letter": "B",
+          "text": "Em uma solução de anestésico local contendo adrenalina diluída em 1:400.000 temos 5,0mcg de adrenalina para cada 1,0ml da solução."
+        },
+        {
+          "letter": "C",
+          "text": "Frascos de anestésico local contendo adrenalina apresentam em geral pH mais ácido podendo ocasionar aumento na latência anestésica."
+        },
+        {
+          "letter": "D",
+          "text": "O bicarbonato de sódio reduz o pKa do anestésico reduzindo a latência anestésica."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q067",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 67,
+      "area": "cirurgia",
+      "statement": "A terapia nutricional parenteral (TNP), seja periférica ou central, tem como principal objetivo garantir a nutrição de pacientes que, por determinado período não estejam podendo ser devidamente alimentados por outras vias. Sobre as características e as recomendações que envolvem a implementação da TNP em pacientes adultos hospitalizados, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A hiperglicemia pode ser uma complicação relacionada ao uso de TNP, sendo mais provável em pacientes diabéticos e incomum, em pacientes em condições de sepse ou trauma."
+        },
+        {
+          "letter": "B",
+          "text": "A nutrição parenteral é uma solução isotônica de nutrientes que pode reduzir o risco nutricional pré-operatório, interferindo positivamente na recuperação e modulação da resposta imunológica."
+        },
+        {
+          "letter": "C",
+          "text": "As soluções de glicose na nutrição parenteral geralmente estão presentes sob a forma monohidratada e a quantidade máxima requerida não deve ultrapassar 5mg/kg/min, taxas limítrofes para sua oxidação orgânica plena."
+        },
+        {
+          "letter": "D",
+          "text": "Pacientes obesos tem menor risco de síndrome de realimentação, que frequentemente está associada à redução dos níveis séricos de fósforo, potássio e magnésio."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q068",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 68,
+      "area": "cirurgia",
+      "statement": "Em relação ao uso de antibiótico profilático em cirurgia, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A vancomicina tem indicação principalmente na profilaxia de MRSA (Staphylococcus aureus meticilino resistentes) em pacientes alérgicos aos betalactâmicos."
+        },
+        {
+          "letter": "B",
+          "text": "Os aminoglicosídeos têm a vantagem de obtenção de níveis teciduais efetivos mais precoces."
+        },
+        {
+          "letter": "C",
+          "text": "Os carbapenêmicos são os antimicrobianos de primeira escolha na profilaxia."
+        },
+        {
+          "letter": "D",
+          "text": "Recomenda-se a utilização rotineira de cefalosporinas de 3ª geração."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q069",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 69,
+      "area": "cirurgia",
+      "statement": "MCDL, 78 anos, sexo feminino, iniciou há três dias com icterícia, febre, calafrios, urina escura, náuseas, vômitos e dor lombar. Comorbidades: hipertensão arterial, diabetes melito tipo 2 e osteoartrose de coluna lombar. Fez ultrassonografia de abdome total na urgência que evidenciou: inúmeros cálculos na vesícula biliar, leve dilatação do colédoco e distensão das alças intestinais no abdome superior que não permitiram avaliação do pâncreas e colédoco distal. Em relação à condução do caso a partir desse momento, assinale a alternativa mais INADEQUADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Indicar internação hospitalar para garantir suporte clínico e acelerar propedêutica (estudo laboratorial e com métodos de imagem)."
+        },
+        {
+          "letter": "B",
+          "text": "Pedir avaliação laboratorial completa incluindo glicemia, ionograma, função hepática e renal, amilase, lipase, hemograma e exame de urina rotina."
+        },
+        {
+          "letter": "C",
+          "text": "Por se tratar de paciente diabética, iniciar imediatamente com antibioticoterapia endovenosa de largo espectro e reavaliar após a melhora do quadro infeccioso."
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar tomografia de abdome total para melhor avaliação das vias biliares e do pâncreas."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q070",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 70,
+      "area": "cirurgia",
+      "statement": "SDG, 82 anos, sexo feminino, foi submetida a colectomia esquerda laparoscópica para tratamento do câncer de cólon sigmoide. No pós-operatório imediato apresentou complicação cardiovascular. Em relação às alterações cardiovasculares em pacientes nessa faixa etária, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Esclerose e calcificações da valva aórtica são comuns, mas habitualmente não têm significado funcional."
+        },
+        {
+          "letter": "B",
+          "text": "Mesmo uma discreta hipoxemia pode resultar em relaxamento miocárdico prolongado."
+        },
+        {
+          "letter": "C",
+          "text": "O coração \"envelhecido\" mantém o débito cardíaco às custas do aumento da frequência cardíaca."
+        },
+        {
+          "letter": "D",
+          "text": "Um aumento da volemia relativamente pequeno pode comprometer significativamente a função cardíaca."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "C",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q071",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 71,
+      "area": "cirurgia",
+      "statement": "KS, sexo masculino, 45 anos, retorna ao serviço de cirurgia ambulatorial com o resultado do exame histopatológico de cirurgia realizada anteriormente. Segundo a descrição cirúrgica foi ressecado nevo pigmentado, irregular, assimétrico e multicolorido em face, com margem de 1cm. O exame anatomopatológico confirma melanoma com células neoplásicas, confinadas à epiderme e ao epitélio anexial com margens cirúrgicas livres. De acordo com as características da lesão e o exame histopatológico, assinale a alternativa que apresenta uma conduta ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Deve-se ampliar as margens de segurança."
+        },
+        {
+          "letter": "B",
+          "text": "Independentemente do tratamento realizado, o paciente deve ser acompanhado regularmente."
+        },
+        {
+          "letter": "C",
+          "text": "Não há indicação para pesquisa de linfonodo sentinela."
+        },
+        {
+          "letter": "D",
+          "text": "Não há necessidade de nova intervenção cirúrgica, pelas características histopatológicas."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "A",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q072",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 72,
+      "area": "cirurgia",
+      "statement": "CFG, sexo feminino, 61 anos, sem comorbidades, apresentou hematoquezia volumosa. Foi constatada a presença de um adenocarcinoma de sigmóide, com sangramento ativo, à colonoscopia, sendo programada a ressecção cirúrgica. Considerando-se o risco de fenômenos tromboembólicos no pós-operatório deste caso, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Heparina de baixo peso molecular pode ser introduzida desde o pré-operatório para a prevenção do tromboembolismo."
+        },
+        {
+          "letter": "B",
+          "text": "Heparina não-fracionada tem baixo custo e pode ser usada na profilaxia do tromboembolismo."
+        },
+        {
+          "letter": "C",
+          "text": "O uso de meia elástica de compressão graduada reduz o risco de formação de trombos."
+        },
+        {
+          "letter": "D",
+          "text": "Os fenômenos embólicos são provocados principalmente por trombos de veias da panturrilha."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q073",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 73,
+      "area": "cirurgia",
+      "statement": "Criança de 25 kg, 7 anos, sexo feminino, foi vítima de queimaduras de 2° e 3° graus, acometendo tórax, abdome e membros superiores e correspondendo a 35% da superfície corporal. Quanto aos cuidados indicados a esta paciente, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A punção venosa do membro superior, mesmo que em superfície queimada, é preferível à punção da veia safena."
+        },
+        {
+          "letter": "B",
+          "text": "A taquicardia é um bom parâmetro para se avaliar a resposta fisiológica à reposição volêmica."
+        },
+        {
+          "letter": "C",
+          "text": "Ela deve receber fluidos de manutenção de glicose, além do fluido de reanimação de queimados."
+        },
+        {
+          "letter": "D",
+          "text": "O débito urinário deve ser mantido em pelo menos 1 ml/kg/hora."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q074",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 74,
+      "area": "cirurgia",
+      "statement": "Adulto jovem, sexo masculino, foi vítima de acidente de moto com laceração importante de MID, que apresenta sangramento ativo intenso (vultuoso). Quanto aos cuidados a serem dispensados em pacientes com hemorragia traumática aguda, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A fonte de sangramento geralmente é identificada por exame físico e por imagens."
+        },
+        {
+          "letter": "B",
+          "text": "A reanimação volêmica agressiva e contínua não substitui o controle definitivo do sangramento."
+        },
+        {
+          "letter": "C",
+          "text": "O clampeamento às cegas na sala de emergência pode causar danos aos nervos e às veias."
+        },
+        {
+          "letter": "D",
+          "text": "O torniquete deve ser a primeira medida diante de uma hemorragia externa significativa de membro."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "D",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    },
+    {
+      "id": "psu-mg-2022-q075",
+      "institution": "PSU-MG",
+      "year": 2022,
+      "number": 75,
+      "area": "cirurgia",
+      "statement": "GDG, 52 anos, sexo feminino, advogada, que vai ser submetida a colecistectomia videolaparoscópica eletiva, no tratamento de colecistolitíase assintomática, informa uso regular de losartana e hidroclorotiazida indicados no tratamento de hipertensão arterial. Em relação à avaliação pré-operatória desta paciente, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Deve ser realizada radiografia de tórax."
+        },
+        {
+          "letter": "B",
+          "text": "Deve-se dosar os níveis séricos de ALT e AST."
+        },
+        {
+          "letter": "C",
+          "text": "Há indicação de fazer a dosagem de creatinina sérica."
+        },
+        {
+          "letter": "D",
+          "text": "Há indicação de se dosar os eletrólitos."
+        }
+      ],
+      "key": {
+        "status": "verified",
+        "answer": "B",
+        "source": "Gabarito oficial da Prova Geral Tipo 3 do PSU-MG 2022 (AREMG, 5/12/2021), com as alterações após recursos de 22/12/2021.",
+        "basis": "official"
+      },
+      "images": [],
+      "source": {
+        "credit": "Prova Geral Tipo 3 do PSU-MG 2022, Processo Seletivo Unificado de Residência Médica de Minas Gerais (AREMG)",
+        "pages": []
+      },
+      "review": "approved",
+      "notes": "Texto transcrito da prova da banca."
+    }
+  ]
+}

@@ -72,7 +72,7 @@ describe("Prova aleatória", () => {
     expect(exam.questions.map((_, i) => questionNumber(exam, i))).toEqual([
       1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
     ]);
-    const q = exams[0].questions[0];
+    const q = exams.find((e) => e.id === "psu-mg-2024")!.questions[0];
     expect(questionOrigin(q)).toBe("PSU-MG 2024 · questão 1 · Pediatria");
     expect(questionNumber(exams[0], 4)).toBe(5);
   });

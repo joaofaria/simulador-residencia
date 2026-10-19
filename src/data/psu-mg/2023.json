@@ -2294,7 +2294,7 @@
       "year": 2023,
       "number": 58,
       "area": "clinica",
-      "statement": "Mulher de 29 anos queixa-se de lombalgia esquerda iniciada no dia anterior após a realização de exercícios físicos intensos Relata que a dor irradia pela região lateral da coxa esquerda até [trecho ilegível] e apresenta intensidade 4/10. Nega outros sintomas, incluindo febre anormalidades intestinais ou urinárias Nega comorbidades conhecidas Ao exame físico, o teste de elevação da perna esquerda reproduz a dor do mesmo lado, e o teste com a perna direita não Desencadeia nenhuma dor. O exame neurológico não apresenta anormalidades. Assinale a alternativa que apresenta a causa MAIS PROVÁVEL do quadro clínico apresentado por essa paciente e a conduta MAIS ADEQUADA:",
+      "statement": "Mulher de 29 anos queixa-se de lombalgia esquerda iniciada no dia anterior após a realização de exercícios físicos intensos Relata que a dor irradia pela região lateral da coxa esquerda até o pé e apresenta intensidade 4/10. Nega outros sintomas, incluindo febre anormalidades intestinais ou urinárias Nega comorbidades conhecidas Ao exame físico, o teste de elevação da perna esquerda reproduz a dor do mesmo lado, e o teste com a perna direita não Desencadeia nenhuma dor. O exame neurológico não apresenta anormalidades. Assinale a alternativa que apresenta a causa MAIS PROVÁVEL do quadro clínico apresentado por essa paciente e a conduta MAIS ADEQUADA:",
       "alternatives": [
         {
           "letter": "A",
@@ -2325,7 +2325,7 @@
         "pages": []
       },
       "review": "approved",
-      "notes": "Texto transcrito da prova da banca. Um trecho estava ilegível na cópia usada."
+      "notes": "Texto transcrito da prova da banca."
     },
     {
       "id": "psu-mg-2023-q059",
@@ -2957,7 +2957,7 @@
       "year": 2023,
       "number": 75,
       "area": "cirurgia",
-      "statement": "Paciente idoso, vitima de acidente automobilístico em alta velocidade foi atendido no PS com quadro de hipotensão arterial, confusão mental, paraplegia com nível sensitivo na altura do umbigo. A radiografia de tórax não apresentava alterações; o FAST foi negativo e a radiografia de [trecho ilegível] mostrava fratura com cisalhamento vertical Qual é a causa, MAIS PROVÁVEL, da instabilidade hemodinâmica:",
+      "statement": "Paciente idoso, vitima de acidente automobilístico em alta velocidade foi atendido no PS com quadro de hipotensão arterial, confusão mental, paraplegia com nível sensitivo na altura do umbigo. A radiografia de tórax não apresentava alterações; o FAST foi negativo e a radiografia de bacia mostrava fratura com cisalhamento vertical Qual é a causa, MAIS PROVÁVEL, da instabilidade hemodinâmica:",
       "alternatives": [
         {
           "letter": "A",
@@ -2988,7 +2988,7 @@
         "pages": []
       },
       "review": "approved",
-      "notes": "Texto transcrito da prova da banca. Um trecho estava ilegível na cópia usada."
+      "notes": "Texto transcrito da prova da banca."
     }
   ]
 }

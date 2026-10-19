@@ -3,6 +3,9 @@ import { demo } from "./demo";
 // Cada prova vira um chunk separado no build e só é baixada quando o
 // candidato inicia o simulado.
 const sources: Record<string, () => Promise<{ default: unknown }>> = {
+  "psu-mg-2021": () => import("./psu-mg/2021.json"),
+  "psu-mg-2022": () => import("./psu-mg/2022.json"),
+  "psu-mg-2023": () => import("./psu-mg/2023.json"),
   "psu-mg-2024": () => import("./psu-mg/2024.json"),
   "psu-mg-2025": () => import("./psu-mg/2025.json"),
   "psu-mg-2026": () => import("./psu-mg/2026.json"),

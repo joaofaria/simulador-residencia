@@ -1,5 +1,87 @@
 [
   {
+    "exam": "psu-mg-2021",
+    "text": "Transcrição das questões da Prova Geral Tipo 1, feita a partir de uma cópia redigitada do caderno publicada pela OsceLabs. Erros de digitalização foram corrigidos à mão; o arquivo não é publicado. Ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "textOrigin": "https://ujjurqtnpakcjznynead.supabase.co/storage/v1/object/public/uploads/provas/psu/psu-mg-2021-r1-objetiva-oscelabs-prova.pdf",
+    "textSha256": "67e797c2d2520f2fb72482426546b4af06b938408ecdc251688f0400dec07bbe",
+    "figures": "public/provas/figuras/psu-mg-2021",
+    "key": "Gabarito oficial da Prova Geral Tipo 1 (6/12/2020) e alterações após recursos (22/12/2020), AREMG. Na Prova Geral Tipo 1 não houve troca de resposta após os recursos.",
+    "keyStatus": "official-definitive",
+    "keyOrigin": [
+      "https://www.galaxcms.com.br/up_crud_comum/601/GABARITOPROVAGERALTIPO1PSU2021-20201206200011.pdf",
+      "https://www.galaxcms.com.br/up_crud_comum/601/GabaritoDefinitivo-PSU2021-20201222182805.pdf"
+    ],
+    "keySha256": [
+      "001db6b16a157115a3bdb1ddae0134d57b26e3432491fcdbd4b3488ea5db34b0",
+      "262c31ff1ae09d7165ceac39bb41e62742aaed979f3f6fb7481d71bdf5819927"
+    ],
+    "validation": {
+      "date": "2026-10-19",
+      "questions": 75,
+      "annulled": [
+        26,
+        30,
+        56
+      ]
+    },
+    "keyNote": "Arquivos baixados do site da AREMG, conferidos e não publicados no site. O tipo de prova foi identificado comparando as respostas da cópia com os gabaritos dos quatro tipos."
+  },
+  {
+    "exam": "psu-mg-2022",
+    "text": "Transcrição das questões da Prova Geral Tipo 3, feita a partir de uma cópia redigitada do caderno publicada pela OsceLabs. Erros de digitalização foram corrigidos à mão; o arquivo não é publicado. Ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "textOrigin": "https://ujjurqtnpakcjznynead.supabase.co/storage/v1/object/public/uploads/provas/psu/psu-mg-2022-r1-objetiva-oscelabs-prova.pdf",
+    "textSha256": "edecaeb8768247ca8b5b04e6dc99e223c6f71253cc66ba714b65e6cd9e726da8",
+    "figures": "public/provas/figuras/psu-mg-2022",
+    "key": "Gabarito oficial da Prova Geral Tipo 3 (5/12/2021) e alterações após recursos (22/12/2021), AREMG. Questão 3 mudou de A para B após os recursos.",
+    "keyStatus": "official-definitive",
+    "keyOrigin": [
+      "https://www.galaxcms.com.br/up_crud_comum/601/GabaritoprovisorioPSU2022-20211205151729.pdf",
+      "https://www.galaxcms.com.br/up_crud_comum/601/altgabaritoposrecurso-PSU2022-20211222102311.pdf"
+    ],
+    "keySha256": [
+      "4b6e550ecd9bf16a109a9b444e4eab3465c92167d88c462c3a60159817a2b05e",
+      "a6da0c6d435ee5e6f50330ad7fe9aa966849be7fda978e3e09e016e01b6d4f0b"
+    ],
+    "validation": {
+      "date": "2026-10-19",
+      "questions": 75,
+      "annulled": [
+        8,
+        19,
+        38
+      ]
+    },
+    "keyNote": "Arquivos baixados do site da AREMG, conferidos e não publicados no site. O tipo de prova foi identificado comparando as respostas da cópia com os gabaritos dos quatro tipos."
+  },
+  {
+    "exam": "psu-mg-2023",
+    "text": "Transcrição das questões da Prova Geral Tipo 3, feita a partir de uma cópia redigitada do caderno publicada pela OsceLabs. Erros de digitalização foram corrigidos à mão; o arquivo não é publicado. Ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
+    "textOrigin": "https://ujjurqtnpakcjznynead.supabase.co/storage/v1/object/public/uploads/provas/psu/psu-mg-2023-r1-objetiva-oscelabs-prova.pdf",
+    "textSha256": "924a2b577c1c9eb4337f67f7546258632923c931f055a8dcf3422c352564b014",
+    "figures": "public/provas/figuras/psu-mg-2023",
+    "key": "Gabarito oficial da Prova Geral Tipo 3 (4/12/2022) e alterações após recursos (22/12/2022), AREMG. Questão 68 mudou de A para C e questão 39 de D para B após os recursos.",
+    "keyStatus": "official-definitive",
+    "keyOrigin": [
+      "https://www.galaxcms.com.br/up_crud_comum/601/GABARITOPROVAGERALTIPO3-PSU2023-20221204141754.pdf",
+      "https://www.galaxcms.com.br/up_crud_comum/601/AlteracaodeGabaritoaposrecurso-PSU2023-20221222160934.pdf"
+    ],
+    "keySha256": [
+      "b72d2919cd564ac65119a8406452280b61c97f71f7065d951db831cd4d96842d",
+      "5c5f78d1a0050ce56eb8403b58af29f375c7cfdf78ddb224c74b76d333cb3188"
+    ],
+    "validation": {
+      "date": "2026-10-19",
+      "questions": 75,
+      "annulled": [
+        9,
+        16,
+        38,
+        42
+      ]
+    },
+    "keyNote": "Arquivos baixados do site da AREMG, conferidos e não publicados no site. O tipo de prova foi identificado comparando as respostas da cópia com os gabaritos dos quatro tipos."
+  },
+  {
     "exam": "psu-mg-2024",
     "text": "Transcrição das questões da Prova Geral Tipo 3. O caderno e os recortes de página não são publicados; ficam o texto, as figuras clínicas recortadas sem moldura e o crédito à banca.",
     "figures": "public/provas/figuras/psu-mg-2024",

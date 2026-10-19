@@ -40,6 +40,9 @@ const real = (
   available,
 });
 export const summaries: ExamSummary[] = [
+  real("PSU-MG", "psu-mg", 2021, 75, "official-pdf"),
+  real("PSU-MG", "psu-mg", 2022, 75, "official-pdf"),
+  real("PSU-MG", "psu-mg", 2023, 75, "official-pdf"),
   real("PSU-MG", "psu-mg", 2024, 75, "official-pdf"),
   real("Santa Casa BH", "santa-casa-bh", 2024, 75, "third-party"),
   real("IPSEMG", "ipsemg", 2024, 100, "official-pdf"),

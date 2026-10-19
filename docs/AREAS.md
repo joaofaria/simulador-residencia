@@ -4,6 +4,9 @@ As provas do PSU-MG e da Santa Casa BH trazem 75 questões em cinco blocos de 15
 
 | Prova | 1 a 15 | 16 a 30 | 31 a 45 | 46 a 60 | 61 a 75 |
 |---|---|---|---|---|---|
+| PSU-MG • 2021 | Clínica Médica | Cirurgia | Ginecologia e Obstetrícia | Pediatria | Medicina Preventiva |
+| PSU-MG • 2022 | Pediatria | Ginecologia e Obstetrícia | Medicina Preventiva | Clínica Médica | Cirurgia |
+| PSU-MG • 2023 | Pediatria | Ginecologia e Obstetrícia | Medicina Preventiva | Clínica Médica | Cirurgia |
 | PSU-MG • 2024 | Pediatria | Ginecologia e Obstetrícia | Medicina Preventiva | Clínica Médica | Cirurgia |
 | PSU-MG • 2025 | Clínica Médica | Cirurgia | Pediatria | Ginecologia e Obstetrícia | Medicina Preventiva |
 | PSU-MG • 2026 | Clínica Médica | Cirurgia | Pediatria | Ginecologia e Obstetrícia | Medicina Preventiva |
@@ -19,6 +22,12 @@ Estas ficaram na área do bloco, mas o tema puxa para outra. Se a banca consider
 
 | Prova | Questão | Área gravada | Possível outra área | Início do enunciado |
 |---|---|---|---|---|
+| PSU-MG • 2021 | 51 | Pediatria | Cirurgia: indicação cirúrgica em afecções da criança | Qual das afecções abaixo NÃO É INDICAÇÃO de cirurgia à época do diagnóstico?… |
+| PSU-MG • 2022 | 38 | Medicina Preventiva | Clínica Médica: arbovirose com hipotensão | Paciente, 42 anos, morador da região metropolitana de Belo Horizonte, hipertenso e em uso irregular de anti-hi… |
+| PSU-MG • 2023 | 35 | Medicina Preventiva | Pediatria: sinais precoces de TEA | Sinais precoces de Transtorno do Espectro Autista (TEA) podem ser observados desde os primeiros meses de vida… |
+| PSU-MG • 2023 | 36 | Medicina Preventiva | Ginecologia e Obstetrícia: estratificação de risco no pré-natal | A estratificação de risco obstétrico durante a assistência pré-natal é um dos fatores determinantes para a red… |
+| PSU-MG • 2023 | 39 | Medicina Preventiva | Ginecologia e Obstetrícia: sífilis na gestação | Primípara, 20 semanas de gestação, compareceu em UBS para realização de sua primeira consulta de pré-natal. Du… |
+| PSU-MG • 2023 | 45 | Medicina Preventiva | Clínica Médica: fibromialgia | A fibromialgia é um diagnóstico frequente na atenção primária. A dor musculoesquelética difusa e crônica é a p… |
 | PSU-MG • 2024 | 36 | Medicina Preventiva | Clínica Médica: asma | A asma é uma doença inflamatória crônica das vias aéreas inferiores que se caracteriza, clinicamente, por aume… |
 | PSU-MG • 2024 | 38 | Medicina Preventiva | Ginecologia e Obstetrícia: climatério | Na vida da mulher, a transição entre o estágio reprodutivo e o não reprodutivo é denominada climatério. Nessa… |
 | PSU-MG • 2024 | 39 | Medicina Preventiva | Clínica Médica: dor na chikungunya | Com relação ao manejo da dor na Chikungunya, assinale a alternativa ERRADA:… |
@@ -46,6 +55,246 @@ Estas ficaram na área do bloco, mas o tema puxa para outra. Se a banca consider
 
 ## Lista completa
 
+
+### PSU-MG • 2021
+
+| Questão | Área | Início do enunciado |
+|---|---|---|
+| 1 | Clínica Médica | Homem de 62 anos procura pronto atendimento com quadro de tosse produtiva, dor torácica ventilatório dependent… |
+| 2 | Clínica Médica | Homem de 67 anos vai ao clínico para a avaliação periódica de saúde. Está assintomático. Diz que apresentou an… |
+| 3 | Clínica Médica | Mulher de 23 anos procura UBS com queixa de edema generalizado. Informa que o edema se iniciou há alguns meses… |
+| 4 | Clínica Médica | Homem de 69 anos procura atendimento médico em UBS por estar apresentando no último ano edema de membros infer… |
+| 5 | Clínica Médica | Homem de 32 anos com diagnóstico de tuberculose pulmonar bacilífera, em uso do esquema RHZE (rifampicina + iso… |
+| 6 | Clínica Médica | Homem de 58 anos é levado ao pronto atendimento devido a dificuldade de deambulação. Sua esposa relata que o q… |
+| 7 | Clínica Médica | Mulher de 61 anos foi à consulta com queixa de desânimo, apatia, constipação intestinal e cansaço aos esforços… |
+| 8 | Clínica Médica | Mulher de 41 anos queixa-se de dispneia ao andar menos de 2 quarteirões no plano e ao varrer a casa, há 5 mese… |
+| 9 | Clínica Médica | Mulher de 41 anos queixa-se de dispneia ao andar menos de 2 quarteirões no plano e ao varrer a casa, há 5 mese… |
+| 10 | Clínica Médica | Mulher de 73 anos foi levada à UPA após apresentar perda súbita da consciência, com recuperação total após 1 m… |
+| 11 | Clínica Médica | Mulher de 23 anos encontra-se na sala de emergência em tratamento para cetoacidose diabética há 3 horas. É por… |
+| 12 | Clínica Médica | Mulher de 23 anos encontra-se na sala de emergência em tratamento para cetoacidose diabética há 3 horas. É por… |
+| 13 | Clínica Médica | Mulher de 65 anos vai à UPA queixando-se de fraqueza generalizada, náuseas, vômitos e quedas frequentes, há 2… |
+| 14 | Clínica Médica | Mulher de 65 anos vai à UPA queixando-se de fraqueza generalizada, náuseas, vômitos e quedas frequentes, há 2… |
+| 15 | Clínica Médica | Mulher de 38 anos queixa-se de coriza e com secreção nasal amarelada, obstrução nasal e tosse seca, há 4 dias.… |
+| 16 | Cirurgia | O ato anestésico-cirúrgico pode produzir alterações hemodinâmicas, especialmente pela depressão miocárdica e v… |
+| 17 | Cirurgia | Sobre a técnica ilustrada na figura abaixo, de sutura com pontos separados, para tratamento de ferida corto-co… |
+| 18 | Cirurgia | Paciente de 56 anos de idade, sexo masculino, 60Kg, hipertenso e diabético, controlados com losartana e metfor… |
+| 19 | Cirurgia | A terapia nutricional adequada é muito útil no manejo de pacientes com fístulas intestinais, interferindo dire… |
+| 20 | Cirurgia | Homem de 35 anos percebeu lesão pigmentada atípica, na coxa esquerda, com crescimento progressivo, atualmente… |
+| 21 | Cirurgia | Em relação às Infecções do sítio cirúrgico, assinale a alternativa CORRETA.… |
+| 22 | Cirurgia | Paciente de 76 anos, sexo masculino, hipertenso, em uso de losartana, e diabético, em uso de metformina, vem a… |
+| 23 | Cirurgia | JPR, 72 anos, sexo masculino, queixando disfagia progressiva inicialmente para sólidos, halitose, regurgitação… |
+| 24 | Cirurgia | Paciente de 62 anos, sexo masculino, hipertenso controlado com losartana foi submetido a retossigmoidectomia,… |
+| 25 | Cirurgia | Mulher de 68 anos vai ser submetida a histerectomia para tratamento de miomatose uterina. Em relação à antibio… |
+| 26 | Cirurgia | Paciente de 27 anos, sexo feminino, foi vítima de queimadura térmica sendo, à admissão no pronto-socorro, clas… |
+| 27 | Cirurgia | Paciente de 59 anos, sexo feminino, sem comorbidades, será submetida a ressecção de lesão sugestiva de melanom… |
+| 28 | Cirurgia | Paciente vítima de queda de moto há instantes, apresenta à admissão, no pronto atendimento, deformidade na per… |
+| 29 | Cirurgia | Paciente vítima de trauma penetrante por arma branca em região periumbilical, admitido com evisceração discret… |
+| 30 | Cirurgia | MND, 62 anos, tabagista e etilista, com hipertensão arterial controlada, apresenta disfonia há três meses. Neg… |
+| 31 | Ginecologia e Obstetrícia | Mulher de 28 anos, G0P0, é atendida na Unidade Básica de Saúde com queixa de dor de intensidade moderada em ba… |
+| 32 | Ginecologia e Obstetrícia | Mulher de 41 anos, G0P0, procura a Unidade Básica de Saúde porque deseja esclarecimentos sobre mudanças ocorri… |
+| 33 | Ginecologia e Obstetrícia | Paciente de 13 anos comparece à consulta em Unidade Básica de Saúde informando que, há quatro meses, vem apres… |
+| 34 | Ginecologia e Obstetrícia | Paciente de 61 anos, sem queixas ginecológicas, comparece à Unidade Básica de Saúde para trazer resultado da m… |
+| 35 | Ginecologia e Obstetrícia | O câncer invasor do colo do útero é considerado um câncer evitável porque o estágio pré- invasor é longo e os… |
+| 36 | Ginecologia e Obstetrícia | Existem muitos fatores de risco para o câncer do colo do útero: primeira relação sexual em idade jovem (menos… |
+| 37 | Ginecologia e Obstetrícia | A gama de respostas sexuais normais varia de uma mulher para outra e durante toda a vida. Os médicos devem con… |
+| 38 | Ginecologia e Obstetrícia | Adolescente de 15 anos de idade vai à Unidade Básica de Saúde trazida pela mãe, para avaliação ginecológica. P… |
+| 39 | Ginecologia e Obstetrícia | Gestante de 23 anos, G1 P0A0, idade gestacional de 37 semanas e 1 dia, é atendida na maternidade com queixa de… |
+| 40 | Ginecologia e Obstetrícia | Gestante de 32 anos, G3P1A1, com diagnóstico prévio de infecção pelo HIV, idade gestacional de 37 semanas e 3… |
+| 41 | Ginecologia e Obstetrícia | Gestante de 27 anos, G2P1A0, idade gestacional de 13 semanas de gravidez, comparece à primeira consulta de pré… |
+| 42 | Ginecologia e Obstetrícia | Paciente primigesta, gestação de 39 semanas, concepto adequado para a idade gestacional e pré-natal sem interc… |
+| 43 | Ginecologia e Obstetrícia | Paciente de 33 anos, G3P1A1, gestação de 9 semanas e 3 dias pela cronologia e confirmada por ultrassonografia,… |
+| 44 | Ginecologia e Obstetrícia | Gestante primigesta, gestação de 38 semanas, sabidamente infectada pelo HIV, carga viral realizada há três sem… |
+| 45 | Ginecologia e Obstetrícia | Gestante de 25 anos, primigesta, sem comorbidades, vem à Unidade Básica de Saúde com o seguinte resultado de h… |
+| 46 | Pediatria | Mãe assintomática, com teste molecular (RT - PCR) positivo para SARS-CoV-2 realizado no início do trabalho de… |
+| 47 | Pediatria | Mãe com 38 semanas de idade gestacional entra em trabalho de parto, eliminando líquido amniótico meconial. O r… |
+| 48 | Pediatria | A pseudoparalisia de Parrot é caracterizada pela ausência de movimentos ativos dos membros do recém-nascido co… |
+| 49 | Pediatria | Lactente com oito semanas de vida, sexo feminino, nascido a termo de parto vaginal, sem complicações, apresent… |
+| 50 | Pediatria | Lucas, 8 meses de idade, previamente saudável, apresenta, coriza cristalina, tosse leve e febre persistente há… |
+| 51 | Pediatria | Qual das afecções abaixo NÃO É INDICAÇÃO de cirurgia à época do diagnóstico?… |
+| 52 | Pediatria | Davi, 12 meses de idade, reside com os pais que são vegetarianos, na zona rural. Recebeu leite materno exclusi… |
+| 53 | Pediatria | A febre amarela é uma doença de importância epidemiológica, por sua gravidade clínica e possível disseminação… |
+| 54 | Pediatria | Paulo, cinco anos de idade, com primo diagnóstico de leucemia linfoide aguda, iniciou febre (39,2°C) associada… |
+| 55 | Pediatria | Lucas, seis anos de idade, previamente saudável, é levado ao Pronto Atendimento devido a queda da própria altu… |
+| 56 | Pediatria | Em relação ao tratamento ambulatorial de pneumonia bacteriana adquirida na comunidade por um escolar de sete a… |
+| 57 | Pediatria | Carlos, nove anos de idade, brincou durante o dia no jardim de sua casa. Pela madrugada, acordou com dor no do… |
+| 58 | Pediatria | Adolescente de 10 anos de idade, sexo masculino, dá entrada no Pronto Atendimento carregado por seu pai, com h… |
+| 59 | Pediatria | Adolescente de 12 anos de idade, com queixa de perda de peso nos últimos quatro meses e fezes amolecidas com m… |
+| 60 | Pediatria | Em relação à conduta em crianças diagnosticadas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH),… |
+| 61 | Medicina Preventiva | Hospital terciário de capital brasileira possui Unidade de Terapia Intensiva com 20 leitos, integralmente dedi… |
+| 62 | Medicina Preventiva | Hospital terciário de capital brasileira possui Unidade de Terapia Intensiva com 20 leitos, integralmente dedi… |
+| 63 | Medicina Preventiva | Profissionais de saúde que atuam em territórios em que a agricultura predomina como atividade econômica, frequ… |
+| 64 | Medicina Preventiva | Os profissionais de saúde tem observado aumento do número de transtornos mentais relacionados ao trabalho, par… |
+| 65 | Medicina Preventiva | Todas as novas drogas devem ser testadas e ter sua eficácia comprovada antes de serem introduzidas no uso clín… |
+| 66 | Medicina Preventiva | Os serviços de saúde são classificados segundo o nível de complexidade das ações de saúde oferecidas à populaç… |
+| 67 | Medicina Preventiva | Com relação ao Conselho Municipal de Saúde, é CORRETO afirmar que:… |
+| 68 | Medicina Preventiva | Na lista de diretrizes apresentada a seguir, assinale a opção que contribui para a organização de um modelo de… |
+| 69 | Medicina Preventiva | Com relação ao Núcleo de Apoio à Saúde da Família (NASF) é CORRETO afirmar que:… |
+| 70 | Medicina Preventiva | A Gestão Clínica expressa um sistema de tecnologias de microgestão dos sistemas de atenção à saúde que são apl… |
+| 71 | Medicina Preventiva | Nos termos da Lei n° 8.080/90 (Lei Orgânica de Saúde) é CORRETO afirmar:… |
+| 72 | Medicina Preventiva | A evolução das políticas de atenção à saúde no Brasil se destacou com o Movimento da Reforma Sanitária Brasile… |
+| 73 | Medicina Preventiva | Análises preliminares de dados de mortalidade apontam que o risco de morrer por doenças cardiovasculares no Br… |
+| 74 | Medicina Preventiva | O Câncer de próstata é o segundo tipo mais frequente entre os homens. A detecção precoce pode ser feita com ex… |
+| 75 | Medicina Preventiva | Dados publicados pelo Ministério da Saúde do Brasil, em setembro de 2020, estima a letalidade pelo coronavírus… |
+
+### PSU-MG • 2022
+
+| Questão | Área | Início do enunciado |
+|---|---|---|
+| 1 | Pediatria | A escolha dos alimentos para o preparo das refeições da criança é fundamental para uma alimentação adequada e… |
+| 2 | Pediatria | Sobre o aleitamento materno, assinale a alternativa CORRETA:… |
+| 3 | Pediatria | Adolescente, sexo masculino, 11 anos de idade, previamente saudável, residente em Belo Horizonte, apresenta há… |
+| 4 | Pediatria | Em relação à avaliação oftalmológica em crianças menores de cinco anos, assinale alternativa CORRETA:… |
+| 5 | Pediatria | Antônio é um lactente de 10 meses de idade e a mãe o trouxe para uma consulta de rotina. À anamnese completa e… |
+| 6 | Pediatria | O ensaio publicado em maio de 2020 pela Revista Ciência e Saúde Coletiva, da Associação Brasileira de Saúde Co… |
+| 7 | Pediatria | A Lei n° 13.185, de 6 de novembro de 2015, instituiu o Programa de Combate à Intimidação Sistemática (Bullying… |
+| 8 | Pediatria | Criança de 15 meses é levada pela mãe a uma Unidade Básica de Saúde com queixa de tosse, febre e cansaço de ev… |
+| 9 | Pediatria | Criança de dois anos de idade, sexo masculino, é atendida no Posto Médico com relato materno de episódios repe… |
+| 10 | Pediatria | Em uma Unidade de Pronto Atendimento (UPA), é atendida criança de nove anos, sexo feminino, sabidamente asmáti… |
+| 11 | Pediatria | Os hábitos alimentares da população mundial têm sido alterados ao longo dos últimos anos e, a cada ano, cresce… |
+| 12 | Pediatria | Durante o acompanhamento de uma família com três crianças de idades distintas, em Unidade Básica de Saúde, a m… |
+| 13 | Pediatria | Pediatra é chamado para acompanhar parto de mãe sabidamente hipertensa, que fez o controle pré-natal com uso d… |
+| 14 | Pediatria | Lactente de sete meses, sexo feminino, é trazida ao atendimento pela mãe com queixa de "urina escura, com odor… |
+| 15 | Pediatria | Lactente de oito meses de idade, sexo feminino, 6,2Kg, desnutrido, vem apresentando, há três dias, eliminação… |
+| 16 | Ginecologia e Obstetrícia | Em relação aos esquemas de imunização em mulheres, assinale a alternativa ERRADA:… |
+| 17 | Ginecologia e Obstetrícia | Sobre as principais queixas ginecológicas em crianças no consultório, marque a alternativa CORRETA:… |
+| 18 | Ginecologia e Obstetrícia | Casal procura atendimento com desejo de engravidar. Estão sem contracepção há 1 ano e 6 meses. Ela, 35 anos e… |
+| 19 | Ginecologia e Obstetrícia | Mulher de 22 anos vai à consulta com ginecologista querendo trocar o método contraceptivo. Relata uso de pílul… |
+| 20 | Ginecologia e Obstetrícia | Mulher, 19 anos, três gestações prévias, duas cesarianas a termos e um abortamento precoce, procura assistênci… |
+| 21 | Ginecologia e Obstetrícia | Mulher, 25 anos, procura atendimento ginecológico devido a quadro de leucorreia iniciada há três dias. Afirma… |
+| 22 | Ginecologia e Obstetrícia | Os distúrbios hipertensivos na gestação constituem causa de morte materna e morbimortalidade neonatal importan… |
+| 23 | Ginecologia e Obstetrícia | Sobre o diabetes gestacional assinale a alternativa CORRETA:… |
+| 24 | Ginecologia e Obstetrícia | A asma é caracterizada por inflamação crônica das vias aéreas e seu comportamento durante a gestação apresenta… |
+| 25 | Ginecologia e Obstetrícia | Gestante, G2PC1, 23 semanas de gestação, comparece ao pronto-atendimento com queixa de dor na perna esquerda,… |
+| 26 | Ginecologia e Obstetrícia | As gestantes e puérperas são consideradas pacientes de risco para complicações de COVID-19. Assim, o manejo ad… |
+| 27 | Ginecologia e Obstetrícia | O ciclo reprodutivo feminino é controlado pelo eixo hipotálamo-hipófise-ovário (HHO). Sobre esse eixo é CORRET… |
+| 28 | Ginecologia e Obstetrícia | O ciclo ovariano de mulheres e primatas superiores é denominado ciclo menstrual em virtude da presença de mens… |
+| 29 | Ginecologia e Obstetrícia | O manejo e diagnóstico de anormalidades do ciclo menstrual baseia-se na compreensão dos mecanismos fisiológico… |
+| 30 | Ginecologia e Obstetrícia | NÃO faz parte da abordagem inicial da incontinência urinária na mulher:… |
+| 31 | Medicina Preventiva | Através de estudos demográficos em saúde de base populacional e estatísticos, lançou-se em 1971, o conceito da… |
+| 32 | Medicina Preventiva | Paciente masculino de 49 anos, em tratamento medicamentoso há seis meses para transtorno depressivo maior grav… |
+| 33 | Medicina Preventiva | Sobre o pré-natal na Atenção Básica, analise as afirmativas abaixo. I. Diante de um teste rápido positivo para… |
+| 34 | Medicina Preventiva | O alcoolismo é um problema prevalente e complexo. Os profissionais que atuam nas Unidades Básicas de Saúde são… |
+| 35 | Medicina Preventiva | A Atenção Primária em Saúde (APS) é um componente-chave dos sistemas de saúde. Sobre esse nível de atenção à s… |
+| 36 | Medicina Preventiva | Com relação ao Plano Nacional da Imunização contra a COVID-19 no Brasil, assinale a alternativa ERRADA:… |
+| 37 | Medicina Preventiva | Durante visita domiciliar, o médico de equipe de saúde de família constatou que na residência havia um idoso d… |
+| 38 | Medicina Preventiva | Paciente, 42 anos, morador da região metropolitana de Belo Horizonte, hipertenso e em uso irregular de anti-hi… |
+| 39 | Medicina Preventiva | Em relação à abordagem para cessação do tabagismo no âmbito do Sistema Único de Saúde, analise as afirmativas… |
+| 40 | Medicina Preventiva | Em relação à comunicação de más noticias pelo protocolo SPIKES, assinale a alternativa ERRADA:… |
+| 41 | Medicina Preventiva | A ocorrência de um acidente de trabalho com um empregado exige do seu empregador a emissão da Comunicação de A… |
+| 42 | Medicina Preventiva | Visando estabelecer uma relação de causa e efeito entre as doenças e trabalho, o médico inglês Richard Schilli… |
+| 43 | Medicina Preventiva | AFR 50 anos, trabalha como torneiro mecânico com carteira assinada e sofreu atropelamento por automóvel quando… |
+| 44 | Medicina Preventiva | As nanopartículas medem menos de um centésimo de bilionésimo de metro e são regidas por leis físicas diferente… |
+| 45 | Medicina Preventiva | Em setembro de 2021, médico de Saúde da Família confirmou gravidez em técnica de enfermagem que trabalha na un… |
+| 46 | Clínica Médica | Mulher de 66 anos relata vários episódios de perda súbita da consciência, precedida de náusea, palidez cutânea… |
+| 47 | Clínica Médica | Mulher de 66 anos relata vários episódios de perda súbita da consciência, precedida de náusea, palidez cutânea… |
+| 48 | Clínica Médica | Homem de 24 anos queixa-se de astenia, hiporexia e perda de 5kg em três meses. Há 15 dias, apresenta tosse oli… |
+| 49 | Clínica Médica | Mulher de 47 anos queixa-se de dores no dorso, membros superiores e inferiores, baixa energia e insônia há um… |
+| 50 | Clínica Médica | Mulher de 53 anos relata que há um ano apresenta episódios paroxísticos recorrentes de rubor não pruriginoso n… |
+| 51 | Clínica Médica | Mulher de 53 anos relata que há um ano apresenta episódios paroxísticos recorrentes de rubor não pruriginoso n… |
+| 52 | Clínica Médica | Mulher de 53 anos relata que há um ano apresenta episódios paroxísticos recorrentes de rubor não pruriginoso n… |
+| 53 | Clínica Médica | Homem de 76 anos é levado ao Pronto Socorro por causa de confusão mental, hiporexia, náuseas, vômitos e dor ab… |
+| 54 | Clínica Médica | Mulher de 23 anos, atendente de supermercado, é levada ao Pronto Socorro com relato de ter apresentado, durant… |
+| 55 | Clínica Médica | Mulher de 76 anos apresenta emagrecimento, dor lombar, astenia e dispneia aos esforços. Desconhece comorbidade… |
+| 56 | Clínica Médica | Homem de 68 anos queixa-se de dispneia e tosse há 10 dias. É tabagista desde os 20 anos e fuma um maço de ciga… |
+| 57 | Clínica Médica | Homem de 72 anos se queixa de dor epigástrica intensa cerca de 40 minutos após as refeições, com uma hora de d… |
+| 58 | Clínica Médica | Mulher de 58 anos vai ao Centro de Saúde para consulta de acompanhamento médico. Queixa- se de acordar frequen… |
+| 59 | Clínica Médica | Mulher de 58 anos vai ao Centro de Saúde para consulta de acompanhamento médico. Queixa- se de acordar frequen… |
+| 60 | Clínica Médica | Homem de 80 anos é levado ao consultório por familiares que relatam mudança de comportamento há seis meses, co… |
+| 61 | Cirurgia | Várias alterações endócrino-metabólicas ocorrem imediatamente após o trauma cirúrgico. Em paciente submetido a… |
+| 62 | Cirurgia | Muitos pacientes candidatos a cirurgia fazem uso de medicamentos para tratamento de doenças que podem trazer c… |
+| 63 | Cirurgia | A correta avaliação pré-operatória acompanhada do adequado preparo pré-operatório podem reduzir as taxas de co… |
+| 64 | Cirurgia | Paciente de 53 anos, sexo masculino, sem comorbidades, foi submetido a colectomia esquerda laparotômica e ress… |
+| 65 | Cirurgia | FBG, 55 anos, sexo masculino, com cirrose hepática de origem etanólica, no momento sem queixas, está em pré-op… |
+| 66 | Cirurgia | Alguns adjuvantes são utilizados em associação aos anestésicos locais para melhorar a qualidade da anestesia d… |
+| 67 | Cirurgia | A terapia nutricional parenteral (TNP), seja periférica ou central, tem como principal objetivo garantir a nut… |
+| 68 | Cirurgia | Em relação ao uso de antibiótico profilático em cirurgia, assinale a alternativa CORRETA:… |
+| 69 | Cirurgia | MCDL, 78 anos, sexo feminino, iniciou há três dias com icterícia, febre, calafrios, urina escura, náuseas, vôm… |
+| 70 | Cirurgia | SDG, 82 anos, sexo feminino, foi submetida a colectomia esquerda laparoscópica para tratamento do câncer de có… |
+| 71 | Cirurgia | KS, sexo masculino, 45 anos, retorna ao serviço de cirurgia ambulatorial com o resultado do exame histopatológ… |
+| 72 | Cirurgia | CFG, sexo feminino, 61 anos, sem comorbidades, apresentou hematoquezia volumosa. Foi constatada a presença de… |
+| 73 | Cirurgia | Criança de 25 kg, 7 anos, sexo feminino, foi vítima de queimaduras de 2° e 3° graus, acometendo tórax, abdome… |
+| 74 | Cirurgia | Adulto jovem, sexo masculino, foi vítima de acidente de moto com laceração importante de MID, que apresenta sa… |
+| 75 | Cirurgia | GDG, 52 anos, sexo feminino, advogada, que vai ser submetida a colecistectomia videolaparoscópica eletiva, no… |
+
+### PSU-MG • 2023
+
+| Questão | Área | Início do enunciado |
+|---|---|---|
+| 1 | Pediatria | Em relação aos cuidados com o recém-nascido é CORRETO afirmar.… |
+| 2 | Pediatria | Em relação aos testes de triagem neonatal para rastreamento de doenças, é ERRADO afirmar:… |
+| 3 | Pediatria | Com o tema "apoiar a amamentação é cuidar do futuro", o Ministério da Saúde lançou em agosto de 2022, a Campan… |
+| 4 | Pediatria | Em relação às imunizações é ERRADO afirmar:… |
+| 5 | Pediatria | Você atende na Unidade básica de saúde uma criança de dois anos e seis meses de idade com história de ganho de… |
+| 6 | Pediatria | Em relação à alimentação do lactente é CORRETO afirmar:… |
+| 7 | Pediatria | Lactente de dois meses de idade foi atendido na urgência para avaliação de febre, dois picos febris nas última… |
+| 8 | Pediatria | Paciente de dois anos de idade foi admitido na Unidade de internação de pediatria para investigação de doença… |
+| 9 | Pediatria | Maria de oito meses de idade, previamente saudável, está há 72 horas com diarreia líquida com raias de sangue,… |
+| 10 | Pediatria | Criança de quatro anos de idade é encaminhada ao Posto de Saúde para investigação de tuberculose pulmonar. Rel… |
+| 11 | Pediatria | Criança de dois anos de idade é atendida no Pronto Atendimento com quadro de febre e lesões vesiculares em fac… |
+| 12 | Pediatria | Adolescente de 12 anos de idade procura o Posto de Saúde para atualização do cartão vacinal. A mãe informa que… |
+| 13 | Pediatria | As hepatites são comuns nas crianças em todo o mundo, em especial em populações de baixa renda e em áreas de s… |
+| 14 | Pediatria | Febre é uma das queixas mais frequentes em pronto-atendimentos e um dos sintomas que causam maiores preocupaçõ… |
+| 15 | Pediatria | Criança de sete anos de idade é admitida no hospital com quadro de cefaleia, febre e vômitos há dois dias. Há… |
+| 16 | Ginecologia e Obstetrícia | Com a posição ereta do ser humano, desenvolveu-se o assoalho pélvico como estrutura de sustentação para evitar… |
+| 17 | Ginecologia e Obstetrícia | O conhecimento da anatomia pélvica é fundamental na compreensão da fisiologia obstétrica e nas abordagens gine… |
+| 18 | Ginecologia e Obstetrícia | Você foi solicitado a comparecer ao alojamento conjunto para avaliar um sangramento em puérpera 6 horas após p… |
+| 19 | Ginecologia e Obstetrícia | Mulher de 45 anos é submetida a histerectomia abdominal total com salpingectomia profilática, para tratamento… |
+| 20 | Ginecologia e Obstetrícia | Mulher 22 anos, primípara, no 2° dia após o parto relata preocupação quanto ao volume e composição do leite ma… |
+| 21 | Ginecologia e Obstetrícia | Sobre as modificações adaptativas do organismo materno, durante a gravidez, Assinale a opção ERRADA:… |
+| 22 | Ginecologia e Obstetrícia | Paciente de 26 anos, primigesta, previamente hígida, acompanhada em Centro de Saúde, com 32 semanas de gestaçã… |
+| 23 | Ginecologia e Obstetrícia | RDF, 51 anos se apresenta no ambulatório de climatério relatando Ultima menstruação há dois anos e com queixas… |
+| 24 | Ginecologia e Obstetrícia | O ciclo menstrual é um conjunto de eventos endócrinos interdependentes do sistema hipotálamo-hipófise-ovariano… |
+| 25 | Ginecologia e Obstetrícia | Paciente procura a maternidade, insegura com a orientação recebida na unidade básica de saúde (UBS) onde reali… |
+| 26 | Ginecologia e Obstetrícia | Paciente de 26 anos, G2PC1A0, IG 31 semanas, encaminhada ao pré- natal de alto risco (PNAR) devido a quadro de… |
+| 27 | Ginecologia e Obstetrícia | Sobre o controle do sangramento uterino anormal agudo (SUA-a) assinale a alternativa CORRETA:… |
+| 28 | Ginecologia e Obstetrícia | Paciente de 18 anos, nuligesta, deseja iniciar atividade sexual e vem a consulta médica para orientações sobre… |
+| 29 | Ginecologia e Obstetrícia | Paciente de 35 anos, vai a consulta ginecológica queixando-se de lesões elevadas, pruriginosas em região vulva… |
+| 30 | Ginecologia e Obstetrícia | Paciente homem, transgênero, 27 anos, nome não retificado, procura o ginecologista pela primeira vez. há seis… |
+| 31 | Medicina Preventiva | A Organização Mundial da Saúde (OMS) divulgou na sexta-feira 17 de junho de 2022 revisão mundial sobre saúde m… |
+| 32 | Medicina Preventiva | Com relação à organização da atenção à saúde dos trabalhadores no Brasil é CORRETO afirmar:… |
+| 33 | Medicina Preventiva | A doença monkeypox (varíola dos macacos) foi identificada em 1958 e é endêmica em alguns países africanos. Em… |
+| 34 | Medicina Preventiva | Existem várias definições do que sejam os determinantes sociais de saúde (DSS) e todas trazem a ideia de que "… |
+| 35 | Medicina Preventiva | Sinais precoces de Transtorno do Espectro Autista (TEA) podem ser observados desde os primeiros meses de vida… |
+| 36 | Medicina Preventiva | A estratificação de risco obstétrico durante a assistência pré-natal é um dos fatores determinantes para a red… |
+| 37 | Medicina Preventiva | A transição demográfica e epidemiológica no Brasil gerou uma situação de saúde que exige que o SUS responda pe… |
+| 38 | Medicina Preventiva | Levando-se em consideração a Linha de Cuidado da Hipertensão Arterial Sistêmica (HAS) no Adulto, do Ministério… |
+| 39 | Medicina Preventiva | Primípara, 20 semanas de gestação, compareceu em UBS para realização de sua primeira consulta de pré-natal. Du… |
+| 40 | Medicina Preventiva | A estratégia que objetiva aumentar a resolutividade e capacidade de resposta das equipes de saúde da família a… |
+| 41 | Medicina Preventiva | Com relação ás atribuições da direção estadual do SUS, assinale a alternativa CORRETA:… |
+| 42 | Medicina Preventiva | Pesquisa realizada para avaliar um novo método de diagnóstico para COVID 19 identificou que o seu valor predit… |
+| 43 | Medicina Preventiva | A portaria n° 2.979, de 12 de novembro de 2019 institui o Programa Previne Brasil, que estabelece um novo mode… |
+| 44 | Medicina Preventiva | O Programa Nacional de Controle da Tuberculose (PNCT) tem como meta eliminar a tuberculose (TB) como problema… |
+| 45 | Medicina Preventiva | A fibromialgia é um diagnóstico frequente na atenção primária. A dor musculoesquelética difusa e crônica é a p… |
+| 46 | Clínica Médica | Homem de 72 anos encontra-se em tratamento hospitalar de endocardite infecciosa. O médico plantonista foi acio… |
+| 47 | Clínica Médica | Homem de 72 anos encontra-se em tratamento hospitalar de endocardite infecciosa. O médico plantonista foi acio… |
+| 48 | Clínica Médica | Homem de 45 anos realiza exame periódico de saúde na UBS. Queixa-se de falta de energia no período da tarde e… |
+| 49 | Clínica Médica | Homem de 67 anos é levado ao PS com a queixa de dispneia intensa ao repouso. Apresenta tosse produtiva com esc… |
+| 50 | Clínica Médica | Homem de 67 anos é levado ao PS com a queixa de dispneia intensa ao repouso. Apresenta tosse produtiva com esc… |
+| 51 | Clínica Médica | Mulher de 63 anos apresenta diarreia aguda há três dias, com oito evacuações ao dia, de fezes amolecidas e con… |
+| 52 | Clínica Médica | Mulher de 63 anos apresenta diarreia aguda há três dias, com oito evacuações ao dia, de fezes amolecidas e con… |
+| 53 | Clínica Médica | Mulher de 18 anos apresenta edema acentuado dos membros inferiores. Desconhece comorbidades e nega medicamento… |
+| 54 | Clínica Médica | Mulher de 18 anos apresenta edema acentuado dos membros inferiores. Desconhece comorbidades e nega medicamento… |
+| 55 | Clínica Médica | Mulher de 35 anos consultou há duas semanas queixando-se de Constipação intestinal de difícil controle. Ao exa… |
+| 56 | Clínica Médica | Homem de 58 anos vai ao consultório para avaliação periódica de saúde. É portador de HAS e doença arterial obs… |
+| 57 | Clínica Médica | Mulher de 25 anos queixa-se de dor e vermelhidão na face anterior da perna E Desconhece comorbidades e faz uso… |
+| 58 | Clínica Médica | Mulher de 29 anos queixa-se de lombalgia esquerda iniciada no dia anterior após a realização de exercícios fís… |
+| 59 | Clínica Médica | Homem de 33 anos queixa-se de regurgitação e queimação retroesternal, principalmente no período pós-prandial O… |
+| 60 | Clínica Médica | Mulher de 24 anos queixa-se de algúria, polaciúria e dor suprapubica há um dia. Nega outras manifestações, inc… |
+| 61 | Cirurgia | O reparo de feridas é a tentativa dos tecidos lesados em restaurar a função e a estrutura normal após o trauma… |
+| 62 | Cirurgia | Paciente de 63 anos, sexo masculino, foi submetido a colectomia esquerda sob anestesia geral com relato de per… |
+| 63 | Cirurgia | Durante o pré-operatório de pacientes oncológicos que serão submetidos ao tratamento cirúrgicos observa-se, co… |
+| 64 | Cirurgia | A perda volêmica após o trauma desencadeia uma série de eventos compensatórios na tentativa de manter a pressã… |
+| 65 | Cirurgia | Os anestésicos locais são utilizados em diferentes procedimentos cirúrgicos e dessa forma o cirurgião deve est… |
+| 66 | Cirurgia | As doenças cardiovasculares são a principal causa de morte no mundo industrializado, e sua contribuição para a… |
+| 67 | Cirurgia | Paciente de 56 anos em pós-operatório imediato de piloroplastia devido a estenose pilórica, vem apresentando v… |
+| 68 | Cirurgia | Menino de oito anos de idade é levado pelo pai ao serviço de urgência com ferimento em região submentual, que… |
+| 69 | Cirurgia | A solicitação de exames complementares é fundamental no preparo pré-operatório dos pacientes que serão submeti… |
+| 70 | Cirurgia | MLS, sexo feminino, 57 anos, trabalhadora rural no norte de Minas, foi encaminhada para cirurgia ambulatorial.… |
+| 71 | Cirurgia | Paciente de 57 anos, sexo masculino, admitido no hospital em pré-operatório de câncer gástrico, relatou ao méd… |
+| 72 | Cirurgia | O antigeno carcinoembrionário (CEA) deve ser solicitado:… |
+| 73 | Cirurgia | RGZ, sexo masculino , 50 anos, empresário, sem comorbidades, procura o hospital com queixa de dor abdominal mo… |
+| 74 | Cirurgia | ILG, sexo feminino, 66 anos, hipertensa, em uso de hidroclorotiazida e losartana, foi submetida a laparotomia… |
+| 75 | Cirurgia | Paciente idoso, vitima de acidente automobilístico em alta velocidade foi atendido no PS com quadro de hipoten… |
 
 ### PSU-MG • 2024
 

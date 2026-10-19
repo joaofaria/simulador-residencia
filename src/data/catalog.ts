@@ -1,3 +1,6 @@
+import psu_mg_2021 from "./psu-mg/2021.json";
+import psu_mg_2022 from "./psu-mg/2022.json";
+import psu_mg_2023 from "./psu-mg/2023.json";
 import psu_mg_2024 from "./psu-mg/2024.json";
 import santa_casa_bh_2024 from "./santa-casa-bh/2024.json";
 import psu_mg_2025 from "./psu-mg/2025.json";
@@ -13,6 +16,9 @@ export const exams = [
   ...examSchema
     .array()
     .parse([
+      psu_mg_2021,
+      psu_mg_2022,
+      psu_mg_2023,
       psu_mg_2024,
       santa_casa_bh_2024,
       ipsemg_2024,

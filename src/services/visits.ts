@@ -13,9 +13,12 @@ declare global {
 }
 
 // O HashRouter deixa o pathname real sempre igual; a página vem do hash.
-// Os ids de tentativa viram uma página só, para não espalhar a contagem.
+// Os ids de tentativa e de baralho viram uma página só, para não espalhar a
+// contagem (e o nome do baralho de ninguém sai do navegador).
 export function pagePath(route: string) {
-  return route.replace(/^\/(simulado|resultado)\/.+$/, "/$1");
+  return route
+    .replace(/^\/(simulado|resultado)\/.+$/, "/$1")
+    .replace(/^\/flashcards\/.+$/, "/flashcards/estudo");
 }
 
 export function enabled(host = location.hostname) {

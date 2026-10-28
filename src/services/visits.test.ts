@@ -6,6 +6,10 @@ describe("contador de visitas", () => {
     expect(pagePath("/simulado/abc-123")).toBe("/simulado");
     expect(pagePath("/resultado/abc-123")).toBe("/resultado");
     expect(pagePath("/historico")).toBe("/historico");
+    expect(pagePath("/flashcards")).toBe("/flashcards");
+    expect(pagePath("/flashcards/c1/Osler%3A%3ACardio")).toBe(
+      "/flashcards/estudo",
+    );
     expect(pagePath("/")).toBe("/");
   });
   it("não conta fora do build de produção", () => {

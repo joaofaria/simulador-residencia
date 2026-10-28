@@ -6,7 +6,7 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-import { Sun, Moon, History, PawPrint, Heart } from "lucide-react";
+import { Sun, Moon, History, PawPrint, Heart, Layers } from "lucide-react";
 import { loadExam, loadRealExams } from "./data/load";
 import { buildRandomExam, type RandomConfig } from "./services/random";
 import type { Attempt, Exam, Store } from "./types";
@@ -30,6 +30,14 @@ const Results = lazy(() =>
 );
 const Support = lazy(() =>
   import("./pages/Support").then((m) => ({ default: m.Support })),
+);
+const Flashcards = lazy(() =>
+  import("./pages/Flashcards").then((m) => ({ default: m.Flashcards })),
+);
+const FlashcardStudy = lazy(() =>
+  import("./pages/FlashcardStudy").then((m) => ({
+    default: m.FlashcardStudy,
+  })),
 );
 const HistoryPage = lazy(() =>
   import("./pages/HistoryPage").then((m) => ({ default: m.HistoryPage })),
@@ -200,7 +208,16 @@ export function App() {
           <Link to="/" className={location.pathname === "/" ? "active" : ""}>
             Simulados
           </Link>
-          <Link to="/historico">
+          <Link
+            to="/flashcards"
+            className={
+              location.pathname.startsWith("/flashcards") ? "active" : ""
+            }
+            aria-label="Flashcards"
+          >
+            <Layers size={17} /> <span>Flashcards</span>
+          </Link>
+          <Link to="/historico" aria-label="Histórico">
             <History size={17} /> <span>Histórico</span>
           </Link>
           {!inExam && (
@@ -283,6 +300,11 @@ export function App() {
                   }
                 />
               }
+            />
+            <Route path="/flashcards" element={<Flashcards />} />
+            <Route
+              path="/flashcards/:col/:deck"
+              element={<FlashcardStudy dark={dark} />}
             />
             <Route path="/apoie" element={<Support />} />
             <Route

@@ -41,12 +41,17 @@ Percentual = acertos ÷ questões verificadas não anuladas; brancos válidos pe
 
 `localStorage` usa um envelope versionado e validação Zod. A migração v1 → v2 está em `src/services/storage.ts`; formatos futuros ou inválidos não são sobrescritos. O histórico pode ser exportado em JSON. Cada tentativa finalizada armazena o resultado calculado, os percentuais e uma cópia da prova e do gabarito; uma atualização do banco não altera resultados antigos. Limpar dados do navegador apaga o histórico. Não há backend ou sincronização entre dispositivos.
 
+## Flashcards
+
+A página `#/flashcards` importa baralhos do Anki (`.apkg`, formato antigo e novo) e estuda com revisão espaçada no estilo do Anki: passos de aprendizado, facilidade, lapsos e limites diários por baralho. O arquivo é lido num worker do próprio navegador (`src/flashcards/worker.ts`, com sql.js) e gravado no IndexedDB; nada é enviado a servidor e nenhum baralho faz parte do repositório. O progresso fica no navegador, fora do histórico em `localStorage`. Os `.apkg` de `src/flashcards/fixtures` são baralhos de teste gerados por `scripts/flashcards-fixtures.py` (precisa do pacote Python `anki`).
+
 ## Estrutura
 
 - `src/types`: contratos e validação em tempo de execução.
 - `src/services`: máquina de sessão, correção, persistência e testes.
 - `src/components`: renderização reutilizável das questões.
-- `src/pages`: início, simulado, resultado e histórico.
+- `src/pages`: início, simulado, resultado, histórico e flashcards.
+- `src/flashcards`: leitura de .apkg, agendamento, modelos de cartão e armazenamento dos baralhos.
 - `src/App.tsx`: integração, rotas e ciclo de vida das sessões.
 - `src/data`: catálogo real e demonstração separada.
 - `public/provas`: figuras das questões. Nenhum PDF fica aqui (`npm run validate:data` falha se aparecer um).

@@ -12,12 +12,16 @@
     "pix:qr": "node --import tsx scripts/pix-qr.ts"
   },
   "dependencies": {
+    "dompurify": "^3.4.17",
+    "fflate": "^0.8.3",
+    "fzstd": "^0.1.1",
     "lucide-react": "0.577.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-is": "^19.2.8",
     "react-router-dom": "6.30.4",
     "recharts": "3.10.1",
+    "sql.js": "^1.15.2",
     "zod": "3.25.76"
   },
   "devDependencies": {
@@ -29,7 +33,9 @@
     "@types/qrcode": "1.5.5",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
+    "@types/sql.js": "^1.4.11",
     "@vitejs/plugin-react": "6.0.3",
+    "fake-indexeddb": "^6.2.6",
     "jsdom": "29.1.1",
     "qrcode": "1.5.4",
     "tailwindcss": "4.3.3",

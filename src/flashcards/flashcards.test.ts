@@ -3,7 +3,11 @@ import { readFileSync } from "node:fs";
 import initSqlJs from "sql.js";
 import { beforeAll, beforeEach, describe, expect, it } from "vitest";
 import { parseApkg, type ParsedDeck } from "./apkg";
-import { closeDb, deleteCollection, importDeck, listCollections, loadCards, loadNote } from "./db";
+import {
+  closeDb, deleteCollection, getCollection, importDeck, listCollections, loadCards, loadNote, saveAnswer,
+} from "./db";
+import { buildOfficial, OFFICIAL_ID, syncOfficial } from "./official";
+import type { Exam, Question } from "../types";
 import {
   answer, buildQueue, counts, dayNumber, deckTree, formatDelay, nextDelay, recordAnswer,
 } from "./scheduler";
@@ -175,5 +179,93 @@ describe("fila do dia", () => {
   it("contadores de outro dia são ignorados", () => {
     const old = { ...col, today: { day: TODAY - 1, done: { R: { new: 20, review: 0 } } } };
     expect(counts(buildQueue(root(), old, NOW, TODAY)).fresh).toBe(20);
+  });
+});
+
+describe("cartões com imagem", () => {
+  const file = () => fixture("teste-imagens.apkg");
+  it("sem a opção, importa todos", () => {
+    expect(parseApkg(file(), SQL, "i.apkg", NOW).cards).toHaveLength(4);
+  });
+  it("com a opção, deixa de fora link externo e figura que falta", () => {
+    const d = parseApkg(file(), SQL, "i.apkg", NOW, { skipUnavailableImages: true });
+    expect(d.skipped).toBe(2);
+    expect(d.cards).toHaveLength(2);
+    expect(d.notes.map((n) => n.fields[0]).sort()).toEqual([
+      "Cartão com figura embutida",
+      "Cartão sem imagem",
+    ]);
+    expect(d.media.map((m) => m.name)).toEqual(["figura.png"]);
+  });
+});
+
+describe("cards das provas", () => {
+  beforeEach(async () => {
+    await closeDb();
+    indexedDB = new IDBFactory();
+  });
+  const exam = (over: Partial<Exam> = {}): Exam => ({
+    id: "x-2026", institution: "X", year: 2026, title: "X • 2026", demo: false,
+    questions: [
+      q(1, { answer: "B" }),
+      q(2, { annulled: true }),
+      q(3, { answer: "A", figure: true }),
+    ],
+    ...over,
+  });
+  function q(n: number, o: { answer?: string; annulled?: boolean; figure?: boolean }): Question {
+    return {
+      id: `x-2026-q${n}`, institution: "X", year: 2026, number: n, area: "pediatria",
+      statement: o.figure ? "Veja <b>a figura</b>.\n{{figura}}\nQual o diagnóstico?" : "Enunciado & mais",
+      alternatives: [{ letter: "A", text: "primeira" }, { letter: "B", text: "segunda" }],
+      key: o.annulled
+        ? { status: "annulled", source: "banca" }
+        : { status: "verified", answer: o.answer!, source: "banca", basis: "official" },
+      images: o.figure ? [{ src: "provas/figuras/x/q003.jpg", alt: "ECG" }] : [],
+      tables: o.figure ? [{ header: ["a"], rows: [["1"]] }] : undefined,
+      source: { pages: [] }, review: "approved",
+    };
+  }
+  it("monta um cartão por questão com gabarito", () => {
+    const { notes, cards } = buildOfficial([exam()], "/base/");
+    expect(cards).toHaveLength(2);
+    expect(cards.every((c) => c.deck === "Provas oficiais::Pediatria::X 2026")).toBe(true);
+    expect(notes[0].fields[0]).toBe("<p>Enunciado &amp; mais</p>");
+    expect(notes[0].fields[2]).toContain("<b>B</b> (segunda)");
+    expect(notes[0].fields[3]).toBe("X 2026, questão 1");
+  });
+  it("põe tabela e figura onde está a marca", () => {
+    const { notes } = buildOfficial([exam()], "/base/");
+    const html = notes[1].fields[0];
+    expect(html.indexOf("a figura")).toBeLessThan(html.indexOf("<table"));
+    expect(html.indexOf("<table")).toBeLessThan(html.indexOf("Qual o diagnóstico"));
+    expect(html).toContain('<img src="/base/provas/figuras/x/q003.jpg" alt="ECG">');
+  });
+  it("avisa quando o gabarito não é da banca", () => {
+    const e = exam({ keySource: { type: "third-party" } });
+    expect(buildOfficial([e], "/").notes[0].fields[3]).toContain("outra fonte");
+  });
+  it("ignora prova de demonstração", () => {
+    expect(buildOfficial([exam({ demo: true })], "/").cards).toEqual([]);
+  });
+  it("os ids não mudam entre gerações", () => {
+    const a = buildOfficial([exam()], "/").cards.map((c) => c.id);
+    const b = buildOfficial([exam()], "/").cards.map((c) => c.id);
+    expect(a).toEqual(b);
+    expect(new Set(a).size).toBe(a.length);
+  });
+  it("atualizar acrescenta o que é novo e preserva o progresso", async () => {
+    const first = await syncOfficial(NOW, [exam({ questions: [q(1, { answer: "B" })] })]);
+    expect(first).toEqual({ added: 1, total: 1 });
+    const [card] = await loadCards(OFFICIAL_ID);
+    await saveAnswer((await getCollection(OFFICIAL_ID))!, { ...card, state: "review", ivl: 9, reps: 3 });
+    const second = await syncOfficial(NOW, [exam()]);
+    expect(second).toEqual({ added: 1, total: 2 });
+    const cards = await loadCards(OFFICIAL_ID);
+    expect(cards.find((c) => c.id === card.id)).toMatchObject({ state: "review", ivl: 9, reps: 3 });
+    const again = await syncOfficial(NOW, [exam()]);
+    expect(again.added).toBe(0);
+    const col = await getCollection(OFFICIAL_ID);
+    expect(col).toMatchObject({ source: "provas", cardCount: 2 });
   });
 });

@@ -102,6 +102,23 @@ export async function saveCollection(col: Collection) {
   await done(tx);
 }
 
+const CHUNK = 2000;
+
+// Grava notas e cartões novos em partes, sem tocar no que já existe.
+export async function saveNotesAndCards(notes: Note[], cards: Card[]) {
+  const db = await openDb();
+  for (let i = 0; i < notes.length; i += CHUNK) {
+    const tx = db.transaction("notes", "readwrite");
+    for (const n of notes.slice(i, i + CHUNK)) tx.objectStore("notes").put(n);
+    await done(tx);
+  }
+  for (let i = 0; i < cards.length; i += CHUNK) {
+    const tx = db.transaction("cards", "readwrite");
+    for (const c of cards.slice(i, i + CHUNK)) tx.objectStore("cards").put(c);
+    await done(tx);
+  }
+}
+
 const MIME: Record<string, string> = {
   png: "image/png",
   jpg: "image/jpeg",
@@ -112,8 +129,6 @@ const MIME: Record<string, string> = {
   mp3: "audio/mpeg",
   ogg: "audio/ogg",
 };
-
-const CHUNK = 2000;
 
 export async function importDeck(parsed: ParsedDeck, fileName: string,
   progress: (fraction: number) => void = () => {}, now = Date.now()): Promise<Collection> {

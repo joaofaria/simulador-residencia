@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
+  BookOpen,
   ChevronDown,
   ChevronRight,
   Layers,
+  RefreshCw,
   Settings,
   Trash2,
   Upload,
@@ -23,7 +25,8 @@ import {
   type DeckNode,
 } from "../flashcards/scheduler";
 import type { Card, Collection } from "../flashcards/types";
-import type { WorkerMessage } from "../flashcards/worker";
+import { OFFICIAL_ID, syncOfficial } from "../flashcards/official";
+import type { WorkerMessage, WorkerRequest } from "../flashcards/worker";
 
 export function studyPath(col: string, deck: string) {
   return `/flashcards/${col}/${encodeURIComponent(deck)}`;
@@ -36,9 +39,16 @@ export function Flashcards() {
   const [importing, setImporting] = useState<Importing>();
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
+  const [skipImages, setSkipImages] = useState(true);
+  const [generating, setGenerating] = useState(false);
   async function refresh() {
     try {
-      setCollections(await listCollections());
+      // As provas oficiais vêm primeiro, depois os baralhos importados.
+      setCollections(
+        (await listCollections()).sort(
+          (a, b) => Number(b.source === "provas") - Number(a.source === "provas"),
+        ),
+      );
     } catch {
       setCollections([]);
       setError(
@@ -67,7 +77,10 @@ export function Flashcards() {
       if (m.kind === "error") setError(m.message);
       else
         setMessage(
-          `${m.name} importado: ${m.cards.toLocaleString("pt-BR")} cartões prontos para estudar.`,
+          `${m.name} importado: ${m.cards.toLocaleString("pt-BR")} cartões prontos para estudar.` +
+            (m.skipped
+              ? ` ${m.skipped.toLocaleString("pt-BR")} ficaram de fora porque as imagens deles não vêm dentro do arquivo.`
+              : ""),
         );
       void refresh();
     };
@@ -76,7 +89,27 @@ export function Flashcards() {
       setImporting(undefined);
       setError("Não foi possível importar este arquivo.");
     };
-    worker.postMessage(file);
+    const request: WorkerRequest = { file, skipUnavailableImages: skipImages };
+    worker.postMessage(request);
+  }
+  // Cria os cards das provas ou acrescenta as questões que entraram depois.
+  async function generate() {
+    setError("");
+    setMessage("");
+    setGenerating(true);
+    try {
+      const { added, total } = await syncOfficial();
+      setMessage(
+        added
+          ? `${added.toLocaleString("pt-BR")} cards novos das provas. Agora são ${total.toLocaleString("pt-BR")}.`
+          : "Os cards das provas já estão todos aí.",
+      );
+    } catch {
+      setError("Não foi possível gerar os cards das provas. Verifique a conexão e tente de novo.");
+    } finally {
+      setGenerating(false);
+      void refresh();
+    }
   }
   return (
     <>
@@ -90,6 +123,14 @@ export function Flashcards() {
             arquivo é lido e guardado só neste navegador, nada vai para a
             internet.
           </p>
+          <label className="skip-images">
+            <input
+              type="checkbox"
+              checked={skipImages}
+              onChange={(e) => setSkipImages(e.target.checked)}
+            />
+            Pular cartões com imagem que não vem dentro do arquivo
+          </label>
           <label className={`primary file-button${importing ? " disabled" : ""}`}>
             <Upload size={17} /> Importar baralho .apkg
             <input
@@ -132,8 +173,32 @@ export function Flashcards() {
           {message}
         </div>
       )}
+      {collections && !collections.some((c) => c.id === OFFICIAL_ID) && (
+        <section className="card flash-official">
+          <span className="small-icon">
+            <BookOpen size={22} />
+          </span>
+          <div>
+            <h2>Provas oficiais</h2>
+            <p>
+              Transforme as questões do simulador em cards: a frente é a
+              questão com as alternativas e o verso traz a resposta. Ficam
+              separados por área e prova, e só entram as que têm gabarito.
+            </p>
+          </div>
+          <button className="primary" disabled={generating} onClick={() => void generate()}>
+            {generating ? "Gerando…" : "Gerar cards das provas"}
+          </button>
+        </section>
+      )}
       {collections?.map((c) => (
-        <CollectionCard key={c.id} col={c} refresh={refresh} />
+        <CollectionCard
+          key={c.id}
+          col={c}
+          refresh={refresh}
+          update={c.source === "provas" ? generate : undefined}
+          updating={generating}
+        />
       ))}
       {collections && !collections.length && !importing && (
         <div className="empty">
@@ -151,7 +216,12 @@ export function Flashcards() {
   );
 }
 
-function CollectionCard({ col, refresh }: { col: Collection; refresh: () => void }) {
+function CollectionCard({ col, refresh, update, updating }: {
+  col: Collection;
+  refresh: () => void;
+  update?: () => void;
+  updating?: boolean;
+}) {
   const [cards, setCards] = useState<Card[]>();
   const [open, setOpen] = useState<Set<string>>(new Set());
   const [options, setOptions] = useState(false);
@@ -172,7 +242,7 @@ function CollectionCard({ col, refresh }: { col: Collection; refresh: () => void
     <section className="card flash-collection">
       <div className="flash-collection-head">
         <span className="small-icon">
-          <Layers size={22} />
+          {col.source === "provas" ? <BookOpen size={22} /> : <Layers size={22} />}
         </span>
         <div>
           <h2>{col.name}</h2>
@@ -182,6 +252,17 @@ function CollectionCard({ col, refresh }: { col: Collection; refresh: () => void
             dia
           </p>
         </div>
+        {update && (
+          <button
+            className="icon-button"
+            aria-label="Atualizar com as questões novas do banco"
+            title="Atualizar com as questões novas do banco"
+            disabled={updating}
+            onClick={update}
+          >
+            <RefreshCw size={18} />
+          </button>
+        )}
         <button className="icon-button" aria-label="Opções do baralho" onClick={() => setOptions(true)}>
           <Settings size={18} />
         </button>
@@ -222,8 +303,10 @@ function CollectionCard({ col, refresh }: { col: Collection; refresh: () => void
       {removing && (
         <ConfirmDialog title="Remover este baralho?" onClose={() => setRemoving(false)}>
           <p>
-            {col.name} e todo o progresso dele saem deste navegador. Para
-            estudar de novo, será preciso importar o arquivo outra vez.
+            {col.name} e todo o progresso dele saem deste navegador.{" "}
+            {col.source === "provas"
+              ? "Dá para gerar os cards de novo, mas o progresso não volta."
+              : "Para estudar de novo, será preciso importar o arquivo outra vez."}
           </p>
           <div className="modal-actions">
             <button className="secondary" onClick={() => setRemoving(false)}>

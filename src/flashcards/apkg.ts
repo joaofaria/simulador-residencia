@@ -29,7 +29,30 @@ export type ParsedDeck = {
   notes: ParsedNote[];
   cards: ParsedCard[];
   media: { name: string; data: Uint8Array }[];
+  // Cartões deixados de fora por terem imagem que não vem dentro do arquivo.
+  skipped: number;
 };
+
+export type ParseOptions = { skipUnavailableImages?: boolean };
+
+const IMG_SRC = /<img\b[^>]*?\bsrc\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/gi;
+
+// Imagem que só existe como link externo ou que falta no arquivo: não há como
+// guardá-la no navegador, e o link pode sair do ar (aconteceu com o Osler).
+function hasUnavailableImage(html: string, have: Set<string>) {
+  for (const m of html.matchAll(IMG_SRC)) {
+    const src = (m[1] ?? m[2] ?? m[3] ?? "").trim();
+    if (src.startsWith("data:")) continue;
+    let name = src;
+    try {
+      name = decodeURIComponent(src);
+    } catch {
+      /* Nome com % solto: compara como está. */
+    }
+    if (!have.has(name) && !have.has(src)) return true;
+  }
+  return false;
+}
 
 const ZSTD_MAGIC = [0x28, 0xb5, 0x2f, 0xfd];
 function maybeZstd(data: Uint8Array) {
@@ -213,7 +236,7 @@ function open(SQL: SqlJsStatic, raw: Uint8Array): Database {
 }
 
 export function parseApkg(data: Uint8Array, SQL: SqlJsStatic, fileName = "baralho.apkg",
-  now = Date.now()): ParsedDeck {
+  now = Date.now(), options: ParseOptions = {}): ParsedDeck {
   let files: Record<string, Uint8Array>;
   try {
     files = unzipSync(data);
@@ -234,7 +257,7 @@ export function parseApkg(data: Uint8Array, SQL: SqlJsStatic, fileName = "baralh
     // O Anki guarda revisões em dias desde a criação da coleção.
     const ankiToday = Math.floor((now / 1000 - Number(crt)) / 86400);
     const today = dayNumber(now);
-    const notes: ParsedNote[] = rows(db, "select id, mid, flds, tags from notes").map(
+    let notes: ParsedNote[] = rows(db, "select id, mid, flds, tags from notes").map(
       ([id, mid, flds, tags]) => ({
         id: Number(id),
         model: Number(mid),
@@ -247,7 +270,7 @@ export function parseApkg(data: Uint8Array, SQL: SqlJsStatic, fileName = "baralh
       notes[0].fields[0].startsWith("Please update to the latest Anki version")
     )
       throw Error("Este .apkg veio de uma versão do Anki que o site não lê.");
-    const cards: ParsedCard[] = rows(
+    let cards: ParsedCard[] = rows(
       db,
       `select id, nid, case when odid != 0 then odid else did end, ord, type, queue,
         case when odid != 0 then odue else due end, ivl, factor, reps, lapses, left
@@ -279,14 +302,33 @@ export function parseApkg(data: Uint8Array, SQL: SqlJsStatic, fileName = "baralh
         suspended: Number(queue) === -1,
       };
     });
-    if (!cards.length) throw Error("O baralho não tem nenhum cartão.");
+    const media = readMedia(files);
+    let skipped = 0;
+    if (options.skipUnavailableImages) {
+      const have = new Set(media.map((m) => m.name));
+      const bad = new Set(
+        notes
+          .filter((n) => n.fields.some((f) => hasUnavailableImage(f, have)))
+          .map((n) => n.id),
+      );
+      skipped = cards.filter((c) => bad.has(c.note)).length;
+      cards = cards.filter((c) => !bad.has(c.note));
+      notes = notes.filter((n) => !bad.has(n.id));
+    }
+    if (!cards.length)
+      throw Error(
+        skipped
+          ? "Todos os cartões têm imagens que não vêm dentro do arquivo, então nenhum foi importado."
+          : "O baralho não tem nenhum cartão.",
+      );
     return {
       name: rootName(cards, fileName.replace(/\.apkg$/i, "")),
       models,
       conf,
       notes,
       cards,
-      media: readMedia(files),
+      media,
+      skipped,
     };
   } finally {
     db.close();

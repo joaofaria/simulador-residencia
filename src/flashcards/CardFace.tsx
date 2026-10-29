@@ -19,7 +19,8 @@ const night = `
 .card.nightMode { background-color: transparent !important; color: var(--ink, #e9eff8) !important; }
 `;
 
-const LOCAL = /^(?!https?:|data:|blob:|\/\/)/i;
+// Só nomes soltos são arquivos do baralho; caminhos do site começam com "/".
+const LOCAL = /^(?!https?:|data:|blob:|\/)/i;
 
 export function CardFace({ html, css, col, dark }: {
   html: string;

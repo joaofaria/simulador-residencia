@@ -9,8 +9,8 @@ import {
 import { dayNumber } from "./scheduler";
 import { defaultConf, type Card, type Collection, type Model, type Note } from "./types";
 
-// Cards feitos com as questões do banco do simulador: a frente é a questão
-// com as alternativas, o verso traz a resposta e a fonte. Ficam numa coleção
+// Cards feitos com as questões do banco do simulador: a frente é só o
+// enunciado (sem as alternativas), o verso traz a resposta certa e a fonte. Ficam numa coleção
 // própria, no mesmo IndexedDB e com o mesmo agendamento dos baralhos importados.
 
 export const OFFICIAL_ID = "provas-oficiais";
@@ -22,14 +22,13 @@ const model: Model = {
   cloze: false,
   css: `.card { text-align: left; }
 .card p { margin: 0 0 12px; }
-.alt { margin: 6px 0; padding-left: 1.6em; text-indent: -1.6em; }
 .question-table th, .question-table td { border: 1px solid var(--border, #dae4f2); padding: 4px 8px; }
 .reference { color: var(--muted, #586a85); font-size: 14px; margin-top: 14px; }`,
-  fields: ["Enunciado", "Alternativas", "Resposta", "Fonte"],
+  fields: ["Enunciado", "Resposta", "Fonte"],
   templates: [
     {
       name: "Cartão 1",
-      qfmt: "{{Enunciado}}{{Alternativas}}",
+      qfmt: "{{Enunciado}}",
       afmt: '{{FrontSide}}<hr id=answer>{{Resposta}}<div class="reference">{{Fonte}}</div>',
     },
   ],
@@ -61,10 +60,9 @@ export function statementHtml(q: Question, base: string) {
   return (before ? paragraph(before) : "") + media + (after ? paragraph(after) : "");
 }
 
-function alternativesHtml(q: Question) {
-  return q.alternatives
-    .map((a) => `<div class="alt"><b>${a.letter})</b> ${escapeHtml(a.text)}</div>`)
-    .join("");
+// Coleções geradas com um layout antigo de cartão precisam ser regeneradas.
+export function isOutdated(col: Collection) {
+  return col.models[model.id]?.fields.join() !== model.fields.join();
 }
 
 // Só entram questões com gabarito: anuladas e pendentes não têm resposta certa.
@@ -102,8 +100,7 @@ export function buildOfficial(exams: Exam[], base: string) {
         tags: [],
         fields: [
           statementHtml(q, base),
-          alternativesHtml(q),
-          `<p>Resposta: <b>${escapeHtml(right)}</b>${alt ? ` (${escapeHtml(alt.text)})` : ""}</p>`,
+          `<p>${escapeHtml(alt?.text ?? right)}</p>`,
           escapeHtml(
             `${exam.institution} ${exam.year}, questão ${q.number}` +
               (unofficial ? ". Gabarito de outra fonte, sem o documento oficial da banca." : ""),

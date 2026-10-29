@@ -6,7 +6,7 @@ import { parseApkg, type ParsedDeck } from "./apkg";
 import {
   closeDb, deleteCollection, getCollection, importDeck, listCollections, loadCards, loadNote, saveAnswer,
 } from "./db";
-import { buildOfficial, OFFICIAL_ID, syncOfficial } from "./official";
+import { buildOfficial, isOutdated, OFFICIAL_ID, syncOfficial } from "./official";
 import type { Exam, Question } from "../types";
 import {
   answer, buildQueue, counts, dayNumber, deckTree, formatDelay, nextDelay, recordAnswer,
@@ -231,8 +231,10 @@ describe("cards das provas", () => {
     expect(cards).toHaveLength(2);
     expect(cards.every((c) => c.deck === "Provas oficiais::Pediatria::X 2026")).toBe(true);
     expect(notes[0].fields[0]).toBe("<p>Enunciado &amp; mais</p>");
-    expect(notes[0].fields[2]).toContain("<b>B</b> (segunda)");
-    expect(notes[0].fields[3]).toBe("X 2026, questão 1");
+    expect(notes[0].fields).toHaveLength(3);
+    expect(notes[0].fields[1]).toBe("<p>segunda</p>");
+    expect(notes[0].fields.join("")).not.toContain("primeira");
+    expect(notes[0].fields[2]).toBe("X 2026, questão 1");
   });
   it("põe tabela e figura onde está a marca", () => {
     const { notes } = buildOfficial([exam()], "/base/");
@@ -243,7 +245,7 @@ describe("cards das provas", () => {
   });
   it("avisa quando o gabarito não é da banca", () => {
     const e = exam({ keySource: { type: "third-party" } });
-    expect(buildOfficial([e], "/").notes[0].fields[3]).toContain("outra fonte");
+    expect(buildOfficial([e], "/").notes[0].fields[2]).toContain("outra fonte");
   });
   it("ignora prova de demonstração", () => {
     expect(buildOfficial([exam({ demo: true })], "/").cards).toEqual([]);
@@ -267,5 +269,25 @@ describe("cards das provas", () => {
     expect(again.added).toBe(0);
     const col = await getCollection(OFFICIAL_ID);
     expect(col).toMatchObject({ source: "provas", cardCount: 2 });
+  });
+});
+
+describe("layout antigo dos cards das provas", () => {
+  it("coleção sem o formato atual é refeita", async () => {
+    await closeDb();
+    indexedDB = new IDBFactory();
+    const e: Exam = {
+      id: "y-2026", institution: "Y", year: 2026, title: "Y", demo: false, review: undefined as never,
+      questions: [{
+        id: "y-q1", institution: "Y", year: 2026, number: 1, area: "go", statement: "Enunciado",
+        alternatives: [{ letter: "A", text: "a" }, { letter: "B", text: "b" }],
+        key: { status: "verified", answer: "A", source: "banca" }, images: [],
+        source: { pages: [] }, review: "approved",
+      }],
+    } as Exam;
+    await syncOfficial(NOW, [e]);
+    const col = (await getCollection(OFFICIAL_ID))!;
+    expect(isOutdated(col)).toBe(false);
+    expect(isOutdated({ ...col, models: { "1": { ...col.models["1"], fields: ["Enunciado", "Alternativas", "Resposta", "Fonte"] } } })).toBe(true);
   });
 });

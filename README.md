@@ -43,7 +43,7 @@ Percentual = acertos ÷ questões verificadas não anuladas; brancos válidos pe
 
 ## Flashcards
 
-A página `#/flashcards` importa baralhos do Anki (`.apkg`, formato antigo e novo) e estuda com revisão espaçada no estilo do Anki: passos de aprendizado, facilidade, lapsos e limites diários por baralho. O arquivo é lido num worker do próprio navegador (`src/flashcards/worker.ts`, com sql.js) e gravado no IndexedDB; nada é enviado a servidor e nenhum baralho faz parte do repositório. O progresso fica no navegador, fora do histórico em `localStorage`. Os `.apkg` de `src/flashcards/fixtures` são baralhos de teste gerados por `scripts/flashcards-fixtures.py` (precisa do pacote Python `anki`).
+A página `#/flashcards` importa baralhos do Anki (`.apkg`, formato antigo e novo) e estuda com revisão espaçada no estilo do Anki: passos de aprendizado, facilidade, lapsos e limites diários por baralho. O arquivo é lido num worker do próprio navegador (`src/flashcards/worker.ts`, com sql.js) e gravado no IndexedDB; nada é enviado a servidor e nenhum baralho faz parte do repositório. O progresso fica no navegador, fora do histórico em `localStorage`. Na importação, cartões com imagem que não vem dentro do arquivo (link externo ou figura que falta) ficam de fora por padrão, porque o link pode sair do ar. O baralho "Provas oficiais" é gerado no próprio navegador com as questões do banco que têm gabarito (`src/flashcards/official.ts`), separadas por área e prova; o botão de atualizar acrescenta questões novas sem apagar o progresso. Os `.apkg` de `src/flashcards/fixtures` são baralhos de teste gerados por `scripts/flashcards-fixtures.py` (precisa do pacote Python `anki`).
 
 ## Estrutura
 

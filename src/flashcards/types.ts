@@ -78,6 +78,8 @@ export type Collection = {
   name: string;
   fileName: string;
   importedAt: string;
+  // "provas" marca a coleção gerada com as questões do simulador.
+  source?: "provas";
   models: Record<string, Model>;
   conf: Conf;
   cardCount: number;

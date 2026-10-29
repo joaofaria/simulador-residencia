@@ -25,7 +25,7 @@ import {
   type DeckNode,
 } from "../flashcards/scheduler";
 import type { Card, Collection } from "../flashcards/types";
-import { OFFICIAL_ID, syncOfficial } from "../flashcards/official";
+import { isOutdated, OFFICIAL_ID, syncOfficial } from "../flashcards/official";
 import type { WorkerMessage, WorkerRequest } from "../flashcards/worker";
 
 export function studyPath(col: string, deck: string) {
@@ -43,9 +43,15 @@ export function Flashcards() {
   const [generating, setGenerating] = useState(false);
   async function refresh() {
     try {
+      let all = await listCollections();
+      // Se o formato dos cards das provas mudou, refaz o texto (o progresso fica).
+      if (all.some((c) => c.source === "provas" && isOutdated(c))) {
+        await syncOfficial().catch(() => {});
+        all = await listCollections();
+      }
       // As provas oficiais vêm primeiro, depois os baralhos importados.
       setCollections(
-        (await listCollections()).sort(
+        all.sort(
           (a, b) => Number(b.source === "provas") - Number(a.source === "provas"),
         ),
       );
@@ -182,7 +188,7 @@ export function Flashcards() {
             <h2>Provas oficiais</h2>
             <p>
               Transforme as questões do simulador em cards: a frente é a
-              questão com as alternativas e o verso traz a resposta. Ficam
+              questão, sem as alternativas, e o verso traz a resposta certa. Ficam
               separados por área e prova, e só entram as que têm gabarito.
             </p>
           </div>

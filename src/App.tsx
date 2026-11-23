@@ -8,7 +8,12 @@ import {
 } from "react-router-dom";
 import { Sun, Moon, History, PawPrint, Heart, Layers } from "lucide-react";
 import { loadExam, loadRealExams } from "./data/load";
-import { buildRandomExam, type RandomConfig } from "./services/random";
+import {
+  buildRandomExam,
+  buildThemeExam,
+  type RandomConfig,
+} from "./services/random";
+import type { MiniRequest } from "./pages/RevisaoIpsemg";
 import type { Attempt, Exam, Store } from "./types";
 import { createAttempt, settle, pause } from "./services/session";
 import {
@@ -38,6 +43,9 @@ const FlashcardStudy = lazy(() =>
   import("./pages/FlashcardStudy").then((m) => ({
     default: m.FlashcardStudy,
   })),
+);
+const RevisaoIpsemg = lazy(() =>
+  import("./pages/RevisaoIpsemg").then((m) => ({ default: m.RevisaoIpsemg })),
 );
 const HistoryPage = lazy(() =>
   import("./pages/HistoryPage").then((m) => ({ default: m.HistoryPage })),
@@ -185,6 +193,17 @@ export function App() {
       "Não foi possível montar a prova aleatória. Verifique a conexão e tente de novo.",
     );
   }
+  function startMini(req: MiniRequest) {
+    return begin(
+      async () =>
+        buildThemeExam(await loadRealExams(), req.ids, {
+          id: req.id,
+          title: req.title,
+          limit: req.limit,
+        }),
+      "Não foi possível montar o mini simulado. Verifique a conexão e tente de novo.",
+    );
+  }
   // Refazer uma prova aleatória repete as mesmas questões, na mesma ordem.
   function retry(a: Attempt) {
     return a.exam.random
@@ -298,6 +317,18 @@ export function App() {
                       "residencia-historico.json",
                     )
                   }
+                />
+              }
+            />
+            <Route
+              path="/revisao-ipsemg"
+              element={
+                <RevisaoIpsemg
+                  attempts={store.attempts}
+                  start={start}
+                  startRandom={startRandom}
+                  startMini={startMini}
+                  blocked={!!error}
                 />
               }
             />

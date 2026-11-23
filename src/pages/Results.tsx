@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { ArrowRight, PawPrint, Shuffle } from "lucide-react";
+import { ArrowRight, CalendarDays, PawPrint, Shuffle } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 import type { Attempt } from "../types";
 import {
@@ -74,11 +74,16 @@ export function Results({
           </p>
         </div>
         <div className="heading-actions">
-          {a.exam.random && (
-            <Link className="secondary" to="/#prova-aleatoria">
-              Sortear outra <Shuffle size={16} />
-            </Link>
-          )}
+          {a.exam.random &&
+            (a.exam.id.startsWith("revisao-") ? (
+              <Link className="secondary" to="/revisao-ipsemg">
+                Voltar ao cronograma <CalendarDays size={16} />
+              </Link>
+            ) : (
+              <Link className="secondary" to="/#prova-aleatoria">
+                Sortear outra <Shuffle size={16} />
+              </Link>
+            ))}
           <button className="secondary" onClick={() => retry(a)}>
             {a.exam.random ? "Refazer estas questões" : "Refazer prova"}{" "}
             <ArrowRight size={16} />
@@ -88,8 +93,8 @@ export function Results({
       {a.exam.random && (
         <p className="notice">
           Esta prova foi montada por sorteio com questões de provas diferentes.
-          Serve para treinar e comparar áreas, mas não equivale a uma prova
-          real da banca.
+          Serve para treinar e comparar áreas, mas não equivale a uma prova real
+          da banca.
         </p>
       )}
       {s.pending > 0 && (
@@ -207,7 +212,9 @@ export function Results({
         .map((q) => (
           <section className="card review-card" key={q.id}>
             <div className="question-heading">
-              <h3>Questão {questionNumber(a.exam, a.exam.questions.indexOf(q))}</h3>
+              <h3>
+                Questão {questionNumber(a.exam, a.exam.questions.indexOf(q))}
+              </h3>
               <span className={`badge ${outcome(q, a.answers[q.id])}`}>
                 {labels[outcome(q, a.answers[q.id])]}
               </span>

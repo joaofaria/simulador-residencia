@@ -8,6 +8,7 @@ import {
   PawPrint,
   ShieldCheck,
   Play,
+  CalendarDays,
 } from "lucide-react";
 import { summaries } from "../data/summaries";
 import type { Attempt } from "../types";
@@ -179,6 +180,21 @@ export function Home({
         </aside>
       </section>
       <RandomExamCard startRandom={startRandom} blocked={blocked} />
+      <section className="card plan-banner">
+        <span className="small-icon">
+          <CalendarDays size={22} />
+        </span>
+        <div>
+          <h3>Revisão para o IPSEMG</h3>
+          <p>
+            Cronograma de 9 dias com um mini simulado por turno, montado com os
+            temas que mais caíram de 2024 a 2026.
+          </p>
+        </div>
+        <Link className="secondary" to="/revisao-ipsemg">
+          Ver cronograma <ArrowRight size={17} />
+        </Link>
+      </section>
       <section className="demo-banner">
         <div>
           <span className="badge">DEMONSTRAÇÃO FICTÍCIA</span>

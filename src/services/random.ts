@@ -1,4 +1,10 @@
-import { areas, areaLabels, type Area, type Exam, type Question } from "../types";
+import {
+  areas,
+  areaLabels,
+  type Area,
+  type Exam,
+  type Question,
+} from "../types";
 
 export const randomCounts = [10, 20, 30, 50, 75];
 
@@ -81,4 +87,38 @@ export function questionNumber(exam: Exam, index: number) {
 export function questionOrigin(q: Question) {
   const origin = `${q.institution} ${q.year} · questão ${q.number}`;
   return q.area ? `${origin} · ${areaLabels[q.area]}` : origin;
+}
+
+// Mini simulado da revisão do IPSEMG: sorteia até `limit` questões entre as
+// ids pedidas, com as mesmas regras da prova aleatória (sem anuladas).
+export function buildThemeExam(
+  exams: Exam[],
+  ids: string[],
+  slot: { id: string; title: string; limit: number },
+  rng: () => number = Math.random,
+  id: string = crypto.randomUUID(),
+): Exam {
+  const wanted = new Set(ids);
+  const pool: Question[] = [];
+  for (const exam of exams) {
+    if (exam.demo || exam.random) continue;
+    for (const q of exam.questions)
+      if (
+        wanted.has(q.id) &&
+        q.review === "approved" &&
+        q.key.status === "verified"
+      )
+        pool.push(q);
+  }
+  if (!pool.length) throw new Error("Não há questões para este turno.");
+  const picked = shuffle(pool, rng).slice(0, slot.limit);
+  return {
+    id: `${slot.id}-${id}`,
+    institution: "Revisão IPSEMG",
+    year: new Date().getFullYear(),
+    title: `${slot.title} · ${picked.length} questões`,
+    demo: false,
+    random: true,
+    questions: structuredClone(picked),
+  };
 }

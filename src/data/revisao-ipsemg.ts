@@ -2,7 +2,7 @@ import type { Area } from "../types";
 
 // Revisão para a prova do IPSEMG: as 300 questões de 2024, 2025 e 2026
 // classificadas por tema (à mão, lendo cada uma) e um cronograma de 9 dias em
-// que cada turno de teoria tem um mini simulado com os temas daquele turno.
+// que cada tarefa de estudo lista os tópicos e termina num mini simulado.
 
 type Theme = { label: string; area: Area; questions: Record<number, number[]> };
 
@@ -324,58 +324,119 @@ export const fullExamDay: Record<number, number> = {
   2026: 9,
 };
 
-export type Shift = "manha" | "tarde" | "noite";
-export const shiftLabels: Record<Shift, string> = {
-  manha: "Manhã",
-  tarde: "Tarde",
-  noite: "Noite",
-};
-
-export type Slot = {
-  text: string;
+export type Task = {
+  title: string;
+  // Tópicos que caíram nas provas de 2024 a 2026.
+  caiu?: string[];
+  // Tópicos vizinhos que não caíram, mas completam o assunto.
+  completar?: string[];
   // Prova completa do IPSEMG daquele ano.
   full?: number;
   // Mini simulado com as questões do IPSEMG destes temas.
   themes?: ThemeId[];
   // Prova aleatória do banco inteiro numa área.
   random?: { area: Area; count: number };
-  // Turno de correção ou revisão: leva ao histórico.
+  // Correção ou revisão: leva ao histórico.
   review?: boolean;
 };
 
-export type Day = { day: number; slots: Record<Shift, Slot> };
+export type Day = { day: number; tasks: Task[] };
+
+const simulado = (year: number): Task => ({
+  title: `Simulado IPSEMG ${year} completo, 100 questões, cronometrado`,
+  full: year,
+});
+const correcao: Task = {
+  title: "Correção do simulado: anotar cada erro pelo tópico",
+  review: true,
+};
+const aleatoria = (area: Area, label: string, count = 30): Task => ({
+  title: `Prova aleatória de ${count} questões de ${label}`,
+  random: { area, count },
+});
 
 export const plan: Day[] = [
   {
     day: 1,
-    slots: {
-      manha: {
-        text: "Simulado IPSEMG 2024 completo, 100 questões, cronometrado",
-        full: 2024,
-      },
-      tarde: {
-        text: "Corrigir e anotar cada erro pelo tema",
-        review: true,
-      },
-      noite: {
-        text: "Preventiva: prevenção quaternária e níveis de Leavell e Clark",
+    tasks: [
+      simulado(2024),
+      correcao,
+      {
+        title: "Preventiva: níveis de prevenção",
+        caiu: [
+          "Níveis de Leavell e Clark e em qual nível entra cada ação (cessar tabagismo no doente, rastreio, vacina)",
+          "Prevenção quaternária: check-up sem indicação, PSA e teste ergométrico em assintomático, medicação por medo da doença",
+          "Promoção da saúde nas doenças crônicas no período pré-patogênico",
+        ],
+        completar: [
+          "História natural da doença",
+          "Sobrediagnóstico e sobretratamento",
+        ],
         themes: ["prev-niveis"],
       },
-    },
+    ],
   },
   {
     day: 2,
-    slots: {
-      manha: {
-        text: "Preventiva: desenhos de estudo, RR, OR, risco atribuível, intervalo de confiança, tabela 2x2 de testes diagnósticos",
+    tasks: [
+      {
+        title: "Preventiva: desenhos de estudo e testes diagnósticos",
+        caiu: [
+          "Caso-controle para doença rara e de latência longa (agrotóxico e câncer, duas vezes)",
+          "Coorte contra caso-controle, viés de memória",
+          "Ensaio clínico randomizado",
+          "Risco relativo contra odds ratio, risco atribuível",
+          "Leitura de RR com intervalo de confiança de 95%",
+          "Sensibilidade, especificidade, valores preditivos e acurácia, montando a tabela 2x2",
+          "Qual teste escolher para triagem e qual para confirmar",
+        ],
+        completar: [
+          "Estudo transversal e ecológico",
+          "NNT",
+          "Vieses de seleção e confusão",
+        ],
         themes: ["prev-estudos", "prev-testes"],
       },
-      tarde: {
-        text: "Preventiva: indicadores, incidência, prevalência e letalidade com conta, Nelson de Moraes, notificação compulsória imediata",
+      {
+        title: "Preventiva: indicadores e vigilância",
+        caiu: [
+          "Cálculo de incidência, prevalência, mortalidade e letalidade",
+          "Densidade de incidência",
+          "Mortalidade infantil proporcional e curva de Nelson de Moraes",
+          "Endemia e cobertura vacinal",
+          "Notificação compulsória imediata (cólera, botulismo, febre amarela e outras)",
+          "Quarentena e vacinação de bloqueio",
+          "Curva epidêmica de fonte comum e LIRAa",
+        ],
+        completar: [
+          "Epidemia e surto",
+          "Isolamento contra quarentena",
+          "Lista nacional de notificação semanal",
+        ],
         themes: ["prev-indicadores", "prev-vigilancia"],
       },
-      noite: {
-        text: "SUS (Leis 8.080 e 8.142, Decreto 7.508), controle social, APS, promoção da saúde, declaração de óbito, violência sexual. Prova aleatória de 30 questões de Preventiva",
+      {
+        title: "Preventiva: SUS, Atenção Primária e saúde coletiva",
+        caiu: [
+          "Princípios do SUS, com integralidade",
+          "Conselhos e conferências de saúde (Lei 8.142)",
+          "Decreto 7.508",
+          "Previne Brasil e custo-efetividade",
+          "Atributos da APS: longitudinalidade e matriciamento",
+          "RAPS e tipos de CAPS",
+          "Carta de Ottawa, Relatório Lalonde, modelo de Dahlgren e Whitehead",
+          "Ciclo de vida familiar, ecomapa, método clínico centrado na pessoa",
+          "Declaração de óbito: causa básica e sequência",
+          "Violência sexual: levonorgestrel e profilaxias",
+          "Saúde do trabalhador: silicose e LER/DORT",
+          "Cuidados paliativos e bioética (distanásia, justiça)",
+          "Tratamento diretamente observado na tuberculose",
+        ],
+        completar: [
+          "Lei 8.080 inteira",
+          "Educação permanente em saúde",
+          "Planejamento estratégico situacional",
+        ],
         themes: [
           "prev-sus",
           "prev-aps",
@@ -384,32 +445,84 @@ export const plan: Day[] = [
           "cm-mfc",
           "go-violencia",
         ],
-        random: { area: "preventiva", count: 30 },
       },
-    },
+      aleatoria("preventiva", "Preventiva"),
+    ],
   },
   {
     day: 3,
-    slots: {
-      manha: {
-        text: "Cirurgia: pré e pós-operatório (ASA, jejum ERAS, fios, incisões, drenos, laparoscopia, atelectasia, deiscência, estomas, NR-32), cicatrização e REMIT",
+    tasks: [
+      {
+        title: "Cirurgia: pré e pós-operatório",
+        caiu: [
+          "Classificação ASA",
+          "Jejum abreviado do ERAS e ACERTO (líquido com carboidrato até 2 horas antes)",
+          "Fios de sutura: absorvíveis, inabsorvíveis, mono e multifilamentares",
+          "Incisões abdominais",
+          "Drenos de sucção fechada",
+          "Pneumoperitônio na laparoscopia e repercussão no DPOC",
+          "Atelectasia pós-operatória e analgesia",
+          'Deiscência de aponeurose e o líquido "água de carne"',
+          "Complicações de estomas (prolapso)",
+          "Esterilização e NR-32",
+          "Cicatrização: fases, colágeno e vitamina C",
+          "Resposta metabólica ao trauma",
+          "Crioprecipitado e tromboelastografia",
+        ],
+        completar: [
+          "Antibioticoprofilaxia cirúrgica",
+          "Febre no pós-operatório",
+          "Risco cardíaco pré-operatório",
+        ],
         themes: ["cir-periop"],
       },
-      tarde: {
-        text: "Cirurgia: trauma (ATLS, tipos de choque, tamponamento, hemotórax, retroperitônio, controle de danos, ácido tranexâmico, transfusão)",
+      {
+        title: "Cirurgia: trauma",
+        caiu: [
+          "Tamponamento cardíaco",
+          "Choque neurogênico contra choque medular",
+          "Hemotórax maciço e indicação de toracotomia (acima de 1.500 mL)",
+          "Trauma abdominal instável vai para laparotomia",
+          "Hematoma retroperitoneal por zona",
+          "Controle de danos e transfusão maciça",
+          "Ácido tranexâmico até 3 horas do trauma",
+          "ATLS em gestante e idoso",
+        ],
+        completar: [
+          "ABCDE do ATLS",
+          "Classes de choque hemorrágico",
+          "Pneumotórax hipertensivo",
+          "FAST",
+        ],
         themes: ["cir-trauma"],
       },
-      noite: {
-        text: "Prova aleatória de 30 questões de Cirurgia",
-        random: { area: "cirurgia", count: 30 },
-      },
-    },
+      aleatoria("cirurgia", "Cirurgia"),
+    ],
   },
   {
     day: 4,
-    slots: {
-      manha: {
-        text: "Cirurgia: abdome agudo, vias biliares com Tokyo, úlcera e HDA com Forrest e H. pylori, hérnias, aneurisma de aorta, câncer gástrico",
+    tasks: [
+      {
+        title: "Cirurgia: aparelho digestivo, hérnias e vascular",
+        caiu: [
+          "Apendicite e sua complicação mais comum",
+          "Diverticulite e TC com contraste",
+          "Úlcera perfurada e pneumoperitônio",
+          "Colecistite, coledocolitíase e colangite (Tokyo)",
+          "Lesão de via biliar na colecistectomia",
+          "Hemorragia digestiva alta: Forrest e manejo inicial",
+          "Erradicação do H. pylori",
+          "Hérnia inguinal encarcerada e técnica de Bassini",
+          "Aneurisma de aorta abdominal: rastreio e ruptura",
+          "Câncer gástrico (Lauren, Borrmann), esôfago espinocelular, colangiocarcinoma, cirurgia de Whipple",
+          "Pseudocisto de pâncreas, hiperplasia nodular focal, CEAP, D'Amico",
+        ],
+        completar: [
+          "Obstrução intestinal",
+          "Pancreatite aguda",
+          "Câncer colorretal",
+          "Doença orificial",
+        ],
         themes: [
           "cir-abdome",
           "cir-biliar",
@@ -420,41 +533,102 @@ export const plan: Day[] = [
           "cir-outros",
         ],
       },
-      tarde: {
-        text: "Obstetrícia: síndromes hipertensivas e sulfato de magnésio, DPP contra placenta prévia, sífilis, diabetes gestacional, hemorragia pós-parto",
+      {
+        title: "Obstetrícia: intercorrências da gestação",
+        caiu: [
+          "Pré-eclâmpsia, sinais de gravidade e iminência de eclâmpsia",
+          "Sulfato de magnésio",
+          "Síndrome HELLP",
+          "Descolamento prematuro de placenta contra placenta prévia",
+          "Sífilis na gestação: penicilina benzatina por fase",
+          "Diabetes gestacional: TOTG 75 g e insulina no pós-parto",
+          "Colestase gravídica",
+          "Oligoidrâmnio e restrição de crescimento",
+        ],
+        completar: [
+          "Hipertensão crônica na gestação",
+          "Rotura prematura de membranas",
+          "Trabalho de parto prematuro e corticoide",
+        ],
         themes: [
           "go-hipertensivas",
           "go-sangramento2",
           "go-infeccoes",
           "go-dmg",
+          "go-obstetricia",
         ],
       },
-      noite: {
-        text: "Obstetrícia: parto e Robson, abortamento, ectópica. Prova aleatória de 20 questões de GO",
-        themes: ["go-parto", "go-sangramento1", "go-obstetricia"],
-        random: { area: "go", count: 20 },
+      {
+        title: "Obstetrícia: parto e primeira metade",
+        caiu: [
+          "Estática fetal e apresentação de fronte",
+          "Classificação de Robson",
+          "Indução após cesárea",
+          "Hemorragia pós-parto: os 4 Ts",
+          "Abortamento inevitável",
+          "Gravidez ectópica e salpingostomia",
+        ],
+        completar: [
+          "Partograma",
+          "Mecanismo do parto",
+          "Metotrexato na ectópica",
+          "Doença trofoblástica",
+        ],
+        themes: ["go-parto", "go-sangramento1"],
       },
-    },
+      aleatoria("go", "GO", 20),
+    ],
   },
   {
     day: 5,
-    slots: {
-      manha: {
-        text: "Simulado IPSEMG 2025 completo, cronometrado",
-        full: 2025,
-      },
-      tarde: { text: "Corrigir e anotar os erros por tema", review: true },
-      noite: {
-        text: "Ginecologia: vulvovaginites, IST e DIP, colo do útero (rastreio, colposcopia, conduta por laudo)",
+    tasks: [
+      simulado(2025),
+      correcao,
+      {
+        title: "Ginecologia: infecções e colo do útero",
+        caiu: [
+          "Diferença entre os corrimentos: vaginose, candidíase e tricomoníase",
+          "Candidíase recorrente",
+          "Úlcera genital: cancroide",
+          "DIP: ceftriaxona, doxiciclina e metronidazol",
+          "Vulvovaginite inespecífica na infância",
+          "Rastreio do câncer de colo pela diretriz brasileira",
+          "Conduta na atipia glandular e na HSIL",
+          "Achados da colposcopia (vasos atípicos)",
+          "Conização para preservar fertilidade",
+        ],
+        completar: [
+          "Sífilis e herpes genital",
+          "Cervicite",
+          "ASC-US e LSIL",
+          "Estadiamento do câncer de colo",
+        ],
         themes: ["go-vulvovaginites", "go-colo"],
       },
-    },
+    ],
   },
   {
     day: 6,
-    slots: {
-      manha: {
-        text: "Ginecologia: amenorreia, SOP, ciclo menstrual, puberdade precoce, PALM-COEIN, contracepção pelos critérios da OMS, endometriose",
+    tasks: [
+      {
+        title: "Ginecologia: endocrinologia, sangramento e contracepção",
+        caiu: [
+          "Fisiologia do ciclo menstrual (FSH na transição lútea folicular)",
+          "Amenorreia primária: Rokitansky e insensibilidade aos androgênios",
+          "SOP: critérios de Rotterdam e tratamento",
+          "Puberdade precoce central e teste do GnRH",
+          "PALM-COEIN e mioma pela FIGO",
+          "Sangramento pós-menopausa e espessura endometrial",
+          "Hiperplasia endometrial",
+          "Contracepção nos critérios da OMS: lúpus e SAF levam a DIU de cobre",
+          "DIU no pós-parto e Lei 14.443 da laqueadura",
+          "Endometriose: tratamento clínico com progestágeno",
+        ],
+        completar: [
+          "Amenorreia secundária",
+          "Hiperprolactinemia",
+          "Infertilidade",
+        ],
         themes: [
           "go-endocrino",
           "go-sua",
@@ -462,26 +636,99 @@ export const plan: Day[] = [
           "go-endometriose",
         ],
       },
-      tarde: {
-        text: "Ginecologia: ovário, mama, climatério, incontinência urinária. Prova aleatória de 30 questões de GO",
-        themes: ["go-ovario", "go-mama", "go-climaterio", "go-incontinencia"],
-        random: { area: "go", count: 30 },
+      {
+        title: "Ginecologia: mama, ovário, climatério e incontinência",
+        caiu: [
+          "Derrame papilar suspeito",
+          "Subtipos moleculares do câncer de mama",
+          "Teratoma maduro e imaturo",
+          "Estadiamento do câncer de ovário epitelial",
+          "Terapia hormonal e janela de oportunidade",
+          "Opção não hormonal para fogachos (ISRS)",
+          "Urodinâmica: indicações e achados",
+        ],
+        completar: [
+          "Rastreio mamográfico e BI-RADS",
+          "Doenças benignas da mama (fibroadenoma, cistos, mastalgia)",
+          "Desenvolvimento mamário (Tanner)",
+          "Massa anexial: benigna ou maligna",
+        ],
+        themes: ["go-mama", "go-ovario", "go-climaterio", "go-incontinencia"],
       },
-      noite: {
-        text: "Clínica: DPOC, pneumonia, câncer de pulmão, hematologia",
+      {
+        title: "Clínica: pulmão, sangue e outros temas",
+        caiu: [
+          "DPOC: broncodilatador de longa ação e oxigênio domiciliar",
+          "PAC e risco de Pseudomonas",
+          "Nódulo e câncer de pulmão",
+          "Anemia falciforme: síndrome torácica aguda",
+          "Leucemia mieloide crônica e t(9;22)",
+          "Inibidor de SGLT2 e fratura atípica por bifosfonato",
+          "Artrite reumatoide e nefrite lúpica",
+          "Conduta na mordedura de cão e hanseníase",
+        ],
+        completar: [
+          "Asma no adulto",
+          "Anemias carenciais",
+          "Leucemias agudas e linfomas",
+          "Tromboembolismo pulmonar",
+        ],
         themes: ["cm-pneumo", "cm-hemato", "cm-outros"],
       },
-    },
+      aleatoria("go", "GO"),
+    ],
   },
   {
     day: 7,
-    slots: {
-      manha: {
-        text: "Pediatria: reanimação neonatal, coraçãozinho, icterícia, sepse neonatal, puericultura, aleitamento, ferro, desenvolvimento, calendário do PNI",
+    tasks: [
+      {
+        title: "Pediatria: recém-nascido, puericultura e vacinas",
+        caiu: [
+          "Reanimação neonatal com líquido meconial",
+          "Teste do coraçãozinho",
+          "Sala de parto do filho de mãe com HIV",
+          "Toxoplasmose congênita",
+          "Sepse neonatal e desconforto respiratório",
+          "Icterícia fisiológica contra patológica",
+          "Síndrome alcoólica fetal e hipotireoidismo congênito",
+          "Ordenha e conservação do leite humano",
+          "Ferro profilático pela SBP",
+          "Obesidade, desnutrição e transição nutricional",
+          "Baixa estatura (SHOX)",
+          "Marcos e reflexos do desenvolvimento, sinais de autismo",
+          "Dentição e higiene oral",
+          "Vacina no prematuro, BCG e tríplice viral",
+        ],
+        completar: [
+          "Calendário do PNI inteiro",
+          "Triagem neonatal",
+          "Fototerapia",
+        ],
         themes: ["ped-neonatologia", "ped-puericultura", "ped-imunizacao"],
       },
-      tarde: {
-        text: "Pediatria: infectologia, respiratório, coarctação e febre reumática, anemias, SHU e ITU, endocrinologia, neurologia, vasculites",
+      {
+        title: "Pediatria: doenças da infância",
+        caiu: [
+          "Meningite bacteriana pelo líquor",
+          "Sarampo e mão-pé-boca",
+          "Faringite estreptocócica e mononucleose",
+          "Síndrome da pele escaldada e osteomielite por Kingella",
+          "Bronquiolite, asma, pneumonia e corpo estranho",
+          "Coarctação da aorta, sopro inocente e profilaxia da febre reumática",
+          "Esferocitose, anemia macrocítica e tumor de Wilms",
+          "ITU, SHU e válvula de uretra posterior",
+          "Diabetes na criança e MODY",
+          "Doença celíaca, reidratação oral e Meckel",
+          "Convulsão febril, Guillain-Barré e epilepsia rolândica",
+          "Henoch-Schönlein e Kawasaki",
+          "Epifisiólise, doença granulomatosa crônica e choque no trauma",
+        ],
+        completar: [
+          "Escarlatina e varicela",
+          "Cardiopatias cianóticas",
+          "Invaginação intestinal",
+          "Neuroblastoma",
+        ],
         themes: [
           "ped-infecto",
           "ped-respiratorio",
@@ -495,49 +742,77 @@ export const plan: Day[] = [
           "ped-outros",
         ],
       },
-      noite: {
-        text: "Prova aleatória de 30 questões de Pediatria",
-        random: { area: "pediatria", count: 30 },
-      },
-    },
+      aleatoria("pediatria", "Pediatria"),
+    ],
   },
   {
     day: 8,
-    slots: {
-      manha: {
-        text: "Clínica: insuficiência cardíaca, IAM, fibrilação atrial, endocardite, potássio, cálcio, lesão renal por AINE e contraste",
+    tasks: [
+      {
+        title: "Clínica: coração e rim",
+        caiu: [
+          "Insuficiência cardíaca com fração reduzida: betabloqueador, IECA e as drogas que mudam mortalidade",
+          "IAM com supra",
+          "Fibrilação atrial e anticoagulação com INR",
+          "QT longo por azitromicina e hidroxicloroquina",
+          "Síncope vasovagal",
+          "Estatina pelo risco cardiovascular",
+          "Hipertensão renovascular",
+          "Indicação cirúrgica na endocardite",
+          "Hipercalemia: gluconato de cálcio primeiro",
+          "Hipercalcemia grave: hidratação",
+          "Lesão renal por AINE e por contraste",
+          "Cálculo de ácido úrico",
+          "SHU por E. coli",
+          "Anemia e hiperparatireoidismo da DRC",
+          "Pielonefrite na TC",
+        ],
+        completar: [
+          "Metas de hipertensão",
+          "Hiponatremia",
+          "Gasometria",
+          "Síndrome coronariana sem supra",
+        ],
         themes: ["cm-cardio", "cm-nefro"],
       },
-      tarde: {
-        text: "Clínica: encefalopatia hepática, hepatites, King's College, delirium, Wernicke, choque e vasopressores, intoxicações",
+      {
+        title: "Clínica: fígado, neurologia e emergência",
+        caiu: [
+          "Encefalopatia hepática e lactulose",
+          "Sorologia das hepatites e antivirais na hepatite C",
+          "Hepatite fulminante e critérios do King's College",
+          "Ascite e GASA",
+          "Colecistite alitiásica, sangramento diverticular, BISAP",
+          "Delirium e anticolinérgicos",
+          "Wernicke: tiamina antes da glicose",
+          "Cefaleia em salvas e miastenia gravis",
+          "Choque: SvcO2, lactato, noradrenalina e vasopressina",
+          "Intoxicação por organofosforado e por salicilato",
+          "Avaliação clínica após tentativa de suicídio",
+        ],
+        completar: ["Cirrose: PBE e varizes", "AVC", "Pacote da sepse"],
         themes: ["cm-figado", "cm-neuro", "cm-emergencia"],
       },
-      noite: {
-        text: "Prova aleatória de 30 questões de Clínica",
-        random: { area: "clinica", count: 30 },
-      },
-    },
+      aleatoria("clinica", "Clínica"),
+    ],
   },
   {
     day: 9,
-    slots: {
-      manha: {
-        text: "Simulado IPSEMG 2026 completo, cronometrado",
-        full: 2026,
-      },
-      tarde: { text: "Corrigir e anotar os erros por tema", review: true },
-      noite: {
-        text: "Revisar os erros dos três simulados, tema por tema",
+    tasks: [
+      simulado(2026),
+      correcao,
+      {
+        title: "Revisar os erros dos três simulados, tópico por tópico",
         review: true,
       },
-    },
+    ],
   },
 ];
 
-// Teto de questões de um mini simulado; turnos com mais temas sorteiam.
+// Teto de questões de um mini simulado; tarefas com mais temas sorteiam.
 export const miniLimit = 15;
 
-export const miniId = (day: number, shift: Shift) => `revisao-d${day}-${shift}`;
+export const miniId = (day: number, task: number) => `revisao-d${day}-t${task}`;
 
 // Questões do IPSEMG dos temas pedidos. Com `spare`, deixa de fora as provas
 // cujo simulado completo ainda vem depois daquele dia, para não estragar o

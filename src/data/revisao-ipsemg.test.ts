@@ -43,11 +43,11 @@ describe("Revisão do IPSEMG", () => {
     const exam = buildThemeExam(
       exams,
       ids,
-      { id: miniId(3, "manha"), title: "Dia 3", limit: 15 },
+      { id: miniId(3, 1), title: "Dia 3", limit: 15 },
       () => 0.5,
       "x",
     );
-    expect(exam.id).toBe("revisao-d3-manha-x");
+    expect(exam.id).toBe("revisao-d3-t1-x");
     expect(exam.random).toBe(true);
     expect(exam.questions.length).toBe(15);
     expect(exam.questions.every((q) => q.key.status === "verified")).toBe(true);
@@ -72,10 +72,23 @@ describe("Revisão do IPSEMG", () => {
     expect(themeQuestionIds(["cir-trauma"], 9, false)).toHaveLength(9);
   });
 
+  it("toda tarefa de estudo lista tópicos e tem mini simulado", () => {
+    for (const t of plan.flatMap((d) => d.tasks))
+      if (t.caiu) {
+        expect(t.caiu.length).toBeGreaterThan(0);
+        expect(t.themes?.length).toBeGreaterThan(0);
+      }
+    // Todo tema entra em alguma tarefa.
+    const used = new Set(
+      plan.flatMap((d) => d.tasks).flatMap((t) => t.themes ?? []),
+    );
+    expect([...used].sort()).toEqual(Object.keys(themes).sort());
+  });
+
   it("tem 9 dias com os três simulados completos", () => {
     expect(plan).toHaveLength(9);
-    expect(
-      plan.flatMap((d) => Object.values(d.slots)).flatMap((s) => s.full ?? []),
-    ).toEqual([2024, 2025, 2026]);
+    expect(plan.flatMap((d) => d.tasks).flatMap((t) => t.full ?? [])).toEqual([
+      2024, 2025, 2026,
+    ]);
   });
 });

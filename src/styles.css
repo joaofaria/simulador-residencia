@@ -2609,3 +2609,53 @@ html[data-theme="dark"] {
     align-items: stretch;
   }
 }
+/* Riscar alternativa: marca visual de descarte durante a prova. */
+.alternative-row {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+.alternative-row > .alternative {
+  flex: 1;
+  min-width: 0;
+}
+.strike-button {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--muted);
+}
+.strike-button[aria-pressed="true"] {
+  background: var(--soft);
+  border-color: var(--muted);
+  color: var(--ink);
+}
+.alternative-row.struck .alternative {
+  opacity: 0.5 !important;
+  background: transparent;
+}
+.alternative-row.struck .alternative > span:last-child {
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+}
+.alternative-row.struck .letter {
+  border-style: dashed;
+}
+.strike-hint {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

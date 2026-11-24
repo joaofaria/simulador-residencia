@@ -281,7 +281,9 @@ describe("Prova aleatória", () => {
     );
     expect(screen.getByText(/10 questões de cada área escolhida/)).toBeTruthy();
     await user.click(screen.getByRole("button", { name: /Sortear e começar/ }));
-    await screen.findByRole("heading", { name: "Prova aleatória · 10 questões" });
+    await screen.findByRole("heading", {
+      name: "Prova aleatória · 10 questões",
+    });
     expect(screen.getByText("QUESTÃO 1")).toBeTruthy();
     expect(screen.getByText(/· questão \d+ · Pediatria$/)).toBeTruthy();
     expect(screen.getByText(/NÃO É UMA PROVA REAL/)).toBeTruthy();
@@ -297,7 +299,9 @@ describe("Prova aleatória", () => {
       "10",
     );
     await user.click(screen.getByRole("button", { name: /Sortear e começar/ }));
-    await screen.findByRole("heading", { name: "Prova aleatória · 10 questões" });
+    await screen.findByRole("heading", {
+      name: "Prova aleatória · 10 questões",
+    });
     await user.click(
       screen.getAllByRole("button", { name: "Finalizar simulado" })[0],
     );
@@ -327,5 +331,29 @@ describe("Prova aleatória", () => {
         .getByRole("button", { name: /Sortear e começar/ })
         .hasAttribute("disabled"),
     ).toBe(true);
+  });
+});
+
+describe("Riscar alternativa", () => {
+  it("risca com a tesoura, guarda ao navegar e desfaz no segundo toque", async () => {
+    const user = setup();
+    await startDemo(user);
+    await user.click(
+      screen.getByRole("button", { name: "Riscar alternativa B" }),
+    );
+    expect(alternative("B").closest(".alternative-row")?.className).toContain(
+      "struck",
+    );
+    expect(screen.getByText("0 de 3 respondidas")).toBeTruthy();
+    await user.click(screen.getByRole("button", { name: /^Próxima/ }));
+    await user.click(screen.getByRole("button", { name: /^Anterior$/ }));
+    const undo = screen.getByRole("button", {
+      name: "Desfazer risco da alternativa B",
+    });
+    expect(undo.getAttribute("aria-pressed")).toBe("true");
+    await user.click(undo);
+    expect(
+      alternative("B").closest(".alternative-row")?.className,
+    ).not.toContain("struck");
   });
 });

@@ -67,7 +67,37 @@ export function answer(
     a.exam.questions[a.current].alternatives.some((o) => o.letter === letter)
   )
     answers[id] = letter;
-  return { ...next, answers };
+  // Marcar uma alternativa riscada tira o risco dela.
+  const struck = letter ? without(next.struck, id, letter) : next.struck;
+  return { ...next, answers, ...(struck ? { struck } : {}) };
+}
+function without(
+  struck: Attempt["struck"],
+  id: string,
+  letter: string,
+): Attempt["struck"] {
+  if (!struck?.[id]?.includes(letter)) return struck;
+  const rest = { ...struck };
+  const letters = struck[id].filter((l) => l !== letter);
+  if (letters.length) rest[id] = letters;
+  else delete rest[id];
+  return rest;
+}
+// Risca ou desfaz o risco de uma alternativa da questão atual. É só uma marca
+// visual de descarte; riscar a alternativa marcada limpa a resposta.
+export function toggleStrike(a: Attempt, letter: string): Attempt {
+  if (a.status === "finished") return a;
+  const q = a.exam.questions[a.current];
+  if (!q.alternatives.some((o) => o.letter === letter)) return a;
+  if (a.struck?.[q.id]?.includes(letter))
+    return { ...a, struck: without(a.struck, q.id, letter) };
+  const answers = { ...a.answers };
+  if (answers[q.id] === letter) delete answers[q.id];
+  return {
+    ...a,
+    answers,
+    struck: { ...a.struck, [q.id]: [...(a.struck?.[q.id] ?? []), letter] },
+  };
 }
 export function finish(a: Attempt, now: number): Attempt {
   if (a.status === "finished") return a;
@@ -118,9 +148,11 @@ export function scoreBand(percentage: number): ScoreBand {
   return "improve";
 }
 const bandMessages: Record<ScoreBand, string> = {
-  topTop: "Top top, basicamente tô dentro! O Thor tá abanando o rabo de orgulho.",
+  topTop:
+    "Top top, basicamente tô dentro! O Thor tá abanando o rabo de orgulho.",
   top: "Top, provavelmente dentro. O Thor já tá separando a coleira de festa.",
-  chance: "Tem chance de entrar sim. Tá no faro certo, e o Thor tá torcendo junto.",
+  chance:
+    "Tem chance de entrar sim. Tá no faro certo, e o Thor tá torcendo junto.",
   improve:
     "Precisa melhorar muito, e tudo bem: faz parte do caminho. O Thor fica do seu lado pra revisar e tentar de novo.",
 };

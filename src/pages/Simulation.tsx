@@ -14,6 +14,7 @@ import {
   resume,
   navigate as move,
   answer,
+  toggleStrike,
   finish,
   formatTime,
 } from "../services/session";
@@ -151,7 +152,13 @@ export function Simulation({
               update(a.id, (x) => answer(x, letter, Date.now()));
               if (lastBlank) setConfirm(true);
             }}
+            struck={a.struck?.[q.id]}
+            onStrike={(letter) => update(a.id, (x) => toggleStrike(x, letter))}
           />
+          <p className="strike-hint">
+            Use a tesoura para riscar as alternativas que você já descartou. O
+            risco é só visual e não muda a resposta.
+          </p>
           <button
             className="text-button"
             onClick={() =>

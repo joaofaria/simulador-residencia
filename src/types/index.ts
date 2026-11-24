@@ -116,6 +116,8 @@ export const attemptSchema = z
     current: z.number().int().nonnegative(),
     answers: z.record(z.string()),
     times: z.record(z.number().nonnegative()),
+    // Alternativas que a pessoa riscou por questão. Só visual: não entra na nota.
+    struck: z.record(z.array(z.string())).optional(),
     totalMs: z.number().nonnegative(),
     anchor: z.number().nullable(),
     result: resultSchema.optional(),

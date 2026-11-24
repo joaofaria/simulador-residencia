@@ -1,3 +1,4 @@
+import { Scissors } from "lucide-react";
 import type { Question } from "../types";
 
 export function QuestionView({
@@ -5,11 +6,15 @@ export function QuestionView({
   selected,
   onSelect,
   reveal = false,
+  struck = [],
+  onStrike,
 }: {
   question: Question;
   selected?: string;
   onSelect?: (letter: string) => void;
   reveal?: boolean;
+  struck?: string[];
+  onStrike?: (letter: string) => void;
 }) {
   // {{figura}} no enunciado marca onde entram tabelas e figuras; sem a marca,
   // elas ficam logo depois do texto.
@@ -69,26 +74,56 @@ export function QuestionView({
         {q.alternatives.map((o) => {
           const correct =
             reveal && q.key.status === "verified" && q.key.answer === o.letter;
+          const isStruck = struck.includes(o.letter);
           return (
-            <button
-              type="button"
-              disabled={!onSelect}
+            <div
+              className={`alternative-row ${isStruck ? "struck" : ""}`}
               key={o.letter}
-              aria-pressed={selected === o.letter}
-              className={`alternative ${selected === o.letter ? "selected" : ""} ${correct ? "correct" : ""}`}
-              onClick={() => onSelect?.(o.letter)}
             >
-              <span className="letter">{o.letter}</span>
-              <span>
-                {o.text}
-                {correct && (
-                  <strong className="answer-label">Resposta correta</strong>
-                )}
-                {reveal && selected === o.letter && (
-                  <strong className="answer-label">Sua resposta</strong>
-                )}
-              </span>
-            </button>
+              <button
+                type="button"
+                disabled={!onSelect}
+                aria-pressed={selected === o.letter}
+                className={`alternative ${selected === o.letter ? "selected" : ""} ${correct ? "correct" : ""}`}
+                onClick={() => onSelect?.(o.letter)}
+                onContextMenu={(e) => {
+                  // Botão direito também risca, como atalho no computador.
+                  if (!onStrike) return;
+                  e.preventDefault();
+                  onStrike(o.letter);
+                }}
+              >
+                <span className="letter">{o.letter}</span>
+                <span>
+                  {o.text}
+                  {isStruck && (
+                    <span className="visually-hidden"> (riscada)</span>
+                  )}
+                  {correct && (
+                    <strong className="answer-label">Resposta correta</strong>
+                  )}
+                  {reveal && selected === o.letter && (
+                    <strong className="answer-label">Sua resposta</strong>
+                  )}
+                </span>
+              </button>
+              {onStrike && (
+                <button
+                  type="button"
+                  className="strike-button"
+                  aria-pressed={isStruck}
+                  aria-label={
+                    isStruck
+                      ? `Desfazer risco da alternativa ${o.letter}`
+                      : `Riscar alternativa ${o.letter}`
+                  }
+                  title={isStruck ? "Desfazer risco" : "Riscar alternativa"}
+                  onClick={() => onStrike(o.letter)}
+                >
+                  <Scissors size={17} />
+                </button>
+              )}
+            </div>
           );
         })}
       </div>

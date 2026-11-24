@@ -12,6 +12,7 @@ import {
   scoreByArea,
   scoreMessage,
   formatTime,
+  toggleStrike,
 } from "./session";
 import { decodeStore, recover, upsert, save, STORAGE_KEY } from "./storage";
 describe("Cronômetros e navegação", () => {
@@ -237,5 +238,41 @@ describe("Mensagem por faixa de aproveitamento", () => {
   });
   it("devolve nada quando não há questão válida", () => {
     expect(scoreMessage(null)).toBeNull();
+  });
+});
+describe("Riscar alternativas", () => {
+  it("risca e desfaz o risco sem mexer na nota", () => {
+    let a = createAttempt(demo, 0, "a");
+    const id = demo.questions[0].id;
+    a = toggleStrike(a, "B");
+    a = toggleStrike(a, "C");
+    expect(a.struck?.[id]).toEqual(["B", "C"]);
+    a = toggleStrike(a, "B");
+    expect(a.struck?.[id]).toEqual(["C"]);
+    a = toggleStrike(a, "C");
+    expect(a.struck?.[id]).toBeUndefined();
+    expect(a.answers).toEqual({});
+  });
+  it("marcar uma riscada tira o risco, e riscar a marcada limpa a resposta", () => {
+    let a = createAttempt(demo, 0, "a");
+    const id = demo.questions[0].id;
+    a = toggleStrike(a, "A");
+    a = answer(a, "A", 10);
+    expect(a.answers[id]).toBe("A");
+    expect(a.struck?.[id]).toBeUndefined();
+    a = toggleStrike(a, "A");
+    expect(a.answers[id]).toBeUndefined();
+    expect(a.struck?.[id]).toEqual(["A"]);
+  });
+  it("ignora letras que não existem e tentativas finalizadas", () => {
+    const a = createAttempt(demo, 0, "a");
+    expect(toggleStrike(a, "Z")).toBe(a);
+    const done = finish(a, 10);
+    expect(toggleStrike(done, "A")).toBe(done);
+  });
+  it("o risco sobrevive a salvar e recarregar", () => {
+    const a = toggleStrike(createAttempt(demo, 0, "a"), "B");
+    const raw = JSON.stringify({ version: 2, attempts: [a] });
+    expect(decodeStore(raw).attempts[0].struck).toEqual(a.struck);
   });
 });

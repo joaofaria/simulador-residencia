@@ -32,7 +32,7 @@ export function RandomExamCard({
         </span>
         <div>
           <h3>Prova aleatória</h3>
-          <p>Questões sorteadas das seis provas, divididas entre as áreas</p>
+          <p>Questões sorteadas de todas as provas, divididas entre as áreas</p>
         </div>
       </div>
       <label>

@@ -6,7 +6,16 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-import { Sun, Moon, History, PawPrint, Heart, Layers } from "lucide-react";
+import {
+  Sun,
+  Moon,
+  History,
+  PawPrint,
+  Heart,
+  Layers,
+  Cloud,
+  CloudOff,
+} from "lucide-react";
 import { loadExam, loadRealExams } from "./data/load";
 import {
   buildRandomExam,
@@ -14,7 +23,7 @@ import {
   type RandomConfig,
 } from "./services/random";
 import type { MiniRequest } from "./pages/RevisaoIpsemg";
-import type { Attempt, Exam, Store } from "./types";
+import { attemptSchema, type Attempt, type Exam, type Store } from "./types";
 import { createAttempt, settle, pause } from "./services/session";
 import {
   decodeStore,
@@ -24,6 +33,8 @@ import {
   STORAGE_KEY,
 } from "./services/storage";
 import { countVisit } from "./services/visits";
+import { attemptProgress } from "./services/sync";
+import { useSync } from "./services/useSync";
 import { Home } from "./pages/Home";
 import { Thor } from "./components/Thor";
 // Telas fora da página inicial carregam sob demanda; Results traz o recharts.
@@ -46,6 +57,9 @@ const FlashcardStudy = lazy(() =>
 );
 const RevisaoIpsemg = lazy(() =>
   import("./pages/RevisaoIpsemg").then((m) => ({ default: m.RevisaoIpsemg })),
+);
+const Account = lazy(() =>
+  import("./pages/Account").then((m) => ({ default: m.Account })),
 );
 const HistoryPage = lazy(() =>
   import("./pages/HistoryPage").then((m) => ({ default: m.HistoryPage })),
@@ -108,6 +122,39 @@ export function App() {
     const a = ref.current.attempts.find((x) => x.id === id);
     if (a) persist(upsert(ref.current, fn(a)));
   }
+  // Junta tentativas vindas da conta. Uma tentativa que já existe aqui só é
+  // trocada pela de fora se a de fora estiver mais adiantada, e a que está
+  // aberta agora nunca é trocada.
+  function mergeIncoming(incoming: unknown[]) {
+    let next = ref.current;
+    let changed = false;
+    for (const raw of incoming) {
+      const parsed = attemptSchema.safeParse(raw);
+      if (!parsed.success) continue;
+      let a: Attempt;
+      try {
+        a = recover(
+          decodeStore(JSON.stringify({ version: 2, attempts: [parsed.data] })),
+        ).attempts[0];
+      } catch {
+        continue;
+      }
+      const mine = next.attempts.find((x) => x.id === a.id);
+      if (mine?.status === "running") continue;
+      if (mine && attemptProgress(mine) >= attemptProgress(a)) continue;
+      next = {
+        ...next,
+        attempts: mine
+          ? next.attempts.map((x) => (x.id === a.id ? a : x))
+          : [...next.attempts, a].sort((x, y) =>
+              x.startedAt < y.startedAt ? 1 : x.startedAt > y.startedAt ? -1 : 0,
+            ),
+      };
+      changed = true;
+    }
+    if (changed) persist(next);
+  }
+  const sync = useSync(store.attempts, mergeIncoming, !!error);
   useEffect(() => {
     document.documentElement.dataset.theme = dark ? "dark" : "light";
     try {
@@ -248,6 +295,18 @@ export function App() {
               <Heart size={16} /> <span>Apoie</span>
             </Link>
           )}
+          {sync.email && !inExam && (
+            <Link
+              to="/conta"
+              className={`account-nav${location.pathname === "/conta" ? " active" : ""}`}
+              aria-label={
+                sync.error ? "Conta: sincronização com problema" : "Conta"
+              }
+              title={sync.error || `Sincronizando com ${sync.email}`}
+            >
+              {sync.error ? <CloudOff size={17} /> : <Cloud size={17} />}
+            </Link>
+          )}
           <button
             className="icon-button"
             aria-label={dark ? "Ativar modo claro" : "Ativar modo escuro"}
@@ -338,6 +397,7 @@ export function App() {
               element={<FlashcardStudy dark={dark} />}
             />
             <Route path="/apoie" element={<Support />} />
+            <Route path="/conta" element={<Account sync={sync} />} />
             <Route
               path="*"
               element={
@@ -357,7 +417,22 @@ export function App() {
       <footer>
         Feito com carinho (e as patinhas do Thor) para a sua próxima etapa.{" "}
         <span>
-          Dados salvos neste navegador · sem conta ou servidor
+          {sync.email ? (
+            <Link className="footer-pix" to="/conta">
+              Dados salvos neste navegador e na sua conta
+            </Link>
+          ) : (
+            "Dados salvos neste navegador"
+          )}
+          {sync.available && !sync.email && !inExam && (
+            <>
+              {" · "}
+              <Link className="footer-pix" to="/conta">
+                Entrar
+              </Link>
+            </>
+          )}
+          {!sync.available && " · sem conta ou servidor"}
           {!inExam && (
             <>
               {" · "}

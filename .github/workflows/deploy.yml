@@ -36,6 +36,11 @@ jobs:
       - run: npm run validate:data
       - run: npm test
       - run: npm run build
+        env:
+          # Endereço e chave pública do Supabase, nas variáveis do repositório.
+          # Sem elas, o site sai sem a opção de conta.
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          VITE_SUPABASE_KEY: ${{ vars.SUPABASE_KEY }}
 
       - uses: actions/configure-pages@v5
 

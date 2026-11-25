@@ -39,7 +39,7 @@ A contagem usa diferenças entre timestamps, sem depender da precisão do interv
 
 Percentual = acertos ÷ questões verificadas não anuladas; brancos válidos permanecem no denominador. Pendentes ficam fora da pontuação e produzem resultado parcial. Sem questões verificadas, o percentual é indisponível. Tempo médio = tempo total ÷ todas as questões, incluindo anuladas e pendentes.
 
-`localStorage` usa um envelope versionado e validação Zod. A migração v1 → v2 está em `src/services/storage.ts`; formatos futuros ou inválidos não são sobrescritos. O histórico pode ser exportado em JSON. Cada tentativa finalizada armazena o resultado calculado, os percentuais e uma cópia da prova e do gabarito; uma atualização do banco não altera resultados antigos. Limpar dados do navegador apaga o histórico. Não há backend ou sincronização entre dispositivos.
+`localStorage` usa um envelope versionado e validação Zod. A migração v1 → v2 está em `src/services/storage.ts`; formatos futuros ou inválidos não são sobrescritos. O histórico pode ser exportado em JSON. Cada tentativa finalizada armazena o resultado calculado, os percentuais e uma cópia da prova e do gabarito; uma atualização do banco não altera resultados antigos. Limpar dados do navegador apaga o histórico. Há uma conta opcional (Supabase) que sincroniza histórico, prova em andamento e marcas do cronograma do IPSEMG entre navegadores, somando o que cada um tem; sem ela o site funciona só com o navegador. Como ligar e como os dados se juntam: `docs/CONTA.md`.
 
 ## Flashcards
 

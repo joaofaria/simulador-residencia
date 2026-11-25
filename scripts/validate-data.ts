@@ -47,6 +47,10 @@ for (const exam of exams) {
         : undefined;
     if (JSON.stringify(extra) !== JSON.stringify(own))
       throw Error(`figuras.json desatualizado: ${q.id}`);
+    // Folha de respostas ou rodapé do PDF colado no texto na extração.
+    for (const text of [q.statement, ...q.alternatives.map((a) => a.text)])
+      if (/\bGABARITO\b|\b\d{1,3}\.\s*A\s+B\s+C\s+D\b/.test(text))
+        throw Error(`Texto da folha de gabarito vazou para a questão: ${q.id}`);
     if (!q.area) throw Error(`Área ausente: ${q.id}`);
     if (q.review === "required")
       throw Error(`Não publique transcrição sem revisão: ${q.id}`);

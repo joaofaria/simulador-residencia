@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
@@ -16,6 +16,13 @@ import {
   themeQuestionIds,
   type Task,
 } from "../data/revisao-ipsemg";
+import {
+  CHANGED_EVENT,
+  readMarks,
+  setMark,
+  SPARE_MARK,
+  type Marks,
+} from "../services/revisao";
 
 export type MiniRequest = {
   id: string;
@@ -24,16 +31,12 @@ export type MiniRequest = {
   limit: number;
 };
 
-const SPARE_KEY = "residencia.revisao.guardar";
-const DONE_KEY = "residencia.revisao.revisados";
-
-function readDone(): Set<string> {
-  try {
-    const raw = JSON.parse(localStorage.getItem(DONE_KEY) ?? "[]");
-    return new Set(Array.isArray(raw) ? raw.map(String) : []);
-  } catch {
-    return new Set();
-  }
+function doneSet(marks: Marks) {
+  return new Set(
+    Object.entries(marks)
+      .filter(([k, m]) => k !== SPARE_MARK && m.on)
+      .map(([k]) => k),
+  );
 }
 
 // Último resultado de uma tarefa, para marcar o que já foi feito.
@@ -64,32 +67,20 @@ export function RevisaoIpsemg({
   startMini: (req: MiniRequest) => void;
   blocked: boolean;
 }) {
-  const [spare, setSpare] = useState(() => {
-    try {
-      return localStorage.getItem(SPARE_KEY) === "sim";
-    } catch {
-      return false;
-    }
-  });
-  const [done, setDone] = useState(readDone);
+  const [marks, setMarks] = useState(readMarks);
+  // A conta pode trazer marcas de outro navegador com a página aberta.
+  useEffect(() => {
+    const refresh = () => setMarks(readMarks());
+    window.addEventListener(CHANGED_EVENT, refresh);
+    return () => window.removeEventListener(CHANGED_EVENT, refresh);
+  }, []);
+  const spare = !!marks[SPARE_MARK]?.on;
+  const done = doneSet(marks);
   function toggleSpare(next: boolean) {
-    setSpare(next);
-    try {
-      localStorage.setItem(SPARE_KEY, next ? "sim" : "nao");
-    } catch {
-      /* A escolha vale só nesta visita. */
-    }
+    setMark(SPARE_MARK, next);
   }
   function toggleTopic(key: string) {
-    const next = new Set(done);
-    if (next.has(key)) next.delete(key);
-    else next.add(key);
-    setDone(next);
-    try {
-      localStorage.setItem(DONE_KEY, JSON.stringify([...next]));
-    } catch {
-      /* As marcas valem só nesta visita. */
-    }
+    setMark(key, !done.has(key));
   }
   const fullDone = (year: number) =>
     attempts.some(

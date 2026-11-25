@@ -471,6 +471,64 @@ footer {
   margin-left: 10px;
   text-decoration: underline;
 }
+/* Conta e sincronização entre navegadores */
+.header nav a.account-nav {
+  color: var(--accent);
+}
+/* No celular a barra de cima já está cheia; a conta fica no rodapé. */
+@media (max-width: 520px) {
+  .header nav a.account-nav {
+    display: none;
+  }
+}
+.account {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.account-form {
+  display: grid;
+  gap: 14px;
+  max-width: 360px;
+  margin-top: 20px;
+}
+.account-form input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+}
+.account-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.account-note {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 8px;
+}
+.account-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+.account-error {
+  color: var(--ink);
+  background: var(--soft);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  padding: 10px 12px;
+  font-size: 13px;
+}
 .exam-top {
   display: flex;
   align-items: center;

@@ -25,8 +25,8 @@ O código fica em `src/services/sync.ts` (conta e envio),
 
 ## Como ligar
 
-A conta usa o Supabase (plano grátis). Sem configurar, o site sai sem a opção
-de conta e funciona como antes.
+A conta usa o Supabase (plano grátis), projeto `xigcwhmlvugfhfxlpsqp`. Sem
+entrar na conta, o site funciona como antes.
 
 1. Crie um projeto em https://supabase.com (Start your project, New project).
    Escolha a região São Paulo e anote a senha do banco em lugar seguro; o
@@ -38,24 +38,18 @@ de conta e funciona como antes.
 4. Em **Authentication > Sign In / Providers**, desligue **Allow new users to
    sign up**. Assim só a conta criada no passo 3 existe.
 5. Em **Project Settings > API Keys**, copie a **Publishable key** (começa
-   com `sb_publishable_`). Em **Project Settings > Data API** (ou na página
-   inicial do projeto), copie a **Project URL** (`https://xxxx.supabase.co`).
-6. No GitHub, em **Settings > Secrets and variables > Actions > Variables**,
-   crie duas variáveis de repositório:
-   - `SUPABASE_URL` com a Project URL;
-   - `SUPABASE_KEY` com a Publishable key.
-7. Em **Actions > Publicar no GitHub Pages**, clique em **Run workflow** (ou
-   espere o próximo merge na main). Depois disso o rodapé do site mostra
-   "Entrar".
+   com `sb_publishable_`) e a **Project URL** (`https://xxxx.supabase.co`) e
+   coloque as duas em `SUPABASE_URL` e `SUPABASE_KEY`, no começo de
+   `src/services/sync.ts`. O projeto atual do site já está lá.
 
 A Publishable key é pública por natureza: ela vai no JavaScript do site e só
 dá acesso ao que as regras da tabela permitem (cada pessoa só lê e muda as
 próprias linhas). Nunca use a **Secret key** (ou a antiga `service_role`) no
 site.
 
-Para rodar localmente com a conta, crie `.env.local` com
+Para testar com outro projeto do Supabase, crie `.env.local` com
 `VITE_SUPABASE_URL=...` e `VITE_SUPABASE_KEY=...` (o arquivo não vai para o
-Git).
+Git); eles têm prioridade sobre os valores do código.
 
 Projetos grátis do Supabase pausam depois de uma semana sem uso. Se a
 sincronização der erro depois de um tempo parado, entre no painel do

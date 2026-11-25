@@ -7,15 +7,21 @@
 // por id, e quando a mesma existe dos dois lados vale a mais adiantada; as
 // marcas se juntam tópico a tópico. Os flashcards ficam fora.
 //
-// O endereço e a chave pública do projeto vêm do build (VITE_SUPABASE_URL e
-// VITE_SUPABASE_KEY). Sem eles, a conta nem aparece no site.
+// O endereço e a chave pública do projeto ficam logo abaixo; as variáveis de
+// build VITE_SUPABASE_URL e VITE_SUPABASE_KEY podem trocá-los.
 
 import type { Attempt } from "../types";
 import { isMarks, mergeMarks, sameMarks, type Marks } from "./revisao";
 
+// Projeto do site no Supabase. A chave "publishable" é pública por natureza
+// (vai no JavaScript de qualquer jeito) e só alcança o que as regras da tabela
+// permitem. As variáveis de build, quando existem, têm prioridade.
+const SUPABASE_URL = "https://xigcwhmlvugfhfxlpsqp.supabase.co";
+const SUPABASE_KEY = "sb_publishable_IvL71kCOKcJ9Y17MrBWE0g_phWLxtz-";
+
 export const config = {
-  url: (import.meta.env.VITE_SUPABASE_URL ?? "").replace(/\/+$/, ""),
-  key: import.meta.env.VITE_SUPABASE_KEY ?? "",
+  url: (import.meta.env.VITE_SUPABASE_URL || SUPABASE_URL).replace(/\/+$/, ""),
+  key: import.meta.env.VITE_SUPABASE_KEY || SUPABASE_KEY,
 };
 export const syncAvailable = () => !!(config.url && config.key);
 

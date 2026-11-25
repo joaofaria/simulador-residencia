@@ -9,6 +9,9 @@ import {
   ShieldCheck,
   Play,
   CalendarDays,
+  Compass,
+  Layers,
+  Save,
 } from "lucide-react";
 import { summaries } from "../data/summaries";
 import type { Attempt } from "../types";
@@ -63,7 +66,13 @@ export function Home({
           </p>
           <div className="hero-tags">
             <span>
-              <Clock size={16} /> Tempo por questão
+              <Clock size={16} /> Tempo total e por questão
+            </span>
+            <span>
+              <Compass size={16} /> Navegue e volte quando quiser
+            </span>
+            <span>
+              <Save size={16} /> Progresso salvo
             </span>
             <span>
               <ShieldCheck size={16} /> Revisão do desempenho
@@ -80,18 +89,39 @@ export function Home({
           </span>
         </div>
       </section>
+      {active.length > 0 && (
+        <section className="home-block">
+          <div className="section-heading">
+            <h2>Continue de onde parou</h2>
+          </div>
+          {active.map((a) => (
+            <div className="history-row card" key={a.id}>
+              <div>
+                <h3>{a.exam.title}</h3>
+                <p>
+                  {Object.keys(a.answers).length}/{a.exam.questions.length}{" "}
+                  respondidas · {formatTime(a.totalMs)}
+                </p>
+              </div>
+              <Link className="secondary" to={`/simulado/${a.id}`}>
+                Continuar <Play size={15} />
+              </Link>
+            </div>
+          ))}
+        </section>
+      )}
       <div className="section-heading">
-        <h2>Seu próximo simulado</h2>
+        <h2>Comece um simulado</h2>
         <span>Acesso direto · R1</span>
       </div>
-      <section className="home-grid">
+      <section className="start-grid">
         <div className="card selection">
           <div className="card-heading">
             <span className="small-icon">
               <BookOpen size={22} />
             </span>
             <div>
-              <h3>Escolha sua prova</h3>
+              <h3>Prova completa</h3>
               <p>PSU-MG, Santa Casa de Belo Horizonte e IPSEMG</p>
             </div>
           </div>
@@ -151,88 +181,54 @@ export function Home({
             Iniciar simulado <ArrowRight size={18} />
           </button>
         </div>
-        <aside className="card focus-card">
-          <Thor className="focus-puppy" mood="sleepy" size={78} />
-          <span className="eyebrow">ESTUDE NO SEU RITMO</span>
-          <h3>
-            Cada questão conta.
-            <br />
-            Cada minuto também.
-          </h3>
-          <p>
-            Navegue livremente, deixe questões em branco e volte quando
-            precisar.
-          </p>
-          <div className="feature">
-            <Clock size={19} />
-            <span>
-              Dois cronômetros, um objetivo
-              <small>Tempo total e tempo individual acumulado.</small>
-            </span>
-          </div>
-          <div className="feature">
-            <ShieldCheck size={19} />
-            <span>
-              Seu progresso fica salvo
-              <small>Interrupções pausam a contagem de tempo.</small>
-            </span>
-          </div>
-        </aside>
+        <RandomExamCard startRandom={startRandom} blocked={blocked} />
       </section>
-      <RandomExamCard startRandom={startRandom} blocked={blocked} />
-      <section className="card plan-banner">
-        <span className="small-icon">
-          <CalendarDays size={22} />
-        </span>
-        <div>
+      <div className="section-heading">
+        <h2>Outras formas de estudar</h2>
+      </div>
+      <section className="study-grid">
+        <div className="card study-tile">
+          <span className="small-icon">
+            <CalendarDays size={22} />
+          </span>
           <h3>Revisão para o IPSEMG</h3>
           <p>
             Cronograma de 9 dias com um mini simulado por turno, montado com os
             temas que mais caíram de 2024 a 2026.
           </p>
+          <Link className="secondary" to="/revisao-ipsemg">
+            Ver cronograma <ArrowRight size={17} />
+          </Link>
         </div>
-        <Link className="secondary" to="/revisao-ipsemg">
-          Ver cronograma <ArrowRight size={17} />
-        </Link>
-      </section>
-      <section className="demo-banner">
-        <div>
+        <div className="card study-tile">
+          <span className="small-icon">
+            <Layers size={22} />
+          </span>
+          <h3>Flashcards</h3>
+          <p>
+            Importe um baralho do Anki e revise os cartões no dia certo, com
+            tudo guardado no seu navegador.
+          </p>
+          <Link className="secondary" to="/flashcards">
+            Abrir flashcards <ArrowRight size={17} />
+          </Link>
+        </div>
+        <div className="card study-tile demo-tile">
           <span className="badge">DEMONSTRAÇÃO FICTÍCIA</span>
           <h3>Experimente o fluxo completo</h3>
           <p>
             3 itens de interface, sem conteúdo médico ou vínculo com provas
             reais.
           </p>
+          <button
+            className="secondary"
+            disabled={blocked}
+            onClick={() => start("demo")}
+          >
+            Testar simulador <ArrowRight size={17} />
+          </button>
         </div>
-        <button
-          className="secondary"
-          disabled={blocked}
-          onClick={() => start("demo")}
-        >
-          Testar simulador <ArrowRight size={17} />
-        </button>
       </section>
-      {active.length > 0 && (
-        <section>
-          <div className="section-heading">
-            <h2>Continue de onde parou</h2>
-          </div>
-          {active.map((a) => (
-            <div className="history-row card" key={a.id}>
-              <div>
-                <h3>{a.exam.title}</h3>
-                <p>
-                  {Object.keys(a.answers).length}/{a.exam.questions.length}{" "}
-                  respondidas · {formatTime(a.totalMs)}
-                </p>
-              </div>
-              <Link className="secondary" to={`/simulado/${a.id}`}>
-                Continuar <Play size={15} />
-              </Link>
-            </div>
-          ))}
-        </section>
-      )}
       <div className="section-heading">
         <h2>Últimas tentativas</h2>
         <Link to="/historico">
@@ -250,7 +246,7 @@ export function Home({
           </div>
         </div>
       )}
-      <SupportCard />
+      <SupportCard compact />
     </>
   );
 }

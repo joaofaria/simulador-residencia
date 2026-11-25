@@ -2659,3 +2659,114 @@ html[data-theme="dark"] {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+/* Tela inicial: começar simulado lado a lado, depois as outras formas de estudar. */
+.home-block {
+  margin-bottom: 32px;
+}
+.hero-tags {
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.start-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  align-items: stretch;
+}
+.start-grid > .card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+.start-grid > .card > .primary {
+  margin-top: auto;
+}
+.start-grid > .card > .notice {
+  margin-bottom: 18px;
+}
+.start-grid .area-picker {
+  gap: 8px;
+}
+.start-grid,
+.study-grid {
+  margin-bottom: 36px;
+}
+.study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+.study-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 24px;
+}
+.study-tile h3 {
+  margin: 6px 0 0;
+}
+.study-tile p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0 0 6px;
+}
+.study-tile .secondary {
+  margin-top: auto;
+}
+.demo-tile {
+  border-style: dashed;
+}
+.support-link.compact {
+  margin-top: 36px;
+  padding: 16px 20px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  gap: 14px;
+}
+.support-link.compact p {
+  flex: 1;
+  font-size: 13px;
+}
+.support-link.compact strong {
+  color: var(--ink);
+  font-weight: 650;
+}
+@media (max-width: 900px) {
+  .start-grid,
+  .study-grid {
+    grid-template-columns: 1fr;
+  }
+  .study-tile .secondary {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .start-grid,
+  .study-grid {
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  .study-tile {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px 14px;
+    padding: 18px;
+  }
+  .study-tile h3 {
+    margin: 0;
+  }
+  .study-tile p,
+  .study-tile .secondary {
+    grid-column: 1 / -1;
+  }
+  .demo-tile .badge {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+  .support-link.compact p {
+    flex-basis: calc(100% - 60px);
+  }
+}

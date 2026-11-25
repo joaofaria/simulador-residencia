@@ -4,7 +4,22 @@ import { Thor } from "./Thor";
 
 // Convite discreto para a contribuição por Pix, na página inicial e no
 // resultado. Nunca aparece durante a prova.
-export function SupportCard() {
+// Na inicial sai na versão compacta, como um rodapé leve.
+export function SupportCard({ compact = false }: { compact?: boolean }) {
+  if (compact)
+    return (
+      <section className="support-link compact">
+        <Thor mood="happy" size={44} />
+        <p>
+          <strong>Gostou do ResidênCão?</strong> O simulador é gratuito e vai
+          continuar assim. Se quiser retribuir, qualquer Pix ajuda a manter o
+          site no ar e garante uns petiscos para o Thor.
+        </p>
+        <Link className="secondary" to="/apoie">
+          <Heart size={16} /> Apoiar com Pix
+        </Link>
+      </section>
+    );
   return (
     <section className="card support-link">
       <Thor mood="happy" size={64} />
